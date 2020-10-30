@@ -27,6 +27,7 @@
     {"isDnD":false,"eventNum":24,"eventType":7,"collisionObjectId":null,"parent":{"name":"objWindmillShuriken","path":"objects/objWindmillShuriken/objWindmillShuriken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"parent":{"name":"objWindmillShuriken","path":"objects/objWindmillShuriken/objWindmillShuriken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":20,"eventType":7,"collisionObjectId":null,"parent":{"name":"objWindmillShuriken","path":"objects/objWindmillShuriken/objWindmillShuriken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":23,"eventType":7,"collisionObjectId":null,"parent":{"name":"objWindmillShuriken","path":"objects/objWindmillShuriken/objWindmillShuriken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

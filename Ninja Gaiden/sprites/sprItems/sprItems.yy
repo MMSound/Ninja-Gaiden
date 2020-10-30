@@ -112,8 +112,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f6c81b5-bf8a-432b-ae71-3372f43cdc7a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Items",
-    "path": "folders/Items.yy",
+    "name": "Sprites",
+    "path": "folders/Items/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprItems",

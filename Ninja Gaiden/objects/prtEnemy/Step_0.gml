@@ -1,39 +1,42 @@
 /// @description Damage player
 if (!global.timeFrozen)
 {
-	if (!despawnOutsideView)
+	if (canDespawn) //use the despawning behavior
 	{
-		if (inside_view())
+		if (!despawnOutsideView)
 		{
-			event_inherited();
-		}
-		else
-		{
-			if (!in_range(xstart, (global.viewX - 32), (global.viewX + (global.viewW + 32))))
+			if (inside_view())
 			{
-				x = xstart;
-				y = (ystart + 8);
-				if (variable_instance_exists(self, "activated"))
-				{
-					activated = false;
-				}
+				event_inherited();
 			}
 			else
 			{
+				if (!in_range(xstart, (global.viewX - 32), (global.viewX + (global.viewW + 32))))
+				{
+					x = xstart;
+					y = (ystart + 8);
+				}
+				else
+				{
+					event_inherited();
+				}
+			}
+		}
+		else
+		{
+			if (inside_view())
+			{
 				event_inherited();
+			}
+			else
+			{
+				instance_destroy();
 			}
 		}
 	}
 	else
 	{
-		if (inside_view())
-		{
-			event_inherited();
-		}
-		else
-		{
-			instance_destroy();
-		}
+		event_inherited();
 	}
 }
 

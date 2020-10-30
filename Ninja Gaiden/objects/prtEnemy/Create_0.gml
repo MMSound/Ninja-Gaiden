@@ -7,6 +7,7 @@ canHit = true;
 canBeHit = true;
 
 despawnOutsideView = false;
+canDespawn = true;
 
 event_user(14);
 

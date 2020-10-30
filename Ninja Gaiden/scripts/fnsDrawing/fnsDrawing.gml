@@ -89,3 +89,14 @@ function particle_create(_x, _y, _sprite, _speed, _loop, _depth)
 		_id.imgSpd = _speed;
 		_id.loop = _loop;
 }
+
+/// @description create a score text marker
+function score_text(_x, _y, _val, _time)
+{
+	var _text = instance_create_depth(_x, _y, (depth - 5), objScoreText);
+		_text.myValue = _val;
+	if (!is_undefined(_time))
+	{
+		_text.lifeTime = _time;
+	}
+}

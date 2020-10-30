@@ -12,3 +12,5 @@ radius = 192;
 
 canCatch = false;
 canCatchTimer = 0;
+
+combo = 0;

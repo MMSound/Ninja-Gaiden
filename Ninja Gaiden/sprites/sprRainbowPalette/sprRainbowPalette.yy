@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Palette Sprites",
-    "path": "folders/Palette Shader/Palette Sprites.yy",
+    "path": "folders/Shaders/Palette Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprRainbowPalette",

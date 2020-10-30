@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ca13543b-5389-47f3-bdd3-d4f68c64fd6b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "HUD & Text",
-    "path": "folders/HUD & Text.yy",
+    "name": "Sprites",
+    "path": "folders/Items/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprTimeFreezeClockShards",

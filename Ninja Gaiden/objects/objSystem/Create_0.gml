@@ -34,7 +34,7 @@ global.gameTimer = 0;
 global.levelTime = 0;
 global.gameScore = 0;
 global.currentLives = 2;
-global.ninpo = 20;
+global.ninpo = 0;
 global.currentAct = 1;
 global.currentScene = 1;
 

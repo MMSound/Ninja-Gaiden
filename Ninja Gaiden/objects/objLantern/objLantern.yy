@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSlopeWall",
-    "path": "sprites/sprSlopeWall/sprSlopeWall.yy",
+    "name": "sprLanternAct1",
+    "path": "sprites/sprLanternAct1/sprLanternAct1.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":24,"eventType":7,"collisionObjectId":null,"parent":{"name":"objLantern","path":"objects/objLantern/objLantern.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":17,"eventType":7,"collisionObjectId":null,"parent":{"name":"objLantern","path":"objects/objLantern/objLantern.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"objLantern","path":"objects/objLantern/objLantern.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

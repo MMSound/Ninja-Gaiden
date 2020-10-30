@@ -8,6 +8,7 @@ if (place_meeting_player(x, y))
 	if (canCatch)
 	{
 		instance_destroy();
+		combo = 0;
 		global.ninpo += 2;
 	}
 }

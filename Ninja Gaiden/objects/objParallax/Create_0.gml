@@ -12,3 +12,5 @@ drawY = 0;
 yPos = 0;
 areaRight = (x + (image_xscale * 16));
 areaBottom = (y + (image_yscale * 16));
+
+waveSurface = noone;

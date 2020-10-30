@@ -11,3 +11,6 @@ if (!variable_instance_exists(self, "itemDrop"))
 {
 	itemDrop = 5;
 }
+
+event_user(0);
+depth = 25;

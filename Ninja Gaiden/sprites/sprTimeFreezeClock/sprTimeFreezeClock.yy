@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e0c85337-db96-4b25-8b92-4c84c73c24d2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "HUD & Text",
-    "path": "folders/HUD & Text.yy",
+    "name": "Sprites",
+    "path": "folders/Items/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprTimeFreezeClock",

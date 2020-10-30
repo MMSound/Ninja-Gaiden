@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Palette Shader",
-    "path": "folders/Palette Shader.yy",
+    "name": "Shaders",
+    "path": "folders/Shaders.yy",
   },
   "resourceVersion": "1.0",
   "name": "fnsPaletteShader",

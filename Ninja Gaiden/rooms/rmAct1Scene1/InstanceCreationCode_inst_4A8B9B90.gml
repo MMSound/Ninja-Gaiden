@@ -1,0 +1,1 @@
+itemDrop = 8;

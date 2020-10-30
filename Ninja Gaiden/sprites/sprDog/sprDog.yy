@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"443e5692-8f1d-46cd-98f7-36b748691c5f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Enemies/Sprites.yy",
+    "name": "Dog",
+    "path": "folders/Enemies/Sprites/Dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprDog",
