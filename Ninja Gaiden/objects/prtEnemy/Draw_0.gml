@@ -4,6 +4,7 @@
 if (global.timeFrozen)
 {
 	palette_shader_set(sprTimeFreezePalette, 1, false);
+	image_speed = 0;
 }
 
 event_user(8);

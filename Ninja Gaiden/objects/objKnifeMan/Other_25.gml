@@ -15,6 +15,10 @@ switch (phase)
 		{
 			image_xscale *= -1;
 		}
+		else if (coll_x(xspeed, objBoundary))
+		{
+			image_xscale *= -1;
+		}
 		
 		if (timer == 120) //switch phase
 		{

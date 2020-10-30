@@ -204,6 +204,10 @@ if (!isDead)
 		yspeed = 0;
 		yspeedInt = 0;
 	}
+	
+	//limit coords
+	x = clamp(x, 0, room_width);
+	y = clamp(y, (global.viewY + 18), (global.viewY + (global.viewH + 64)));
 
 	//getting hit
 	if (isKnockback)

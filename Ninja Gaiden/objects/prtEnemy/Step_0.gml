@@ -9,8 +9,19 @@ if (!global.timeFrozen)
 		}
 		else
 		{
-			x = xstart;
-			y = ystart;
+			if (!in_range(xstart, (global.viewX - 32), (global.viewX + (global.viewW + 32))))
+			{
+				x = xstart;
+				y = (ystart + 8);
+				if (variable_instance_exists(self, "activated"))
+				{
+					activated = false;
+				}
+			}
+			else
+			{
+				event_inherited();
+			}
 		}
 	}
 	else
