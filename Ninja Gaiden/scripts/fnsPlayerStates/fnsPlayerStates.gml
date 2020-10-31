@@ -51,6 +51,7 @@ function playerStateGround()
 		else
 		{
 			yspeed = -jumpSpeed;
+			play_sfx(sfxJump);
 			currentState = playerStateAir;
 			exit;
 		}
@@ -146,6 +147,7 @@ function playerStateWallClimb()
 	{
 		isWallClimb = true;
 		hasGravity = false;
+		play_sfx(sfxJump);
 		stateIsNew = !stateIsNew;
 	}
 	
@@ -256,6 +258,7 @@ function playerStateRailHang()
 			yspeed = -3.5;
 		}
 		canHang = false;
+		play_sfx(sfxJump);
 		currentState = playerStateAir;
 		exit;
 	}

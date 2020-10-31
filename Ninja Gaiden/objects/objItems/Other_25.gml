@@ -46,6 +46,7 @@ if (place_meeting_player(x, y))
 		case 11:
 			global.currentWeapon = wpnFlames;
 			break;
-	}	
+	}
+	play_sfx(sfxItemAcquisition);
 	instance_destroy();
 }

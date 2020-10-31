@@ -7,6 +7,11 @@ if (!global.deathRespawn)
 		if (global.canControl)
 		{
 			global.paused = !global.paused;
+			if (audio_is_playing(sfxPause))
+			{
+				audio_stop_sound(sfxPause);
+			}
+			play_sfx(sfxPause);
 		}
 	}
 

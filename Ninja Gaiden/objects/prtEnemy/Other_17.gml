@@ -5,4 +5,5 @@ if (object_index != objLantern)
 	global.gameScore += 100;
 	score_text(x, bbox_top, 100);
 }
+play_sfx(sfxMinorExplosion);
 instance_destroy();

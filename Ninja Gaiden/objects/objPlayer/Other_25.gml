@@ -43,7 +43,8 @@ if (!isDead)
 										_sword.image_xscale = image_xscale;
 										_sword.visible = false;
 										_sword.lifeTime = 2;
-										attackAnimTimer = 2;	
+										attackAnimTimer = 2;
+										play_sfx(sfxSwordSlash);
 										hasAttacked = true;
 									}
 								}
@@ -66,6 +67,7 @@ if (!isDead)
 										{
 											_sword.lifeTime = 16;
 										}
+										play_sfx(sfxSwordSlash);
 										hasAttacked = true;
 									}
 								}
@@ -89,6 +91,7 @@ if (!isDead)
 									{
 										_sword.lifeTime = 16;
 									}
+									play_sfx(sfxSwordSlash);
 									hasAttacked = true;
 								}
 							}

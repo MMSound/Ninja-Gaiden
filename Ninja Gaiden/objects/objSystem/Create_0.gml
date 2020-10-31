@@ -95,6 +95,9 @@ global.screenRes = 2;
 surface_resize(application_surface, global.viewW, global.viewH);
 window_set_size((global.viewW * global.screenRes), (global.viewH * global.screenRes));
 
+//sound control
+global.sfxVolume = 1.0;
+
 if (room == rmInit)
 {
 	room_goto_next();
