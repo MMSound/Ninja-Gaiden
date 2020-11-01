@@ -49,3 +49,9 @@ function palette_shader_set(palSprite, palIndex, isSurface)
 	    shader_set_uniform_f(global.palIndex, palIndex);
 	}
 }
+
+/// @description set the time freeze palette
+function palette_shader_set_time_freeze()
+{
+	palette_shader_set(sprTimeFreezePalette, 1);
+}

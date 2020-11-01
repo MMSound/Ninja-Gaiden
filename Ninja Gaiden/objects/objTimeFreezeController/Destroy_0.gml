@@ -1,5 +1,6 @@
 /// @description Return game to normal
 global.timeFrozen = false;
+play_sfx(sfxTickTockShatter);
 
 //create shards
 for (var i = 0; i < 2; i++)

@@ -217,7 +217,7 @@ if (!isDead)
 	{
 		if (grounded() || isWallClimb) //we want to not be knocked back if we're on a wall
 		{
-			if (healthPoints != 0)
+			if (healthPoints > 0)
 			{
 				iFrameTimer = iFrameTime;
 			}
