@@ -52,6 +52,12 @@ global.cameraOffsetX = (global.viewW / 2);
 global.cameraOffsetY = (global.viewH / 2);
 global.cameraFocusObject = noone;
 
+global.currentSection = noone;
+global.sectionL = 0;
+global.sectionR = 0;
+global.sectionT = 0;
+global.sectionB = 0;
+
 //player control
 global.canControl = true;
 global.playerHealth = 16;

@@ -210,7 +210,13 @@ if (!isDead)
 	
 	//limit coords
 	x = clamp(x, 0, room_width);
-	y = clamp(y, (global.viewY + 18), (global.viewY + (global.viewH + 64)));
+	if (global.currentSection != noone)
+	{
+		if (!instance_place(global.currentSection.x, (global.currentSection.y - 16), objSection))
+		{
+			y = clamp(y, (global.viewY + 18), (global.viewY + (global.viewH + 64)));
+		}
+	}
 
 	//getting hit
 	if (isKnockback)
@@ -267,7 +273,7 @@ if (!isDead)
 							imgSpd = (1 / 6);
 							break;
 						case false:
-							switch (xspeed) //is running?
+							switch (xAxis) //is running?
 							{
 								case 0:
 									sprite_index = sprRyuIdle;
@@ -507,6 +513,17 @@ if (!isDead)
 	else
 	{
 		mask_index = sprPlayerPlaceholder;
+	}
+	
+	//setting the section
+	if (place_meeting(x, y, objSection))
+	{
+		var _section = instance_place(x, y, objSection);
+		if (global.currentSection != _section)
+		{
+			global.currentSection = _section;
+			section_set_bounds();
+		}
 	}
 }
 else //change later
