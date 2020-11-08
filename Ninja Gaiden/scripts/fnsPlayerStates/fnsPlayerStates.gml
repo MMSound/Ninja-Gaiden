@@ -201,7 +201,7 @@ function playerStateWallClimb()
 		}
 		
 		//climb off bottom
-		if (y >= myWall.bbox_bottom)
+		if (y >= (myWall.bbox_bottom + 12))
 		{
 			isWallClimb = false;
 			hasGravity = true;

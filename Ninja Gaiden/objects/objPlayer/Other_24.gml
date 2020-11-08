@@ -23,7 +23,7 @@ isHang = false;
 canHang = true;
 
 myWall = noone;
-climbSolidDistance = 16;
+climbSolidDistance = 4;
 
 myRail = noone;
 
