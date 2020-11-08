@@ -317,6 +317,7 @@ function player_weapon()
 								_weapon.image_xscale = _xDir;
 								_weapon.thetaOffset = (i * (360 / _flames));
 						}
+						play_sfx(sfxFlameWeapon);
 						break;
 					case wpnFlameWheel:					
 						for (var i = 0; i < 3; i++)
@@ -325,6 +326,7 @@ function player_weapon()
 								_weapon.image_xscale = _xDir;		
 								_weapon.yspeed = -(i * 2);
 						}
+						play_sfx(sfxFlameWeapon);
 						break;
 				}
 				global.ninpo -= global.weaponNinpo[global.currentWeapon];

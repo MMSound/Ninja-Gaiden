@@ -14,3 +14,6 @@ canCatch = false;
 canCatchTimer = 0;
 
 combo = 0;
+
+play_sfx(sfxWindmillShuriken);
+hasPlayedSFX = true;

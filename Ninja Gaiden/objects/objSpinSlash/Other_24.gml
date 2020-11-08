@@ -4,3 +4,5 @@ yspeed = 0;
 
 multiHit = true;
 visible = false;
+
+play_sfx(sfxSpinSlash);

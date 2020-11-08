@@ -20,6 +20,20 @@ if (instance_exists(objPlayer))
 	{
 		y -= 0.5;
 	}
+	
+	//sfx playing
+	if (distance_to_object(objPlayer) < 48)
+	{
+		if (!hasPlayedSFX)
+		{
+			play_sfx(sfxWindmillShuriken);
+			hasPlayedSFX = true;
+		}
+	}
+	else
+	{
+		hasPlayedSFX = false;
+	}
 }
 
 if (++canCatchTimer == 60)
