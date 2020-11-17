@@ -11,4 +11,5 @@ if (!isWallClimb)
 	yspeed = -2;
 	xspeed = -image_xscale;
 	global.canControl = false;
+	canWallClimb = false;
 }

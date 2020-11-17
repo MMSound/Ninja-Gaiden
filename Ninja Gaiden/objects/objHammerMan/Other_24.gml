@@ -7,3 +7,5 @@ hasFired = false;
 
 sprite_index = sprHammerManWalk;
 imgSpd = (1 / 4);
+
+myHammer = noone;

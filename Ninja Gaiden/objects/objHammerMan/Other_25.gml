@@ -50,9 +50,16 @@ switch (phase)
 		{
 			if (!hasFired) //fire only once
 			{
-				var _hammer = instance_create_depth((x + (12 * image_xscale)), (y - (23 + _duck)), (depth + 5), objHammer);
-					_hammer.image_xscale = image_xscale;
+				myHammer = instance_create_depth((x + (12 * image_xscale)), (y - (23 + _duck)), (depth + 5), objHammer);
+				myHammer.image_xscale = image_xscale;
 				hasFired = true;
+			}
+			else
+			{
+				if (!instance_exists(myHammer))
+				{
+					phase = 2;
+				}
 			}
 		}
 		image_index = hasFired;

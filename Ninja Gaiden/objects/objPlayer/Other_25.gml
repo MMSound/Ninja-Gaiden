@@ -240,6 +240,7 @@ if (!isDead)
 		isKnockback = false;
 		drawBlink = (iFrameTimer % 2 == 0);
 		global.canControl = true;
+		canWallClimb = true;
 	}
 	else if (!isKnockback)
 	{

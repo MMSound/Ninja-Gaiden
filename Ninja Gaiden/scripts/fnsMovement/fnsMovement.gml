@@ -84,70 +84,81 @@ function move_y(_yspeed, _instance)
 				{
 					return false;
 				}
+				
+				y += _yDir;
 			}
-			
-			y += _yDir;
+			else
+			{
+				y += _yDir;
+			}
 		}
 	}
 	return true;
 }
 
-/// @description horizontal movement on platforms
-function move_platform_x(_xspeed)
+/// @description move_x but for moving platforms
+/// @params xspeed
+function move_platform_x(_xvel) 
 {
-	var _xDir = sign(_xspeed);
-	
-	//check if we can move every frame
-	repeat(abs(_xspeed))
+	//note for later - add another argument to check for any entity, not just the player
+	var _xdir = sign(_xvel);
+
+	//movement/collision x
+	repeat(abs(_xvel))
 	{
-		//collision
-		if (coll_x(_xDir))
+		//colliding with solid - possibly make this optional later?
+		if (coll_x(_xdir))
 		{
 			return false;
 		}
-		
-		//get instances to move
-		var _instancesToMove = ds_list_create();
-		var _collisionList = ds_list_create();
-		
-		//horizontal pushing on sides
-		var _num = coll_x_list(_xDir, _collisionList, prtEntity);
-		
-		for (var i = 0; i < _num; i++)
-		{
-			var _current = _collisionList[| i];
-			ds_list_add(_instancesToMove, _current);
-			
-			//if we can't move
-			if (!move_x(_xDir, true, _current))
+	
+		//lists
+		var instances = ds_list_create(); //instances is the list of entities that should be moved
+		var instances_ds = ds_list_create();
+	
+		//entities found on sides
+		var _numEntities = coll_x_list(_xdir, instances_ds, prtEntity);
+		for (var i = 0; i < _numEntities; i++)
+		{	
+			var _current = instances_ds[| i]; //get current entity
+			ds_list_add(instances, _current);
+
+			if (_current.hasCollision) //only move if the current entity has collision
 			{
-				instances_reset_position(_instancesToMove);
-				ds_list_destroy(_instancesToMove);
-				ds_list_destroy(_collisionList);
-				return false;
+				if (!move_x(_xdir, true, _current)) //try to move it
+				{
+					instances_reset_position(instances);
+					ds_list_destroy(instances);
+					ds_list_destroy(instances_ds); //ALWAYS destroy data structure when you're done using it
+					return false; //in order to prevent memory leaks
+				}
 			}
 		}
-		
-		//reset list
-		ds_list_clear(_collisionList);
-		
-		//horizontal carry on top
-		_num = coll_y_list(-1, _collisionList, prtEntity);
-		
-		for (var i = 0; i < _num; i++)
+	
+		//clean list
+		ds_list_clear(instances_ds);
+	
+		//entities found on top
+		_numEntities = coll_y_list(-1, instances_ds, prtEntity);
+	
+		//try carrying them
+		for (var i = 0; i < _numEntities; i++)
 		{
-			var _current = _collisionList[| i];
-			move_x(_xDir, true, _current);
+			var _current = instances_ds[| i];
+			if (_current.hasCollision) //only move if the current entity has collision
+			{
+				move_x(_xdir, true, _current);
+			}
 		}
+	
+		instances_update_previous_position(instances_ds);
+		ds_list_destroy(instances);
+		ds_list_destroy(instances_ds);
 		
-		//update the entities and destroy data structures
-		instances_update_previous_position(_instancesToMove);
-		ds_list_destroy(_instancesToMove);
-		ds_list_destroy(_collisionList);
-		
-		//NOW we move
-		x += _xDir;
+		x += _xdir;
 	}
+
+	return true;
 }
 
 /// @description movement on slopes
@@ -199,17 +210,20 @@ function instances_reset_position(_instances)
 	}
 }
 
-/// @description update previous position of colliding instances
-function instances_update_previous_position(_instances)
+/// @descrption utility to update the previous position of entities
+function instances_update_previous_position(_entitiesToMove) 
 {
-	var _num = ds_list_size(_instances);
+	var _numEntities = ds_list_size(_entitiesToMove);
 	var _index = 0;
-	
-	repeat(_num)
+
+	repeat(_numEntities)
 	{
-		var _current = _instances[| _index];
-		_current.xprevious = _current.x;
-		_current.yprevious = _current.y;
+		var instance = _entitiesToMove[| _index];
+		if (instance_exists(instance))
+		{
+			instance.xprevious = instance.x;
+			instance.yprevious = instance.y;
+		}
 		_index++;
 	}
 }
