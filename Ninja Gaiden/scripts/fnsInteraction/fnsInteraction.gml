@@ -12,15 +12,21 @@ function entity_damage(_entity, _value)
 		if (_entity.canBeHit)
 		{
 			var _healthLeft = _entity.healthPoints - _value;
-			var _event = 6;
-			if (_healthLeft <= 0)
+			if (_healthLeft > 0) //just damage
 			{
-				_event = 7;
+				with (_entity)
+				{
+					event_user(6);
+				}
+				_entity.healthPoints -= _value;
 			}
-			_entity.healthPoints -= _value;
-			with (_entity)
+			else //damaging
 			{
-				event_user(_event);
+				with (_entity)
+				{
+					event_user(7);
+				}
+				_entity.healthPoints = 0;			
 			}
 		}
 	}

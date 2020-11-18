@@ -3,7 +3,9 @@ if (!isDead)
 {
 	xAxis = (global.inputRight - global.inputLeft);
 	yAxis = (global.inputDown - global.inputUp);
-
+	
+	playedDeathSFX = false;
+	
 	//calculate speed
 	if (global.canControl)
 	{

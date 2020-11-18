@@ -2,6 +2,8 @@
 hasCollision = false;
 hasGravity = false;
 
+contactDamage = 3;
+
 xspeed = (1 * image_xscale);
 yspeed = 0;
 

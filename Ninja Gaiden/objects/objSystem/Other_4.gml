@@ -13,3 +13,7 @@ if (instance_exists(prtEntity))
 		y += 8;
 	}
 }
+
+//set timer
+global.levelTime = 200;
+global.levelTimer = 0;

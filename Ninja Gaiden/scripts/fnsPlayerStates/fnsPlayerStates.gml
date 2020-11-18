@@ -102,11 +102,14 @@ function playerStateAir()
 		{
 			if (canWallClimb)
 			{
-				yspeed = 0;
-				xspeed = 0;
-				image_xscale = sign(myWall.x - x);
-				currentState = playerStateWallClimb;
-				exit;
+				if (myWall.image_yscale != 1.00) //prevent climbing on 1-tile high walls
+				{
+					yspeed = 0;
+					xspeed = 0;
+					image_xscale = sign(myWall.x - x);
+					currentState = playerStateWallClimb;
+					exit;
+				}
 			}
 		}
 	}
@@ -128,7 +131,7 @@ function playerStateAir()
 		{
 			yspeed = 0;
 			xspeed = 0;
-			y = (myRail.y + 28);
+			y = (myRail.y + 32);
 			currentState = playerStateRailHang;
 			exit;
 		}

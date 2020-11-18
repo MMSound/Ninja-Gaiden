@@ -65,12 +65,29 @@ if (!global.deathRespawn)
 	}
 	global.screenColorIndex = global.paused;
 
-	//increment the master timer (need in-level timer later)
+	//increment the master timer
 	global.gameTimer++;
+	
+	//in-level timer
+	if (!game_paused() && !global.timeFrozen)
+	{
+		global.levelTimer++;
+	}
+	if (global.levelTimer % 60 == 0)
+	{
+		if (global.levelTime > 0)
+		{
+			global.levelTime--;
+		}
+		else
+		{
+			entity_damage(objPlayer, 69);
+		}
+	}
 }
 else
 {
-	if (++global.deathRespawnTimer = global.deathRespawnTime)
+	if (++global.deathRespawnTimer == global.deathRespawnTime)
 	{
 		instance_create_depth(x, y, -200, objRoomTransition);
 	}

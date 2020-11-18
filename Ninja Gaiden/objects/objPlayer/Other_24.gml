@@ -46,3 +46,5 @@ hasAttacked = true;
 projectileOffsetX = 15;
 projectileOffsetY = -22;
 cooldownTimer = 0;
+
+playedDeathSFX = false;

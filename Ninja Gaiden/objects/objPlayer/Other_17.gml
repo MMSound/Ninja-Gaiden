@@ -1,2 +1,7 @@
 /// @description Getting killed
-event_user(6);
+isDead = true;
+if (!playedDeathSFX)
+{
+	play_sfx(sfxPlayerHit);
+	playedDeathSFX = true;
+}

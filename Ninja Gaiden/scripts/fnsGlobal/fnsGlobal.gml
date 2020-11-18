@@ -40,3 +40,10 @@ function inside_view()
 	}
 	return false;
 }
+
+/// @description updates the current act (i am lazy lmao)
+function set_act(_act, _scene)
+{
+	global.currentAct = _act;
+	global.currentScene = _scene;
+}

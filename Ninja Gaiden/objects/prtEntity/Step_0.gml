@@ -29,6 +29,12 @@ if (!game_paused())
 	
 	//child post-step
 	event_user(10);
+	
+	//falling into pits
+	if (y > (global.viewY + (global.viewH + 60)) && !place_meeting(x, y, objSection))
+	{
+		entity_damage(id, 69);
+	}
 }
 else
 {

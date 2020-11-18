@@ -32,6 +32,7 @@ global.keyPause = vk_enter;
 global.paused = false;
 global.gameTimer = 0;
 global.levelTime = 0;
+global.levelTimer = 0;
 global.gameScore = 0;
 global.currentLives = 2;
 global.ninpo = 0;
