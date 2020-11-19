@@ -212,12 +212,15 @@ if (!isDead)
 	
 	//limit coords
 	x = clamp(x, 0, room_width);
-	if (global.currentSection != noone)
+	if (global.currentSection != noone) //determining y bounds
 	{
-		if (!instance_place(global.currentSection.x, (global.currentSection.y - 16), objSection))
+		var _yTop = (global.viewY + 18);
+		var _yBottom = (global.viewY + (global.viewH + 64));
+		if (instance_place(global.viewX, (global.sectionT - 16), objSection)) //can we go above
 		{
-			y = clamp(y, (global.viewY + 18), (global.viewY + (global.viewH + 64)));
+			_yTop = (global.viewY - 16);
 		}
+		y = clamp(y, _yTop, _yBottom);
 	}
 
 	//getting hit
