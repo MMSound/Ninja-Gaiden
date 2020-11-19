@@ -1,5 +1,5 @@
 /// @description Custom variables
-contactDamage = 2;
+contactDamage = 3;
 
 timer = 0;
 phase = 0;

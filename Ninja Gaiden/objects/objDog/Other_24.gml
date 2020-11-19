@@ -1,5 +1,5 @@
 /// @description Custom variables
-contactDamage = 1;
+contactDamage = 2;
 
 canDespawn = false;
 
