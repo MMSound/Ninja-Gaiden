@@ -34,6 +34,16 @@ if (instance_exists(objPlayer))
 	{
 		hasPlayedSFX = false;
 	}
+	
+	//if we're not in the right section
+	if (place_meeting(x, y, objSection))
+	{
+		var _section = instance_place(x, y, objSection);
+		if (global.currentSection != _section)
+		{
+			destroy_self();
+		}
+	}
 }
 
 if (++canCatchTimer == 60)

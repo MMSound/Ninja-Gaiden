@@ -17,3 +17,18 @@ combo = 0;
 
 play_sfx(sfxWindmillShuriken);
 hasPlayedSFX = true;
+
+function destroy_self()
+{
+	if (canCatch)
+	{
+		instance_destroy();
+		combo = 0;
+		global.ninpo += 2;
+		if (audio_is_playing(sfxWindmillShuriken))
+		{
+			audio_stop_sound(sfxWindmillShuriken);
+			play_sfx(sfxShuriken);
+		}
+	}	
+}
