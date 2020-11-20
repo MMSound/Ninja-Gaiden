@@ -72,6 +72,7 @@ function playerStateAir()
 	if (grounded() && yspeed >= 0)
 	{
 		currentState = playerStateGround;
+		play_sfx(sfxLand);
 		exit;
 	}
 	
@@ -150,8 +151,14 @@ function playerStateWallClimb()
 	{
 		isWallClimb = true;
 		hasGravity = false;
-		play_sfx(sfxJump);
+		play_sfx(sfxLand);
 		stateIsNew = !stateIsNew;
+	}
+	
+	//leave
+	if (!isWallClimb)
+	{
+		exit;
 	}
 	
 	//stick to the exact side

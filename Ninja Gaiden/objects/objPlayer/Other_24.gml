@@ -15,6 +15,7 @@ grav = 0.16;
 maxVelocity = 5;
 airBackwardsSpeed = 0.75;
 wallClimbSpeed = 1;
+swordWait = false;
 
 isDuck = false;
 isWallClimb = false;

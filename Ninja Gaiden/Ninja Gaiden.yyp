@@ -21,6 +21,7 @@
     {"id":{"name":"objTopSolid","path":"objects/objTopSolid/objTopSolid.yy",},"order":5,},
     {"id":{"name":"objSection","path":"objects/objSection/objSection.yy",},"order":3,},
     {"id":{"name":"sprFont","path":"sprites/sprFont/sprFont.yy",},"order":0,},
+    {"id":{"name":"sfxLand","path":"sounds/sfxLand/sfxLand.yy",},"order":13,},
     {"id":{"name":"sprPauseMenu","path":"sprites/sprPauseMenu/sprPauseMenu.yy",},"order":4,},
     {"id":{"name":"objSpinSlash","path":"objects/objSpinSlash/objSpinSlash.yy",},"order":4,},
     {"id":{"name":"objHammer","path":"objects/objHammer/objHammer.yy",},"order":8,},
@@ -179,10 +180,10 @@
   },
   "RoomOrder": [
     {"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},
+    {"name":"rmAct1Scene1","path":"rooms/rmAct1Scene1/rmAct1Scene1.yy",},
     {"name":"rmAct2Scene1","path":"rooms/rmAct2Scene1/rmAct2Scene1.yy",},
     {"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},
     {"name":"rmTestingAgain","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
-    {"name":"rmAct1Scene1","path":"rooms/rmAct1Scene1/rmAct1Scene1.yy",},
     {"name":"rmTemplate","path":"rooms/rmTemplate/rmTemplate.yy",},
   ],
   "Folders": [

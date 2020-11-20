@@ -48,5 +48,17 @@ if (place_meeting_player(x, y))
 			break;
 	}
 	play_sfx(sfxItemAcquisition);
-	instance_destroy();
+	instance_destroy(id);
 }
+
+//despawn
+if (lifeTimer >= lifeTime)
+{
+	instance_destroy(id);
+}
+else if (lifeTimer >= (lifeTime - 60))
+{
+	visible = (lifeTimer % 2 == 0);
+}
+
+lifeTimer++;

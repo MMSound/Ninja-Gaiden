@@ -71,6 +71,10 @@ if (!isDead)
 										}
 										play_sfx(sfxSwordSlash);
 										hasAttacked = true;
+										if (grounded())
+										{
+											swordWait = true;
+										}
 									}
 								}
 							}
@@ -95,6 +99,10 @@ if (!isDead)
 									}
 									play_sfx(sfxSwordSlash);
 									hasAttacked = true;
+									if (grounded())
+									{
+										swordWait = true;
+									}
 								}
 							}
 						}
@@ -149,7 +157,7 @@ if (!isDead)
 		//movement
 		if (grounded() || isHang) //we want to be able to move both directions at the same speed when grounded
 		{
-			if (abs(xAxis) && attackAnimTimer == 0)
+			if (abs(xAxis) && (attackAnimTimer == 0 || !swordWait))
 			{
 				xspeed = (runSpeed * xAxis);
 				image_xscale = xAxis;
@@ -262,6 +270,10 @@ if (!isDead)
 	if (attackAnimTimer > 0)
 	{
 		attackAnimTimer--;
+	}
+	else
+	{
+		swordWait = false;
 	}
 	
 	//now let's actually change the sprite
@@ -430,11 +442,11 @@ if (!isDead)
 										}
 										else
 										{
-											if (sprite_index == sprRyuJumpSomersault)
-											{
+											//if (sprite_index == sprRyuJumpSomersault)
+											//{
 												sprite_index = sprRyuJumpFall;
 												imgSpd = (1 / 6);
-											}
+											//}
 										}
 									}
 									else
