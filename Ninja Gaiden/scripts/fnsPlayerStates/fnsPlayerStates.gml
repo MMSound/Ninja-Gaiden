@@ -211,7 +211,7 @@ function playerStateWallClimb()
 		}
 		
 		//climb off bottom
-		if (y >= (myWall.bbox_bottom + 12))
+		if (y >= (myWall.bbox_bottom + 12) && yAxis == 1)
 		{
 			isWallClimb = false;
 			hasGravity = true;
@@ -303,7 +303,7 @@ function player_weapon()
 	//check if there is the maximum amount of the current weapon
 	if (cooldownTimer == 0)
 	{
-		if (global.currentWeapon != 0 && global.currentWeapon != wpnSpinSlash)
+		if (global.currentWeapon != 0 && global.currentWeapon != WEAPON_SPIN_SLASH)
 		{
 			if (instance_number(global.weaponObject[global.currentWeapon]) < global.weaponLimit[global.currentWeapon] && (global.ninpo - global.weaponNinpo[global.currentWeapon]) >= 0)
 			{
@@ -314,12 +314,12 @@ function player_weapon()
 				}
 				switch (global.currentWeapon) //actually fire the weapon
 				{
-					case wpnShuriken:
-					case wpnWindmillShuriken:
+					case WEAPON_SHURIKEN:
+					case WEAPON_WINDMILL_SHURIKEN:
 						var _weapon = instance_create_depth((x + (projectileOffsetX * _xDir)), (y + projectileOffsetY), depth, global.weaponObject[global.currentWeapon]);
 							_weapon.image_xscale = _xDir;
 						break;
-					case wpnFlames:
+					case WEAPON_FLAMES:
 						var _flames = 5;
 						for (var i = 0; i < _flames; i++)
 						{
@@ -329,7 +329,7 @@ function player_weapon()
 						}
 						play_sfx(sfxFlameWeapon);
 						break;
-					case wpnFlameWheel:					
+					case WEAPON_FLAME_WHEEL:					
 						for (var i = 0; i < 3; i++)
 						{
 							var _weapon = instance_create_depth((x + (projectileOffsetX * _xDir)), (y + projectileOffsetY), depth, global.weaponObject[global.currentWeapon]);

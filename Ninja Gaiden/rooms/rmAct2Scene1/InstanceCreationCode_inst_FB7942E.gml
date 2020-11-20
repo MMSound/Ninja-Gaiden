@@ -1,1 +1,1 @@
-itemDrop = 9;
+itemDrop = FLAME_WHEEL;

@@ -1,1 +1,1 @@
-itemDrop = 8;
+itemDrop = WINDMILL_SHURIKEN;

@@ -17,3 +17,5 @@ if (instance_exists(prtEntity))
 //set timer
 global.levelTime = 200;
 global.levelTimer = 0;
+
+global.currentSection = noone;

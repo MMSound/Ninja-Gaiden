@@ -1,1 +1,1 @@
-itemDrop = 6;
+itemDrop = LARGE_NINPO;

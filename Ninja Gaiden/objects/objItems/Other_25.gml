@@ -32,19 +32,19 @@ if (place_meeting_player(x, y))
 			global.ninpo += 10;
 			break;
 		case 7:
-			global.currentWeapon = wpnShuriken;
+			global.currentWeapon = WEAPON_SHURIKEN;
 			break;
 		case 8:
-			global.currentWeapon = wpnWindmillShuriken;
+			global.currentWeapon = WEAPON_WINDMILL_SHURIKEN;
 			break;
 		case 9:
-			global.currentWeapon = wpnFlameWheel;
+			global.currentWeapon = WEAPON_FLAME_WHEEL;
 			break;
 		case 10:
-			global.currentWeapon = wpnSpinSlash;
+			global.currentWeapon = WEAPON_SPIN_SLASH;
 			break;
 		case 11:
-			global.currentWeapon = wpnFlames;
+			global.currentWeapon = WEAPON_FLAMES;
 			break;
 	}
 	play_sfx(sfxItemAcquisition);

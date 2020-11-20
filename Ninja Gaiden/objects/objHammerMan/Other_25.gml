@@ -36,6 +36,10 @@ switch (phase)
 		{
 			var _xScale = sign(objPlayer.x - x);
 		}
+		else
+		{
+			_xScale = _xDir;
+		}
 		if (_xDir != _xScale)
 		{
 			image_xscale *= -1;

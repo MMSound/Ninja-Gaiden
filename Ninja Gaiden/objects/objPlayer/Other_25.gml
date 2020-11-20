@@ -5,6 +5,7 @@ if (!isDead)
 	yAxis = (global.inputDown - global.inputUp);
 	
 	playedDeathSFX = false;
+	hasGravity = true;
 	
 	//calculate speed
 	if (global.canControl)
@@ -12,7 +13,7 @@ if (!isDead)
 		//controlling weapons
 		if (global.inputAttackPressed)
 		{
-			if (instance_exists(objFlameShield) && global.currentWeapon == wpnFlames) //make flame shield be bigger for a moment
+			if (instance_exists(objFlameShield) && global.currentWeapon == WEAPON_FLAMES) //make flame shield be bigger for a moment
 			{
 				with (objFlameShield)
 				{
@@ -28,14 +29,14 @@ if (!isDead)
 						if (!isHang)
 						{
 							//special case for spin slash
-							if (global.currentWeapon == wpnSpinSlash && !grounded())
+							if (global.currentWeapon == WEAPON_SPIN_SLASH && !grounded())
 							{
-								if (instance_number(global.weaponObject[wpnSpinSlash]) < global.weaponLimit[wpnSpinSlash] && (global.ninpo - global.weaponNinpo[wpnSpinSlash]) >= 0)
+								if (instance_number(global.weaponObject[WEAPON_SPIN_SLASH]) < global.weaponLimit[WEAPON_SPIN_SLASH] && (global.ninpo - global.weaponNinpo[WEAPON_SPIN_SLASH]) >= 0)
 								{
 									if (!global.inputDown)
 									{
 										instance_create_depth(x, (y - 16), depth, objSpinSlash);
-										global.ninpo -= global.weaponNinpo[wpnSpinSlash];
+										global.ninpo -= global.weaponNinpo[WEAPON_SPIN_SLASH];
 										attackAnimTimer = 0;
 										hasAttacked = true;
 									}
@@ -244,6 +245,13 @@ if (!isDead)
 			{
 				isDead = true;
 			}
+		}
+		else
+		{
+			if (y > (global.viewY + (global.viewH + 60)) && !place_meeting(x, y, objSection))
+			{
+				isDead = true;
+			}			
 		}
 	}
 	if (iFrameTimer > 0)
@@ -550,4 +558,8 @@ else //change later
 	global.canControl = false;
 	sprite_index = sprRyuJumpSomersault;
 	image_index = 0;
+	if (y > (global.viewY + 16))
+	{
+		instance_destroy(id);
+	}
 }

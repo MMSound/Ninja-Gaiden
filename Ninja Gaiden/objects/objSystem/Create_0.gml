@@ -66,39 +66,39 @@ global.currentWeapon = 0;
 
 //weapon table
 global.weaponObject[0] = noone;
-global.weaponObject[wpnShuriken] = objShuriken;
-global.weaponObject[wpnWindmillShuriken] = objWindmillShuriken;
-global.weaponObject[wpnFlameWheel] = objFlameWheel;
-global.weaponObject[wpnSpinSlash] = objSpinSlash;
-global.weaponObject[wpnFlames] = objFlameShield;
+global.weaponObject[WEAPON_SHURIKEN] = objShuriken;
+global.weaponObject[WEAPON_WINDMILL_SHURIKEN] = objWindmillShuriken;
+global.weaponObject[WEAPON_FLAME_WHEEL] = objFlameWheel;
+global.weaponObject[WEAPON_SPIN_SLASH] = objSpinSlash;
+global.weaponObject[WEAPON_FLAMES] = objFlameShield;
 
 global.weaponCooldown[0] = 0;
-global.weaponCooldown[wpnShuriken] = 10;
-global.weaponCooldown[wpnWindmillShuriken] = 0;
-global.weaponCooldown[wpnFlameWheel] = 5;
-global.weaponCooldown[wpnSpinSlash] = 0;
-global.weaponCooldown[wpnFlames] = 0;
+global.weaponCooldown[WEAPON_SHURIKEN] = 10;
+global.weaponCooldown[WEAPON_WINDMILL_SHURIKEN] = 0;
+global.weaponCooldown[WEAPON_FLAME_WHEEL] = 5;
+global.weaponCooldown[WEAPON_SPIN_SLASH] = 0;
+global.weaponCooldown[WEAPON_FLAMES] = 0;
 
 global.weaponNinpo[0] = 0;
-global.weaponNinpo[wpnShuriken] = 3;
-global.weaponNinpo[wpnWindmillShuriken] = 5;
-global.weaponNinpo[wpnFlameWheel] = 5;
-global.weaponNinpo[wpnSpinSlash] = 5;
-global.weaponNinpo[wpnFlames] = 0;
+global.weaponNinpo[WEAPON_SHURIKEN] = 3;
+global.weaponNinpo[WEAPON_WINDMILL_SHURIKEN] = 5;
+global.weaponNinpo[WEAPON_FLAME_WHEEL] = 5;
+global.weaponNinpo[WEAPON_SPIN_SLASH] = 5;
+global.weaponNinpo[WEAPON_FLAMES] = 0;
 
 global.weaponLimit[0] = 0;
-global.weaponLimit[wpnShuriken] = 8;
-global.weaponLimit[wpnWindmillShuriken] = 1;
-global.weaponLimit[wpnFlameWheel] = 1;
-global.weaponLimit[wpnSpinSlash] = 1;
-global.weaponLimit[wpnFlames] = 1;
+global.weaponLimit[WEAPON_SHURIKEN] = 8;
+global.weaponLimit[WEAPON_WINDMILL_SHURIKEN] = 1;
+global.weaponLimit[WEAPON_FLAME_WHEEL] = 1;
+global.weaponLimit[WEAPON_SPIN_SLASH] = 1;
+global.weaponLimit[WEAPON_FLAMES] = 1;
 
 //shaders and surfaces
 init_palette_shader(shdColorSwap);
 global.screenColorIndex = 0;
 global.uiColorIndex = 8;
 global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-", false, 0);
-global.screenRes = 2;
+global.screenRes = 1;
 global.screenPalette = sprScreenPalette;
 surface_resize(application_surface, global.viewW, global.viewH);
 window_set_size((global.viewW * global.screenRes), (global.viewH * global.screenRes));
