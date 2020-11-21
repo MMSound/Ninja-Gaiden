@@ -1,1 +1,1 @@
-itemDrop = HEALTH;
+itemDrop = LIFE;

@@ -22,7 +22,7 @@ switch (phase)
 		}
 		else
 		{
-			room = roomTo;
+			room_goto(roomTo);
 		}
 		if (global.deathRespawn) //reset all the player stuf
 		{
@@ -30,9 +30,9 @@ switch (phase)
 			{
 				global.currentLives--;
 			}
-			else
+			else //temp
 			{
-				game_end();
+				game_restart();
 			}
 			global.currentWeapon = 0;
 			global.ninpo = 0;

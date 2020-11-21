@@ -1,94 +1,100 @@
 /// @description Game control
-if (!global.deathRespawn)
+if (room != rmTitleScreen)
 {
-	//pausing
-	if (global.inputPausePressed)
+	if (!global.deathRespawn)
 	{
-		if (global.canControl)
+		//pausing
+		if (global.inputPausePressed)
 		{
-			global.paused = !global.paused;
-			if (audio_is_playing(sfxPause))
+			if (global.canControl)
 			{
-				audio_stop_sound(sfxPause);
+				global.paused = !global.paused;
+				if (audio_is_playing(sfxPause))
+				{
+					audio_stop_sound(sfxPause);
+				}
+				play_sfx(sfxPause);
 			}
-			play_sfx(sfxPause);
 		}
-	}
 
-	//debug
-	if (keyboard_check_pressed(vk_shift))
-	{
-		if (keyboard_check(vk_control)) //time stopping
+		//debug
+		if (keyboard_check_pressed(vk_shift))
 		{
-			if (!instance_exists(objTimeFreezeController))
+			if (keyboard_check(vk_control)) //time stopping
 			{
-				instance_create_depth(0, 0, -100, objTimeFreezeController);
+				if (!instance_exists(objTimeFreezeController))
+				{
+					instance_create_depth(0, 0, -100, objTimeFreezeController);
+				}
+			}
+			else //weapon increase
+			{
+				if (global.currentWeapon < 5)
+				{
+					global.currentWeapon++;
+				}
+				else
+				{
+					global.currentWeapon = 0;
+				}
 			}
 		}
-		else //weapon increase
+		if (keyboard_check_pressed(vk_f3)) //ninpo refill
 		{
-			if (global.currentWeapon < 5)
+			global.ninpo = 30;
+		}
+		if (keyboard_check_pressed(vk_f4))
+		{
+			if (instance_exists(objPlayer))
 			{
-				global.currentWeapon++;
+				objPlayer.healthPoints--;
+			}
+		}
+
+		//camera
+		if (instance_exists(objPlayer))
+		{
+			global.cameraFocusObject = objPlayer;
+		}
+
+		//drawing
+		if (global.gameTimer % 60 == 0)
+		{
+			if (global.uiColorIndex++ == 11)
+			{
+				global.uiColorIndex = 2;
+			}
+		}
+		if (!instance_exists(objRoomTransition))
+		{
+			global.screenColorIndex = global.paused;
+		}
+
+		//increment the master timer
+		global.gameTimer++;
+	
+		//in-level timer
+		if (!game_paused() && !global.timeFrozen)
+		{
+			global.levelTimer++;
+		}
+		if (global.levelTimer % 60 == 0)
+		{
+			if (global.levelTime > 0)
+			{
+				global.levelTime--;
 			}
 			else
 			{
-				global.currentWeapon = 0;
+				entity_damage(objPlayer, 69);
 			}
 		}
 	}
-	if (keyboard_check_pressed(vk_f3)) //ninpo refill
+	else
 	{
-		global.ninpo = 30;
-	}
-	if (keyboard_check_pressed(vk_f4))
-	{
-		if (instance_exists(objPlayer))
+		if (++global.deathRespawnTimer == global.deathRespawnTime)
 		{
-			objPlayer.healthPoints--;
+			room_transition();
 		}
-	}
-
-	//camera
-	if (instance_exists(objPlayer))
-	{
-		global.cameraFocusObject = objPlayer;
-	}
-
-	//drawing
-	if (global.gameTimer % 60 == 0)
-	{
-		if (global.uiColorIndex++ == 11)
-		{
-			global.uiColorIndex = 2;
-		}
-	}
-	global.screenColorIndex = global.paused;
-
-	//increment the master timer
-	global.gameTimer++;
-	
-	//in-level timer
-	if (!game_paused() && !global.timeFrozen)
-	{
-		global.levelTimer++;
-	}
-	if (global.levelTimer % 60 == 0)
-	{
-		if (global.levelTime > 0)
-		{
-			global.levelTime--;
-		}
-		else
-		{
-			entity_damage(objPlayer, 69);
-		}
-	}
-}
-else
-{
-	if (++global.deathRespawnTimer == global.deathRespawnTime)
-	{
-		instance_create_depth(x, y, -200, objRoomTransition);
 	}
 }

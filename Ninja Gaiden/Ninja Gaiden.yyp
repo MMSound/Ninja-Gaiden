@@ -181,9 +181,9 @@
   },
   "RoomOrder": [
     {"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},
+    {"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},
     {"name":"rmAct2Scene1","path":"rooms/rmAct2Scene1/rmAct2Scene1.yy",},
     {"name":"rmAct1Scene1","path":"rooms/rmAct1Scene1/rmAct1Scene1.yy",},
-    {"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},
     {"name":"rmTestingAgain","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
     {"name":"rmTemplate","path":"rooms/rmTemplate/rmTemplate.yy",},
   ],

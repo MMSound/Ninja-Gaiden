@@ -5,7 +5,6 @@ if (!isDead)
 	yAxis = (global.inputDown - global.inputUp);
 	
 	playedDeathSFX = false;
-	hasGravity = true;
 	
 	//calculate speed
 	if (global.canControl)
@@ -245,13 +244,6 @@ if (!isDead)
 			{
 				isDead = true;
 			}
-		}
-		else
-		{
-			if (y > (global.viewY + (global.viewH + 60)) && !place_meeting(x, y, objSection))
-			{
-				isDead = true;
-			}			
 		}
 	}
 	if (iFrameTimer > 0)
@@ -558,8 +550,10 @@ else //change later
 	global.canControl = false;
 	sprite_index = sprRyuJumpSomersault;
 	image_index = 0;
-	if (y > (global.viewY + 16))
+	if (!grounded() && inside_view())
 	{
-		instance_destroy(id);
+		move_x(xspeed);
 	}
+	move_y(yspeed);
+	yspeed += grav;
 }

@@ -1,0 +1,1 @@
+itemDROP = SMALL_NINPO;
