@@ -58,13 +58,6 @@ if (room != rmTitleScreen)
 		}
 
 		//drawing
-		if (global.gameTimer % 60 == 0)
-		{
-			if (global.uiColorIndex++ == 11)
-			{
-				global.uiColorIndex = 2;
-			}
-		}
 		if (!instance_exists(objRoomTransition))
 		{
 			global.screenColorIndex = global.paused;
@@ -87,6 +80,10 @@ if (room != rmTitleScreen)
 			else
 			{
 				entity_damage(objPlayer, 69);
+			}
+			if (global.uiColorIndex++ == 11)
+			{
+				global.uiColorIndex = 2;
 			}
 		}
 	}

@@ -234,7 +234,7 @@ if (!isDead)
 	//getting hit
 	if (isKnockback)
 	{
-		if (grounded() || isWallClimb) //we want to not be knocked back if we're on a wall
+		if (grounded() || isWallClimb || isHang) //we want to not be knocked back if we're on a wall
 		{
 			if (healthPoints > 0)
 			{
@@ -244,6 +244,13 @@ if (!isDead)
 			{
 				isDead = true;
 			}
+		}
+		
+		//pit
+		if (y > (global.viewY + (global.viewH + 32)))
+		{
+			isDead = true;
+			healthPoints = 0;
 		}
 	}
 	if (iFrameTimer > 0)
@@ -548,6 +555,7 @@ else //change later
 {
 	global.deathRespawn = true;
 	global.canControl = false;
+	global.playerHealth = healthPoints;
 	sprite_index = sprRyuJumpSomersault;
 	image_index = 0;
 	if (!grounded() && inside_view())

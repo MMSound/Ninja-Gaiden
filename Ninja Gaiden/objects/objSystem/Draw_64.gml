@@ -11,7 +11,9 @@ if (global.paused)
 	draw_sprite(sprPauseMenu, 0, _drawX, _drawY);
 	draw_set_halign(fa_middle);
 	draw_set_valign(fa_center);
-	draw_text_shaded((_drawX + 1), (_drawY + 1), "PAUSE", 12, sprFontPalette);
+	draw_set_color(c_black);
+	draw_text((_drawX + 1), (_drawY + 1), "PAUSE");
+	draw_set_color(c_white);
 	draw_text_shaded(_drawX, _drawY, "PAUSE", global.uiColorIndex, sprFontPalette);
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);

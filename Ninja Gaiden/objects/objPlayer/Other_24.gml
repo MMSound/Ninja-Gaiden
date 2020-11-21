@@ -29,7 +29,7 @@ climbSolidDistance = 4;
 myRail = noone;
 
 isKnockback = false;
-iFrameTime = 26;
+iFrameTime = 36;
 iFrameTimer = 0;
 hitObject = noone;
 isHit = false;

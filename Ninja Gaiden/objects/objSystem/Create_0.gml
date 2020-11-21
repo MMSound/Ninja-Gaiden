@@ -96,7 +96,7 @@ global.weaponLimit[WEAPON_FLAMES] = 1;
 //shaders and surfaces
 init_palette_shader(shdColorSwap);
 global.screenColorIndex = 0;
-global.uiColorIndex = 8;
+global.uiColorIndex = 4;
 global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-", false, 0);
 global.screenRes = 2;
 global.screenPalette = sprScreenPalette;

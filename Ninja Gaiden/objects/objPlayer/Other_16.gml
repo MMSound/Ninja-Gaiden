@@ -6,7 +6,7 @@ if (!isKnockback)
 	play_sfx(sfxPlayerHit);
 }
 isKnockback = true;
-if (!isWallClimb)
+if (!isWallClimb && !isHang)
 {
 	yspeed = -2;
 	xspeed = -image_xscale;

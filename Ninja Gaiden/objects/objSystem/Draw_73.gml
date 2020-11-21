@@ -33,5 +33,19 @@ if (room != rmTitleScreen)
 	{
 		draw_sprite(sprHealthbar, 0, ((_drawX + 48) + (i * 4)), _drawY);
 	}
+	
+	//scene card
+	if (in_range(global.levelTimer, 0, 150) && !game_paused())
+	{
+		draw_set_halign(fa_middle);
+		_drawX = (global.viewX + (global.viewW / 2));
+		draw_set_color(c_black);
+		draw_text((_drawX + 1), (global.viewY + 89), string("ACT " + string(global.currentAct)));
+		draw_text((_drawX + 1), (global.viewY + 97), string("SCENE " + string(global.currentScene)));
+		draw_set_color(c_white);
+		draw_text(_drawX, (global.viewY + 88), string("ACT " + string(global.currentAct)));
+		draw_text(_drawX, (global.viewY + 96), string("SCENE " + string(global.currentScene)));
+		draw_set_halign(fa_left);
+	}
 	shader_reset();
 }

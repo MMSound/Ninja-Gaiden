@@ -1,6 +1,6 @@
 /// @description Getting killed
 isDead = true;
-global.playerHealth = healthPoints;
+canBeHit = false;
 if (!playedDeathSFX)
 {
 	play_sfx(sfxPlayerHit);
