@@ -10,7 +10,7 @@ drawX = 0;
 xPos = 0;
 drawY = 0;
 yPos = 0;
-areaRight = (x + (image_xscale * 16));
-areaBottom = (y + (image_yscale * 16));
+areaRight = bbox_right;
+areaBottom = bbox_bottom;
 
 waveSurface = noone;
