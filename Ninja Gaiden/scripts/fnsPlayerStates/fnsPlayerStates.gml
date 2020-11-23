@@ -161,6 +161,13 @@ function playerStateWallClimb()
 		exit;
 	}
 	
+	if (!instance_exists(myWall))
+	{
+		currentState = playerStateAir;
+		isWallClimb = false;
+		exit;
+	}
+	
 	//stick to the exact side
 	if (myWall.object_index == objWallClimbWallLeft)
 	{
