@@ -161,6 +161,96 @@ function move_platform_x(_xvel)
 	return true;
 }
 
+/// @description move_y but for moving platforms
+function move_platform_y() 
+{
+	var _yvel = argument[0];
+	var _ydir = sign(_yvel);
+
+	repeat(abs(_yvel))
+	{
+	    //colliding with solids - possibly make this optional later?
+	    if coll_y(_ydir)
+		{
+	        return false;
+		}
+	
+		//lists
+		var instances = ds_list_create(); //instances is the list of entities that should be moved
+		var instances_ds = ds_list_create();
+
+	    //going upward
+	    if (!_ydir)
+	    {
+			//entities found above
+			var _numEntities = coll_y_list(_ydir, instances_ds, prtEntity);
+			for (var i = 0; i < _numEntities; i++)
+			{
+				var _current = instances_ds[| i]; //get current entity
+				ds_list_add(instances, _current);
+				if (_current.hasCollision) //only move if the current entity has collision
+				{
+					if (!move_y(_ydir, _current)) //try to move it
+					{
+						instances_reset_position(instances);
+						ds_list_destroy(instances);
+						ds_list_destroy(instances_ds); //ALWAYS destroy data structure when you're done using it
+						return false; //in order to prevent memory leaks					
+					}
+				}
+			}
+	    }
+
+	    //going downward
+	    if (_ydir)
+	    {
+	        //entities found below
+			var _numEntities = coll_y_list(_ydir, instances_ds, prtEntity);
+			for (var i = 0; i < _numEntities; i++)
+			{
+				var _current = instances_ds[| i]; //get current entity
+				ds_list_add(instances, _current);
+				if (_current.hasCollision) //only move if the current entity has collision
+				{
+					if (!move_y(_ydir, _current)) //try to move it
+					{
+						instances_reset_position(instances);
+						ds_list_destroy(instances);					
+						ds_list_destroy(instances_ds); //ALWAYS destroy data structure when you're done using it
+						return false; //in order to prevent memory leaks
+					}
+				}
+			}
+		
+			//clean list
+			ds_list_clear(instances_ds);
+		
+			//entities found above
+			_numEntities = coll_y_list(-1, instances_ds, prtEntity);
+		
+			//carry entities
+			instance_deactivate_object(self);
+			for (var i = 0; i < _numEntities; i++)
+			{
+				var _current = instances_ds[| i];
+				if (_current.hasCollision)
+				{
+					move_y(_ydir, _current);
+				}
+			}
+			instance_activate_object(self);
+	    }
+	
+		instances_update_previous_position(instances_ds);
+		ds_list_destroy(instances);
+		ds_list_destroy(instances_ds);
+	
+	    y += _ydir;
+	}
+
+	return true;
+}
+
 /// @description movement on slopes
 function slope_move(_xspeed)
 {

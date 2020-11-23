@@ -8,3 +8,4 @@ if (!playedDeathSFX)
 }
 yspeed = -2;
 xspeed = -image_xscale;
+myWall = noone;

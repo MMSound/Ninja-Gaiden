@@ -118,7 +118,7 @@ function playerStateAir()
 	//if you press the opposite direction, be able to wall climb
 	if (!canWallClimb)
 	{
-		if (xAxis != 0 && xAxis != image_xscale)
+		if (xAxis != 0 && xAxis != image_xscale || coll_x(xspeed, objFallingPillar))
 		{
 			canWallClimb = true;
 		}
@@ -190,6 +190,13 @@ function playerStateWallClimb()
 		currentState = playerStateAir;
 		exit;
 	}
+	
+	//check if we're on a vertically moving platform
+	var _wallSpeed = 0;
+	if (variable_instance_exists(myWall, "yspeed"))
+	{
+		_wallSpeed = myWall.yspeed;
+	}
 		
 	//move
 	if (y >= (myWall.bbox_top + 8))
@@ -198,16 +205,16 @@ function playerStateWallClimb()
 		{
 			if (attackAnimTimer == 0)
 			{
-				yspeed = (yAxis * wallClimbSpeed);
+				yspeed = ((yAxis * wallClimbSpeed) + _wallSpeed);
 			}
 			else
 			{
-				yspeed = 0;
+				yspeed = _wallSpeed;
 			}
 		}
 		else
 		{
-			yspeed = 0;
+			yspeed = _wallSpeed;
 		}
 		
 		//climb off bottom
@@ -236,11 +243,11 @@ function playerStateWallClimb()
 		//otherwise limit movement
 		if (!global.inputJump)
 		{
-			yspeed = clamp((yAxis * wallClimbSpeed), 0, 1);
+			yspeed = (clamp((yAxis * wallClimbSpeed), 0, 1) + _wallSpeed);
 		}
 		else
 		{
-			yspeed = 0;
+			yspeed = _wallSpeed;
 		}
 	}
 }

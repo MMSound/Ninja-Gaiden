@@ -371,7 +371,7 @@ if (!isDead)
 					{
 						case 0:
 							sprite_index = sprRyuWallClimb;
-							switch (yspeed) //is moving
+							switch (yAxis) //is moving
 							{
 								case 0:
 									image_index = 0;
