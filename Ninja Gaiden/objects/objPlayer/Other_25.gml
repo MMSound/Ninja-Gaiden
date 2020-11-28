@@ -449,11 +449,8 @@ if (!isDead)
 										}
 										else
 										{
-											//if (sprite_index == sprRyuJumpSomersault)
-											//{
-												sprite_index = sprRyuJumpFall;
-												imgSpd = (1 / 6);
-											//}
+											sprite_index = sprRyuJumpFall;
+											imgSpd = (1 / 6);
 										}
 									}
 									else

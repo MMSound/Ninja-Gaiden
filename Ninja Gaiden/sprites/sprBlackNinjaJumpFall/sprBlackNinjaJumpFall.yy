@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"80ba14f5-78eb-4d75-ac2c-cb2e26a02588","path":"sprites/sprBlackNinjaJump/sprBlackNinjaJump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"80ba14f5-78eb-4d75-ac2c-cb2e26a02588","path":"sprites/sprBlackNinjaJump/sprBlackNinjaJump.yy",},"LayerId":{"name":"ec612ba5-564e-4f8e-9178-64056a289a38","path":"sprites/sprBlackNinjaJump/sprBlackNinjaJump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprBlackNinjaJump","path":"sprites/sprBlackNinjaJump/sprBlackNinjaJump.yy",},"resourceVersion":"1.0","name":"80ba14f5-78eb-4d75-ac2c-cb2e26a02588","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"80ba14f5-78eb-4d75-ac2c-cb2e26a02588","path":"sprites/sprBlackNinjaJumpFall/sprBlackNinjaJumpFall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"80ba14f5-78eb-4d75-ac2c-cb2e26a02588","path":"sprites/sprBlackNinjaJumpFall/sprBlackNinjaJumpFall.yy",},"LayerId":{"name":"ec612ba5-564e-4f8e-9178-64056a289a38","path":"sprites/sprBlackNinjaJumpFall/sprBlackNinjaJumpFall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprBlackNinjaJumpFall","path":"sprites/sprBlackNinjaJumpFall/sprBlackNinjaJumpFall.yy",},"resourceVersion":"1.0","name":"80ba14f5-78eb-4d75-ac2c-cb2e26a02588","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprBlackNinjaJump","path":"sprites/sprBlackNinjaJump/sprBlackNinjaJump.yy",},
+    "spriteId": {"name":"sprBlackNinjaJumpFall","path":"sprites/sprBlackNinjaJumpFall/sprBlackNinjaJumpFall.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"66f66c6c-4b9c-44ff-a2d1-2ebe012624b6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80ba14f5-78eb-4d75-ac2c-cb2e26a02588","path":"sprites/sprBlackNinjaJump/sprBlackNinjaJump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"66f66c6c-4b9c-44ff-a2d1-2ebe012624b6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80ba14f5-78eb-4d75-ac2c-cb2e26a02588","path":"sprites/sprBlackNinjaJumpFall/sprBlackNinjaJumpFall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,13 +54,13 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 14,
+    "xorigin": 13,
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprBlackNinjaJump","path":"sprites/sprBlackNinjaJump/sprBlackNinjaJump.yy",},
+    "parent": {"name":"sprBlackNinjaJumpFall","path":"sprites/sprBlackNinjaJumpFall/sprBlackNinjaJumpFall.yy",},
     "resourceVersion": "1.3",
-    "name": "sprBlackNinjaJump",
+    "name": "sprBlackNinjaJumpFall",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +72,7 @@
     "path": "folders/Enemies/Sprites/Black Ninja.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprBlackNinjaJump",
+  "name": "sprBlackNinjaJumpFall",
   "tags": [],
   "resourceType": "GMSprite",
 }
