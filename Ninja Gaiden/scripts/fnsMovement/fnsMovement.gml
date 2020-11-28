@@ -60,38 +60,55 @@ function move_x(_xspeed, _doSlope, _instance)
 /// @description vertical movement
 function move_y(_yspeed, _instance)
 {
-	var _yDir = sign(_yspeed);
+	var _ydir = sign(_yspeed);
 	if (is_undefined(_instance))
 	{
-		_instance = id;
+		_instance = self;
 	}
-	
-	//check if we can move every frame
-	repeat (abs(_yspeed))
+
+	with (_instance)
 	{
-		with (_instance)
-		{
-			if (hasCollision)
-			{
-				//going down
-				if (_yDir && grounded())
+	    repeat(abs(_yspeed))
+	    {
+	        //going down
+	        if (_ydir)
+	        {
+				if (hasCollision)
 				{
-					return false;
+					if (!grounded())
+		            {
+		                y += _ydir;
+		            }
+		            else
+					{
+		                return false;
+					}
 				}
-			
-				//going up
-				if (!_yDir && solidity_above())
+				else
 				{
-					return false;
+					y += _ydir;
 				}
-				
-				y += _yDir;
-			}
-			else
-			{
-				y += _yDir;
-			}
-		}
+	        }
+	        //going up
+	        else
+	        {
+				if (hasCollision)
+				{
+					if (!solid_above())
+		            {
+		                y += _ydir;
+		            }
+		            else
+					{
+		                return false;
+					}
+				}
+				else
+				{
+					y += _ydir;
+				}
+	        }
+	    }
 	}
 	return true;
 }

@@ -26,6 +26,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":24,"eventType":7,"collisionObjectId":null,"parent":{"name":"objGenericBullet","path":"objects/objGenericBullet/objGenericBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":17,"eventType":7,"collisionObjectId":null,"parent":{"name":"objGenericBullet","path":"objects/objGenericBullet/objGenericBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"parent":{"name":"objGenericBullet","path":"objects/objGenericBullet/objGenericBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

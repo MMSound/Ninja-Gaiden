@@ -1,5 +1,7 @@
 /// @description Custom variables
 hasCollision = false;
 hasGravity = false;
-//canBeHit = false;
+
+doesGravity = false;
+
 despawnOutsideView = true;
