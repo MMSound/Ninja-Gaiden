@@ -100,3 +100,27 @@ function score_text(_x, _y, _val, _time)
 		_text.lifeTime = _time;
 	}
 }
+
+/// @description sets a shader at a given layer
+function tile_layer_set_shader(_layerName, _shader, _shaderScript)
+{
+	var _layerID = layer_get_id(_layerName);
+	if (layer_exists(_layerID))
+	{
+		layer_shader(_layerID, _shader);
+		if (!is_undefined(_shaderScript))
+		{
+			layer_script_begin(_layerID, _shaderScript);
+		}
+	}
+}
+
+/// @description sets a shader script at a given layer
+function tile_layer_set_script(_layerName, _shaderScript)
+{
+	var _layerID = layer_get_id(_layerName);
+	if (layer_exists(_layerID))
+	{
+		layer_script_begin(_layerID, _shaderScript);
+	}
+}

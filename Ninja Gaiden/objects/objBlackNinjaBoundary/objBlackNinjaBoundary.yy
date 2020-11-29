@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Enemies.yy",
+    "name": "Collision",
+    "path": "folders/Collision.yy",
   },
   "resourceVersion": "1.0",
   "name": "objBlackNinjaBoundary",
