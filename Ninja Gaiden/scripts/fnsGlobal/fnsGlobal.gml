@@ -29,11 +29,16 @@ function game_paused()
 }
 
 /// @description checks if inside view
-function inside_view()
+function inside_view(_offset)
 {
-	if (in_range(x, (global.viewX - 8), ((global.viewX + global.viewW) + 8)))
+	if (is_undefined(_offset))
 	{
-		if (in_range(y, (global.viewY - 8), ((global.viewY + global.viewH) + 8)))
+		_offset = 8;
+	}
+	
+	if (in_range(x, (global.viewX - _offset), ((global.viewX + global.viewW) + _offset)))
+	{
+		if (in_range(y, (global.viewY - _offset), ((global.viewY + global.viewH) + _offset)))
 		{
 			return true;
 		}
@@ -44,6 +49,12 @@ function inside_view()
 /// @description updates the current act
 function set_act(_act, _scene)
 {
+	//extra act-specific stuff
+	if (_act != global.currentAct && _scene != global.currentScene)
+	{
+		global.lifeLanternAppear = true;
+	}
+	
 	global.currentAct = _act;
 	global.currentScene = _scene;
 }

@@ -70,20 +70,21 @@ if (room != rmTitleScreen)
 		if (!game_paused() && !global.timeFrozen)
 		{
 			global.levelTimer++;
-		}
-		if (global.levelTimer % 60 == 0)
-		{
-			if (global.levelTime > 0)
+			
+			if (global.levelTimer % 60 == 0)
 			{
-				global.levelTime--;
-			}
-			else
-			{
-				entity_damage(objPlayer, 69);
-			}
-			if (global.uiColorIndex++ == 11)
-			{
-				global.uiColorIndex = 2;
+				if (global.levelTime > 0)
+				{
+					global.levelTime--;
+				}
+				else
+				{
+					entity_damage(objPlayer, 69);
+				}
+				if (global.uiColorIndex++ == 11)
+				{
+					global.uiColorIndex = 2;
+				}
 			}
 		}
 	}

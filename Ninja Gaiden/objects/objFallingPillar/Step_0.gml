@@ -19,12 +19,15 @@ if (!game_paused())
 		
 		if (fallTimer % 6 == 0) //dust particles
 		{
-			var _side = choose(bbox_left, bbox_right);
-			var _dust = instance_create_depth(_side, (global.viewY + global.viewH), depth, objFallingPillarDust);
-			if (_side == bbox_right)
+			if (y < (global.viewY + (global.viewH + 32)))
 			{
-				_dust.xDir = 1;
-			}			
+				var _side = choose(bbox_left, bbox_right);
+				var _dust = instance_create_depth(_side, (global.viewY + global.viewH), depth, objFallingPillarDust);
+				if (_side == bbox_right)
+				{
+					_dust.xDir = 1;
+				}
+			}
 		}
 	
 		if (fallTimer > 20) //wait 20 frames
@@ -61,6 +64,9 @@ if (global.currentSection == mySection)
 {
 	if (y > (global.viewY + (global.viewH + 32)))
 	{
+		var _respawn = instance_create_depth(xstart, ystart, depth, objFallingPillarRespawner);
+			_respawn.image_xscale = image_xscale;
+			_respawn.image_yscale = image_yscale;
 		instance_destroy(id);
 	}
 }
