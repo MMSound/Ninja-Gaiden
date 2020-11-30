@@ -1,0 +1,1 @@
+itemDrop = SMALL_POINTS;
