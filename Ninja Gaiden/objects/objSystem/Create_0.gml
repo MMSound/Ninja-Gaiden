@@ -41,6 +41,7 @@ global.currentScene = 1;
 
 global.timeFrozen = false;
 global.lifeLanternAppear = true;
+global.transition = false;
 
 global.deathRespawnTimer = 0;
 global.deathRespawnTime = 240;

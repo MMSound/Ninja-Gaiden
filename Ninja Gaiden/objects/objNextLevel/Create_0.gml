@@ -1,0 +1,2 @@
+/// @description Variables
+nextRoom = rmTitleScreen;

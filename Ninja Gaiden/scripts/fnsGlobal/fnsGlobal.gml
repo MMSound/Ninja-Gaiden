@@ -25,7 +25,7 @@ function update_controls()
 /// @description check if the game is in a state of pause
 function game_paused()
 {
-	return global.paused;
+	return global.paused || global.transition;
 }
 
 /// @description checks if inside view

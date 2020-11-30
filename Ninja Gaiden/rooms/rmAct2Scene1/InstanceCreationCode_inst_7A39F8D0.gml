@@ -1,0 +1,1 @@
+nextRoom = rmAct2Scene2;
