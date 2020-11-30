@@ -57,7 +57,10 @@ if (instance_exists(objPlayer))
 }
 
 //die if offscreen
-if (y > (global.viewY + (global.viewH + 32)))
+if (global.currentSection == mySection)
 {
-	instance_destroy(id);
+	if (y > (global.viewY + (global.viewH + 32)))
+	{
+		instance_destroy(id);
+	}
 }

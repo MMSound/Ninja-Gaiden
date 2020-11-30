@@ -14,10 +14,12 @@ switch (phase)
 		if (coll_x(xspeed, objSolid)) //turn around at collision with walls
 		{
 			image_xscale *= -1;
+			x += (1 * image_xscale);
 		}
 		else if (coll_x(xspeed, objBoundary))
 		{
 			image_xscale *= -1;
+			x += (1 * image_xscale);
 		}
 		
 		if (timer == 120) //switch phase

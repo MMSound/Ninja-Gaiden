@@ -34,7 +34,7 @@ if (timer >= 120) //become attacking mode
 		{
 			var _knife = instance_create_depth(x, (y - 38), depth, objGenericBullet);
 				_knife.doesGravity = true;
-				_knife.yspeed = irandom_range(-2, -4);
+				_knife.yspeed = irandom_range(-2, -3);
 				_knife.xspeed = (2 * image_xscale);
 				_knife.sprite_index = sprBansheeKnife;
 				_knife.imgSpd = (1 / 2);

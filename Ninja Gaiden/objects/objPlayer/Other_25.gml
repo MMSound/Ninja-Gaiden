@@ -224,7 +224,7 @@ if (!isDead)
 	{
 		var _yTop = (global.viewY + 18);
 		var _yBottom = (global.viewY + (global.viewH + 64));
-		if (instance_place(global.viewX, (global.sectionT - 16), objSection)) //can we go above
+		if (instance_place(x, (global.sectionT - 16), objSection)) //can we go above
 		{
 			_yTop = (global.viewY - 16);
 		}
@@ -545,6 +545,11 @@ if (!isDead)
 		{
 			global.currentSection = _section;
 			section_set_bounds();
+		}
+		
+		if (instance_exists(objFallingPillar))
+		{
+			instance_activate_object(objFallingPillar);
 		}
 	}
 }
