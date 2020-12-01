@@ -1,5 +1,5 @@
-/// @description Remove current weapon
+/// @description Reset weapon
 if (global.currentWeapon == WEAPON_FLAMES)
 {
-	global.currentWeapon = 0;
+	global.currentWeapon = global.previousWeapon;
 }

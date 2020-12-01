@@ -65,6 +65,7 @@ global.sectionB = 0;
 global.canControl = true;
 global.playerHealth = 16;
 global.currentWeapon = 0;
+global.previousWeapon = 0;
 
 //weapon table
 global.weaponObject[0] = noone;
@@ -86,7 +87,7 @@ global.weaponNinpo[WEAPON_SHURIKEN] = 3;
 global.weaponNinpo[WEAPON_WINDMILL_SHURIKEN] = 5;
 global.weaponNinpo[WEAPON_FLAME_WHEEL] = 5;
 global.weaponNinpo[WEAPON_SPIN_SLASH] = 5;
-global.weaponNinpo[WEAPON_FLAMES] = 0;
+global.weaponNinpo[WEAPON_FLAMES] = 10;
 
 global.weaponLimit[0] = 0;
 global.weaponLimit[WEAPON_SHURIKEN] = 8;

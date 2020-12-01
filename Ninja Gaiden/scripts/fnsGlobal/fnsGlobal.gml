@@ -75,3 +75,10 @@ function room_transition(_room)
 		_trans.roomTo = _room;
 	}
 }
+
+/// @description set the current weapon
+function set_weapon(_weapon)
+{
+	global.previousWeapon = global.currentWeapon;
+	global.currentWeapon = _weapon;
+}

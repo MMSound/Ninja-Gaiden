@@ -31,7 +31,7 @@ if (room != rmTitleScreen)
 			{
 				if (global.currentWeapon < 5)
 				{
-					global.currentWeapon++;
+					set_weapon(global.currentWeapon + 1);
 				}
 				else
 				{
