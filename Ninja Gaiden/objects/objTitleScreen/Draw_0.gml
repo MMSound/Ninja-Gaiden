@@ -9,4 +9,8 @@ if (drawText)
 {
 	draw_text(156, 128, "PRESS START");
 }
+if (isLevelSelect)
+{
+	draw_text(8, 128, selectedLevel);
+}
 shader_reset();
