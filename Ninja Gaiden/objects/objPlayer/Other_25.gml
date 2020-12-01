@@ -157,7 +157,7 @@ if (!isDead)
 		//movement
 		if (grounded() || isHang) //we want to be able to move both directions at the same speed when grounded
 		{
-			if (abs(xAxis) && (attackAnimTimer == 0 || !swordWait))
+			if (abs(xAxis) && (attackAnimTimer == 0 || !swordWait) && cooldownTimer == 0)
 			{
 				xspeed = (runSpeed * xAxis);
 				image_xscale = xAxis;
@@ -239,6 +239,7 @@ if (!isDead)
 			if (healthPoints > 0)
 			{
 				iFrameTimer = iFrameTime;
+				isKnockback = false;
 			}
 			else
 			{
@@ -253,21 +254,24 @@ if (!isDead)
 			healthPoints = 0;
 		}
 	}
-	if (iFrameTimer > 0)
+	else
 	{
-		iFrameTimer--;
-		isHit = true;
-		isKnockback = false;
-		drawBlink = (iFrameTimer % 2 == 0);
-		global.canControl = true;
-		canWallClimb = true;
-	}
-	else if (!isKnockback)
-	{
-		canBeHit = true;
-		hitObject = noone;
-		isHit = false;
-		drawBlink = false;
+		if (iFrameTimer > 0)
+		{
+			iFrameTimer--;
+			isHit = true;
+			isKnockback = false;
+			drawBlink = (iFrameTimer % 2 == 0);
+			global.canControl = true;
+			canWallClimb = true;
+		}
+		else if (!isKnockback)
+		{
+			canBeHit = true;
+			hitObject = noone;
+			isHit = false;
+			drawBlink = false;
+		}
 	}
 	
 	global.playerHealth = clamp(healthPoints, 0, 16);
@@ -566,4 +570,5 @@ else //change later
 	}
 	move_y(yspeed);
 	yspeed += grav;
+	round_velocity();
 }

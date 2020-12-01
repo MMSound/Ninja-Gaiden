@@ -25,7 +25,7 @@ function update_controls()
 /// @description check if the game is in a state of pause
 function game_paused()
 {
-	return global.paused || global.transition;
+	return (global.paused || global.transition);
 }
 
 /// @description checks if inside view
@@ -50,7 +50,14 @@ function inside_view(_offset)
 function set_act(_act, _scene)
 {
 	//extra act-specific stuff
-	if (_act != global.currentAct && _scene != global.currentScene)
+	if (_act != global.currentAct)
+	{
+		global.currentWeapon = 0;
+		global.ninpo = 0;
+	}
+	
+	//extra scene-specific stuff
+	if (_scene != global.currentScene)
 	{
 		global.lifeLanternAppear = true;
 	}

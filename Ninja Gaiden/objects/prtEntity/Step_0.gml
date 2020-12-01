@@ -25,6 +25,10 @@ if (!game_paused())
 	{
 		move_y(yspeed);
 		move_x(xspeed, doSlope);
+		if (hasCollision)
+		{
+			round_velocity();
+		}
 	}
 	
 	//child post-step
