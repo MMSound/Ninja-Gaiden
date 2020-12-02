@@ -109,6 +109,9 @@ window_set_size((global.viewW * global.screenRes), (global.viewH * global.screen
 //sound control
 global.sfxVolume = 1.0;
 
+//miscellaneous bullshit
+global.pceParallax = false;
+
 if (room == rmInit)
 {
 	room_goto_next();

@@ -21,3 +21,13 @@ function in_range(_num, _min, _max)
 {
 	return ((_num > _min) && (_num < _max));
 }
+
+/// @description rounds a number to the nearest multiple of x
+function round_to_nearest(_num, _mult)
+{
+	if (_mult == 0)
+	{
+	    return _num;
+	}
+	return round(_num / _mult) * _mult;
+}
