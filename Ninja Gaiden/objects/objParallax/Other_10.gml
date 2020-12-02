@@ -2,7 +2,6 @@
 if (global.pceParallax)
 {
 	parallaxX = 0;
-	parallaxY = 0;
 }
 if (!global.timeFrozen)
 {
