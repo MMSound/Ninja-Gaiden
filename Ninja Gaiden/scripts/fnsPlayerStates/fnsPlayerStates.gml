@@ -185,6 +185,7 @@ function playerStateWallClimb()
 		hasGravity = true;
 		image_xscale = xAxis;
 		yspeed = -2;
+		play_sfx(sfxJump);
 		currentState = playerStateAir;
 		exit;
 	}
@@ -243,6 +244,7 @@ function playerStateWallClimb()
 			hasGravity = true;
 			yspeed = -2;
 			canWallClimb = false;
+			play_sfx(sfxJump);
 			currentState = playerStateAir;
 			exit;
 		}

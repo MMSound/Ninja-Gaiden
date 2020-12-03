@@ -1,1 +1,0 @@
-sprite_index = sprAct2Sky;

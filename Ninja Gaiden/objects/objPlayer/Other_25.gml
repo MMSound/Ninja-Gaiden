@@ -207,7 +207,7 @@ if (!isDead)
 	round_velocity();
 
 	//what happens when we can't move
-	if (!move_x(xspeedInt, true))
+	if (!move_x((xspeedInt + modDirection), true))
 	{
 		xspeed = 0;
 		xspeedSub = 0;

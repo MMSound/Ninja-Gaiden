@@ -100,7 +100,7 @@ global.weaponLimit[WEAPON_FLAMES] = 1;
 init_palette_shader(shdColorSwap);
 global.screenColorIndex = 0;
 global.uiColorIndex = 4;
-global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-", false, 0);
+global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-[]", false, 0);
 global.screenRes = 3;
 global.screenPalette = sprScreenPalette;
 surface_resize(application_surface, global.viewW, global.viewH);
@@ -108,6 +108,23 @@ window_set_size((global.viewW * global.screenRes), (global.viewH * global.screen
 
 //sound control
 global.sfxVolume = 1.0;
+
+global.sfxSubtitles = false;
+global.subtitle[sfxJump] = "[Jump]";
+global.subtitle[sfxSwordSlash] = "[Sword Slash]";
+global.subtitle[sfxPlayerHit] = "[Getting Hurt]";
+global.subtitle[sfxMinorExplosion] = "[Explosion]";
+global.subtitle[sfxPause] = "[Pause]";
+global.subtitle[sfxItemAcquisition] = "[New Item]";
+global.subtitle[sfxShuriken] = "[Shuriken]";
+global.subtitle[sfxTickTock] = "[Clock Tick]";
+global.subtitle[sfxTickTockShatter] = "[Shatter]";
+global.subtitle[sfxWindmillShuriken] = "[Windmill Shuriken]";
+global.subtitle[sfxSpinSlash] = "[Spin Slash]";
+global.subtitle[sfxFlameWeapon] = "[Flames]";
+global.subtitle[sfxFlameShieldCountdown] = "[Flame Shield Tick]";
+global.subtitle[sfxLand] = "[Land]";
+global.subtitle[sfxFallingPillar] = "[Pillar Falling]";
 
 //miscellaneous bullshit
 global.pceParallax = false;

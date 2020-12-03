@@ -1,7 +1,9 @@
 {
   "resources": [
     {"id":{"name":"fnsGlobal","path":"scripts/fnsGlobal/fnsGlobal.yy",},"order":1,},
+    {"id":{"name":"spr8x8Dither","path":"sprites/spr8x8Dither/spr8x8Dither.yy",},"order":2,},
     {"id":{"name":"sprRyuIdle","path":"sprites/sprRyuIdle/sprRyuIdle.yy",},"order":1,},
+    {"id":{"name":"objWind","path":"objects/objWind/objWind.yy",},"order":3,},
     {"id":{"name":"sfxTickTock","path":"sounds/sfxTickTock/sfxTickTock.yy",},"order":7,},
     {"id":{"name":"sprBoxer","path":"sprites/sprBoxer/sprBoxer.yy",},"order":0,},
     {"id":{"name":"sprRyuRun","path":"sprites/sprRyuRun/sprRyuRun.yy",},"order":6,},
@@ -20,6 +22,7 @@
     {"id":{"name":"sprGunnerBullet","path":"sprites/sprGunnerBullet/sprGunnerBullet.yy",},"order":2,},
     {"id":{"name":"sprHammerManCrouchShoot","path":"sprites/sprHammerManCrouchShoot/sprHammerManCrouchShoot.yy",},"order":2,},
     {"id":{"name":"objKnifeMan","path":"objects/objKnifeMan/objKnifeMan.yy",},"order":3,},
+    {"id":{"name":"objSubtitle","path":"objects/objSubtitle/objSubtitle.yy",},"order":6,},
     {"id":{"name":"prtPlayerProjectile","path":"objects/prtPlayerProjectile/prtPlayerProjectile.yy",},"order":2,},
     {"id":{"name":"objTopSolid","path":"objects/objTopSolid/objTopSolid.yy",},"order":5,},
     {"id":{"name":"objSection","path":"objects/objSection/objSection.yy",},"order":3,},
@@ -220,8 +223,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
-    {"roomId":{"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},},
     {"roomId":{"name":"rmTestingAgain","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},},
+    {"roomId":{"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},},
     {"roomId":{"name":"rmAct2Scene2","path":"rooms/rmAct2Scene2/rmAct2Scene2.yy",},},
     {"roomId":{"name":"rmAct1Scene1","path":"rooms/rmAct1Scene1/rmAct1Scene1.yy",},},
     {"roomId":{"name":"rmAct2Scene1","path":"rooms/rmAct2Scene1/rmAct2Scene1.yy",},},
