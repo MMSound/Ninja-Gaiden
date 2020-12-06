@@ -23,6 +23,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"objSection","path":"objects/objSection/objSection.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_29DF710B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Sections","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"objParallax","path":"objects/objParallax/objParallax.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":50.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":32.0,"resourceVersion":"1.0","name":"inst_7DE344C9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objParallax","path":"objects/objParallax/objParallax.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":50.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":32.0,"resourceVersion":"1.0","name":"inst_BD16B36","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objParallax","path":"objects/objParallax/objParallax.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":50.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":144.0,"resourceVersion":"1.0","name":"inst_45A5B525","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objParallax","path":"objects/objParallax/objParallax.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":50.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":104.0,"resourceVersion":"1.0","name":"inst_78F94882","tags":[],"resourceType":"GMRInstance",},
@@ -53,6 +54,7 @@
     {"name":"inst_9EEEDC5","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
     {"name":"inst_780C10E1","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
     {"name":"inst_2A464DF6","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
+    {"name":"inst_7DE344C9","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

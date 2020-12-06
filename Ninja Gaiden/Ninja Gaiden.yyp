@@ -184,6 +184,7 @@
     {"id":{"name":"sprSpinSlashMask","path":"sprites/sprSpinSlashMask/sprSpinSlashMask.yy",},"order":0,},
     {"id":{"name":"sprFontPalette","path":"sprites/sprFontPalette/sprFontPalette.yy",},"order":1,},
     {"id":{"name":"sprSledgehammerSwing","path":"sprites/sprSledgehammerSwing/sprSledgehammerSwing.yy",},"order":1,},
+    {"id":{"name":"sprAct3Clouds","path":"sprites/sprAct3Clouds/sprAct3Clouds.yy",},"order":5,},
     {"id":{"name":"sprShuriken","path":"sprites/sprShuriken/sprShuriken.yy",},"order":0,},
     {"id":{"name":"sprTimeFreezeClock","path":"sprites/sprTimeFreezeClock/sprTimeFreezeClock.yy",},"order":2,},
     {"id":{"name":"sprSlope","path":"sprites/sprSlope/sprSlope.yy",},"order":2,},
