@@ -357,6 +357,7 @@ function player_weapon()
 				}
 				global.ninpo -= global.weaponNinpo[global.currentWeapon];
 				cooldownTimer = global.weaponCooldown[global.currentWeapon];
+				play_sfx(sfxHo, false, 12);
 			}
 		}
 	}

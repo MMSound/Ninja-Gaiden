@@ -8,5 +8,11 @@ if (!game_paused())
 	{
 		visible = !visible;
 	}
+	
+	if (!inside_view())
+	{
+		instance_destroy(id);
+	}
+	
 	timer++;
 }

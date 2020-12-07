@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfxSwordSlash.wav",
-  "duration": 0.285454,
+  "soundFile": "sfxHo.wav",
+  "duration": 0.169354,
   "parent": {
     "name": "SFX",
     "path": "folders/SFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sfxSwordSlash",
+  "name": "sfxHo",
   "tags": [],
   "resourceType": "GMSound",
 }
