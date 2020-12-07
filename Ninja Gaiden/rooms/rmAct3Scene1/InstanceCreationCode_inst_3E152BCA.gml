@@ -1,0 +1,1 @@
+itemDrop = FLAME_WHEEL;

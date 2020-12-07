@@ -26,6 +26,7 @@ switch (phase)
 			timer = 0;
 			xspeed = 0;
 			sprite_index = sprBikerSwing;
+			image_index = 0;
 			imgSpd = 0;
 		}
 		break;

@@ -125,6 +125,8 @@ global.subtitle[sfxFlameWeapon] = "[Flames]";
 global.subtitle[sfxFlameShieldCountdown] = "[Flame Shield Tick]";
 global.subtitle[sfxLand] = "[Land]";
 global.subtitle[sfxFallingPillar] = "[Pillar Falling]";
+global.subtitle[sfxHo] = "Ryu: {Ho!{";
+global.subtitle[sfxWindBlow] = "[Wind Blowing]";
 
 //miscellaneous bullshit
 global.pceParallax = false;

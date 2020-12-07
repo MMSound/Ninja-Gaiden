@@ -11,6 +11,13 @@ function play_sfx(_sound, _loop, _channel)
 	{
 		_channel = 10;
 	}
+	
+	//i had this little bit of optimization come to me in a dream
+	if (global.sfxVolume == 0)
+	{
+		exit;
+	}
+	
 	var _sfx = audio_play_sound(_sound, _channel, _loop);
 	audio_sound_gain(_sfx, global.sfxVolume, 0);
 	
