@@ -16,4 +16,8 @@ switch (currentOption)
 		global.sfxSubtitles = !global.sfxSubtitles;
 		play_sfx(sfxShuriken);
 		break;
+	case 2:
+		global.upFireEnabled = !global.upFireEnabled;
+		play_sfx(sfxShuriken);
+		break;
 }

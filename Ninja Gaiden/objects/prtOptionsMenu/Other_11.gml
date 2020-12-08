@@ -2,27 +2,38 @@
 switch (currentOption)
 {
 	case 0:
-		var _menu = instance_create_depth(x, (y + 128), depth, objKeyboardSetup);
+		var _menu = instance_create_depth(x, (y + 128), (depth - 50), objKeyboardSetup);
 			_menu.parentMenu = id;
 		isDormant = true;
 		break;	
 	case 2:
-		var _menu = instance_create_depth(x, (y + 128), depth, objAudioMenu);
+		var _menu = instance_create_depth(x, (y + 128), (depth - 50), objAudioMenu);
 			_menu.parentMenu = id;
 		isDormant = true;
 		break;
 	case 3:
-		var _menu = instance_create_depth(x, (y + 128), depth, objDisplayMenu);
+		var _menu = instance_create_depth(x, (y + 128), (depth - 50), objDisplayMenu);
 			_menu.parentMenu = id;
 		isDormant = true;
 		break;
 	case 4:
-		var _menu = instance_create_depth(x, (y + 128), depth, objAccessibilityMenu);
+		var _menu = instance_create_depth(x, (y + 128), (depth - 50), objAccessibilityMenu);
 			_menu.parentMenu = id;
 		isDormant = true;
 		break;
 	case 5:
-		room_transition(rmTitleScreen);
+		if (room == rmOptionsMenu)
+		{
+			room_transition(rmTitleScreen);
+		}
+		else
+		{
+			instance_destroy(id);
+		}
+		if (instance_exists(objOptionsMenuBG))
+		{
+			instance_destroy(objOptionsMenuBG);
+		}
 		save_load_options(0);
 		break;
 }

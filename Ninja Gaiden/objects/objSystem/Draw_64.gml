@@ -4,7 +4,7 @@ draw_surface(application_surface, 0, 0);
 shader_reset();
 
 //pause screen
-if (global.paused)
+if (global.paused && !instance_exists(prtOptionsMenu))
 {
 	var _drawX = (global.viewW / 2);
 	var _drawY = (global.viewH / 2);

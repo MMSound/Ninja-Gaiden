@@ -6,7 +6,7 @@ if (room_get_type() == ROOM_LEVEL)
 		//pausing
 		if (global.inputPausePressed)
 		{
-			if (global.canControl)
+			if (global.canControl && !instance_exists(prtOptionsMenu))
 			{
 				global.paused = !global.paused;
 				if (audio_is_playing(sfxPause))
@@ -60,7 +60,14 @@ if (room_get_type() == ROOM_LEVEL)
 		//drawing
 		if (!instance_exists(objRoomTransition))
 		{
-			global.screenColorIndex = global.paused;
+			if (!instance_exists(prtOptionsMenu))
+			{
+				global.screenColorIndex = global.paused;
+			}
+			else
+			{
+				global.screenColorIndex = 0;
+			}
 		}
 
 		//increment the master timer
@@ -84,6 +91,16 @@ if (room_get_type() == ROOM_LEVEL)
 				if (global.uiColorIndex++ == 11)
 				{
 					global.uiColorIndex = 2;
+				}
+			}
+		}
+		else if (game_paused())
+		{
+			if (global.inputSelectPressed)
+			{
+				if (!instance_exists(prtOptionsMenu))
+				{
+					instance_create_depth((global.viewX + 16), (global.viewY + 16), -9999, prtOptionsMenu);
 				}
 			}
 		}

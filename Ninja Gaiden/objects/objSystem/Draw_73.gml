@@ -1,5 +1,5 @@
 /// @description Draw game UI
-if (room_get_type() == ROOM_LEVEL)
+if (room_get_type() == ROOM_LEVEL && !instance_exists(prtOptionsMenu))
 {
 	var _drawX = global.viewX;
 	var _drawY = global.viewY;

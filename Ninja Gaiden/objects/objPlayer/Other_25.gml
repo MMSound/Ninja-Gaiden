@@ -127,7 +127,7 @@ if (!isDead)
 					currentAttack = 0;
 				}
 			}
-			else
+			else if (global.upFireEnabled)
 			{
 				attackAnimTimer = 16;
 				currentAttack = 2;

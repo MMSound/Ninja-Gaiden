@@ -171,6 +171,7 @@
     {"id":{"name":"fnsPlayerStates","path":"scripts/fnsPlayerStates/fnsPlayerStates.yy",},"order":2,},
     {"id":{"name":"sprGunnerShoot","path":"sprites/sprGunnerShoot/sprGunnerShoot.yy",},"order":1,},
     {"id":{"name":"prtCollision","path":"objects/prtCollision/prtCollision.yy",},"order":2,},
+    {"id":{"name":"objOptionsMenuBG","path":"objects/objOptionsMenuBG/objOptionsMenuBG.yy",},"order":5,},
     {"id":{"name":"objFly","path":"objects/objFly/objFly.yy",},"order":13,},
     {"id":{"name":"sprBird","path":"sprites/sprBird/sprBird.yy",},"order":11,},
     {"id":{"name":"shdColorSwap","path":"shaders/shdColorSwap/shdColorSwap.yy",},"order":3,},

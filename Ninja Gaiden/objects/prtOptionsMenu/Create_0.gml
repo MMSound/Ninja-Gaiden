@@ -23,3 +23,6 @@ function return_to_menu()
 		}
 	}
 }
+
+depth = -9999;
+instance_create_depth(x, y, -2000, objOptionsMenuBG);

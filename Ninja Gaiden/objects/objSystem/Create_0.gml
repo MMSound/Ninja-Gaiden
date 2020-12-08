@@ -31,6 +31,8 @@ global.keyWeapon = ord("C");
 global.keyPause = vk_enter;
 global.keySelect = vk_shift;
 
+global.upFireEnabled = true;
+
 //game control
 global.paused = false;
 global.gameTimer = 0;
