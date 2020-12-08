@@ -1,5 +1,5 @@
 /// @description Game control
-if (room != rmTitleScreen)
+if (room_get_type() == ROOM_LEVEL)
 {
 	if (!global.deathRespawn)
 	{

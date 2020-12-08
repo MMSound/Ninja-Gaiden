@@ -9,8 +9,9 @@ if (drawText)
 {
 	draw_text(156, 128, "PRESS START");
 }
+draw_text(8, 144, "CTRL-SELECT FOR LEVEL SELECT, SELECT FOR OPTIONS");
 if (isLevelSelect)
 {
-	draw_text(8, 128, selectedLevel);
+	draw_text(32, 160, string("LEVEL: " + string(selectedLevel) + " [LEFT AND RIGHT TO CHANGE]"));
 }
 shader_reset();

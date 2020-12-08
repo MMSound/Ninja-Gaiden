@@ -11,6 +11,7 @@ function update_controls()
 	global.inputAttackPressed = keyboard_check_pressed(global.keyAttack);
 	global.inputWeaponPressed = keyboard_check_pressed(global.keyWeapon);
 	global.inputPausePressed = keyboard_check_pressed(global.keyPause);
+	global.inputSelectPressed = keyboard_check_pressed(global.keySelect);
 
 	global.inputLeft = keyboard_check(global.keyLeft);
 	global.inputRight = keyboard_check(global.keyRight);
@@ -20,6 +21,7 @@ function update_controls()
 	global.inputAttack = keyboard_check(global.keyAttack);
 	global.inputWeapon = keyboard_check(global.keyWeapon);
 	global.inputPause = keyboard_check(global.keyPause);
+	global.inputSelect = keyboard_check(global.keySelect);
 }
 
 /// @description check if the game is in a state of pause
@@ -64,6 +66,8 @@ function set_act(_act, _scene)
 	
 	global.currentAct = _act;
 	global.currentScene = _scene;
+	
+	global.displayUI = true;
 }
 
 /// @description transition to a room
@@ -81,4 +85,17 @@ function set_weapon(_weapon)
 {
 	global.previousWeapon = global.currentWeapon;
 	global.currentWeapon = _weapon;
+}
+
+/// @description check if this is a level
+function room_get_type()
+{
+	if (instance_exists(objPlayer))
+	{
+		return ROOM_LEVEL;
+	}
+	else
+	{
+		return ROOM_MENU;
+	}
 }

@@ -9,6 +9,7 @@ global.inputJumpPressed = false;
 global.inputAttackPressed = false;
 global.inputWeaponPressed = false;
 global.inputPausePressed = false;
+global.inputSelectPressed = false;
 
 global.inputLeft = false;
 global.inputRight = false;
@@ -18,6 +19,7 @@ global.inputJump = false;
 global.inputAttack = false;
 global.inputWeapon = false;
 global.inputPause = false;
+global.inputSelect = false;
 
 global.keyLeft = vk_left;
 global.keyRight = vk_right;
@@ -27,6 +29,7 @@ global.keyJump = ord("Z");
 global.keyAttack = ord("X");
 global.keyWeapon = ord("C");
 global.keyPause = vk_enter;
+global.keySelect = vk_shift;
 
 //game control
 global.paused = false;
@@ -42,6 +45,7 @@ global.currentScene = 1;
 global.timeFrozen = false;
 global.lifeLanternAppear = true;
 global.transition = false;
+global.displayUI = false;
 
 global.deathRespawnTimer = 0;
 global.deathRespawnTime = 240;
@@ -103,11 +107,14 @@ global.uiColorIndex = 4;
 global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-[]", false, 0);
 global.screenRes = 3;
 global.screenPalette = sprScreenPalette;
+global.backgroundBrightness = 0;
 surface_resize(application_surface, global.viewW, global.viewH);
 window_set_size((global.viewW * global.screenRes), (global.viewH * global.screenRes));
 
 //sound control
 global.sfxVolume = 1.0;
+global.musicVolume = 1.0;
+global.soundtrackOption = 0; //0 for nes, 1 for pce
 
 global.sfxSubtitles = false;
 global.subtitle[sfxJump] = "[Jump]";
@@ -130,6 +137,15 @@ global.subtitle[sfxWindBlow] = "[Wind Blowing]";
 
 //miscellaneous bullshit
 global.pceParallax = false;
+
+if (file_exists("options.ngsav"))
+{
+	save_load_options(1);
+}
+else
+{
+	save_load_options(0);
+}
 
 if (room == rmInit)
 {

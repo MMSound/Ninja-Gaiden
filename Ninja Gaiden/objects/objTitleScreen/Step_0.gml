@@ -16,13 +16,20 @@ if (global.inputPausePressed)
 	}
 }
 
-if (keyboard_check_pressed(vk_shift))
+if (global.inputSelectPressed)
 {
-	isLevelSelect = true;
+	if (keyboard_check(vk_control))
+	{
+		isLevelSelect = true;
+	}
+	else
+	{
+		room_transition(rmOptionsMenu);
+	}
 }
 if (isLevelSelect)
 {
-	if (keyboard_check_pressed(vk_left))
+	if (global.inputLeftPressed)
 	{
 		if (selectedLevel > 0)
 		{
@@ -33,7 +40,7 @@ if (isLevelSelect)
 			selectedLevel = (array_length(levelSelect) - 1);
 		}
 	}
-	if (keyboard_check_pressed(vk_right))
+	if (global.inputRightPressed)
 	{
 		if (selectedLevel < (array_length(levelSelect) - 1))
 		{

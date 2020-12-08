@@ -20,3 +20,7 @@
 #macro FLAME_WHEEL 9
 #macro SPIN_SLASH 10
 #macro FLAME_SHIELD 11
+
+//room type
+#macro ROOM_LEVEL 0
+#macro ROOM_MENU 1
