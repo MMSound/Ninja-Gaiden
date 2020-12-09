@@ -226,7 +226,11 @@ if (!isDead)
 		var _yBottom = (global.viewY + (global.viewH + 64));
 		if (instance_place(x, (global.sectionT - 16), objSection)) //can we go above
 		{
-			_yTop = (global.viewY - 16);
+			var _blocker = instance_place(x, (global.viewY + 16), objVerticalBlocker);
+			if (_blocker == noone)
+			{
+				_yTop = (global.viewY - 16);
+			}
 		}
 		y = clamp(y, _yTop, _yBottom);
 	}
