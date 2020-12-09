@@ -13,4 +13,8 @@ switch (room)
 		sprite_index = sprLanternAct22;
 		imgSpd = (1 / 6);
 		break;
+	case rmAct3Scene1:
+		sprite_index = sprLanternAct31;
+		imgSpd = (1 / 6);
+		break;
 }
