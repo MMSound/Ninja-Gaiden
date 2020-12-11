@@ -48,8 +48,8 @@ switch (phase)
 				global.screenColorIndex--;
 			}
 			else
-			{
-				instance_destroy();
+			{			
+				instance_destroy(id);
 			}
 		}
 		break;	

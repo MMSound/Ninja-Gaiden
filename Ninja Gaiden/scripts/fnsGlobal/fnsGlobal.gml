@@ -73,10 +73,17 @@ function set_act(_act, _scene)
 /// @description transition to a room
 function room_transition(_room)
 {
-	var _trans = instance_create_depth(x, y, -200, objRoomTransition);
-	if (!is_undefined(_room))
+	if (!instance_exists(objRoomTransition))
 	{
-		_trans.roomTo = _room;
+		var _trans = instance_create_depth(x, y, -200, objRoomTransition);
+		if (!is_undefined(_room))
+		{
+			_trans.roomTo = _room;
+		}
+	}
+	else
+	{
+		exit;
 	}
 }
 

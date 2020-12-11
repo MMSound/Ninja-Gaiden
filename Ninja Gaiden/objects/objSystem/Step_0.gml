@@ -113,3 +113,8 @@ if (room_get_type() == ROOM_LEVEL)
 		}
 	}
 }
+
+if (keyboard_check_pressed(vk_f8)) //game reset
+{
+	game_restart();
+}
