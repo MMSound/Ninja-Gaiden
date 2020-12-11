@@ -97,6 +97,10 @@ function set_weapon(_weapon)
 /// @description check if this is a level
 function room_get_type()
 {
+	if (instance_exists(prtBoss))
+	{
+		return ROOM_BOSS;
+	}	
 	if (instance_exists(objPlayer))
 	{
 		return ROOM_LEVEL;

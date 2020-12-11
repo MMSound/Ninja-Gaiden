@@ -1,19 +1,22 @@
 /// @description Game control
-if (room_get_type() == ROOM_LEVEL)
+if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 {
 	if (!global.deathRespawn)
 	{
 		//pausing
 		if (global.inputPausePressed)
 		{
-			if (global.canControl && !instance_exists(prtOptionsMenu))
+			if (global.bossPhase != 2)
 			{
-				global.paused = !global.paused;
-				if (audio_is_playing(sfxPause))
+				if (global.canControl && !instance_exists(prtOptionsMenu))
 				{
-					audio_stop_sound(sfxPause);
+					global.paused = !global.paused;
+					if (audio_is_playing(sfxPause))
+					{
+						audio_stop_sound(sfxPause);
+					}
+					play_sfx(sfxPause);
 				}
-				play_sfx(sfxPause);
 			}
 		}
 
@@ -76,21 +79,24 @@ if (room_get_type() == ROOM_LEVEL)
 		//in-level timer
 		if (!game_paused() && !global.timeFrozen)
 		{
-			global.levelTimer++;
-			
-			if (global.levelTimer % 60 == 0)
+			if (global.bossPhase != 2)
 			{
-				if (global.levelTime > 0)
+				global.levelTimer++;
+			
+				if (global.levelTimer % 60 == 0)
 				{
-					global.levelTime--;
-				}
-				else
-				{
-					entity_damage(objPlayer, 69);
-				}
-				if (global.uiColorIndex++ == 11)
-				{
-					global.uiColorIndex = 2;
+					if (global.levelTime > 0)
+					{
+						global.levelTime--;
+					}
+					else
+					{
+						entity_damage(objPlayer, 69);
+					}
+					if (global.uiColorIndex++ == 11)
+					{
+						global.uiColorIndex = 2;
+					}
 				}
 			}
 		}

@@ -44,6 +44,9 @@ global.ninpo = 0;
 global.currentAct = 1;
 global.currentScene = 1;
 
+global.bossHealth = 16;
+global.bossPhase = 0;
+
 global.timeFrozen = false;
 global.lifeLanternAppear = true;
 global.transition = false;

@@ -251,7 +251,10 @@ if (!isDead)
 			}
 			else
 			{
-				isDead = true;
+				if (global.bossPhase != 2)
+				{
+					isDead = true;
+				}
 			}
 		}
 		
@@ -282,7 +285,10 @@ if (!isDead)
 		}
 	}
 	
-	global.playerHealth = clamp(healthPoints, 0, 16);
+	if (global.bossPhase != 2)
+	{
+		global.playerHealth = clamp(healthPoints, 0, 16);
+	}
 	onGround = grounded();
 	
 	//animations woo haha

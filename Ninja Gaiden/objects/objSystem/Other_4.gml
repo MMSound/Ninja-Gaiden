@@ -19,3 +19,6 @@ global.levelTime = 200;
 global.levelTimer = 0;
 
 global.currentSection = noone;
+
+global.bossPhase = (room_get_type() == ROOM_BOSS);
+global.bossHealth = 16;

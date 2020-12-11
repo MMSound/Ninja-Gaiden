@@ -1,5 +1,5 @@
 /// @description Draw game UI
-if (room_get_type() == ROOM_LEVEL && !instance_exists(prtOptionsMenu))
+if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS && !instance_exists(prtOptionsMenu))
 {
 	var _drawX = global.viewX;
 	var _drawY = global.viewY;
@@ -31,7 +31,7 @@ if (room_get_type() == ROOM_LEVEL && !instance_exists(prtOptionsMenu))
 	draw_text(_drawX, _drawY, "ENEMY-");
 	for (var i = 0; i < 16; i++)
 	{
-		draw_sprite(sprHealthbar, 0, ((_drawX + 48) + (i * 4)), _drawY);
+		draw_sprite(sprHealthbar, (i >= global.bossHealth), ((_drawX + 48) + (i * 4)), _drawY);
 	}
 	
 	//scene card

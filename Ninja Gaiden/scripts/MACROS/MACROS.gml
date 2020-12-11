@@ -24,3 +24,4 @@
 //room type
 #macro ROOM_LEVEL 0
 #macro ROOM_MENU 1
+#macro ROOM_BOSS 2
