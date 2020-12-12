@@ -6,6 +6,8 @@ contactDamage = 1;
 canHit = true;
 canBeHit = true;
 
+imgSpd = 0;
+
 despawnOutsideView = false;
 canDespawn = true;
 
