@@ -76,6 +76,9 @@ global.playerHealth = 16;
 global.currentWeapon = 0;
 global.previousWeapon = 0;
 
+global.checkpointX = 0;
+global.checkpointY = 0;
+
 //weapon table
 global.weaponObject[0] = noone;
 global.weaponObject[WEAPON_SHURIKEN] = objShuriken;

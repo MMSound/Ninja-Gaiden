@@ -22,3 +22,12 @@ global.currentSection = noone;
 
 global.bossPhase = (room_get_type() == ROOM_BOSS);
 global.bossHealth = 16;
+
+if (global.checkpointX != 0)
+{
+	if (instance_exists(objPlayer))
+	{
+		objPlayer.x = global.checkpointX;
+		objPlayer.y = global.checkpointY;
+	}
+}

@@ -38,6 +38,7 @@
     {"id":{"name":"objAct3Scene1Wind","path":"objects/objAct3Scene1Wind/objAct3Scene1Wind.yy",},"order":8,},
     {"id":{"name":"objSection","path":"objects/objSection/objSection.yy",},"order":3,},
     {"id":{"name":"sprFont","path":"sprites/sprFont/sprFont.yy",},"order":0,},
+    {"id":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"order":7,},
     {"id":{"name":"sfxLand","path":"sounds/sfxLand/sfxLand.yy",},"order":13,},
     {"id":{"name":"sprPauseMenu","path":"sprites/sprPauseMenu/sprPauseMenu.yy",},"order":4,},
     {"id":{"name":"objSpinSlash","path":"objects/objSpinSlash/objSpinSlash.yy",},"order":4,},
