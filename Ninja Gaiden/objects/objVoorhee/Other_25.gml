@@ -11,10 +11,12 @@ else
 if (coll_x(xspeed, objSolid)) //turn around at collision with walls
 {
 	moveDir *= -1;
+	x += moveDir;
 }
 else if (coll_x(xspeed, objBoundary))
 {
 	moveDir *= -1;
+	x += moveDir;
 }
 
 if (instance_exists(objPlayer)) //face player
