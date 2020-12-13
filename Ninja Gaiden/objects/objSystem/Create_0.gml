@@ -117,7 +117,6 @@ global.screenRes = 3;
 global.screenPalette = sprScreenPalette;
 global.backgroundBrightness = 0;
 surface_resize(application_surface, global.viewW, global.viewH);
-window_set_size((global.viewW * global.screenRes), (global.viewH * global.screenRes));
 
 //sound control
 global.sfxVolume = 1.0;
@@ -154,6 +153,8 @@ else
 {
 	save_load_options(0);
 }
+
+window_set_size((global.viewW * global.screenRes), (global.viewH * global.screenRes));
 
 if (room == rmInit)
 {

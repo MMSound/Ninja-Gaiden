@@ -1,7 +1,7 @@
 /// @description Movement
 if (instance_exists(objPlayer))
 {
-	if (place_meeting(x, y, global.currentSection))
+	if (inside_view())
 	{
 		//face player
 		var _playerDir = sign(objPlayer.x - x);
@@ -47,5 +47,11 @@ if (instance_exists(objPlayer))
 			}
 			xspeed = _newSpeed;
 		}
+	}
+	else
+	{
+		xspeed = 0;
+		x = (xstart + 8);
+		y = ystart;
 	}
 }
