@@ -8,7 +8,7 @@ if (timer == 150)
 {
 	var _bullet = instance_create_depth((x + (15 * image_xscale)), (y - 22), depth, objGenericBullet);
 		_bullet.sprite_index = sprBazookaBullet;
-		_bullet.xspeed = (2 * image_xscale);
+		_bullet.xspeed = (3 * image_xscale);
 		_bullet.image_xscale = image_xscale;
 		_bullet.contactDamage = 1;
 	image_index = 2;
