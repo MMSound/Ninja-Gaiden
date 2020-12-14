@@ -17,6 +17,8 @@ airBackwardsSpeed = 0.75;
 wallClimbSpeed = 1;
 swordWait = false;
 
+airTimer = 0;
+
 modDirection = 0; //this will be used for gimmicks that affect your direction
 
 isDuck = false;

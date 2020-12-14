@@ -65,8 +65,11 @@ function playerStateAir()
 	if (stateIsNew)
 	{
 		myWall = noone;
+		airTimer = 0;
 		stateIsNew = !stateIsNew;
 	}
+	
+	airTimer++;
 	
 	//leave if on ground
 	if (grounded() && yspeed >= 0)
@@ -118,7 +121,7 @@ function playerStateAir()
 	//if you press the opposite direction, be able to wall climb
 	if (!canWallClimb)
 	{
-		if (xAxis != 0 && xAxis != image_xscale || coll_x(xspeed, objFallingPillar))
+		if (xAxis != 0 && xAxis != image_xscale || coll_x(xspeed, objFallingPillar) || airTimer == 4)
 		{
 			canWallClimb = true;
 		}
