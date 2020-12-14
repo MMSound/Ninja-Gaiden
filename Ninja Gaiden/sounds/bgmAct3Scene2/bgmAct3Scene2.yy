@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgmAct3Scene2.ogg",
-  "duration": 65.34577,
+  "duration": 68.0118942,
   "parent": {
     "name": "Music",
     "path": "folders/Music.yy",

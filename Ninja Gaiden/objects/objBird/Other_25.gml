@@ -1,7 +1,7 @@
 /// @description Movement
 if (instance_exists(objPlayer))
 {
-	if (inside_view())
+	if (in_range(x, (global.viewX - 128), (global.viewX + (global.viewW + 128))) && in_range(y, global.viewY, (global.viewY + global.viewW)))
 	{
 		//face player
 		var _playerDir = sign(objPlayer.x - x);

@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bgmAct2Scene1.ogg",
-  "duration": 43.210125,
+  "soundFile": "bgmAct2Scene2.ogg",
+  "duration": 70.41285,
   "parent": {
     "name": "Music",
     "path": "folders/Music.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bgmAct2Scene1",
+  "name": "bgmAct2Scene2",
   "tags": [],
   "resourceType": "GMSound",
 }

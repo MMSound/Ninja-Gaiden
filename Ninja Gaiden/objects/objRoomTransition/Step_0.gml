@@ -16,6 +16,11 @@ switch (phase)
 		}
 		break;
 	case 1: //change room
+		if (global.musicPlaying)
+		{
+			music_stop();
+		}
+		
 		if (roomTo == -1)
 		{
 			room_restart();
@@ -24,7 +29,7 @@ switch (phase)
 		{
 			room_goto(roomTo);
 		}
-		if (global.deathRespawn) //reset all the player stuf
+		if (global.deathRespawn) //reset all the player stuff
 		{
 			if (global.currentLives > 0)
 			{

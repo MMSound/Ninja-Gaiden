@@ -13,6 +13,7 @@ if (!variable_instance_exists(self, "itemDrop"))
 }
 
 event_user(0);
+	
 depth = 25;
 
 frame = 0;

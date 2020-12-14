@@ -22,7 +22,7 @@ if (global.musicPlaying)
 	var _position;
 	_position = audio_sound_get_track_position(global.musicSound);
 
-	if (!audio_is_playing(global.musicSound) || _position >= (global.musicLength - 0.01)) 
+	if (_position >= (global.musicLength - 0.02) || !audio_is_playing(global.musicSound)) 
 	{
 		if (global.musicLoop != -1)
 		{

@@ -1,18 +1,21 @@
 /// @description Blinking (and level select)
 if (global.inputPausePressed)
 {
-	if (!playedSFX)
+	if (!instance_exists(objRoomTransition))
 	{
-		play_sfx(sfxItemAcquisition);
-		playedSFX = true;
-	}
-	if (isLevelSelect)
-	{
-		room_transition(levelSelect[selectedLevel]);
-	}
-	else
-	{
-		room_transition(currentDemoLevel);
+		if (!playedSFX)
+		{
+			play_sfx(sfxItemAcquisition);
+			playedSFX = true;
+		}
+		if (isLevelSelect)
+		{
+			room_transition(levelSelect[selectedLevel]);
+		}
+		else
+		{
+			room_transition(currentDemoLevel);
+		}
 	}
 }
 
