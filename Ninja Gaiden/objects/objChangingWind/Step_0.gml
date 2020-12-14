@@ -20,11 +20,6 @@ if (!game_paused())
 		{
 			_parallax.yspeed = 4;
 		}
-		
-		/*if (place_meeting(x, y, global.currentSection))
-		{
-			play_sfx(sfxWindBlow);
-		}*/
 	}
 	else if ((timer + 30) % 150 == 0)
 	{
@@ -36,7 +31,14 @@ if (!game_paused())
 	
 	if (instance_exists(_parallax))
 	{
-		_parallax.xspeed = (moveDir * 1.5);
+		if (_parallax.xspeed < (moveDir * 1.5))
+		{
+			_parallax.xspeed += 0.25;
+		}
+		else if (_parallax.xspeed > (moveDir * 1.5))
+		{
+			_parallax.xspeed -= 0.25;
+		}
 	}
 	
 	timer++;

@@ -16,6 +16,19 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 						audio_stop_sound(sfxPause);
 					}
 					play_sfx(sfxPause);
+					
+					//pause music
+					if (global.musicSound != noone)
+					{
+						if (global.paused)
+						{
+							audio_pause_sound(global.musicSound);
+						}
+						else
+						{
+							audio_resume_sound(global.musicSound);
+						}
+					}
 				}
 			}
 		}
@@ -116,6 +129,12 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 		if (++global.deathRespawnTimer == global.deathRespawnTime)
 		{
 			room_transition();
+		}
+		
+		//music
+		if (global.deathRespawnTimer == 2)
+		{
+			music_play(bgmDeath);
 		}
 	}
 }

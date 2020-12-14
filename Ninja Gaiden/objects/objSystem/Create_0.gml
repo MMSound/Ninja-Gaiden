@@ -123,6 +123,8 @@ global.sfxVolume = 1.0;
 global.musicVolume = 1.0;
 global.soundtrackOption = 0; //0 for nes, 1 for pce
 
+initialize_music();
+
 global.sfxSubtitles = false;
 global.subtitle[sfxJump] = "[Jump]";
 global.subtitle[sfxSwordSlash] = "[Sword Slash]";
