@@ -10,14 +10,19 @@ function playerStateGround()
 		yspeedSub = 0;
 		canWallClimb = true;
 		canHang = true;
+		airTimer = 0;
+		coyoteTimer = 0;
 		stateIsNew = !stateIsNew;
 	}
 	
 	//leave if not on ground
 	if (!grounded())
 	{
-		currentState = playerStateAir;
-		exit;
+		if (++coyoteTimer >= 6)
+		{
+			currentState = playerStateAir;
+			exit;
+		}
 	}
 	
 	//reset attack animation
