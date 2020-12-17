@@ -1,7 +1,10 @@
 /// @description Shooting
 if (instance_exists(objPlayer))
 {
-	image_xscale = sign(objPlayer.x - x);
+	if (objPlayer.x != x)
+	{
+		image_xscale = sign(objPlayer.x - x);
+	}
 }
 
 if (timer == 150)
