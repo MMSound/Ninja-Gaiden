@@ -67,6 +67,13 @@ else
 
 timer++;
 
+//animation
+if (timer % (4 / moveSpeed) == 0)
+{
+	cartFrame = !cartFrame;
+}
+
+//destroy if at end of line
 if (place_meeting(x, y, objBoundary))
 {
 	instance_destroy(id);

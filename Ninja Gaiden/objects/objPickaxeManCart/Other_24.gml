@@ -10,3 +10,4 @@ moveDir = 1;
 moveSpeed = 1;
 
 attackCounter = 0;
+cartFrame = 0;
