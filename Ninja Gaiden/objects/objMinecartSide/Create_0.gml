@@ -1,2 +1,2 @@
 /// @description Variables
-depth = -2000;
+init_movement();

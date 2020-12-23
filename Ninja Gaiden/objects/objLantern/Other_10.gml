@@ -18,4 +18,15 @@ switch (room)
 		sprite_index = sprLanternAct31;
 		imgSpd = (1 / 6);
 		break;
+	case rmAct4Scene1:
+		if (x < 2400)
+		{
+			sprite_index = sprLanternAct41;
+		}
+		else
+		{
+			sprite_index = sprLanternAct31;
+		}
+		imgSpd = (1 / 6);
+		break;
 }

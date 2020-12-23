@@ -30,10 +30,6 @@ switch (currentOption)
 		{
 			instance_destroy(id);
 		}
-		if (instance_exists(objOptionsMenuBG))
-		{
-			instance_destroy(objOptionsMenuBG);
-		}
 		save_load_options(0);
 		break;
 }
