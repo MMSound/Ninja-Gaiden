@@ -143,6 +143,7 @@ global.subtitle[sfxLand] = "[Land]";
 global.subtitle[sfxFallingPillar] = "[Pillar Falling]";
 global.subtitle[sfxHo] = "Ryu: {Ho!{";
 global.subtitle[sfxWindBlow] = "[Wind Blowing]";
+global.subtitle[sfxSwordSlash] = "[Sword Slash]";
 
 //miscellaneous bullshit
 global.pceParallax = false;

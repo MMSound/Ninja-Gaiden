@@ -6,6 +6,11 @@ currentDemoLevel = rmAct4Scene2;
 
 playedSFX = false;
 
+//drawing stuff
+drawPhase = 0;
+logoY = (global.viewY + 160);
+logoColorIndex = 6;
+
 //level select stuff
 isLevelSelect = false;
 selectedLevel = 0;

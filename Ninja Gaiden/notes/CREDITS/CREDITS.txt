@@ -11,6 +11,7 @@ Keiji Yamagishi
 Ryuichi Nitta
 Ichiro Nakagawa
 Makiko Tanifuji
+Takashi Horiguchi
 MiniMacro Sound
 
 SOUND DESIGN
