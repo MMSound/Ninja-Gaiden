@@ -61,6 +61,15 @@ function playerStateGround()
 			exit;
 		}
 	}
+	
+	//jump buffer
+	if (jumpQueued)
+	{
+		yspeed = -jumpSpeed;
+		play_sfx(sfxJump);
+		currentState = playerStateAir;
+		exit;
+	}
 }
 
 /// @description air state
@@ -148,6 +157,19 @@ function playerStateAir()
 	else
 	{
 		canHang = true;
+	}
+	
+	//jump buffer
+	if (global.inputJumpPressed)
+	{
+		if (place_meeting_solidity(x, (y + 4)))
+		{
+			jumpQueued = true;
+		}
+	}
+	if (yspeed == 0)
+	{
+		jumpQueued = false;
 	}
 }
 

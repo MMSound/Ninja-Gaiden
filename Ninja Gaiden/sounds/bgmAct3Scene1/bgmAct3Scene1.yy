@@ -13,8 +13,8 @@
   "soundFile": "bgmAct3Scene1.ogg",
   "duration": 55.99244,
   "parent": {
-    "name": "Music",
-    "path": "folders/Music.yy",
+    "name": "NES",
+    "path": "folders/Music/Stage Themes/NES.yy",
   },
   "resourceVersion": "1.0",
   "name": "bgmAct3Scene1",

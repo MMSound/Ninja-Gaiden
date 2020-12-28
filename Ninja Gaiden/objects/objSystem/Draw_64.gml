@@ -13,7 +13,7 @@ if (global.paused && !instance_exists(prtOptionsMenu))
 	draw_set_valign(fa_center);
 	draw_set_color(c_black);
 	draw_text((_drawX + 1), (_drawY + 1), "PAUSE");
-	draw_text((_drawX + 1), (_drawY + 48), "PRESS SELECT FOR OPTIONS");
+	draw_text((_drawX + 1), (_drawY + 49), "PRESS SELECT FOR OPTIONS");
 	draw_set_color(c_white);
 	palette_shader_set(sprFontPalette, global.uiColorIndex, false);
 	draw_text(_drawX, _drawY, "PAUSE");
