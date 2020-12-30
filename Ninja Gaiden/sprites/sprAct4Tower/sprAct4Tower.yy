@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 159,
+  "bbox_right": 223,
   "bbox_top": 0,
-  "bbox_bottom": 191,
+  "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 160,
-  "height": 192,
+  "width": 256,
+  "height": 16,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f047a5fe-ab30-4b8d-9e24-a8a5733302ee","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f047a5fe-ab30-4b8d-9e24-a8a5733302ee","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},"LayerId":{"name":"a664f376-da51-4796-a66d-1e84bad208be","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAct4Scene2Tiles","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},"resourceVersion":"1.0","name":"f047a5fe-ab30-4b8d-9e24-a8a5733302ee","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fb4b9947-74fe-4203-94ff-4adb6046ecc4","path":"sprites/sprAct4Tower/sprAct4Tower.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fb4b9947-74fe-4203-94ff-4adb6046ecc4","path":"sprites/sprAct4Tower/sprAct4Tower.yy",},"LayerId":{"name":"533b9516-55bc-4005-b23c-7bb777779f31","path":"sprites/sprAct4Tower/sprAct4Tower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprAct4Tower","path":"sprites/sprAct4Tower/sprAct4Tower.yy",},"resourceVersion":"1.0","name":"fb4b9947-74fe-4203-94ff-4adb6046ecc4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprAct4Scene2Tiles","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},
+    "spriteId": {"name":"sprAct4Tower","path":"sprites/sprAct4Tower/sprAct4Tower.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1da45789-0d58-48a1-909f-b6c45bd52ae0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f047a5fe-ab30-4b8d-9e24-a8a5733302ee","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8f10bdfd-9a82-4c16-8964-a52eafdf1f09","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fb4b9947-74fe-4203-94ff-4adb6046ecc4","path":"sprites/sprAct4Tower/sprAct4Tower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprAct4Scene2Tiles","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},
+    "parent": {"name":"sprAct4Tower","path":"sprites/sprAct4Tower/sprAct4Tower.yy",},
     "resourceVersion": "1.3",
-    "name": "sprAct4Scene2Tiles",
+    "name": "sprAct4Tower",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a664f376-da51-4796-a66d-1e84bad208be","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"533b9516-55bc-4005-b23c-7bb777779f31","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Act 4-2",
     "path": "folders/Tiles & Backgrounds/Sprites/Act 4-2.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprAct4Scene2Tiles",
+  "name": "sprAct4Tower",
   "tags": [],
   "resourceType": "GMSprite",
 }

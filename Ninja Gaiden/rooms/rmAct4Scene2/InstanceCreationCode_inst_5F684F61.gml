@@ -1,0 +1,1 @@
+parallaxX = 0.05;
