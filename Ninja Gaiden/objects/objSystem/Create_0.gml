@@ -31,6 +31,17 @@ global.keyWeapon = ord("C");
 global.keyPause = vk_enter;
 global.keySelect = vk_shift;
 
+global.gpLeft = gp_padl;
+global.gpRight = gp_padr;
+global.gpUp = gp_padu;
+global.gpDown = gp_padd;
+global.gpJump = gp_face1;
+global.gpAttack = gp_face3;
+global.gpWeapon = gp_face4;
+global.gpPause = gp_start;
+global.gpSelect = gp_select;
+global.currentGamepad = 0;
+
 global.upFireEnabled = true;
 
 //game control

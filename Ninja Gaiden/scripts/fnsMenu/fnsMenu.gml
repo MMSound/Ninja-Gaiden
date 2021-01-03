@@ -29,6 +29,15 @@ function save_load_options(_mode, _fileToUse)
 			file_text_write_real(_file, global.sfxSubtitles);
 			file_text_write_real(_file, global.pceParallax);
 			file_text_write_real(_file, global.upFireEnabled);
+			file_text_write_real(_file, global.gpUp);
+			file_text_write_real(_file, global.gpDown);
+			file_text_write_real(_file, global.gpLeft);
+			file_text_write_real(_file, global.gpRight);
+			file_text_write_real(_file, global.gpJump);
+			file_text_write_real(_file, global.gpAttack);
+			file_text_write_real(_file, global.gpWeapon);
+			file_text_write_real(_file, global.gpPause);
+			file_text_write_real(_file, global.gpSelect);
 			file_text_close(_file);
 			break;
 		case 1: //load
@@ -50,6 +59,15 @@ function save_load_options(_mode, _fileToUse)
 			global.sfxSubtitles = file_text_read_real(_file);
 			global.pceParallax = file_text_read_real(_file);
 			global.upFireEnabled = file_text_read_real(_file);
+			global.gpUp = file_text_read_real(_file);
+			global.gpDown = file_text_read_real(_file);
+			global.gpLeft = file_text_read_real(_file);
+			global.gpRight = file_text_read_real(_file);
+			global.gpJump = file_text_read_real(_file);
+			global.gpAttack = file_text_read_real(_file);
+			global.gpWeapon = file_text_read_real(_file);
+			global.gpPause = file_text_read_real(_file);
+			global.gpSelect = file_text_read_real(_file);
 			file_text_close(_file);
 			break;
 	}

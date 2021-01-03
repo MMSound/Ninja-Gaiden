@@ -4,7 +4,7 @@ switch (phase)
 	case 0: //fade out
 		if (timer % 2 == 0)
 		{
-			if (global.screenColorIndex < 6)
+			if (global.screenColorIndex < (sprite_get_width(global.screenPalette) - 1))
 			{
 				global.screenColorIndex++;
 			}
@@ -37,6 +37,8 @@ switch (phase)
 			}
 			else //temp
 			{
+				global.screenPalette = sprScreenPalette;
+				global.screenColorIndex = 6;
 				game_restart();
 			}
 			global.currentWeapon = 0;

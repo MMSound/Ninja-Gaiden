@@ -29,4 +29,8 @@ switch (room)
 		}
 		imgSpd = (1 / 6);
 		break;
+	case rmAct4Scene2:
+		sprite_index = sprLanternAct42;
+		imgSpd = (1 / 6);
+		break;
 }

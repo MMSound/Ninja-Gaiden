@@ -5,7 +5,12 @@ switch (currentOption)
 		var _menu = instance_create_depth(x, y, (depth - 50), objKeyboardSetup);
 			_menu.parentMenu = id;
 		isDormant = true;
-		break;	
+		break;
+	case 1:
+		var _menu = instance_create_depth(x, y, (depth - 50), objGamepadSetup);
+			_menu.parentMenu = id;
+		isDormant = true;
+		break;		
 	case 2:
 		var _menu = instance_create_depth(x, y, (depth - 50), objAudioMenu);
 			_menu.parentMenu = id;

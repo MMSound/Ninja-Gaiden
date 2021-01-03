@@ -159,7 +159,7 @@ if (!isDead)
 		//specific gimmick interactions
 		var _snow = (place_meeting(x, y, objSnow) ? 0.5 : 1); //snow
 
-		if (grounded() || isHang) //we want to be able to move both directions at the same speed when grounded
+		if (grounded() || isHang || !grounded() && airTimer <= 3) //we want to be able to move both directions at the same speed when grounded
 		{
 			if (abs(xAxis) && (attackAnimTimer == 0 || !swordWait) && cooldownTimer == 0)
 			{

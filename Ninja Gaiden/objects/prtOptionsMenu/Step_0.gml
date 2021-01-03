@@ -27,7 +27,7 @@ if (!isDormant)
 			}
 			play_sfx(sfxShuriken);
 		}
-		if (global.inputPausePressed)
+		if (global.inputPausePressed || global.inputJumpPressed)
 		{
 			event_user(1);
 		}
