@@ -114,7 +114,6 @@ function move_y(_yspeed, _instance)
 }
 
 /// @description move_x but for moving platforms
-/// @params xspeed
 function move_platform_x(_xvel) 
 {
 	//note for later - add another argument to check for any entity, not just the player
@@ -179,9 +178,8 @@ function move_platform_x(_xvel)
 }
 
 /// @description move_y but for moving platforms
-function move_platform_y() 
+function move_platform_y(_yvel) 
 {
-	var _yvel = argument[0];
 	var _ydir = sign(_yvel);
 
 	repeat(abs(_yvel))
