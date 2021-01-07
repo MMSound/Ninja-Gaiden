@@ -10,7 +10,7 @@ if (instance_exists(objPlayer))
 if (timer == 150)
 {
 	var _bullet = instance_create_depth((x + (15 * image_xscale)), (y - 22), depth, objGenericBullet);
-		_bullet.sprite_index = sprBazookaBullet;
+		_bullet.sprite_index = bulletSprite;
 		_bullet.xspeed = (3 * image_xscale);
 		_bullet.image_xscale = image_xscale;
 		_bullet.contactDamage = 1;

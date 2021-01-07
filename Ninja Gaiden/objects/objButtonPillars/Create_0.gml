@@ -4,9 +4,9 @@ init_movement();
 otherPillar = noone;
 myBoundary = noone;
 
-if (collision_rectangle(bbox_left, (bbox_top - 16), bbox_right, bbox_bottom, objBoundary, false, true))
+if (collision_rectangle(bbox_left, (bbox_top - 16), bbox_right, bbox_bottom, objButtonPillarBoundary, false, true))
 {
-	myBoundary = collision_rectangle(bbox_left, (bbox_top - 16), bbox_right, bbox_bottom, objBoundary, false, true);
+	myBoundary = collision_rectangle(bbox_left, (bbox_top - 16), bbox_right, bbox_bottom, objButtonPillarBoundary, false, true);
 }
 
 topBound = myBoundary.y;

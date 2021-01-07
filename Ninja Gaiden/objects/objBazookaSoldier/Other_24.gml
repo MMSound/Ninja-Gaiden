@@ -8,3 +8,5 @@ timer = 30;
 
 image_index = 0;
 sprite_index = sprBazookaSoldier;
+
+bulletSprite = sprBazookaBullet;
