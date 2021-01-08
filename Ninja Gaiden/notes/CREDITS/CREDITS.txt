@@ -51,6 +51,7 @@ ACESpark
 Big Fish
 TwistC
 DeltaMudkip
+Primordial
 
 CUTSCENE TRANSLATION
 (whoever does translation here)
