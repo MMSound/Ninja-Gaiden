@@ -13,7 +13,7 @@ if (timer == 150)
 		_bullet.sprite_index = bulletSprite;
 		_bullet.xspeed = (3 * image_xscale);
 		_bullet.image_xscale = image_xscale;
-		_bullet.contactDamage = 1;
+		_bullet.contactDamage = 2;
 	image_index = 2;
 	timer = 0;
 }

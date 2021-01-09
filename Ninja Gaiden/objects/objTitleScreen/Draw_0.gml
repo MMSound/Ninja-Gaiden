@@ -2,17 +2,19 @@
 switch (drawPhase)
 {
 	case 0: //logo moving up
-		palette_shader_set(sprScreenPalette, logoColorIndex, false);
+	case 1: //logo flashing
+		var _palette = (drawPhase ? sprLogoPalette : sprScreenPalette);
+		palette_shader_set(_palette, logoColorIndex, false);
 		draw_sprite_part(sprTitleScreen, 0, 0, 0, sprite_width, 120, 0, logoY);
 		shader_reset();
 		break;
-	case 1: //normal
+	case 2: //normal
 		palette_shader_set(sprFontPalette, global.uiColorIndex, false);
 		draw_self();
 		draw_set_font(global.gameFont);
 		draw_text(144, 208, "1989-2020");
 		draw_text(120, 224, "2020 MINIMACRO SOUND");
-		draw_text(0, 232, "DEMO ACT 4-2");
+		draw_text(0, 232, "DEMO ACT 4-3");
 		if (drawText)
 		{
 			draw_text(156, 128, "PRESS START");

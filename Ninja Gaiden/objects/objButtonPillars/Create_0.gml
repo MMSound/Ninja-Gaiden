@@ -11,3 +11,5 @@ if (collision_rectangle(bbox_left, (bbox_top - 16), bbox_right, bbox_bottom, obj
 
 topBound = myBoundary.y;
 bottomBound = ((myBoundary.y + (myBoundary.image_yscale * 16)+ 8));
+
+timer = 0;

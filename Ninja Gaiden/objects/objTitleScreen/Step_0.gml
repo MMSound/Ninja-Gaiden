@@ -10,14 +10,40 @@ switch (drawPhase)
 			}
 		}
 	
-		if (global.inputPausePressed || --logoY == 0)
+		if (global.inputPausePressed) //skipping
 		{
-			drawPhase = 1;
+			drawPhase = 2;
 			blinkTimer = 0;
 			play_sfx(sfxLongSwordSlash);
 		}
+		if (--logoY == 0)
+		{
+			drawPhase = 1;
+			blinkTimer = 0;
+			play_sfx(sfxLongSwordSlash);			
+		}
 		break;
-	case 1: //main	
+	case 1: //flash
+		if (blinkTimer < 16)
+		{
+			if (blinkTimer % 2 == 0)
+			{
+				logoColorIndex = (logoColorIndex == 0) ? 3 : 0;
+			}
+		}
+		else
+		{
+			if (blinkTimer % 2 == 0)
+			{
+				if (--logoColorIndex == 0)
+				{
+					drawPhase = 2;
+					blinkTimer = 0;
+				}
+			}
+		}
+		break;
+	case 2: //main	
 		if (global.inputPausePressed)
 		{
 			if (!instance_exists(objRoomTransition))
