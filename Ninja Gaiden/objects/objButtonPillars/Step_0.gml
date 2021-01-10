@@ -34,10 +34,7 @@ else
 
 y = clamp(y, topBound, bottomBound);
 
-if (instance_exists(objPlayer))
-{
-	depth = (objPlayer.depth + 5);
-}
+depth = 150;
 
 //shunting out enemies if necessary
 if (collision_rectangle((bbox_left - 2), bbox_top, (bbox_right + 2), bbox_bottom, prtEnemy, false, true))

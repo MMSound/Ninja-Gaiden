@@ -13,6 +13,13 @@ if (instance_exists(prtEntity))
 		y += 8;
 	}
 }
+if (instance_exists(objCheckpoint))
+{
+	with (objCheckpoint)
+	{
+		y += 8;
+	}
+}
 
 //set timer
 global.levelTime = 200;
@@ -29,5 +36,14 @@ if (global.checkpointX != 0)
 	{
 		objPlayer.x = global.checkpointX;
 		objPlayer.y = global.checkpointY;
+	}
+	
+	//special conditions (by that i mean dumb hacky shit)
+	if (room == rmAct3Scene2)
+	{
+		if (instance_exists(inst_7530BAF1))
+		{
+			instance_destroy(inst_7530BAF1);
+		}
 	}
 }

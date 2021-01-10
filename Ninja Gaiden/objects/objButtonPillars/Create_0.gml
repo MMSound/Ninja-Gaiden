@@ -13,3 +13,5 @@ topBound = myBoundary.y;
 bottomBound = ((myBoundary.y + (myBoundary.image_yscale * 16)+ 8));
 
 timer = 0;
+
+depth = 150;

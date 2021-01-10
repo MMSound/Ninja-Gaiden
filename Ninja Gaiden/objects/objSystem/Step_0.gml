@@ -33,7 +33,7 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 			}
 		}
 
-		//debug
+		/*debug
 		if (keyboard_check_pressed(vk_shift))
 		{
 			if (keyboard_check(vk_control)) //time stopping
@@ -65,7 +65,7 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 			{
 				objPlayer.healthPoints--;
 			}
-		}
+		}*/
 
 		//camera
 		if (instance_exists(objPlayer))

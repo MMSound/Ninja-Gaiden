@@ -51,7 +51,7 @@ if (instance_exists(objPlayer))
 	else
 	{
 		xspeed = 0;
-		x = (xstart + 8);
-		y = ystart;
+		x = xstart;
+		y = (ystart + 8);
 	}
 }

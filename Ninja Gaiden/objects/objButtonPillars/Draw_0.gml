@@ -1,5 +1,5 @@
 /// @description Draw
-if (inside_view(32))
+if (in_range(y, global.viewY, (global.viewY + global.viewH)))
 {
 	draw_sprite(sprButtonPillar, 0, x, y);
 }
