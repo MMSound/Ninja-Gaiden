@@ -22,7 +22,15 @@ if (instance_exists(objCheckpoint))
 }
 
 //set timer
-global.levelTime = 200;
+switch (room) //this will let me add in a bit of extra time in specific instances
+{
+	default:
+		global.levelTime = 200;
+		break;
+	case rmAct4Scene3:
+		global.levelTime = 210;
+		break;
+}
 global.levelTimer = 0;
 
 global.currentSection = noone;

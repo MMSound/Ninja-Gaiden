@@ -1,1 +1,1 @@
-itemDrop = SMALL_NINPO;
+itemDrop = LARGE_NINPO;
