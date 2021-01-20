@@ -2,7 +2,7 @@
 blinkTimer = 0;
 drawText = true;
 
-currentDemoLevel = rmAct4Scene3;
+currentDemoLevel = rmAct5Scene1;
 
 playedSFX = false;
 
@@ -23,3 +23,4 @@ levelSelect[4] = rmAct3Scene2;
 levelSelect[5] = rmAct4Scene1;
 levelSelect[6] = rmAct4Scene2;
 levelSelect[7] = rmAct4Scene3;
+levelSelect[8] = rmAct5Scene1;
