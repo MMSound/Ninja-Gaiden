@@ -63,6 +63,8 @@ global.lifeLanternAppear = true;
 global.transition = false;
 global.displayUI = false;
 
+global.isShader = shader_is_compiled(shdColorSwap);
+
 global.deathRespawnTimer = 0;
 global.deathRespawnTime = 240;
 global.deathRespawn = false;
@@ -172,6 +174,13 @@ window_set_size((global.viewW * global.screenRes), (global.viewH * global.screen
 
 if (room == rmInit)
 {
-	room_goto_next();
+	if (global.isShader)
+	{
+		room = rmLogoScreen;
+	}
+	else
+	{
+		room = rmShaderWarning;
+	}
 }
 depth = -1000;

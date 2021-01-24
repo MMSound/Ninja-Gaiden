@@ -16,7 +16,7 @@ function draw_text_shaded(_x, _y, _string, _colorIndex, _palette, _font)
 	draw_set_font(_font);
 	palette_shader_set(_palette, _colorIndex, false);
 	draw_text(_x, _y, _string);
-	shader_reset();
+	palette_shader_reset();
 }
 
 /// @description draws a repeated sprite image, tiled to fill a given region and with a given offset

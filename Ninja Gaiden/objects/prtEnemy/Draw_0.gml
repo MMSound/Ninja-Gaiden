@@ -11,5 +11,5 @@ event_user(8);
 
 if (global.timeFrozen)
 {
-	shader_reset();
+	palette_shader_reset();
 }

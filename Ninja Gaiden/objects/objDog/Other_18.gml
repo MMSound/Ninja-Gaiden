@@ -7,5 +7,5 @@ if (_is31)
 event_inherited();
 if (_is31)
 {
-	shader_reset();
+	palette_shader_reset();
 }

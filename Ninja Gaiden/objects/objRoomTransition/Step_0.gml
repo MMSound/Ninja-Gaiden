@@ -14,6 +14,7 @@ switch (phase)
 				timer = 0;
 			}
 		}
+		drawAlpha += 0.1;
 		break;
 	case 1: //change room
 		if (global.musicPlaying)
@@ -59,6 +60,7 @@ switch (phase)
 				instance_destroy(id);
 			}
 		}
+		drawAlpha -= 0.1;
 		break;	
 }
 timer++;

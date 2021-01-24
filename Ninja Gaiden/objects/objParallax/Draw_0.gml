@@ -17,5 +17,5 @@ draw_sprite_fill(sprite_index, image_index, (drawX + x), (drawY + y), x, y, area
 
 if (global.timeFrozen || global.backgroundBrightness > 0)
 {
-	shader_reset();
+	palette_shader_reset();
 }

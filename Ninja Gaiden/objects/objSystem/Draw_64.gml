@@ -1,7 +1,7 @@
 /// @description Draw game with shader
 palette_shader_set(global.screenPalette, global.screenColorIndex, false);
 draw_surface(application_surface, 0, 0);
-shader_reset();
+palette_shader_reset();
 
 //pause screen
 if (global.paused && !instance_exists(prtOptionsMenu))
@@ -18,7 +18,18 @@ if (global.paused && !instance_exists(prtOptionsMenu))
 	palette_shader_set(sprFontPalette, global.uiColorIndex, false);
 	draw_text(_drawX, _drawY, "PAUSE");
 	draw_text(_drawX, (_drawY + 48), "PRESS SELECT FOR OPTIONS");
-	shader_reset();
+	palette_shader_reset();
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
+}
+
+//this is for the NERDS whose computers don't support shaders >:(
+if (!global.isShader)
+{
+	if (instance_exists(objRoomTransition))
+	{
+		draw_set_alpha(objRoomTransition.drawAlpha);
+		draw_rectangle_color(global.viewX, global.viewY, (global.viewX + global.viewW), (global.viewY + global.viewH), c_black, c_black, c_black, c_black, false);
+		draw_set_alpha(1.0);
+	}
 }
