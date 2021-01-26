@@ -1,5 +1,10 @@
 CREDITS LIST for later reference:
 
+NINJA GAIDEN PLUS STAFF
+
+DIRECTOR
+MiniMacro Sound
+
 GAME DESIGN
 MiniMacro Sound
 
@@ -17,7 +22,7 @@ MiniMacro Sound
 SOUND DESIGN
 MiniMacro Sound
 
-PROGRAMMING
+MAIN PROGRAMMING
 MiniMacro Sound
 
 PROGRAMMING ASSISTANCE AND REFERENCE
@@ -55,6 +60,15 @@ Primordial
 
 CUTSCENE TRANSLATION
 (whoever does translation here)
+
+CREATIVE CONSULTANT
+MiniMacro Sound
+
+FINANCES
+MiniMacro Sound
+
+MINIMACRO SOUND
+MiniMacro Sound
 
 ORIGINAL NINJA GAIDEN STAFF
 
@@ -96,3 +110,6 @@ DIRECTOR
 Hideo Yoshizawa
 
 COPYRIGHT MCMLXXXIX-MMXX TECMO
+
+(on its own screen)
+THE END
