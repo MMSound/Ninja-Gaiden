@@ -176,7 +176,7 @@ if (room == rmInit)
 {
 	if (global.isShader)
 	{
-		room = rmLogoScreen;
+		room_goto_next();
 	}
 	else
 	{
