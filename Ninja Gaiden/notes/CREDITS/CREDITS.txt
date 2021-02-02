@@ -22,19 +22,19 @@ MiniMacro Sound
 SOUND DESIGN
 MiniMacro Sound
 
-MAIN PROGRAMMING
+PROGRAMMING
 MiniMacro Sound
 
-PROGRAMMING ASSISTANCE AND REFERENCE
+PROGRAMMING ASSISTANCE
 Nikles
 Patwick
 Bucket
 GMLscripts.com
 
-BACKGROUNDS
+BACKGROUND ART
 MiniMacro Sound
 
-SPRITES
+CHARACTER ART
 MiniMacro Sound
 (whoever does boss sprites)
 

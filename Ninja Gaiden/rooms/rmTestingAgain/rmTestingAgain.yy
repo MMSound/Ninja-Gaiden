@@ -15,7 +15,8 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":192.0,"resourceVersion":"1.0","name":"inst_5998E3C2","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"objBoulder","path":"objects/objBoulder/objBoulder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":0.0,"resourceVersion":"1.0","name":"inst_578DD5FD","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objMartialArtist","path":"objects/objMartialArtist/objMartialArtist.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":176.0,"y":192.0,"resourceVersion":"1.0","name":"inst_371A0E58","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objMartialArtist","path":"objects/objMartialArtist/objMartialArtist.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":240.0,"y":192.0,"resourceVersion":"1.0","name":"inst_7C3EC555","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":50.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":192.0,"resourceVersion":"1.0","name":"inst_39B276B4","tags":[],"resourceType":"GMRInstance",},
@@ -36,7 +37,8 @@
     {"name":"inst_378A499A","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
     {"name":"inst_7949C7C1","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
     {"name":"inst_5998E3C2","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
-    {"name":"inst_578DD5FD","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
+    {"name":"inst_371A0E58","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
+    {"name":"inst_7C3EC555","path":"rooms/rmTestingAgain/rmTestingAgain.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
