@@ -40,7 +40,7 @@ switch (phase)
 			{
 				global.screenPalette = sprScreenPalette;
 				global.screenColorIndex = 6;
-				game_restart();
+				room_goto(rmGameOver);
 			}
 			global.currentWeapon = 0;
 			global.ninpo = 0;

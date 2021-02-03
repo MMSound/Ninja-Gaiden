@@ -124,3 +124,41 @@ function tile_layer_set_script(_layerName, _shaderScript)
 		layer_script_begin(_layerID, _shaderScript);
 	}
 }
+
+/// @description draw a sprite but wavy
+//GMLscripts.com/license
+//this script has been modified from "draw_sprite_wave" on the above website by MiniMacro Sound 
+function draw_sprite_wave(_sprite, _image, _xPos, _yPos, _axis, _wavelength, _amplitude, _phase) 
+{
+	var _width, _height, _offsetX, _offsetY, _size, _shift, _sinX, _sinY;
+	_width = sprite_get_width(_sprite);
+	_height = sprite_get_height(_sprite);
+	_offsetX = sprite_get_xoffset(_sprite);
+	_offsetY = sprite_get_yoffset(_sprite);
+	if (_axis)
+	{
+		_size = _height;
+	}
+	else
+	{
+		_size = _width;
+	}
+
+	for (var i = 0; i < _size; i++) 
+	{
+	    _shift = (_amplitude * sin(2 * pi * ((i / _wavelength) + _phase)));
+	    if (_axis) 
+		{
+			_sinX = ((_shift - _offsetX) + _xPos);
+			_sinY = ((i - _offsetY) + _yPos);
+			draw_sprite_part(_sprite, _image, 0, i, _width, 1, _sinX, _sinY);
+	    }
+		else
+		{
+			_sinX = ((i - _offsetX) + _xPos);
+			_sinY = ((_shift - _offsetY) + _yPos);
+			draw_sprite_part(_sprite, _image, i, 0, 1, _height, _sinX, _sinY);
+	    }
+	}
+	//idk how any of this shit works lmao
+}

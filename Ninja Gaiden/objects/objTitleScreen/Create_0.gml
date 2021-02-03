@@ -25,3 +25,5 @@ levelSelect[6] = rmAct4Scene2;
 levelSelect[7] = rmAct4Scene3;
 levelSelect[8] = rmAct5Scene1;
 levelSelect[9] = rmAct5Scene2;
+
+global.uiColorIndex = 4;
