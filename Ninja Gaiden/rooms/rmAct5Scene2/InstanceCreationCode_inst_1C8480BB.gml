@@ -1,0 +1,1 @@
+itemDrop = LARGE_NINPO;
