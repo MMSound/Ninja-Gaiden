@@ -66,7 +66,7 @@ global.displayUI = false;
 global.isShader = shader_is_compiled(shdColorSwap);
 
 global.deathRespawnTimer = 0;
-global.deathRespawnTime = 240;
+global.deathRespawnTime = 200;
 global.deathRespawn = false;
 
 global.viewX = 0;
@@ -156,7 +156,7 @@ global.subtitle[sfxLand] = "[Land]";
 global.subtitle[sfxFallingPillar] = "[Pillar Falling]";
 global.subtitle[sfxHo] = "Ryu: {Ho!{";
 global.subtitle[sfxWindBlow] = "[Wind Blowing]";
-global.subtitle[sfxSwordSlash] = "[Sword Slash]";
+global.subtitle[sfxLongSwordSlash] = "[Sword Slash]";
 
 //miscellaneous bullshit
 global.pceParallax = false;
@@ -184,3 +184,5 @@ if (room == rmInit)
 	}
 }
 depth = -1000;
+
+setController = false;
