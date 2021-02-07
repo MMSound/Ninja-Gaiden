@@ -1,7 +1,7 @@
 /// @description Follow Ryu
 if (instance_exists(objPlayer))
 {
-	var _middleY = (global.viewY + (global.viewH / 2));
+	var _middleY = ((global.viewY + (global.viewH / 2)) + offsetY);
 	
 	x = objPlayer.x;
 	y = (_middleY + ((_middleY - objPlayer.y) / 2));
