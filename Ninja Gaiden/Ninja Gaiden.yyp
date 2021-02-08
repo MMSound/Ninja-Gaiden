@@ -309,7 +309,6 @@
     {"id":{"name":"sfxJump","path":"sounds/sfxJump/sfxJump.yy",},"order":0,},
     {"id":{"name":"tstAct4Scene2","path":"tilesets/tstAct4Scene2/tstAct4Scene2.yy",},"order":10,},
     {"id":{"name":"sfxFlameWeapon","path":"sounds/sfxFlameWeapon/sfxFlameWeapon.yy",},"order":11,},
-    {"id":{"name":"Object101","path":"objects/Object101/Object101.yy",},"order":37,},
     {"id":{"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},"order":15,},
     {"id":{"name":"sfxPause","path":"sounds/sfxPause/sfxPause.yy",},"order":4,},
     {"id":{"name":"sprBoulderArrow","path":"sprites/sprBoulderArrow/sprBoulderArrow.yy",},"order":5,},

@@ -29,6 +29,7 @@ function save_load_options(_mode, _fileToUse)
 			file_text_write_real(_file, global.sfxSubtitles);
 			file_text_write_real(_file, global.pceParallax);
 			file_text_write_real(_file, global.upFireEnabled);
+			file_text_write_real(_file, global.cutsceneLanguage);
 			file_text_write_real(_file, global.gpUp);
 			file_text_write_real(_file, global.gpDown);
 			file_text_write_real(_file, global.gpLeft);
@@ -59,6 +60,7 @@ function save_load_options(_mode, _fileToUse)
 			global.sfxSubtitles = file_text_read_real(_file);
 			global.pceParallax = file_text_read_real(_file);
 			global.upFireEnabled = file_text_read_real(_file);
+			global.cutsceneLanguage = file_text_read_real(_file);
 			global.gpUp = file_text_read_real(_file);
 			global.gpDown = file_text_read_real(_file);
 			global.gpLeft = file_text_read_real(_file);

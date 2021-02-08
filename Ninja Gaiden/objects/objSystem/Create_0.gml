@@ -160,6 +160,7 @@ global.subtitle[sfxLongSwordSlash] = "[Sword Slash]";
 
 //miscellaneous bullshit
 global.pceParallax = false;
+global.cutsceneLanguage = ENG;
 
 if (file_exists("options.ngsav"))
 {

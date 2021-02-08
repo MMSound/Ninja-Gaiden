@@ -2,7 +2,8 @@
 optionsText[0] = "BACKGROUND BRIGHTNESS";
 optionsText[1] = "SOUND EFFECT SUBTITLES";
 optionsText[2] = "UP-FIRE FOR WEAPON";
-optionsText[3] = "BACK";
+optionsText[3] = "CUTSCENE LANGUAGE";
+optionsText[4] = "BACK";
 
 optionsOnOff[0] = "OFF";
 optionsOnOff[1] = "ON";

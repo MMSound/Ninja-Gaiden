@@ -20,4 +20,15 @@ switch (currentOption)
 		global.upFireEnabled = !global.upFireEnabled;
 		play_sfx(sfxShuriken);
 		break;
+	case 3:	
+		if (global.cutsceneLanguage < 4)
+		{
+			global.cutsceneLanguage++;
+		}
+		else
+		{
+			global.cutsceneLanguage = 0;
+		}
+		play_sfx(sfxShuriken);
+		break;
 }

@@ -25,3 +25,10 @@
 #macro ROOM_LEVEL 0
 #macro ROOM_MENU 1
 #macro ROOM_BOSS 2
+
+//languages
+#macro ENG 0
+#macro JPN 1
+#macro ESP 2
+#macro ITA 3
+#macro ROM 4
