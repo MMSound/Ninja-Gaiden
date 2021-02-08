@@ -332,3 +332,119 @@ function instances_update_previous_position(_entitiesToMove)
 		_index++;
 	}
 }
+
+/// @description move_x but for moving topsolids
+function move_platform_topsolid_x(_xvel) 
+{
+	//note for later - add another argument to check for any entity, not just the player
+	var _xdir = sign(_xvel);
+
+	//movement/collision x
+	repeat(abs(_xvel))
+	{
+		//colliding with solid - possibly make this optional later?
+		if (coll_x(_xdir) || coll_x(_xdir, objBoundary))
+		{
+			return false;
+		}
+	
+		//lists
+		var instances = ds_list_create(); //instances is the list of entities that should be moved
+		var instances_ds = ds_list_create();
+
+		//clean list
+		ds_list_clear(instances_ds);
+	
+		//entities found on top
+		var _numEntities = coll_y_list(-1, instances_ds, prtEntity);
+	
+		//try carrying them
+		for (var i = 0; i < _numEntities; i++)
+		{
+			var _current = instances_ds[| i];
+			if (_current.hasCollision && _current.yspeed == 0 && _current.y == bbox_top) //only move if the current entity has collision
+			{
+				move_x(_xdir, true, _current);
+			}
+		}
+	
+		instances_update_previous_position(instances_ds);
+		ds_list_destroy(instances);
+		ds_list_destroy(instances_ds);
+		
+		x += _xdir;
+	}
+
+	return true;
+}
+
+/// @description move_y but for moving topsolids
+function move_platform_topsolid_y(_yvel) 
+{
+	var _ydir = sign(_yvel);
+
+	repeat(abs(_yvel))
+	{
+	    //colliding with solids - possibly make this optional later?
+	    if (coll_y(_ydir) || coll_y(_ydir, objBoundary))
+		{
+	        return false;
+		}
+	
+		//lists
+		var instances = ds_list_create(); //instances is the list of entities that should be moved
+		var instances_ds = ds_list_create();
+
+	    //going upward
+	    if (!_ydir)
+	    {
+			//entities found above
+			var _numEntities = coll_y_list(_ydir, instances_ds, prtEntity);
+			for (var i = 0; i < _numEntities; i++)
+			{
+				var _current = instances_ds[| i]; //get current entity
+				ds_list_add(instances, _current);
+				if (_current.hasCollision && _current.y == bbox_top) //only move if the current entity has collision
+				{
+					if (!move_y(_ydir, _current)) //try to move it
+					{
+						instances_reset_position(instances);
+						ds_list_destroy(instances);
+						ds_list_destroy(instances_ds); //ALWAYS destroy data structure when you're done using it
+						return false; //in order to prevent memory leaks					
+					}
+				}
+			}
+	    }
+
+	    //going downward
+	    if (_ydir)
+	    {		
+			//clean list
+			ds_list_clear(instances_ds);
+		
+			//entities found above
+			_numEntities = coll_y_list(-1, instances_ds, prtEntity);
+		
+			//carry entities
+			instance_deactivate_object(self);
+			for (var i = 0; i < _numEntities; i++)
+			{
+				var _current = instances_ds[| i];
+				if (_current.hasCollision && _current.y == bbox_top)
+				{
+					move_y(_ydir, _current);
+				}
+			}
+			instance_activate_object(self);
+	    }
+	
+		instances_update_previous_position(instances_ds);
+		ds_list_destroy(instances);
+		ds_list_destroy(instances_ds);
+	
+	    y += _ydir;
+	}
+
+	return true;
+}
