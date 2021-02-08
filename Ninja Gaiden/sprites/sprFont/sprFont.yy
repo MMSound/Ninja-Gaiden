@@ -592,8 +592,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"63b60f9f-c3c5-4b8b-be0e-1d5be308ed17","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "HUD & Text",
-    "path": "folders/HUD & Text.yy",
+    "name": "HUD, Text, & Menus",
+    "path": "folders/HUD, Text, & Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprFont",

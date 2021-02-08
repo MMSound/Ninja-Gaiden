@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a5c82bf9-e2c4-4f6a-b4aa-1ba8c7b26946","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "HUD & Text",
-    "path": "folders/HUD & Text.yy",
+    "name": "HUD, Text, & Menus",
+    "path": "folders/HUD, Text, & Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprWeaponIcons",

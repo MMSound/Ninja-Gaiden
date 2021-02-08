@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c78debcd-71de-45e6-b93f-4dc13b09afbc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "HUD & Text",
-    "path": "folders/HUD & Text.yy",
+    "name": "HUD, Text, & Menus",
+    "path": "folders/HUD, Text, & Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprPauseMenu",

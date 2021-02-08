@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0c6edfe1-c8a7-4df1-8194-bcc3f55d2f05","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "HUD & Text",
-    "path": "folders/HUD & Text.yy",
+    "name": "HUD, Text, & Menus",
+    "path": "folders/HUD, Text, & Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprMenuCursor",

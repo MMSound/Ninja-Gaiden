@@ -7,3 +7,5 @@ optionsText[4] = "BACK";
 
 optionsOnOff[0] = "OFF";
 optionsOnOff[1] = "ON";
+
+wavePhase = 0;
