@@ -125,7 +125,7 @@ global.weaponLimit[WEAPON_FLAMES] = 1;
 init_palette_shader(shdColorSwap);
 global.screenColorIndex = 0;
 global.uiColorIndex = 4;
-global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-[]ßȘȚÀĂÁÂÃÄÉÊĒËÈÍÎĪÏÌÓÔÕÖÒÚÛŪÜÙÑçÇțàăáâãäéêēëèíîīïìóôõöòúûūüùñ", false, 0);
+global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-[]ßȘȚÀĂÁÂÃÄÉÊĒËÈÍÎĪÏÌÓÔÕÖÒÚÛŪÜÙÑçÇțàăáâãäéêēëèíîīïìóôõöòúûūüùñČčŠšŽž", false, 0);
 global.screenRes = 3;
 global.screenPalette = sprScreenPalette;
 global.backgroundBrightness = 0;

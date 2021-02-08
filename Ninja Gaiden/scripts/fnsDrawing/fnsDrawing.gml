@@ -17,6 +17,11 @@ function draw_text_shaded(_x, _y, _string, _colorIndex, _palette, _font)
 	palette_shader_set(_palette, _colorIndex, false);
 	draw_text(_x, _y, _string);
 	palette_shader_reset();
+	
+	if (_font == global.gameFont)
+	{
+		draw_set_font(global.gameFont); //this is so it doesn't fuck up other drawing
+	}
 }
 
 /// @description draws a repeated sprite image, tiled to fill a given region and with a given offset
