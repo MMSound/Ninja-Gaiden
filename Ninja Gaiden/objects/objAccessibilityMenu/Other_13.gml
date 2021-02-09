@@ -21,7 +21,7 @@ switch (currentOption)
 		play_sfx(sfxShuriken);
 		break;
 	case 3:	
-		if (global.cutsceneLanguage < 4)
+		if (global.cutsceneLanguage < 6)
 		{
 			global.cutsceneLanguage++;
 		}
