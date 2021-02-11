@@ -116,17 +116,20 @@ function playerStateAir()
 	
 	if (myWall != noone)
 	{
-		if (!distance_above_solid(climbSolidDistance))
+		if (myWall.object_index != objUnclimbableWall)
 		{
-			if (canWallClimb)
+			if (!distance_above_solid(climbSolidDistance))
 			{
-				if (myWall.image_yscale != 1.00) //prevent climbing on 1-tile high walls
+				if (canWallClimb)
 				{
-					yspeed = 0;
-					xspeed = 0;
-					image_xscale = sign(myWall.x - x);
-					currentState = playerStateWallClimb;
-					exit;
+					if (myWall.image_yscale != 1.00) //prevent climbing on 1-tile high walls
+					{
+						yspeed = 0;
+						xspeed = 0;
+						image_xscale = sign(myWall.x - x);
+						currentState = playerStateWallClimb;
+						exit;
+					}
 				}
 			}
 		}

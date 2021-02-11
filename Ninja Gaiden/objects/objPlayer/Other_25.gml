@@ -161,7 +161,7 @@ if (!isDead)
 
 		if (grounded() || isHang || !grounded() && airTimer <= 3) //we want to be able to move both directions at the same speed when grounded
 		{
-			if (abs(xAxis) && (attackAnimTimer == 0 || !swordWait) && cooldownTimer == 0)
+			if (abs(xAxis) && (attackAnimTimer == 0 || !swordWait) && cooldownTimer == 0 && !isWallClimb)
 			{
 				xspeed = ((runSpeed * xAxis) * _snow);
 				image_xscale = xAxis;
