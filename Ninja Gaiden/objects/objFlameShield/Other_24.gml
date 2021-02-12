@@ -14,3 +14,5 @@ theta = thetaOffset;
 radius = 16;
 locus = objPlayer;
 moveSpeed = 8;
+
+canDespawn = false;

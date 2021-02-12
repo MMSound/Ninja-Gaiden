@@ -369,6 +369,7 @@
     {"id":{"name":"sprMaceManMace","path":"sprites/sprMaceManMace/sprMaceManMace.yy",},"order":2,},
     {"id":{"name":"objFallingPillar","path":"objects/objFallingPillar/objFallingPillar.yy",},"order":1,},
     {"id":{"name":"sprRyuPalette","path":"sprites/sprRyuPalette/sprRyuPalette.yy",},"order":6,},
+    {"id":{"name":"bgmAct5Scene3","path":"sounds/bgmAct5Scene3/bgmAct5Scene3.yy",},"order":10,},
     {"id":{"name":"sprAct3BackTrees","path":"sprites/sprAct3BackTrees/sprAct3BackTrees.yy",},"order":1,},
     {"id":{"name":"sprBlackNinjaBoundary","path":"sprites/sprBlackNinjaBoundary/sprBlackNinjaBoundary.yy",},"order":8,},
     {"id":{"name":"sprAct4Scene2Tiles","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},"order":0,},

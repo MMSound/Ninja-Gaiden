@@ -47,8 +47,9 @@ function initialize_music()
 	global.musicID[bgmAct4Scene1] = [bgmAct4Scene1, 51.206, 06.399];
 	global.musicID[bgmAct4Scene2] = [bgmAct4Scene2, 43.206, 01.593];
 	global.musicID[bgmAct4Scene3] = [bgmAct4Scene3, 53.339, 36.265];
-	global.musicID[bgmAct5Scene1] = [bgmAct5Scene1, 48.006, 16.010];
+	global.musicID[bgmAct5Scene1] = [bgmAct5Scene1, 50.673, 18.658];
 	global.musicID[bgmAct5Scene2] = [bgmAct5Scene2, 61.606, 16.801];
+	global.musicID[bgmAct5Scene3] = [bgmAct5Scene3, 93.576, 56.250];
 	global.musicID[bgmDeath] = [bgmDeath, 03.052, -1];
 	global.musicID[bgmOptionsMenu] = [bgmOptionsMenu, 34.136, 0];
 }
