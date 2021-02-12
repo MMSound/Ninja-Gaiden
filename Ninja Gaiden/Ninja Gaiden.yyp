@@ -21,6 +21,7 @@
     {"id":{"name":"sprWaterSplashGenerator","path":"sprites/sprWaterSplashGenerator/sprWaterSplashGenerator.yy",},"order":4,},
     {"id":{"name":"objWallClimbWallLeft","path":"objects/objWallClimbWallLeft/objWallClimbWallLeft.yy",},"order":10,},
     {"id":{"name":"sprAct2Rocks","path":"sprites/sprAct2Rocks/sprAct2Rocks.yy",},"order":1,},
+    {"id":{"name":"objBansheeStationary","path":"objects/objBansheeStationary/objBansheeStationary.yy",},"order":31,},
     {"id":{"name":"sprAct3BackTreesWind","path":"sprites/sprAct3BackTreesWind/sprAct3BackTreesWind.yy",},"order":2,},
     {"id":{"name":"sprAct2Sand1","path":"sprites/sprAct2Sand1/sprAct2Sand1.yy",},"order":2,},
     {"id":{"name":"sprFlags","path":"sprites/sprFlags/sprFlags.yy",},"order":10,},
