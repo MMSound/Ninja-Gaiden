@@ -2,7 +2,7 @@
 init_movement();
 
 moveSpeed = 1;
-moveOutsideView = true;
+moveOutsideView = true; //misleading, this is actually for whether or not the player has to be on it to make it move
 
 function set_speed(_xspd, _yspd)
 {
