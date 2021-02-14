@@ -18,6 +18,7 @@ if (!game_paused())
 	}
 	else
 	{
+		imgFrame = 1;
 		if (collision_rectangle(bbox_left, (bbox_top - 1), bbox_right, bbox_top, objPlayer, false, true))
 		{
 			moveOutsideView = true;

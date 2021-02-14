@@ -578,6 +578,7 @@ else //change later
 	global.playerHealth = healthPoints;
 	sprite_index = sprRyuJumpSomersault;
 	image_index = 0;
+	mask_index = sprPlayerPlaceholderDuck;
 	if (!grounded() && inside_view())
 	{
 		move_x(xspeed);
