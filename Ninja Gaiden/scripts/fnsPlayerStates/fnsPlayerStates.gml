@@ -170,7 +170,7 @@ function playerStateAir()
 			jumpQueued = true;
 		}
 	}
-	if (yspeed == 0)
+	if (yspeed >= 0)
 	{
 		jumpQueued = false;
 	}

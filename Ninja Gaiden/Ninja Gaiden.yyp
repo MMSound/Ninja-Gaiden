@@ -338,6 +338,7 @@
     {"id":{"name":"objBiker","path":"objects/objBiker/objBiker.yy",},"order":4,},
     {"id":{"name":"bgmAct2Scene2","path":"sounds/bgmAct2Scene2/bgmAct2Scene2.yy",},"order":2,},
     {"id":{"name":"sprKelberossCannon","path":"sprites/sprKelberossCannon/sprKelberossCannon.yy",},"order":0,},
+    {"id":{"name":"bgmAct6Scene1","path":"sounds/bgmAct6Scene1/bgmAct6Scene1.yy",},"order":11,},
     {"id":{"name":"sprRyuAirLongSlash","path":"sprites/sprRyuAirLongSlash/sprRyuAirLongSlash.yy",},"order":11,},
     {"id":{"name":"tstAct6Scene1","path":"tilesets/tstAct6Scene1/tstAct6Scene1.yy",},"order":14,},
     {"id":{"name":"objHammerMan","path":"objects/objHammerMan/objHammerMan.yy",},"order":6,},
