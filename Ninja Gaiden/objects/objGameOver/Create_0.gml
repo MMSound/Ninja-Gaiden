@@ -13,6 +13,7 @@ roomTo[4][3] = rmAct4Scene3;
 roomTo[5][1] = rmAct5Scene1;
 roomTo[5][2] = rmAct5Scene2;
 roomTo[5][3] = rmAct5Scene3;
+roomTo[6][1] = rmAct6Scene1;
 
 global.uiColorIndex = 9;
 wavePhase = 0;
