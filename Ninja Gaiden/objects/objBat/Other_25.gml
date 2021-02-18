@@ -1,5 +1,14 @@
 /// @description Movement
-xspeed = (1 * image_xscale);
+
+//i really should have made a better engine
+if (room != rmAct6Scene2)
+{
+	xspeed = (1 * image_xscale);
+}
+else
+{
+	xspeed = ((1 * image_xscale) * inside_view(32));
+}
 
 //animate
 if (image_index < 3)

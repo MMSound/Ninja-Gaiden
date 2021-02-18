@@ -36,3 +36,9 @@ if (!game_paused())
 		}
 	}
 }
+
+//adjust depth
+if (instance_exists(objPlayer))
+{
+	depth = (objPlayer.depth + 5);
+}
