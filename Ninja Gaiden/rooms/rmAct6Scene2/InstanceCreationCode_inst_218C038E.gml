@@ -1,0 +1,1 @@
+itemDrop = WINDMILL_SHURIKEN;
