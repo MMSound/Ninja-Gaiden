@@ -20,12 +20,36 @@ if (image_index < 3)
 }
 
 //flap
-if (flapTimer % 30 == 0)
+if (room != rmAct6Scene2)
 {
-	yspeed = -3.75;
-	image_index = 0;
+	if (flapTimer % 30 == 0)
+	{
+		yspeed = -3.75;
+		image_index = 0;
+	}
+
+	yspeed += 0.25;
+	
+	flapTimer++;
 }
+else
+{
+	if (inside_view(32))
+	{
+		if (flapTimer % 30 == 0)
+		{
+			yspeed = -3.75;
+			image_index = 0;
+		}
 
-yspeed += 0.25;
-
-flapTimer++;
+		yspeed += 0.25;
+	
+		flapTimer++;
+	}
+	else
+	{
+		yspeed = 0;
+		y = ystart;
+		flapTimer = 0;
+	}
+}

@@ -257,6 +257,7 @@
     {"id":{"name":"sprRyuJumpFall","path":"sprites/sprRyuJumpFall/sprRyuJumpFall.yy",},"order":8,},
     {"id":{"name":"sprRyuCrouchLongSlash","path":"sprites/sprRyuCrouchLongSlash/sprRyuCrouchLongSlash.yy",},"order":17,},
     {"id":{"name":"sprRyuStandLongSlash","path":"sprites/sprRyuStandLongSlash/sprRyuStandLongSlash.yy",},"order":4,},
+    {"id":{"name":"bgmAct6Scene2","path":"sounds/bgmAct6Scene2/bgmAct6Scene2.yy",},"order":12,},
     {"id":{"name":"sprAct5Waterfalls","path":"sprites/sprAct5Waterfalls/sprAct5Waterfalls.yy",},"order":5,},
     {"id":{"name":"sprAct2MesaBottom","path":"sprites/sprAct2MesaBottom/sprAct2MesaBottom.yy",},"order":1,},
     {"id":{"name":"sprDog","path":"sprites/sprDog/sprDog.yy",},"order":0,},
