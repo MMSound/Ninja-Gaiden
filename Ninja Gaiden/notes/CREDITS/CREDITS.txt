@@ -8,16 +8,17 @@ MiniMacro Sound
 GAME DESIGN
 MiniMacro Sound
 
-MUSIC ARRANGEMENT
+MUSIC ARRANGEMENT AND COMPOSITION
 MiniMacro Sound
 
-MUSIC COMPOSITION
+ORIGINAL MUSIC COMPOSITION
 Keiji Yamagishi
 Ryuichi Nitta
 Ichiro Nakagawa
+
 Makiko Tanifuji
+
 Takashi Horiguchi
-MiniMacro Sound
 
 SOUND DESIGN
 MiniMacro Sound
@@ -40,7 +41,6 @@ MiniMacro Sound
 
 CUTSCENE ART
 MiniMacro Sound
-(whoever does cutscene art)
 
 ART ASSISTANCE
 Roxcon
@@ -50,13 +50,12 @@ Sheepus
 Pegg
 
 BETA TESTING AND ASSISTANCE
-Noivs
-Roxcon
-ACESpark
 Big Fish
+Noivs
+Primordial
+ACESpark
 TwistC
 DeltaMudkip
-Primordial
 
 CUTSCENE TRANSLATION
 (whoever does translation here)
@@ -65,9 +64,6 @@ CREATIVE CONSULTANT
 MiniMacro Sound
 
 FINANCES
-MiniMacro Sound
-
-MINIMACRO SOUND
 MiniMacro Sound
 
 ORIGINAL NINJA GAIDEN STAFF
@@ -109,7 +105,7 @@ Ichiro Nakagawa
 DIRECTOR
 Hideo Yoshizawa
 
-COPYRIGHT MCMLXXXIX-MMXX TECMO
+COPYRIGHT MCMLXXXIX-MMXXI TECMO
 
 (on its own screen)
 THE END
