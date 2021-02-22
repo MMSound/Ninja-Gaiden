@@ -1,2 +1,2 @@
 /// @description Draw
-draw_sprite(sprFallingPillar, image_index, (x + drawX), (y - 8));
+draw_sprite(sprFallingPillar, (room == rmAct6Scene2), (x + drawX), (y - 8));

@@ -10,4 +10,4 @@ function set_speed(_xspd, _yspd)
 	yspeed = _yspd;
 }
 
-imgFrame = !moveOutsideView;
+imgFrame = room == rmAct6Scene2 ? 2 : !moveOutsideView;
