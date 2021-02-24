@@ -17,4 +17,15 @@ if (place_meeting(x, y, objPlayer))
 			instance_destroy(instancesToDestroy[i]);
 		}
 	}
+	
+	//flash the spots
+	if (instance_exists(objAct6Scene2Warp))
+	{
+		with (objAct6Scene2Warp)
+		{
+			event_user(0);
+		}
+	}
+	
+	play_sfx(sfxScoreCountdown, false);
 }
