@@ -29,7 +29,7 @@ if (!global.isShader)
 	if (instance_exists(objRoomTransition))
 	{
 		draw_set_alpha(objRoomTransition.drawAlpha);
-		draw_rectangle_color(global.viewX, global.viewY, (global.viewX + global.viewW), (global.viewY + global.viewH), c_black, c_black, c_black, c_black, false);
+		draw_rectangle_color(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
 		draw_set_alpha(1.0);
 	}
 }

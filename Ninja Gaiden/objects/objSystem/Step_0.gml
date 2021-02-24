@@ -27,7 +27,7 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 						else
 						{
 							audio_resume_sound(global.musicSound);
-							audio_sound_gain(global.musicSound, (global.musicVolume * 0.75), 0);
+							audio_sound_gain(global.musicSound, ((global.musicVolume * 0.75) * global.musicFadeVolume), 0);
 						}
 					}
 				}

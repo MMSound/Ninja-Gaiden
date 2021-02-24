@@ -92,8 +92,12 @@ function set_act(_act, _scene)
 }
 
 /// @description transition to a room
-function room_transition(_room)
+function room_transition(_room, _time)
 {
+	if (is_undefined(_time))
+	{
+		_time = 2;
+	}
 	if (!instance_exists(objRoomTransition))
 	{
 		var _trans = instance_create_depth(x, y, -200, objRoomTransition);
@@ -101,6 +105,7 @@ function room_transition(_room)
 		{
 			_trans.roomTo = _room;
 		}
+		_trans.fadeTimer = _time;
 	}
 	else
 	{

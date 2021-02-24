@@ -1,22 +1,40 @@
 /// @description Fade out and in
+var _timer = global.isShader ? fadeTimer : (fadeTimer / 2);
 switch (phase)
 {
 	case 0: //fade out
-		if (timer % 2 == 0)
+		if (timer % _timer == 0)
 		{
-			if (global.screenColorIndex < (sprite_get_width(global.screenPalette) - 1))
+			if (global.isShader)
 			{
-				global.screenColorIndex++;
+				if (global.screenColorIndex < (sprite_get_width(global.screenPalette) - 1))
+				{
+					global.screenColorIndex++;
+					music_set_fade(global.musicFadeVolume - 0.16);
+				}
+				else
+				{
+					phase = 1;
+					timer = 0;
+				}
 			}
 			else
-			{
-				phase = 1;
-				timer = 0;
+			{	
+				if (drawAlpha < 1.0)
+				{
+					drawAlpha += 0.1;
+					music_set_fade(global.musicFadeVolume - 0.9);
+				}
+				else
+				{
+					phase = 1;
+					timer = 0;
+				}
 			}
 		}
-		drawAlpha += 0.1;
 		break;
 	case 1: //change room
+		global.transition = false;
 		if (global.musicPlaying)
 		{
 			music_stop();
@@ -49,18 +67,31 @@ switch (phase)
 		timer = 0;
 		break;
 	case 2:
-		if (timer % 2 == 0)
+		if (timer % _timer == 0)
 		{
-			if (global.screenColorIndex > 0)
+			if (global.isShader)
 			{
-				global.screenColorIndex--;
+				if (global.screenColorIndex > 0)
+				{
+					global.screenColorIndex--;
+				}
+				else
+				{
+					instance_destroy(id);
+				}
 			}
 			else
-			{			
-				instance_destroy(id);
+			{
+				if (drawAlpha > 0)
+				{
+					drawAlpha -= 0.1;
+				}
+				else
+				{
+					instance_destroy(id);
+				}
 			}
 		}
-		drawAlpha -= 0.1;
 		break;	
 }
 timer++;

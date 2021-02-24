@@ -78,7 +78,7 @@ function music_play(_song)
 		global.musicSound = audio_play_sound(_params[0], 0, false);
 		global.musicLength = _params[1];
 		global.musicLoop = _params[2];
-		audio_sound_gain(global.musicSound, (global.musicVolume * 0.75), 0);
+		audio_sound_gain(global.musicSound, ((global.musicVolume * 0.75) * global.musicFadeVolume), 0);
 		
 		global.musicPlaying = true;
 	}
@@ -104,4 +104,11 @@ function music_loop()
 	
 	music_play(global.currentMusic);
 	audio_sound_set_track_position(global.musicSound, _position);
+}
+
+/// @description set the fade volume so we can do fading effects
+function music_set_fade(_level)
+{
+	global.musicFadeVolume = _level;
+	audio_sound_gain(global.musicSound, ((global.musicVolume * 0.75) * global.musicFadeVolume), 0);
 }

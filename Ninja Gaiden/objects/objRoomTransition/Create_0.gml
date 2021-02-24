@@ -2,6 +2,7 @@
 roomTo = -1;
 timer = 0;
 phase = 0;
+fadeTimer = 2;
 
 depth = -10000;
 

@@ -41,6 +41,8 @@ global.currentSection = noone;
 global.bossPhase = (room_get_type() == ROOM_BOSS);
 global.bossHealth = 16;
 
+music_set_fade(1.0);
+
 if (global.checkpointX != 0)
 {
 	if (instance_exists(objPlayer))
