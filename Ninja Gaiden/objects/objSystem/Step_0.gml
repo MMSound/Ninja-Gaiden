@@ -124,6 +124,8 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 				}
 			}
 		}
+		
+		global.ninpo = clamp(global.ninpo, 0, 99);
 	}
 	else
 	{
