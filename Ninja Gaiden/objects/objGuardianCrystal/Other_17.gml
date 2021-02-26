@@ -11,4 +11,5 @@ for (var i = 0; i < 3; i++)
 }
 play_sfx(sfxTickTockShatter);
 
-instance_destroy(id);
+visible = false;
+canBeHit = false;
