@@ -9,3 +9,5 @@ if (room != rmAct6Scene3)
 {
 	instance_destroy(id);
 }
+
+depth = 155;

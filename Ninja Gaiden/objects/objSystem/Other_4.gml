@@ -33,6 +33,9 @@ switch (room) //this will let me add in a bit of extra time in specific instance
 	case rmAct6Scene2:
 		global.levelTime = 220;
 		break;
+	case rmAct6Scene3:
+		global.levelTime = 666;
+		break;
 }
 global.levelTimer = 0;
 

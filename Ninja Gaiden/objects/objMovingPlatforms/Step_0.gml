@@ -22,14 +22,17 @@ if (!game_paused())
 		if (collision_rectangle(bbox_left, (bbox_top - 1), bbox_right, bbox_top, objPlayer, false, true))
 		{
 			moveOutsideView = true;
-			with (objMovingPlatforms)
+			if (room != rmAct6Scene3)
 			{
-				if (!moveOutsideView)
+				with (objMovingPlatforms)
 				{
-					moveOutsideView = true;
-					if (id != other.id)
+					if (!moveOutsideView)
 					{
-						x = other.x;
+						moveOutsideView = true;
+						if (id != other.id)
+						{
+							x = other.x;
+						}
 					}
 				}
 			}

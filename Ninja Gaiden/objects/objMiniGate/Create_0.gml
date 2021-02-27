@@ -1,0 +1,2 @@
+/// @description Variable
+myCrystal = noone;
