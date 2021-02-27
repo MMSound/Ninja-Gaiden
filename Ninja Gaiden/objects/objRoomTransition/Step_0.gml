@@ -67,7 +67,7 @@ switch (phase)
 		timer = 0;
 		break;
 	case 2:
-		if (timer % _timer == 0)
+		if (timer % 2 == 0)
 		{
 			if (global.isShader)
 			{

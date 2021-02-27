@@ -563,6 +563,19 @@ if (!isDead)
 		{
 			global.currentSection = _section;
 			section_set_bounds();
+			
+			//see if i can optimize things a bit
+			instance_activate_object(prtEnemy);
+			with (prtEnemy)
+			{
+				if (!place_meeting(x, y, global.currentSection))
+				{
+					if (object_index != objGuardianCrystal)
+					{
+						instance_deactivate_object(id);
+					}
+				}
+			}
 		}
 		
 		if (instance_exists(objFallingPillar))
