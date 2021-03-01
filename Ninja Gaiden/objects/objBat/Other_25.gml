@@ -1,7 +1,7 @@
 /// @description Movement
 
 //i really should have made a better engine
-if (room != rmAct6Scene2)
+if (room != rmAct6Scene2 || room != rmAct6Scene3)
 {
 	xspeed = (1 * image_xscale);
 }
@@ -20,7 +20,7 @@ if (image_index < 3)
 }
 
 //flap
-if (room != rmAct6Scene2)
+if (room != rmAct6Scene2 || room != rmAct6Scene3)
 {
 	if (flapTimer % 30 == 0)
 	{
