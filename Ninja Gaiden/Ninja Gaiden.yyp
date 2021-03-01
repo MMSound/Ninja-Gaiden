@@ -301,6 +301,7 @@
     {"id":{"name":"sprAct3Scene1Tiles","path":"sprites/sprAct3Scene1Tiles/sprAct3Scene1Tiles.yy",},"order":8,},
     {"id":{"name":"rmAct4Scene3","path":"rooms/rmAct4Scene3/rmAct4Scene3.yy",},"order":7,},
     {"id":{"name":"sprRyuAirSlash","path":"sprites/sprRyuAirSlash/sprRyuAirSlash.yy",},"order":10,},
+    {"id":{"name":"bgmAct6Scene3","path":"sounds/bgmAct6Scene3/bgmAct6Scene3.yy",},"order":13,},
     {"id":{"name":"sprAct1Sidewalk","path":"sprites/sprAct1Sidewalk/sprAct1Sidewalk.yy",},"order":3,},
     {"id":{"name":"rmAct6Scene1","path":"rooms/rmAct6Scene1/rmAct6Scene1.yy",},"order":3,},
     {"id":{"name":"sprAct3AfternoonSky","path":"sprites/sprAct3AfternoonSky/sprAct3AfternoonSky.yy",},"order":2,},
