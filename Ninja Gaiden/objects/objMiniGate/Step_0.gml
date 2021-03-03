@@ -5,6 +5,7 @@ if (instance_exists(myCrystal))
 	{
 		instance_destroy(id);
 	}
+	tile_layer_set_visible(myLayer, myCrystal.visible);
 }
 else
 {

@@ -9,4 +9,5 @@ if (instance_exists(myCrystal))
 	{
 		image_yscale = yScaleLock;
 	}
+	tile_layer_set_visible(myLayer, !myCrystal.visible);
 }

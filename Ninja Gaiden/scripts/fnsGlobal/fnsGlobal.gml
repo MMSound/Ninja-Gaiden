@@ -136,3 +136,13 @@ function room_get_type()
 		return ROOM_MENU;
 	}
 }
+
+/// @description change a tile layer visibility but with checking for its existance
+function tile_layer_set_visible(_layerName, _visible)
+{
+	var _layerID = layer_get_id(_layerName);
+	if (layer_exists(_layerID))
+	{
+		layer_set_visible(_layerID, _visible);
+	}
+}

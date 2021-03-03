@@ -25,6 +25,11 @@ function on_solid_entity()
 /// @description detect if we're on a top solid
 function on_topsolid()
 {
+	//yspeed shenanigans
+	if (yspeed < 0)
+	{
+		return false;
+	}
 	//check if we're on top first
 	var _onPlatform = collision_rectangle(bbox_left, (bbox_bottom + 1), bbox_right, (bbox_bottom + 1), objTopSolid, false, true);
 	if (!_onPlatform)
