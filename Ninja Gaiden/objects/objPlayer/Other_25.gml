@@ -592,11 +592,12 @@ else //change later
 	sprite_index = sprRyuJumpSomersault;
 	image_index = 0;
 	mask_index = sprPlayerPlaceholderDuck;
-	if (!grounded() && inside_view())
-	{
-		move_x(xspeed);
-	}
-	move_y(yspeed);
+	
 	yspeed += grav;
 	round_velocity();
+	if (!grounded() && inside_view())
+	{
+		move_x(xspeedInt);
+	}
+	move_y(yspeedInt);
 }

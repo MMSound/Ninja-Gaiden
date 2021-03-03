@@ -203,6 +203,7 @@
     {"id":{"name":"sprSwordManSwing","path":"sprites/sprSwordManSwing/sprSwordManSwing.yy",},"order":1,},
     {"id":{"name":"objFlameWheel","path":"objects/objFlameWheel/objFlameWheel.yy",},"order":6,},
     {"id":{"name":"sprFly","path":"sprites/sprFly/sprFly.yy",},"order":10,},
+    {"id":{"name":"objTester","path":"objects/objTester/objTester.yy",},"order":32,},
     {"id":{"name":"sprDogPalette","path":"sprites/sprDogPalette/sprDogPalette.yy",},"order":5,},
     {"id":{"name":"sprAct2Scene1Tiles","path":"sprites/sprAct2Scene1Tiles/sprAct2Scene1Tiles.yy",},"order":0,},
     {"id":{"name":"objAudioMenu","path":"objects/objAudioMenu/objAudioMenu.yy",},"order":3,},

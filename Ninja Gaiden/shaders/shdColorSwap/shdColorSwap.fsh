@@ -15,7 +15,7 @@ void main()
     
     for (float i = paletteUVs.y; i < paletteUVs.w; i += texelSize.y)
     {
-        if (distance(source, texture2D(paletteTexture, vec2(paletteUVs.x, i))) <= 0.004)
+		if (distance(source, texture2D(paletteTexture, vec2(paletteUVs.x, i))) <= 0.004)
         {
             float palette_V = paletteUVs.x + texelSize.x * paletteIndex;
             source = texture2D(paletteTexture, vec2(palette_V, i));

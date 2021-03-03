@@ -23,11 +23,16 @@ if (!game_paused())
 	
 	if (object_index != objPlayer)
 	{
-		move_y(yspeed);
-		move_x(xspeed, doSlope);
 		if (hasCollision)
 		{
 			round_velocity();
+			move_x(xspeedInt, doSlope);
+			move_y(yspeedInt);
+		}
+		else
+		{
+			move_x(xspeed, doSlope);
+			move_y(yspeed);
 		}
 	}
 	

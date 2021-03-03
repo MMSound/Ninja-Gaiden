@@ -38,10 +38,11 @@ if (!game_paused())
 			}
 			else
 			{
-				if (fallTimer % 30 == 0)
+				/*if (fallTimer % 30 == 0)
 				{
 					yspeed++;
-				}
+				}*/
+				yspeed += 0.1;
 			}
 		}
 	
@@ -50,7 +51,7 @@ if (!game_paused())
 
 	round_velocity();
 
-	move_platform_y(yspeed);
+	move_platform_y(yspeedInt);
 }
 
 //adjust depth
