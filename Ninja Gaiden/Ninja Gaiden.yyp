@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sprAct6Boards1","path":"sprites/sprAct6Boards1/sprAct6Boards1.yy",},"order":3,},
     {"id":{"name":"sprSnowBackground","path":"sprites/sprSnowBackground/sprSnowBackground.yy",},"order":0,},
     {"id":{"name":"fnsGlobal","path":"scripts/fnsGlobal/fnsGlobal.yy",},"order":1,},
     {"id":{"name":"objTiger","path":"objects/objTiger/objTiger.yy",},"order":19,},
@@ -40,6 +41,7 @@
     {"id":{"name":"objAccessibilityMenu","path":"objects/objAccessibilityMenu/objAccessibilityMenu.yy",},"order":5,},
     {"id":{"name":"sprGuillotine","path":"sprites/sprGuillotine/sprGuillotine.yy",},"order":2,},
     {"id":{"name":"objGuillotine","path":"objects/objGuillotine/objGuillotine.yy",},"order":27,},
+    {"id":{"name":"sprAct6Gradient2","path":"sprites/sprAct6Gradient2/sprAct6Gradient2.yy",},"order":1,},
     {"id":{"name":"sprGunnerBullet","path":"sprites/sprGunnerBullet/sprGunnerBullet.yy",},"order":2,},
     {"id":{"name":"objLogos","path":"objects/objLogos/objLogos.yy",},"order":0,},
     {"id":{"name":"sprHammerManCrouchShoot","path":"sprites/sprHammerManCrouchShoot/sprHammerManCrouchShoot.yy",},"order":2,},
@@ -378,6 +380,7 @@
     {"id":{"name":"sprPlaceholderSword","path":"sprites/sprPlaceholderSword/sprPlaceholderSword.yy",},"order":2,},
     {"id":{"name":"sprSpinSlashMask","path":"sprites/sprSpinSlashMask/sprSpinSlashMask.yy",},"order":0,},
     {"id":{"name":"sprAct3Scene2Tiles","path":"sprites/sprAct3Scene2Tiles/sprAct3Scene2Tiles.yy",},"order":1,},
+    {"id":{"name":"sprAct6Boards2","path":"sprites/sprAct6Boards2/sprAct6Boards2.yy",},"order":4,},
     {"id":{"name":"sprFontPalette","path":"sprites/sprFontPalette/sprFontPalette.yy",},"order":1,},
     {"id":{"name":"tstAct4Scene3","path":"tilesets/tstAct4Scene3/tstAct4Scene3.yy",},"order":10,},
     {"id":{"name":"objLockTopSolid","path":"objects/objLockTopSolid/objLockTopSolid.yy",},"order":16,},
@@ -440,6 +443,7 @@
     {"id":{"name":"sprScreenGrid","path":"sprites/sprScreenGrid/sprScreenGrid.yy",},"order":2,},
     {"id":{"name":"objBoxer","path":"objects/objBoxer/objBoxer.yy",},"order":2,},
     {"id":{"name":"objSwordArmor","path":"objects/objSwordArmor/objSwordArmor.yy",},"order":28,},
+    {"id":{"name":"sprAct6BigColumn","path":"sprites/sprAct6BigColumn/sprAct6BigColumn.yy",},"order":2,},
     {"id":{"name":"objMinecart","path":"objects/objMinecart/objMinecart.yy",},"order":6,},
     {"id":{"name":"rmTemplate","path":"rooms/rmTemplate/rmTemplate.yy",},"order":15,},
   ],
