@@ -1,6 +1,8 @@
 /// @description Check if there's crystals
 if (!activated)
 {
+	tile_layer_set_visible(myLayer, false);
+	tile_layer_set_visible(myLayer2, false);
 	var _advance = true;
 	for (var i = 0; i < instance_number(objGuardianCrystal); i++)
 	{
@@ -16,5 +18,7 @@ if (!activated)
 		y -= 48;
 		image_xscale = 3.00;
 		image_yscale = 14.00;
+		tile_layer_set_visible(myLayer, true);
+		tile_layer_set_visible(myLayer2, true);
 	}
 }
