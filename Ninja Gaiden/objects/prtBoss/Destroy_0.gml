@@ -1,4 +1,4 @@
 /// @description Go to next room (temp)
-room_transition(rmAct1Scene1);
+room_transition(nextRoom);
 
 play_sfx(sfxItemAcquisition);

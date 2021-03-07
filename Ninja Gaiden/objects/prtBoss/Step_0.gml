@@ -6,20 +6,26 @@ if (global.bossPhase == 1)
 	//iframes
 	if (iFrameTimer > 0)
 	{
-		canHit = false;
+		//canHit = false;
 		canBeHit = false;
 		visible = (iFrameTimer % 2 == 0);
 		iFrameTimer--;
 	}
 	else
 	{
-		canHit = true;
+		//canHit = true;
 		canBeHit = true;
 		visible = true;
 	}
 }
 else if (global.bossPhase == 2)
 {
+	imgSpd = 0;
+	image_speed = 0;
+	if (deathTimer == 0)
+	{
+		play_sfx(sfxPlayerHit);
+	}
 	if (deathTimer % 4 == 0)
 	{
 		if (audio_is_playing(sfxItemAcquisition))

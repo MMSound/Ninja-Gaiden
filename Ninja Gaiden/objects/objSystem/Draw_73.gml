@@ -35,7 +35,7 @@ if ((room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS) && !instance
 	}
 	
 	//scene card
-	if (in_range(global.levelTimer, 0, 150) && !game_paused())
+	if (in_range(global.levelTimer, 0, 150) && !game_paused() && room_get_type() != ROOM_BOSS)
 	{
 		draw_set_halign(fa_middle);
 		_drawX = (global.viewX + (global.viewW / 2));

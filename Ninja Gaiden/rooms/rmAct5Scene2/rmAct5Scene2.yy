@@ -730,8 +730,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Ninja Gaiden",
-    "path": "Ninja Gaiden.yyp",
+    "name": "Act 5",
+    "path": "folders/Rooms/Act 5.yy",
   },
   "resourceVersion": "1.0",
   "name": "rmAct5Scene2",

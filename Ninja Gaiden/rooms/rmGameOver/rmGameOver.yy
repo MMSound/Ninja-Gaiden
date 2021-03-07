@@ -63,8 +63,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Ninja Gaiden",
-    "path": "Ninja Gaiden.yyp",
+    "name": "Menu",
+    "path": "folders/Rooms/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "rmGameOver",

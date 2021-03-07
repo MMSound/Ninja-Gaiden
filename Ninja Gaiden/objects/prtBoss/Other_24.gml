@@ -11,3 +11,5 @@ iFrameTime = 36;
 iFrameTimer = 0;
 
 deathTimer = 0;
+
+nextRoom = rmAct1Scene1;

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprBiker",
-    "path": "sprites/sprBiker/sprBiker.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -34,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Boss.yy",
+    "name": "Parents",
+    "path": "folders/Parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "prtBoss",
