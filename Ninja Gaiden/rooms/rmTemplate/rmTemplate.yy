@@ -44,8 +44,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Ninja Gaiden",
-    "path": "Ninja Gaiden.yyp",
+    "name": "Rooms",
+    "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "rmTemplate",
