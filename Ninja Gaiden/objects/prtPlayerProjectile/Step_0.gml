@@ -9,9 +9,9 @@ if (!game_paused())
 		if (!hasHit)
 		{
 			var _enemy = instance_place(x, y, prtEnemy);
-			entity_damage(_enemy, contactDamage);
 			if (_enemy.canBeHit)
 			{
+				entity_damage(_enemy, contactDamage);
 				event_user(13);
 			}
 		}

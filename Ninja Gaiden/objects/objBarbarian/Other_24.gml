@@ -1,7 +1,7 @@
 /// @description Custom variables
 event_inherited();
 
-contactDamage = 3;
+contactDamage = 4;
 
 nextRoom = rmAct2Scene1;
 
