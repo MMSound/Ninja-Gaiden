@@ -27,10 +27,10 @@ switch (phase)
 				{
 					image_index = 1;
 					
-					/*if (slashTimer == 22)
+					if (slashTimer == 22)
 					{
-						play_sfx(sfxSwordSlash); //probably replace later
-					}*/
+						play_sfx(sfxBarbarianSlash);
+					}
 					
 					//slash projectile
 					if (slashCount == 2 && slashTimer == 24)

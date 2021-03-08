@@ -24,7 +24,7 @@ else if (global.bossPhase == 2)
 	image_speed = 0;
 	if (deathTimer == 0)
 	{
-		play_sfx(sfxPlayerHit);
+		play_sfx(sfxBossHit);
 	}
 	if (deathTimer % 4 == 0)
 	{
