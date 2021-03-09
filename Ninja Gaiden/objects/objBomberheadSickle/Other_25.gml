@@ -14,10 +14,6 @@ else
 			break;
 		case 1: //move to player
 			hasGravity = false;
-			if (phaseTimer % 1 == 0)
-			{
-				yspeed = (!yspeed * -1);
-			}
 			break;
 		case 2: //move back to bomberhead
 			hasGravity = true;
@@ -88,4 +84,9 @@ else
 			break;
 	}
 	phaseTimer++;
+}
+
+if (global.bossPhase == 2)
+{
+	instance_destroy(id);
 }

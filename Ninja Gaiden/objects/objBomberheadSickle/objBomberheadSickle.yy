@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBomberheadSickle","path":"objects/objBomberheadSickle/objBomberheadSickle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"objBomberheadSickle","path":"objects/objBomberheadSickle/objBomberheadSickle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":20,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBomberheadSickle","path":"objects/objBomberheadSickle/objBomberheadSickle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":18,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBomberheadSickle","path":"objects/objBomberheadSickle/objBomberheadSickle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

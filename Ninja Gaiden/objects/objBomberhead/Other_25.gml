@@ -1,7 +1,7 @@
 /// @description Boss fight
 if (mySickle == noone)
 {
-	mySickle = instance_create_depth(x, y, depth, objBomberheadSickle);
+	mySickle = instance_create_depth(x, y, (depth + 5), objBomberheadSickle);
 	mySickle.myParent = id;
 }
 switch (phase)
@@ -59,6 +59,7 @@ switch (phase)
 				yspeed = -8;
 			}
 		}
+		image_xscale = screenPos ? 1.00 : -1.00;
 		break;
 	case 2: //jump up to wall
 		if (yspeed == 1.5)

@@ -23,6 +23,7 @@
     {"id":{"name":"sprWaterSplashGenerator","path":"sprites/sprWaterSplashGenerator/sprWaterSplashGenerator.yy",},"order":4,},
     {"id":{"name":"objWallClimbWallLeft","path":"objects/objWallClimbWallLeft/objWallClimbWallLeft.yy",},"order":10,},
     {"id":{"name":"sprAct2Rocks","path":"sprites/sprAct2Rocks/sprAct2Rocks.yy",},"order":1,},
+    {"id":{"name":"sprBomberheadChain","path":"sprites/sprBomberheadChain/sprBomberheadChain.yy",},"order":0,},
     {"id":{"name":"objBansheeStationary","path":"objects/objBansheeStationary/objBansheeStationary.yy",},"order":31,},
     {"id":{"name":"sprAct3BackTreesWind","path":"sprites/sprAct3BackTreesWind/sprAct3BackTreesWind.yy",},"order":2,},
     {"id":{"name":"sprAct2Sand1","path":"sprites/sprAct2Sand1/sprAct2Sand1.yy",},"order":2,},
@@ -588,6 +589,7 @@
     {"folderPath":"folders/Rooms/Menu.yy","order":1,"resourceVersion":"1.0","name":"Menu","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Music/Boss Themes.yy","order":1,"resourceVersion":"1.0","name":"Boss Themes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Music/Boss Themes/NES.yy","order":1,"resourceVersion":"1.0","name":"NES","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Boss/Sprites/Bomberhead.yy","order":1,"resourceVersion":"1.0","name":"Bomberhead","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

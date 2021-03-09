@@ -167,3 +167,16 @@ function draw_sprite_wave(_sprite, _image, _xPos, _yPos, _axis, _wavelength, _am
 	}
 	//idk how any of this shit works lmao
 }
+
+/// @description draws a segmented line between two points
+function draw_segmented_line(_x1, _y1, _x2, _y2, _sprite, _segments)
+{
+	var _distanceX = (_x2 - _x1);
+	var _distanceY = (_y2 - _y1);
+	
+	for (var i = 0; i < _segments; i++)
+	{
+	    draw_sprite(_sprite, 0, (x + (i * (_distanceX / _segments))), (y + (i * (_distanceY / _segments))));
+	}
+	//wow actually original code holy shit
+}

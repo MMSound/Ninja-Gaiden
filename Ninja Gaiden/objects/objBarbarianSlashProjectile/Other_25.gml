@@ -22,3 +22,8 @@ else
 {
 	instance_destroy(id);
 }
+
+if (global.bossPhase == 2)
+{
+	instance_destroy(id);
+}

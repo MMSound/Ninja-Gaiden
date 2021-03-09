@@ -3,7 +3,7 @@ if (instance_exists(myParent))
 {
 	if (isLocked) //probably change these coords later
 	{
-		x = (myParent.x - (8 * myParent.image_xscale));
+		x = myParent.x;
 		y = (myParent.y - 32);
 	}
 }
