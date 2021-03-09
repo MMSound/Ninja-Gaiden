@@ -6,3 +6,8 @@ if (global.playerHealth == 0)
 {
 	event_inherited();
 }
+
+if (global.musicPlaying)
+{
+	music_stop();
+}

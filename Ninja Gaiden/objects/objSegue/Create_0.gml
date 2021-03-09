@@ -4,3 +4,5 @@ lifeTime = 60;
 
 nextRoom = rmInit;
 bossName = "NO BOSS NAME";
+
+music_play(bgmBossIntro);
