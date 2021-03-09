@@ -10,6 +10,7 @@ else
 		case 0: //locked
 			isLocked = true;
 			hasGravity = false;
+			bounceCount = 0;
 			break;
 		case 1: //move to player
 			hasGravity = false;
@@ -34,6 +35,55 @@ else
 			else
 			{
 				phase = 0;
+			}
+			break;
+		case 3: //bounce around
+			hasGravity = true;
+			if (bounceCount < 8)
+			{
+				if (instance_exists(objPlayer))
+				{
+					if (x < objPlayer.x)
+					{
+						x += 1;
+					}
+					else if (x > objPlayer.x)
+					{
+						x -= 1;
+					}
+				}
+				if (grounded())
+				{
+					yspeed = -7;
+					bounceCount++;
+				}
+			}
+			else
+			{
+				if (!myParent.hasGravity)
+				{
+					myParent.hasGravity = true;
+				}
+				if (!place_meeting(x, y, objBomberhead))
+				{
+					if (x < myParent.x)
+					{
+						x += 2;
+					}
+					else if (x > myParent.x)
+					{
+						x -= 2;
+					}
+				}
+				else
+				{
+					phase = 0;
+					with (myParent)
+					{
+						phase = 4;
+						phaseTimer = 0;
+					}
+				}				
 			}
 			break;
 	}

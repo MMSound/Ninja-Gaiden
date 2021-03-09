@@ -12,3 +12,4 @@ jumpTimer = 0;
 setGround = true;
 
 mySickle = noone;
+screenPos = (x > (global.viewX + (global.viewW / 2)));

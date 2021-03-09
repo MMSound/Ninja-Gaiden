@@ -11,3 +11,5 @@ phaseTimer = 0;
 
 isLocked = true;
 myParent = noone;
+
+bounceCount = 0;
