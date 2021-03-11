@@ -92,6 +92,8 @@ global.previousWeapon = 0;
 global.checkpointX = 0;
 global.checkpointY = 0;
 
+global.frozen = false;
+
 //weapon table
 global.weaponObject[0] = noone;
 global.weaponObject[WEAPON_SHURIKEN] = objShuriken;

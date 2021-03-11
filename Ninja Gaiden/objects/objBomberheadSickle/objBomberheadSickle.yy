@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprBomberheadSickleMask",
-    "path": "sprites/sprBomberheadSickleMask/sprBomberheadSickleMask.yy",
+    "name": "sprBomberheadSickle",
+    "path": "sprites/sprBomberheadSickle/sprBomberheadSickle.yy",
   },
   "solid": false,
   "visible": true,

@@ -52,6 +52,7 @@ else
 				{
 					yspeed = -7;
 					bounceCount++;
+					play_sfx(sfxBomberheadSickleBounce);
 				}
 			}
 			else
@@ -90,3 +91,5 @@ if (global.bossPhase == 2)
 {
 	instance_destroy(id);
 }
+
+visible = !isLocked;

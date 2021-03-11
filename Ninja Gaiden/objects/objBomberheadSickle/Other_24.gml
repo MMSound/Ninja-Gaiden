@@ -13,3 +13,5 @@ isLocked = true;
 myParent = noone;
 
 bounceCount = 0;
+
+imgSpd = 1;

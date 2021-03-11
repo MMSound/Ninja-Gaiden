@@ -5,6 +5,7 @@ if (phase == 1)
 	{
 		xspeed *= -1;
 		xspeed += (2 * -sign(xspeed));
+		play_sfx(sfxBomberheadSickleBounce);
 	}
 	if (coll_y(yspeed, objSolid))
 	{
@@ -12,5 +13,6 @@ if (phase == 1)
 		phaseTimer = 0;
 		yspeed = 0;
 		xspeed = 0;
+		play_sfx(sfxBomberheadSickleBounce);
 	}
 }

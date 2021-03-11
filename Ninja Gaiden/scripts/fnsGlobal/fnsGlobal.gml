@@ -48,7 +48,7 @@ function gamepad_get_connected()
 /// @description check if the game is in a state of pause
 function game_paused()
 {
-	return (global.paused || global.transition);
+	return (global.paused || global.transition || global.frozen);
 }
 
 /// @description checks if inside view

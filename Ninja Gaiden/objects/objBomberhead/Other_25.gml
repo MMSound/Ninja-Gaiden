@@ -23,6 +23,7 @@ switch (phase)
 						phase = 1;
 						phaseTimer = 0;
 						x += (8 * other.image_xscale);
+						play_sfx(sfxBomberheadThrow);
 					}
 				}
 			}
