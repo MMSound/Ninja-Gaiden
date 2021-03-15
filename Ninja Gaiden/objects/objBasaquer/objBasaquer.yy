@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprBomberhead",
-    "path": "sprites/sprBomberhead/sprBomberhead.yy",
+    "name": "sprBomberheadMask",
+    "path": "sprites/sprBomberheadMask/sprBomberheadMask.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":24,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBomberhead","path":"objects/objBomberhead/objBomberhead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBomberhead","path":"objects/objBomberhead/objBomberhead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":24,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBasaquer","path":"objects/objBasaquer/objBasaquer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBasaquer","path":"objects/objBasaquer/objBasaquer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +34,7 @@
     "path": "folders/Boss.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objBomberhead",
+  "name": "objBasaquer",
   "tags": [],
   "resourceType": "GMObject",
 }

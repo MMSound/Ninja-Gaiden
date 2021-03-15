@@ -14,7 +14,7 @@ switch (drawPhase)
 		draw_set_font(global.gameFont);
 		draw_text(144, 208, "1989-2021");
 		draw_text(120, 224, "2021 MINIMACRO SOUND");
-		draw_text(0, 232, "DEMO ACT 2 BOSS");
+		draw_text(0, 232, "DEMO ACT 3 BOSS");
 		if (drawText)
 		{
 			draw_text(156, 128, "PRESS START");

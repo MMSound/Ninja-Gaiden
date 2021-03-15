@@ -1,7 +1,11 @@
 /// @description Boss fight
+if (instance_exists(objPlayer))
+{
+	depth = (objPlayer.depth + 5);
+}
 if (mySickle == noone)
 {
-	mySickle = instance_create_depth(x, y, (depth + 5), objBomberheadSickle);
+	mySickle = instance_create_depth(x, y, depth, objBomberheadSickle);
 	mySickle.myParent = id;
 }
 switch (phase)
@@ -24,6 +28,7 @@ switch (phase)
 						phaseTimer = 0;
 						x += (8 * other.image_xscale);
 						play_sfx(sfxBomberheadThrow);
+						other.isThrow = true;
 					}
 				}
 			}
@@ -36,6 +41,7 @@ switch (phase)
 				xspeed = 0;
 				jumpCount++;
 				setGround = true;
+				isThrow = false;
 			}
 			if (jumpCount == 5)
 			{
@@ -47,6 +53,47 @@ switch (phase)
 		else
 		{
 			setGround = false;			
+		}
+		
+		//animation
+		if (in_range(jumpTimer, 0, 9) || in_range(jumpTimer, 21, 30))
+		{
+			if (instance_exists(mySickle))
+			{
+				image_index = (2 + (!mySickle.isLocked));
+			}
+		}
+		else
+		{
+			if (grounded())
+			{
+				if (instance_exists(mySickle))
+				{
+					image_index = !mySickle.isLocked;
+				}
+				else
+				{
+					image_index = 0;
+				}
+			}
+			else
+			{
+				if (isThrow)
+				{
+					if (in_range(jumpTimer, 30, 35))
+					{
+						image_index = 6;
+					}
+					else
+					{
+						image_index = 7;
+					}
+				}
+				else
+				{
+					image_index = 7;
+				}
+			}
 		}
 		jumpTimer++;
 		break;
@@ -83,11 +130,13 @@ switch (phase)
 				}
 			}
 		}
+		image_index = 4;
 		break;
 	case 3: //sorry nothing
-		
+		image_index = (6 + (phaseTimer > 5));
 		break;
 	case 4: //move to position
+		image_index = 1;
 		if (x > (global.viewX + (global.viewW / 2))) //on right side
 		{
 			if (x > (global.viewX + (global.viewW - 64)))

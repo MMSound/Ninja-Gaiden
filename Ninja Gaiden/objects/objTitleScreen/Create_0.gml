@@ -2,7 +2,7 @@
 blinkTimer = 0;
 drawText = true;
 
-currentDemoLevel = rmAct2Scene1;
+currentDemoLevel = rmAct3Scene1;
 
 playedSFX = false;
 
@@ -31,5 +31,6 @@ levelSelect[12] = rmAct6Scene2;
 levelSelect[13] = rmAct6Scene3;
 levelSelect[14] = rmAct1Segue;
 levelSelect[15] = rmAct2Boss;
+levelSelect[16] = rmAct3Boss;
 
 global.uiColorIndex = 4;

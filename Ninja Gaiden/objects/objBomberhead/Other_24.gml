@@ -10,6 +10,7 @@ phaseTimer = 0;
 jumpCount = 0;
 jumpTimer = 0;
 setGround = true;
+isThrow = false;
 
 mySickle = noone;
 screenPos = (x > (global.viewX + (global.viewW / 2)));
