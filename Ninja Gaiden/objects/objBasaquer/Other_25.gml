@@ -49,9 +49,7 @@ switch (phase)
 	case 3: //warp around
 		if (warpTimer == 20 && !isWarp) //shooting bullet
 		{
-			var _bullet = instance_create_depth(x, bbox_bottom, depth, objGenericBullet); //replace with special object later
-				_bullet.hasCollision = true;
-				_bullet.yspeed = 3;
+			instance_create_depth(x, bbox_bottom, depth, objBasaquerFlameProjectile);
 		}
 		if (warpTimer == 35 && !isWarp)
 		{
@@ -95,6 +93,16 @@ switch (phase)
 			phase = 5;
 			phaseTimer = 0;
 			hasGravity = true;
+		}
+		if (phaseTimer % 10 == 0)
+		{
+			for (var i = 0; i < 2; i++)
+			{
+				var _bullet = instance_create_depth(((i == 0) ? bbox_left : bbox_right), (y - 32), depth, objGenericBullet);
+					_bullet.sprite_index = sprKelberossCannonBullet;
+					_bullet.image_xscale = ((i == 0) ? -1.00 : 1.00);
+					_bullet.xspeed = ((i == 0) ? -5 : 5);
+			}
 		}
 		break;
 	case 5: //jump to a random side
