@@ -13,7 +13,4 @@ canDespawn = true;
 
 event_user(14);
 
-if (hasCollision)
-{
-	init_movement();
-}
+init_movement();
