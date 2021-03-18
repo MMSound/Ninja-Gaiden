@@ -13,4 +13,4 @@ setGround = true;
 isThrow = false;
 
 mySickle = noone;
-screenPos = (x > (global.viewX + (global.viewW / 2)));
+screenPos = 0;

@@ -41,7 +41,7 @@ function initialize_music()
 	//music table
 	global.musicID[bgmAct1Scene1] = [bgmAct1Scene1, 76.809, 44.803];
 	global.musicID[bgmAct2Scene1] = [bgmAct2Scene1, 43.205, 04.787];
-	global.musicID[bgmAct2Scene2] = [bgmAct2Scene2, 70.408, 70.408];
+	global.musicID[bgmAct2Scene2] = [bgmAct2Scene2, 70.408, 00.000];
 	global.musicID[bgmAct3Scene1] = [bgmAct3Scene1, 55.987, 02.663];
 	global.musicID[bgmAct3Scene2] = [bgmAct3Scene2, 68.007, 04.001];
 	global.musicID[bgmAct4Scene1] = [bgmAct4Scene1, 51.206, 06.399];
