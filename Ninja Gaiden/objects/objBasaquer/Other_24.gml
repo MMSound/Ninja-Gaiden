@@ -16,3 +16,5 @@ warpCount = 0;
 isWarp = true;
 warpTransitionTimer = 0;
 xPosition = 0;
+
+nextRoom = rmAct4Scene1;

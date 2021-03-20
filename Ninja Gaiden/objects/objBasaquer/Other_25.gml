@@ -138,7 +138,7 @@ switch (phase)
 			{
 				var _bullet = instance_create_depth(((i == 0) ? bbox_left : bbox_right), (y - 32), depth, objGenericBullet);
 					_bullet.sprite_index = sprKelberossCannonBullet;
-					_bullet.image_xscale = ((i == 0) ? -1.00 : 1.00);
+					_bullet.image_xscale = ((i == 0) ? 1.00 : -1.00);
 					_bullet.xspeed = ((i == 0) ? -5 : 5);
 			}
 		}
