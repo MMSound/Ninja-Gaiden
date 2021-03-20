@@ -1,6 +1,8 @@
 /// @description Custom variables
 event_inherited();
 
+imgSpd = 0;
+
 contactDamage = 3;
 
 phase = 0;
