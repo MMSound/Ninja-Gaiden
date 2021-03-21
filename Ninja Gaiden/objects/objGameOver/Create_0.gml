@@ -16,6 +16,7 @@ roomTo[3][3] = rmAct3Scene2;
 roomTo[4][1] = rmAct4Scene1;
 roomTo[4][2] = rmAct4Scene2;
 roomTo[4][3] = rmAct4Scene3;
+roomTo[4][4] = rmAct4Scene3;
 
 roomTo[5][1] = rmAct5Scene1;
 roomTo[5][2] = rmAct5Scene2;
