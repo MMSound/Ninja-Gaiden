@@ -30,16 +30,27 @@ switch (phase)
 			{
 				yspeed = -6;
 				jumpTimer = 0;
+				if (++jumpCount % 3 == 0) //face the player every third jump
+				{
+					if (instance_exists(objPlayer))
+					{
+						var _playerDir = sign(objPlayer.x - x);
+						if (_playerDir != 0)
+						{
+							image_xscale = _playerDir;
+						}
+					}					
+				}
 			}
 		}
 		else
 		{
-			xspeed = ((2 + ((instance_number(objKelbeross) == 1) * 0.5)) * image_xscale);
+			xspeed = ((2 + (instance_number(objKelbeross) == 1)) * image_xscale);
 		}
 		
 		//shooteng
-		var _jumpTime = (instance_number(objKelbeross) == 1) ? 85 : 170;
-		if (phaseTimer % _jumpTime == 0 && phaseTimer != 0)
+		var _shootTime = (instance_number(objKelbeross) == 1) ? 65 : 130;
+		if (phaseTimer % _shootTime == 0 && phaseTimer != 0)
 		{
 			var _bullet = instance_create_depth((x + (15 * image_xscale)), (y - 18), (depth - 1), objGenericBullet);
 				_bullet.sprite_index = sprKelberossBullet;
