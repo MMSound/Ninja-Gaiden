@@ -37,7 +37,6 @@
     {"id":{"name":"fnsSound","path":"scripts/fnsSound/fnsSound.yy",},"order":8,},
     {"id":{"name":"sprGuardianCrystalPalette","path":"sprites/sprGuardianCrystalPalette/sprGuardianCrystalPalette.yy",},"order":8,},
     {"id":{"name":"objGunner","path":"objects/objGunner/objGunner.yy",},"order":12,},
-    {"id":{"name":"sprFontCyrillic","path":"sprites/sprFontCyrillic/sprFontCyrillic.yy",},"order":1,},
     {"id":{"name":"sprHealthbar","path":"sprites/sprHealthbar/sprHealthbar.yy",},"order":4,},
     {"id":{"name":"sprAct5Grass","path":"sprites/sprAct5Grass/sprAct5Grass.yy",},"order":3,},
     {"id":{"name":"objItems","path":"objects/objItems/objItems.yy",},"order":2,},
