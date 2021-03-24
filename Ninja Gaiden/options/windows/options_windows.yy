@@ -1,5 +1,5 @@
 {
-  "option_windows_display_name": "Ninja Gaiden Plus",
+  "option_windows_display_name": "The Ninja Gaiden as Interpreted by MiniMacro Sound",
   "option_windows_executable_name": "${project_name}.exe",
   "option_windows_version": "1.0.0.0",
   "option_windows_company_info": "MiniMacro Sound",

@@ -52,7 +52,10 @@ switch (phase)
 		{
 			if (global.currentLives > 0)
 			{
-				global.currentLives--;
+				if (global.livesOption)
+				{
+					global.currentLives--;
+				}
 			}
 			else //temp
 			{

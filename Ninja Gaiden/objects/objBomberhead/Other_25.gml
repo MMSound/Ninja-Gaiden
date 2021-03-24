@@ -13,7 +13,7 @@ switch (phase)
 	case 0: //jump several times
 		if (jumpTimer == 30)
 		{
-			yspeed = -4;
+			yspeed = -4.5;
 			xspeed = screenPos ? -2 : 2;
 			if (instance_exists(mySickle))
 			{

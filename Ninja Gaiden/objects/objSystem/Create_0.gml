@@ -55,6 +55,8 @@ global.ninpo = 0;
 global.currentAct = 1;
 global.currentScene = 1;
 
+global.livesOption = true;
+
 global.bossHealth = 16;
 global.bossPhase = 0;
 
@@ -161,6 +163,11 @@ global.subtitle[sfxFallingPillar] = "[Pillar Falling]";
 global.subtitle[sfxHo] = "Ryu: {Ho!{";
 global.subtitle[sfxWindBlow] = "[Wind Blowing]";
 global.subtitle[sfxLongSwordSlash] = "[Sword Slash]";
+global.subtitle[sfxScoreCountdown] = "[Bloop]";
+global.subtitle[sfxBossHit] = "[Boss Getting Hurt]";
+global.subtitle[sfxBarbarianSlash] = "[Barbarian Slash]";
+global.subtitle[sfxBomberheadThrow] = "[Sickle Throw]";
+global.subtitle[sfxBomberheadSickleBounce] = "[Sickle Bounce]";
 
 //miscellaneous bullshit
 global.pceParallax = false;

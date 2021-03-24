@@ -11,9 +11,11 @@ switch (currentOption)
 		draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), optionsOnOff[global.upFireEnabled], global.uiColorIndex, sprFontPalette, global.gameFont);
 		break;
 	case 3:
-		var _langName = ["ENGLISH", "JAPANESE", "ESPAÑOL", "ITALIANO", "ROMÂNĂ", "РУСКИЙ", "СРПСКИ"];
-		
+		var _langName = ["ENGLISH", "JAPANESE", "ESPAÑOL", "ITALIANO", "ROMÂNĂ", "РУСКИЙ", "СРПСКИ"];	
 		draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), _langName[global.cutsceneLanguage], global.uiColorIndex, sprFontPalette, global.gameFont);
 		draw_sprite_wave(sprFlags, global.cutsceneLanguage, (global.viewX + (global.viewW / 2)), (global.viewY + 96), 0, 12, 1, wavePhase);
+		break;
+	case 4:
+		draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), optionsOnOff[global.livesOption], global.uiColorIndex, sprFontPalette, global.gameFont);
 		break;
 }

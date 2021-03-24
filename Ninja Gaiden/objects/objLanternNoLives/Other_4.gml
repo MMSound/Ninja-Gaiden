@@ -1,5 +1,5 @@
 /// @description Destroy if necessary
-if (global.currentLives > 0)
+if (global.currentLives > 0 || !global.livesOption)
 {
 	instance_destroy(id);
 }

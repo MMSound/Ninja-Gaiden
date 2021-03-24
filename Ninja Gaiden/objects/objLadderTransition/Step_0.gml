@@ -9,3 +9,5 @@ if (instance_exists(objPlayer))
 		}
 	}
 }
+
+visible = false;

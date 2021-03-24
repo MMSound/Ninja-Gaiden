@@ -31,4 +31,8 @@ switch (currentOption)
 		}
 		play_sfx(sfxShuriken);		
 		break;
+	case 4:
+		global.livesOption = !global.livesOption;
+		play_sfx(sfxShuriken);
+		break;
 }

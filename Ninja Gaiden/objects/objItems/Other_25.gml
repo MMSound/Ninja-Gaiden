@@ -5,7 +5,17 @@ if (place_meeting_player(x, y))
 	switch (image_index)
 	{
 		case 0:
-			global.currentLives++;
+			if (global.livesOption)
+			{
+				global.currentLives++;
+			}
+			else
+			{
+				if (instance_exists(objPlayer))
+				{
+					objPlayer.healthPoints += 4;
+				}			
+			}
 			break;
 		case 1:
 			if (instance_exists(objPlayer))

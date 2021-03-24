@@ -14,7 +14,15 @@ if ((room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS) && !instance
 	_drawY += 8;
 	draw_text(_drawX, _drawY, string("TIMER-" + string_zeros(global.levelTime, 3)));
 	_drawY += 8;
-	draw_text(_drawX, _drawY, string("P-" + string_zeros(global.currentLives, 2)));
+	if (global.livesOption)
+	{
+		draw_text(_drawX, _drawY, string("P-" + string_zeros(global.currentLives, 2)));
+	}
+	else
+	{
+		draw_text(_drawX, _drawY, "P-");
+		draw_sprite(sprInfinity, 0, (_drawX + 16), _drawY);
+	}
 	_drawX += 48;
 	draw_text(_drawX, _drawY, string("-" + string_zeros(global.ninpo, 2)));
 	draw_sprite(sprWeaponIcons, global.currentWeapon, (_drawX + 28), (_drawY - 8));

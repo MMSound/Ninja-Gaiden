@@ -11,3 +11,8 @@ if (global.musicPlaying)
 {
 	music_stop();
 }
+
+if (instance_exists(objGenericBullet))
+{
+	instance_destroy(objGenericBullet);
+}

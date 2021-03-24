@@ -8,3 +8,8 @@ if (itemDrop == SHURIKEN || itemDrop == WINDMILL_SHURIKEN || itemDrop == FLAME_W
 	sprite_index = sprLanternWeapon;
 	imgSpd = (1 / 3);
 }
+
+if (!global.livesOption && itemDrop == LIFE)
+{
+	itemDrop = HEALTH;
+}
