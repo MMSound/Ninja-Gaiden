@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Boss.yy",
+    "name": "Barbarian",
+    "path": "folders/Boss/Barbarian.yy",
   },
   "resourceVersion": "1.0",
   "name": "objBarbarian",

@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Boss.yy",
+    "name": "Kelbeross",
+    "path": "folders/Boss/Kelbeross.yy",
   },
   "resourceVersion": "1.0",
   "name": "objKelberossController",

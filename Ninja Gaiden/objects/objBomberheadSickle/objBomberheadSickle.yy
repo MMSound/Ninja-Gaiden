@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Boss.yy",
+    "name": "Bomberhead",
+    "path": "folders/Boss/Bomberhead.yy",
   },
   "resourceVersion": "1.0",
   "name": "objBomberheadSickle",

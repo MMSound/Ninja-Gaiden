@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Boss.yy",
+    "name": "Basaquer",
+    "path": "folders/Boss/Basaquer.yy",
   },
   "resourceVersion": "1.0",
   "name": "objBasaquerDisappear",

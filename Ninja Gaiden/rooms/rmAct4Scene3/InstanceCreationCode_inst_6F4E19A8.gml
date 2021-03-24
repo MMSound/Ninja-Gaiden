@@ -1,1 +1,1 @@
-nextRoom = rmAct4Boss;
+nextRoom = rmAct4Segue;

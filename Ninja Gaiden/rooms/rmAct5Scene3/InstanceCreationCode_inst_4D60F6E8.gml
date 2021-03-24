@@ -1,1 +1,1 @@
-nextRoom = rmAct6Scene1;
+nextRoom = rmAct5Boss;
