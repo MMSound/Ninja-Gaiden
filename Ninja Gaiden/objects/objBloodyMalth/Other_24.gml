@@ -11,6 +11,8 @@ attackCount = 0;
 
 myLightning = noone;
 
+nextRoom = rmAct6Scene1;
+
 function lightning_pillar_create(_x, _y, _height)
 {
 	for (var i = 0; i < _height; i++)
