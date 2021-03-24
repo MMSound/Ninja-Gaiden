@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprKelberossMask",
-    "path": "sprites/sprKelberossMask/sprKelberossMask.yy",
+    "name": "sprKelbeross",
+    "path": "sprites/sprKelbeross/sprKelbeross.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,6 +30,7 @@
     {"isDnD":false,"eventNum":16,"eventType":7,"collisionObjectId":null,"parent":{"name":"objKelbeross","path":"objects/objKelbeross/objKelbeross.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":17,"eventType":7,"collisionObjectId":null,"parent":{"name":"objKelbeross","path":"objects/objKelbeross/objKelbeross.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":20,"eventType":7,"collisionObjectId":null,"parent":{"name":"objKelbeross","path":"objects/objKelbeross/objKelbeross.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":18,"eventType":7,"collisionObjectId":null,"parent":{"name":"objKelbeross","path":"objects/objKelbeross/objKelbeross.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

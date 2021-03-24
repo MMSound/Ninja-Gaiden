@@ -12,3 +12,6 @@ phaseTimer = 0;
 jumpTime = 15;
 jumpTimer = 0;
 jumpCount = 0;
+
+imgSpd = 0;
+animTimer = 0;

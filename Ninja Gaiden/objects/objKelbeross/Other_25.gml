@@ -20,6 +20,7 @@ switch (phase)
 				_bullet.image_xscale = image_xscale;
 				_bullet.contactDamage = 2;
 				_bullet.imgSpd = (1 / 2);
+			animTimer = 10;
 		}
 		break;
 	case 1: //jumpeng around
@@ -58,8 +59,24 @@ switch (phase)
 				_bullet.image_xscale = image_xscale;
 				_bullet.contactDamage = 2;
 				_bullet.imgSpd = (1 / 2);
+			animTimer = 10;
 		}
 		break;
 }
 
 phaseTimer++;
+
+//animation
+if (grounded())
+{
+	image_index = (animTimer > 0);
+}
+else
+{
+	image_index = 2;
+}
+
+if (animTimer > 0)
+{
+	animTimer--;
+}
