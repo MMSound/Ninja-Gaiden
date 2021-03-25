@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e6e19551-862e-4e06-b257-4b1a41e7f52d","path":"sprites/sprAct2BossBackground/sprAct2BossBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e6e19551-862e-4e06-b257-4b1a41e7f52d","path":"sprites/sprAct2BossBackground/sprAct2BossBackground.yy",},"LayerId":{"name":"f80c4cd5-6e53-4de5-9236-c71c23f34542","path":"sprites/sprAct2BossBackground/sprAct2BossBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAct2BossBackground","path":"sprites/sprAct2BossBackground/sprAct2BossBackground.yy",},"resourceVersion":"1.0","name":"e6e19551-862e-4e06-b257-4b1a41e7f52d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9cf1c83f-2f6a-44f5-bb7f-9e667feb6d43","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9cf1c83f-2f6a-44f5-bb7f-9e667feb6d43","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},"LayerId":{"name":"98418228-f62e-4665-a0ea-192812f3021f","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprAct5BossBackground","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},"resourceVersion":"1.0","name":"9cf1c83f-2f6a-44f5-bb7f-9e667feb6d43","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprAct2BossBackground","path":"sprites/sprAct2BossBackground/sprAct2BossBackground.yy",},
+    "spriteId": {"name":"sprAct5BossBackground","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ddca145d-9abe-4f1b-bf9b-e731c3242131","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e6e19551-862e-4e06-b257-4b1a41e7f52d","path":"sprites/sprAct2BossBackground/sprAct2BossBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"29aba073-8287-498d-8378-aa68b888314b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9cf1c83f-2f6a-44f5-bb7f-9e667feb6d43","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprAct2BossBackground","path":"sprites/sprAct2BossBackground/sprAct2BossBackground.yy",},
+    "parent": {"name":"sprAct5BossBackground","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},
     "resourceVersion": "1.3",
-    "name": "sprAct2BossBackground",
+    "name": "sprAct5BossBackground",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f80c4cd5-6e53-4de5-9236-c71c23f34542","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"98418228-f62e-4665-a0ea-192812f3021f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Act 2-2",
-    "path": "folders/Tiles & Backgrounds/Sprites/Act 2-2.yy",
+    "name": "Act 5-3",
+    "path": "folders/Tiles & Backgrounds/Sprites/Act 5-3.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprAct2BossBackground",
+  "name": "sprAct5BossBackground",
   "tags": [],
   "resourceType": "GMSprite",
 }
