@@ -7,6 +7,7 @@ switch (phase)
 			var _height = (++attackCount % 2 == 0) ? 9 : 3;
 			var _yOffset = (attackCount % 2 == 0) ? 48 : 16; //make these 24 and 56 when the sprites
 			lightning_pillar_create((x + 16), (y - _yOffset), _height);
+			animate_to_frame(5);
 		}
 		else if (((phaseTimer % 40) - 20) == 0 && phaseTimer > 40)
 		{
@@ -29,6 +30,7 @@ switch (phase)
 					_bullet.sprite_index = sprMalthLightningBallLarge;
 					_bullet.imgSpd = 1;
 					play_sfx(sfxMalthZapLarge);
+					animate_to_frame(5);
 				}
 			}
 			else
@@ -53,12 +55,21 @@ switch (phase)
 			phaseTimer = 0;
 			attackCount = 0;
 		}
+		else if (phaseTimer == 285)
+		{
+			image_index = 7;
+		}
+		else
+		{
+			image_index = 0;
+		}
 		break;
 	case 3: //lower lightning
 		if (myLightning == noone)
 		{
 			myLightning = instance_create_depth(global.viewX, (y - 24), depth, objBloodyMalthLightningRod);
 			play_sfx(sfxMalthZapLarge);
+			animate_to_frame(8);
 		}
 		
 		//the ones he fires at you directly
@@ -67,6 +78,7 @@ switch (phase)
 			if (++attackCount < 8)
 			{
 				lightning_pillar_create((x + 16), (y - 40), 5);
+				animate_to_frame(5);
 			}
 			else
 			{
@@ -93,12 +105,18 @@ switch (phase)
 		{
 			myLightning = instance_create_depth(global.viewX, (bbox_top - 24), depth, objBloodyMalthLightningRod);
 			play_sfx(sfxMalthZapLarge);
+			animate_to_frame(8);
+		}
+		else if (myLightning == noone && phaseTimer > 65)
+		{
+			image_index = 7;
 		}
 		
 		//the ones he fires at you directly
 		if (phaseTimer % 50 == 0)
 		{
 			lightning_pillar_create((x + 16), (y - 34), 9);
+			animate_to_frame(5);
 		}
 		else if (((phaseTimer % 50) - 20) == 0)
 		{
@@ -112,6 +130,7 @@ switch (phase)
 			phaseTimer = 0;
 			attackCount = 0;
 		}
+		image_index = 0;
 		break;
 	case 69: //this is the interim phase where we punch ryu (if necessary)
 		if (phaseTimer == 25)
@@ -138,6 +157,7 @@ switch (phase)
 							canWallClimb = false;
 						}					
 					}
+					animate_to_frame(3);
 				}
 			}
 		}
@@ -148,7 +168,28 @@ switch (phase)
 			attackCount = 0;
 			nextPhase = 0;
 		}
-		//add a thing here to make it so he's only in the windup frame if ryu is within range
+		else if (phaseTimer < 25) //prepare to punch ryu
+		{
+			if (instance_exists(objPlayer))
+			{
+				if ((objPlayer.x - x) < 36 && (objPlayer.y > (bbox_top + 24)))
+				{
+					image_index = 1;
+				}
+				else
+				{
+					image_index = 0;
+				}
+			}
+			else
+			{
+				image_index = 0;
+			}
+		}
+		else
+		{
+			image_index = 0;
+		}
 		break;
 }
 
@@ -160,8 +201,38 @@ if (phaseTimer % 70 == 0)
 		if (objPlayer.x < x && !objPlayer.isDead)
 		{
 			instance_create_depth(global.viewX, (global.viewY + 56), depth, objBloodyMalthBigLightning); //get fucked lmao
+			animate_to_frame(8);
+		}
+	}
+}
+else if (((phaseTimer % 70) - 15) == 0) //stomp
+{
+	if (instance_exists(objPlayer))
+	{
+		if (objPlayer.x < x && !objPlayer.isDead)
+		{
+			image_index = 7;
 		}
 	}
 }
 
 phaseTimer++;
+
+//animation
+if (animTimer > 0)
+{
+	animTimer--;
+}
+else
+{
+	if (goToNextFrame)
+	{
+		image_index++;
+		goToNextFrame = false;
+	}
+}
+
+if (instance_exists(objBloodyMalthLightningSummon)) //lightning summon animation
+{
+	image_index = 2;
+}

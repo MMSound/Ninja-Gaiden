@@ -13,6 +13,9 @@ myLightning = noone;
 
 nextRoom = rmAct6Scene1;
 
+animTimer = 0;
+goToNextFrame = false;
+
 function lightning_pillar_create(_x, _y, _height)
 {
 	for (var i = 0; i < _height; i++)
@@ -33,6 +36,18 @@ function summon_lightning()
 	play_sfx(sfxMalthSummon);
 	//make sure to add code for setting the animation timer and shit
 	//and also the flashing
+}
+
+function animate_to_frame(_frame, _time)
+{
+	if (is_undefined(_time))
+	{
+		_time = 6;
+	}
+	
+	image_index = _frame;
+	animTimer = _time;
+	goToNextFrame = true;
 }
 
 //so basically we want an easy system for all the blurs and stuff that isn't in_range abuse

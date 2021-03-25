@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprMalthMask",
-    "path": "sprites/sprMalthMask/sprMalthMask.yy",
+    "name": "sprMalth",
+    "path": "sprites/sprMalth/sprMalth.yy",
   },
   "solid": false,
   "visible": true,
