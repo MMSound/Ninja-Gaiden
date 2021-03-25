@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSnow",
-    "path": "sprites/sprSnow/sprSnow.yy",
+    "name": "sprMalthLightningRod",
+    "path": "sprites/sprMalthLightningRod/sprMalthLightningRod.yy",
   },
   "solid": false,
   "visible": true,

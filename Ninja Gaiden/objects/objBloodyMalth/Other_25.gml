@@ -1,12 +1,16 @@
 /// @description Don't move
 switch (phase)
 {
-	case 0: //three over-under shots
+	case 0: //over-under shots til we get hit
 		if (phaseTimer % 40 == 0 && phaseTimer > 40)
 		{
 			var _height = (++attackCount % 2 == 0) ? 9 : 3;
 			var _yOffset = (attackCount % 2 == 0) ? 48 : 16; //make these 24 and 56 when the sprites
 			lightning_pillar_create((x + 16), (y - _yOffset), _height);
+		}
+		else if (((phaseTimer % 40) - 20) == 0 && phaseTimer > 40)
+		{
+			summon_lightning();
 		}
 		break;
 	case 1: //fire some aimed bullets
@@ -22,6 +26,8 @@ switch (phase)
 	                _bullet.yspeed = lengthdir_y(5, _dir);
 					_bullet.sprite_index = sprX;
 					_bullet.canBeHit = false;
+					_bullet.sprite_index = sprMalthLightningBallLarge;
+					_bullet.imgSpd = 1;
 				}
 			}
 			else
@@ -29,6 +35,13 @@ switch (phase)
 				phase = 2;
 				phaseTimer = 0;
 				attackCount = 0;
+			}
+		}
+		else if (((phaseTimer % 50) - 20) == 0 && phaseTimer > 0)
+		{
+			if (attackCount < 7)
+			{
+				summon_lightning();
 			}
 		}
 		break;
@@ -65,6 +78,13 @@ switch (phase)
 				}
 			}
 		}
+		else if (((phaseTimer % 55) - 20) == 0 && phaseTimer > 40)
+		{
+			if (attackCount < 7)
+			{
+				summon_lightning();
+			}
+		}
 		break;
 	case 4: //higher lightning
 		if (myLightning == noone && phaseTimer > 80)
@@ -75,7 +95,11 @@ switch (phase)
 		//the ones he fires at you directly
 		if (phaseTimer % 50 == 0)
 		{
-			lightning_pillar_create((x + 16), (y - 24), 9);
+			lightning_pillar_create((x + 16), (y - 34), 9);
+		}
+		else if (((phaseTimer % 50) - 20) == 0)
+		{
+			summon_lightning();
 		}
 		break;
 	case 5:
@@ -91,7 +115,7 @@ switch (phase)
 		{
 			if (instance_exists(objPlayer))
 			{
-				if ((objPlayer.x - x) < 36)
+				if ((objPlayer.x - x) < 36 && (objPlayer.y > (bbox_top + 24)))
 				{
 					entity_damage(objPlayer, 1);
 					with (objPlayer) //this is almost verbatim the player knockback code but with the xspeed changed
@@ -132,7 +156,7 @@ if (phaseTimer % 70 == 0)
 	{
 		if (objPlayer.x < x && !objPlayer.isDead)
 		{
-			instance_create_depth(global.viewX, (global.viewY + 40), depth, objBloodyMalthBigLightning); //get fucked lmao
+			instance_create_depth(global.viewX, (global.viewY + 56), depth, objBloodyMalthBigLightning); //get fucked lmao
 		}
 	}
 }

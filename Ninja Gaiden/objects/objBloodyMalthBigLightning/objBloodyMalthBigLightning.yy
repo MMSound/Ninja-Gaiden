@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprMalthLightningMask",
-    "path": "sprites/sprMalthLightningMask/sprMalthLightningMask.yy",
+    "name": "sprMalthLightningBolt",
+    "path": "sprites/sprMalthLightningBolt/sprMalthLightningBolt.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +25,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":24,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBloodyMalthBigLightning","path":"objects/objBloodyMalthBigLightning/objBloodyMalthBigLightning.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBloodyMalthBigLightning","path":"objects/objBloodyMalthBigLightning/objBloodyMalthBigLightning.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBloodyMalthBigLightning","path":"objects/objBloodyMalthBigLightning/objBloodyMalthBigLightning.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
