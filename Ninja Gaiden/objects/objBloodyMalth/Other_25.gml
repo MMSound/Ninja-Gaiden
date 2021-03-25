@@ -28,6 +28,7 @@ switch (phase)
 					_bullet.canBeHit = false;
 					_bullet.sprite_index = sprMalthLightningBallLarge;
 					_bullet.imgSpd = 1;
+					play_sfx(sfxMalthZapLarge);
 				}
 			}
 			else
@@ -57,6 +58,7 @@ switch (phase)
 		if (myLightning == noone)
 		{
 			myLightning = instance_create_depth(global.viewX, (y - 24), depth, objBloodyMalthLightningRod);
+			play_sfx(sfxMalthZapLarge);
 		}
 		
 		//the ones he fires at you directly
@@ -90,6 +92,7 @@ switch (phase)
 		if (myLightning == noone && phaseTimer > 80)
 		{
 			myLightning = instance_create_depth(global.viewX, (bbox_top - 24), depth, objBloodyMalthLightningRod);
+			play_sfx(sfxMalthZapLarge);
 		}
 		
 		//the ones he fires at you directly

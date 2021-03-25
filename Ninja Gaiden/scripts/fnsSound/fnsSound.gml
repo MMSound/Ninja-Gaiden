@@ -54,6 +54,7 @@ function initialize_music()
 	global.musicID[bgmAct6Scene2] = [bgmAct6Scene2, 88.008, 19.203];
 	global.musicID[bgmAct6Scene3] = [bgmAct6Scene3, 76.405, 00.000];
 	global.musicID[bgmBossFight] = [bgmBossFight, 35.472, 01.870];
+	global.musicID[bgmMalthFight] = [bgmMalthFight, 27.345, 00.664];
 	global.musicID[bgmDeath] = [bgmDeath, 03.052, -1];
 	global.musicID[bgmOptionsMenu] = [bgmOptionsMenu, 34.136, 0];
 	global.musicID[bgmBossIntro] = [bgmBossIntro, 0.502, -1];

@@ -24,11 +24,13 @@ function lightning_pillar_create(_x, _y, _height)
 			_shot.sprite_index = sprMalthLightningBallSmall;
 			_shot.imgSpd = 1;
 	}
+	play_sfx(sfxMalthZapSmall);
 }
 
 function summon_lightning()
 {
 	instance_create_depth(x, (y - 48), depth, objBloodyMalthLightningSummon);
+	play_sfx(sfxMalthSummon);
 	//make sure to add code for setting the animation timer and shit
 	//and also the flashing
 }
