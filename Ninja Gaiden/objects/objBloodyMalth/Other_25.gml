@@ -10,7 +10,7 @@ switch (phase)
 		}
 		break;
 	case 1: //fire some aimed bullets
-		if (phaseTimer % 50 == 0)
+		if (phaseTimer % 50 == 0 && phaseTimer > 0)
 		{
 			if (++attackCount < 8)
 			{
@@ -121,6 +121,7 @@ switch (phase)
 			attackCount = 0;
 			nextPhase = 0;
 		}
+		//add a thing here to make it so he's only in the windup frame if ryu is within range
 		break;
 }
 
