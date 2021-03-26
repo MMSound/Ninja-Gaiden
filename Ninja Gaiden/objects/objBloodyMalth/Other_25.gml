@@ -55,7 +55,7 @@ switch (phase)
 			phaseTimer = 0;
 			attackCount = 0;
 		}
-		else if (phaseTimer == 285)
+		else if (phaseTimer >= 285)
 		{
 			image_index = 7;
 		}
@@ -158,6 +158,7 @@ switch (phase)
 						}					
 					}
 					animate_to_frame(3);
+					hasPunched = true;
 				}
 			}
 		}
@@ -167,6 +168,7 @@ switch (phase)
 			phaseTimer = 0;
 			attackCount = 0;
 			nextPhase = 0;
+			hasPunched = false;
 		}
 		else if (phaseTimer < 25) //prepare to punch ryu
 		{
@@ -188,7 +190,10 @@ switch (phase)
 		}
 		else
 		{
-			image_index = 0;
+			if (!hasPunched)
+			{
+				image_index = 0;
+			}
 		}
 		break;
 }
@@ -227,7 +232,7 @@ else
 {
 	if (goToNextFrame)
 	{
-		image_index++;
+		image_index = (image_index < 8) ? (image_index + 1) : 0;
 		goToNextFrame = false;
 	}
 }
@@ -235,4 +240,9 @@ else
 if (instance_exists(objBloodyMalthLightningSummon)) //lightning summon animation
 {
 	image_index = 2;
+}
+
+if (colorIndex > 0)
+{
+	colorIndex -= 0.5;
 }

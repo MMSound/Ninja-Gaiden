@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBloodyMalth","path":"objects/objBloodyMalth/objBloodyMalth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":16,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBloodyMalth","path":"objects/objBloodyMalth/objBloodyMalth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":17,"eventType":7,"collisionObjectId":null,"parent":{"name":"objBloodyMalth","path":"objects/objBloodyMalth/objBloodyMalth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"objBloodyMalth","path":"objects/objBloodyMalth/objBloodyMalth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

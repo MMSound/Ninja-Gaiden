@@ -34,11 +34,10 @@ GMLscripts.com
 BACKGROUND ART
 MiniMacro Sound
 
-CHARACTER ART
+CHARACTER ART - CUSTOM AND EDITED
 MiniMacro Sound
-(whoever does boss sprites)
 
-CUTSCENE ART
+CUTSCENE ART - CUSTOM AND EDITED
 MiniMacro Sound
 
 ART ASSISTANCE
@@ -58,6 +57,7 @@ Noivs
 ACESpark
 DeltaMudkip
 TwistC
+Shinryu
 
 CUTSCENE TRANSLATION
 (whoever does translation here)
@@ -107,7 +107,7 @@ Ichiro Nakagawa
 DIRECTOR
 Hideo Yoshizawa
 
-COPYRIGHT MCMLXXXIX-MMXXI TECMO
+"NINJA GAIDEN" COPYRIGHT MCMLXXXIX-MMXXI TECMO
 REMAKE BY MINIMACRO SOUND MMXXI
 
 (on its own screen)

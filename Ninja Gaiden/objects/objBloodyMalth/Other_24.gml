@@ -15,6 +15,9 @@ nextRoom = rmAct6Scene1;
 
 animTimer = 0;
 goToNextFrame = false;
+hasPunched = false;
+
+colorIndex = 0;
 
 function lightning_pillar_create(_x, _y, _height)
 {
@@ -34,8 +37,7 @@ function summon_lightning()
 {
 	instance_create_depth(x, (y - 48), depth, objBloodyMalthLightningSummon);
 	play_sfx(sfxMalthSummon);
-	//make sure to add code for setting the animation timer and shit
-	//and also the flashing
+	colorIndex = 3;
 }
 
 function animate_to_frame(_frame, _time)
@@ -49,18 +51,3 @@ function animate_to_frame(_frame, _time)
 	animTimer = _time;
 	goToNextFrame = true;
 }
-
-//so basically we want an easy system for all the blurs and stuff that isn't in_range abuse
-//we're gonna make a function that automatically switches to a given frame and sets a timer to
-//like 4 or 5, then in event user 15 we'll make it so if he's at a particular frame
-//(i.e. the blur ones), he'll automatically image_index++ when the timer reaches 0
-//this should make animating things easier as we can just call this function when we shoot a bullet
-//or something
-
-//for the frames where he has lightning on his hand we can make a function or list or something
-//to be able to easily reference where the lightning ball should be in relation to malth's x and y
-//this should only apply to the summon frame and the throwing frames, so 5 frames in total
-
-//when he summons lightning we could use the shader to make him flash, should be fairly simple
-
-//ofc all this is just for animating so it only applies when i finish the sprites

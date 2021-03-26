@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sprMalthPalette","path":"sprites/sprMalthPalette/sprMalthPalette.yy",},"order":10,},
     {"id":{"name":"sprAct6Boards1","path":"sprites/sprAct6Boards1/sprAct6Boards1.yy",},"order":3,},
     {"id":{"name":"sprSnowBackground","path":"sprites/sprSnowBackground/sprSnowBackground.yy",},"order":0,},
     {"id":{"name":"fnsGlobal","path":"scripts/fnsGlobal/fnsGlobal.yy",},"order":1,},
@@ -492,6 +493,7 @@
     {"id":{"name":"sprRyuWallClimb","path":"sprites/sprRyuWallClimb/sprRyuWallClimb.yy",},"order":21,},
     {"id":{"name":"objLadderTransition","path":"objects/objLadderTransition/objLadderTransition.yy",},"order":4,},
     {"id":{"name":"sprAct4Scene3Tiles","path":"sprites/sprAct4Scene3Tiles/sprAct4Scene3Tiles.yy",},"order":0,},
+    {"id":{"name":"sprAct3BossBG","path":"sprites/sprAct3BossBG/sprAct3BossBG.yy",},"order":7,},
     {"id":{"name":"sprSlopeWall","path":"sprites/sprSlopeWall/sprSlopeWall.yy",},"order":3,},
     {"id":{"name":"rmAct4Segue","path":"rooms/rmAct4Segue/rmAct4Segue.yy",},"order":3,},
     {"id":{"name":"sprWindmillShuriken","path":"sprites/sprWindmillShuriken/sprWindmillShuriken.yy",},"order":1,},
