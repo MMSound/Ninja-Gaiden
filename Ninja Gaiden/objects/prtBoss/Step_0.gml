@@ -36,13 +36,13 @@ else if (global.bossPhase == 2)
 		
 		if (global.levelTime > 0)
 		{
-			global.levelTime--;
-			global.gameScore += 10;
+			global.levelTime = clamp((global.levelTime - 2), 0, 1000);
+			global.gameScore += 20;
 		}
 		else if (global.ninpo > 0)
 		{
-			global.ninpo--;
-			global.gameScore += 10;
+			global.ninpo = clamp((global.ninpo - 2), 0, 99);
+			global.gameScore += 20;
 		}
 		else if (global.playerHealth > 0)
 		{
