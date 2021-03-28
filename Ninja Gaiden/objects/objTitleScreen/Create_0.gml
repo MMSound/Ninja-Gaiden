@@ -33,6 +33,6 @@ levelSelect[14] = rmAct1Segue;
 levelSelect[15] = rmAct2Segue;
 levelSelect[16] = rmAct3Segue;
 levelSelect[17] = rmAct4Segue;
-levelSelect[18] = rmAct5Boss;
+levelSelect[18] = rmAct5Segue;
 
 global.uiColorIndex = 4;

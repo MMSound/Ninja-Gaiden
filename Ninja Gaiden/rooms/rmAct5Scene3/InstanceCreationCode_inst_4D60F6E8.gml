@@ -1,1 +1,1 @@
-nextRoom = rmAct5Boss;
+nextRoom = rmAct5Segue;
