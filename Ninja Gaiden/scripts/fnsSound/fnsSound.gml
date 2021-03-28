@@ -60,6 +60,12 @@ function initialize_music()
 	global.musicID[bgmBossIntro] = [bgmBossIntro, 0.502, -1];
 	
 	global.musicID[bgmAct1Scene1PCE] = [bgmAct1Scene1PCE, 40.005, 02.668];
+	global.musicID[bgmAct2Scene1PCE] = [bgmAct2Scene1PCE, 34.670, 02.665];
+	global.musicID[bgmAct2Scene2PCE] = [bgmAct2Scene2PCE, 53.339, 05.333];
+	global.musicID[bgmAct3Scene2PCE] = [bgmAct3Scene2PCE, 48.005, 12.797];
+	global.musicID[bgmAct4Scene2PCE] = [bgmAct4Scene2PCE, 51.206, 00.000];
+	global.musicID[bgmAct4Scene3PCE] = [bgmAct4Scene3PCE, 33.607, 07.471];
+	global.musicID[bgmAct6Scene2PCE] = [bgmAct6Scene2PCE, 88.008, 19.203];
 }
 
 /// @description shoutouts to bucket
@@ -142,6 +148,48 @@ function music_get_alt(_song)
 		case bgmAct1Scene1PCE:
 			return bgmAct1Scene1;
 			break;
+			
+		case bgmAct2Scene1:
+			return bgmAct2Scene1PCE;
+			break;
+		case bgmAct2Scene1PCE:
+			return bgmAct2Scene1;
+			break;
+			
+		case bgmAct2Scene2:
+			return bgmAct2Scene2PCE;
+			break;
+		case bgmAct2Scene2PCE:
+			return bgmAct2Scene2;
+			break;
+			
+		case bgmAct3Scene2:
+			return bgmAct3Scene2PCE;
+			break;
+		case bgmAct3Scene2PCE:
+			return bgmAct3Scene2;
+			break;
+			
+		case bgmAct4Scene2:
+			return bgmAct4Scene2PCE;
+			break;
+		case bgmAct4Scene2PCE:
+			return bgmAct4Scene2;
+			break;
+		case bgmAct4Scene3:
+			return bgmAct4Scene3PCE;
+			break;
+		case bgmAct4Scene3PCE:
+			return bgmAct4Scene3;
+			break;
+
+		case bgmAct6Scene2:
+			return bgmAct6Scene2PCE;
+			break;
+		case bgmAct6Scene2PCE:
+			return bgmAct6Scene2;
+			break;
+
 		default:
 			return false;
 			break;

@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bgmAct1Scene1PCE.ogg",
-  "duration": 40.0102844,
+  "soundFile": "bgmAct4Scene3PCE.ogg",
+  "duration": 33.61178,
   "parent": {
     "name": "PCE",
     "path": "folders/Music/Stage Themes/PCE.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bgmAct1Scene1PCE",
+  "name": "bgmAct4Scene3PCE",
   "tags": [],
   "resourceType": "GMSound",
 }
