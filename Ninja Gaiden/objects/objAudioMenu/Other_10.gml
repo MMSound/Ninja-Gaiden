@@ -7,4 +7,7 @@ switch (currentOption)
 	case 1:	//sound effect volume
 		draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), round(global.sfxVolume * 10), global.uiColorIndex, sprFontPalette, global.gameFont);
 		break;
+	case 2:	//soundtrack
+		draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), optionsOnOff[global.soundtrackOption], global.uiColorIndex, sprFontPalette, global.gameFont);
+		break;
 }

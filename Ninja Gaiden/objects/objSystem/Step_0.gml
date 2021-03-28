@@ -26,7 +26,15 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 						}
 						else
 						{
-							audio_resume_sound(global.musicSound);
+							if (global.queuedSong == noone)
+							{
+								audio_resume_sound(global.musicSound);
+							}
+							else
+							{
+								music_play(global.queuedSong);
+								global.queuedSong = noone;
+							}
 							audio_sound_gain(global.musicSound, ((global.musicVolume * 0.75) * global.musicFadeVolume), 0);
 						}
 					}

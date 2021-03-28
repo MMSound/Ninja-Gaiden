@@ -58,6 +58,8 @@ function initialize_music()
 	global.musicID[bgmDeath] = [bgmDeath, 03.052, -1];
 	global.musicID[bgmOptionsMenu] = [bgmOptionsMenu, 34.136, 0];
 	global.musicID[bgmBossIntro] = [bgmBossIntro, 0.502, -1];
+	
+	global.musicID[bgmAct1Scene1PCE] = [bgmAct1Scene1PCE, 40.005, 02.668];
 }
 
 /// @description shoutouts to bucket
@@ -115,4 +117,33 @@ function music_set_fade(_level)
 {
 	global.musicFadeVolume = _level;
 	audio_sound_gain(global.musicSound, ((global.musicVolume * 0.75) * global.musicFadeVolume), 0);
+}
+
+//this is some of the worst programming ever designed
+
+/// @description change between the nes and pce soundtracks
+function music_change_soundtrack()
+{
+	if (music_get_alt(global.currentMusic))
+	{
+		music_stop();
+		global.queuedSong = music_get_alt(global.currentMusic);
+	}
+}
+
+/// @description get if an alt version of the song exists
+function music_get_alt(_song)
+{
+	switch (_song)
+	{
+		case bgmAct1Scene1:
+			return bgmAct1Scene1PCE;
+			break;
+		case bgmAct1Scene1PCE:
+			return bgmAct1Scene1;
+			break;
+		default:
+			return false;
+			break;
+	}
 }

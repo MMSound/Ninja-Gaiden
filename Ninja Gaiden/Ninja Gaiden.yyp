@@ -392,6 +392,7 @@
     {"id":{"name":"sfxJump","path":"sounds/sfxJump/sfxJump.yy",},"order":0,},
     {"id":{"name":"sprBomberhead","path":"sprites/sprBomberhead/sprBomberhead.yy",},"order":0,},
     {"id":{"name":"tstAct4Scene2","path":"tilesets/tstAct4Scene2/tstAct4Scene2.yy",},"order":9,},
+    {"id":{"name":"bgmAct1Scene1PCE","path":"sounds/bgmAct1Scene1PCE/bgmAct1Scene1PCE.yy",},"order":0,},
     {"id":{"name":"sfxFlameWeapon","path":"sounds/sfxFlameWeapon/sfxFlameWeapon.yy",},"order":11,},
     {"id":{"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},"order":2,},
     {"id":{"name":"rmAct1Boss","path":"rooms/rmAct1Boss/rmAct1Boss.yy",},"order":2,},
@@ -654,6 +655,7 @@
     {"folderPath":"folders/Boss/Kelbeross.yy","order":5,"resourceVersion":"1.0","name":"Kelbeross","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Boss/Bloody Malth.yy","order":6,"resourceVersion":"1.0","name":"Bloody Malth","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Boss/Sprites/Bloody Malth.yy","order":5,"resourceVersion":"1.0","name":"Bloody Malth","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Music/Stage Themes/PCE.yy","order":2,"resourceVersion":"1.0","name":"PCE","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

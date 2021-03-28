@@ -21,5 +21,9 @@ switch (currentOption)
 			global.sfxVolume = 1.0;
 		}
 		break;
+	case 2: //soundtrack
+		global.soundtrackOption = !global.soundtrackOption;
+		music_change_soundtrack();
+		break;
 }
 play_sfx(sfxShuriken);

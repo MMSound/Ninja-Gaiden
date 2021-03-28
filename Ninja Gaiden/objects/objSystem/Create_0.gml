@@ -141,6 +141,7 @@ global.sfxVolume = 1.0;
 global.musicVolume = 1.0;
 global.soundtrackOption = 0; //0 for nes, 1 for pce
 global.musicFadeVolume = 1.0;
+global.queuedSong = noone;
 
 initialize_music();
 
