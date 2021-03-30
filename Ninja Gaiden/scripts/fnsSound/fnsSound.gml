@@ -184,6 +184,7 @@ function music_get_alt(_song)
 		case bgmAct4Scene2PCE:
 			return bgmAct4Scene2;
 			break;
+			
 		case bgmAct4Scene3:
 			return bgmAct4Scene3PCE;
 			break;
