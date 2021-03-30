@@ -13,3 +13,5 @@ iFrameTimer = 0;
 deathTimer = 0;
 
 nextRoom = rmAct1Scene1;
+
+canBeHitManual = true;

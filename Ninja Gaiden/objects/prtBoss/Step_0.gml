@@ -14,7 +14,7 @@ if (global.bossPhase == 1)
 	else
 	{
 		//canHit = true;
-		canBeHit = true;
+		canBeHit = canBeHitManual;
 		visible = true;
 	}
 }

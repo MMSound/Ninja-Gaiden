@@ -62,6 +62,7 @@ function initialize_music()
 	global.musicID[bgmAct1Scene1PCE] = [bgmAct1Scene1PCE, 40.005, 02.668];
 	global.musicID[bgmAct2Scene1PCE] = [bgmAct2Scene1PCE, 34.670, 02.665];
 	global.musicID[bgmAct2Scene2PCE] = [bgmAct2Scene2PCE, 53.339, 05.333];
+	global.musicID[bgmAct3Scene1PCE] = [bgmAct3Scene1PCE, 32.004, 00.000];
 	global.musicID[bgmAct3Scene2PCE] = [bgmAct3Scene2PCE, 48.005, 12.797];
 	global.musicID[bgmAct4Scene2PCE] = [bgmAct4Scene2PCE, 51.206, 00.000];
 	global.musicID[bgmAct4Scene3PCE] = [bgmAct4Scene3PCE, 33.607, 07.471];
@@ -162,7 +163,14 @@ function music_get_alt(_song)
 		case bgmAct2Scene2PCE:
 			return bgmAct2Scene2;
 			break;
-			
+
+		case bgmAct3Scene1:
+			return bgmAct3Scene1PCE;
+			break;
+		case bgmAct3Scene1PCE:
+			return bgmAct3Scene1;
+			break;
+
 		case bgmAct3Scene2:
 			return bgmAct3Scene2PCE;
 			break;
