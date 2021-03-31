@@ -4,6 +4,8 @@ hasGravity = false;
 
 contactDamage = 2;
 
+despawnOutsideView = false;
+
 thetaOffset = 0;
 centerX = xstart;
 centerY = ystart;

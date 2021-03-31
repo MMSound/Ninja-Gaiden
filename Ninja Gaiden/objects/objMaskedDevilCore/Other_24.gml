@@ -17,10 +17,7 @@ hitsLeft = 0;
 
 //i decided to keep track of the shield parts this way because it means we can more easily check which
 //ones are missing instead of having to do instance_find bs
-shieldID[0] = noone;
-shieldID[1] = noone;
-shieldID[2] = noone;
-shieldID[3] = noone;
-shieldID[4] = noone;
-shieldID[5] = noone;
-shieldID[6] = noone;
+for (var i = 0; i < shieldTotal; i++)
+{
+	shieldID[i] = noone;
+}
