@@ -5,7 +5,7 @@ if (instance_exists(objMaskedDevilCore))
 	with (objMaskedDevilCore)
 	{
 		canBeHitManual = true;
-		shieldCount--;
+		shieldID[other.thetaOffset] = noone;
 		hitsLeft++;
 	}
 }

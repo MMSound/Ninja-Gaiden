@@ -8,20 +8,20 @@ if (myDevil == noone)
 //make shield
 if (!initialShield)
 {
-	if (shieldCount < shieldTotal)
+	for (var i = 0; i < array_length(shieldID); i++)
 	{
-		for (var i = 0; i < shieldTotal; i++)
+		shieldID[i] = instance_create_depth(myDevil.x, (myDevil.y - (sprite_get_height(myDevil) / 2)), depth, objMaskedDevilShield);
+		shieldID[i].myCore = id;
+		shieldID[i].thetaOffset = i;
+		if (i > 0) //basically the point of this is to make all of the shields have the same theta
 		{
-			var _shield = instance_create_depth(myDevil.x, myDevil.y, depth, objMaskedDevilShield);
-				_shield.myCore = id;
-				_shield.thetaOffset = shieldCount;
-			shieldCount++;
+			with (shieldID[i])
+			{
+				fix_theta();
+			}	
 		}
 	}
-	else
-	{
-		initialShield = true;
-	}
+	initialShield = true;
 }
 
 canBeHitManual = (hitsLeft != 0);
