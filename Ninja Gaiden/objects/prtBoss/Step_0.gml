@@ -4,18 +4,21 @@ if (global.bossPhase == 1)
 	event_inherited();
 	
 	//iframes
-	if (iFrameTimer > 0)
+	if (!game_paused())
 	{
-		//canHit = false;
-		canBeHit = false;
-		visible = (iFrameTimer % 2 == 0);
-		iFrameTimer--;
-	}
-	else
-	{
-		//canHit = true;
-		canBeHit = canBeHitManual;
-		visible = true;
+		if (iFrameTimer > 0)
+		{
+			//canHit = false;
+			canBeHit = false;
+			visible = (iFrameTimer % 2 == 0);
+			iFrameTimer--;
+		}
+		else
+		{
+			//canHit = true;
+			canBeHit = canBeHitManual;
+			visible = true;
+		}
 	}
 }
 else if (global.bossPhase == 2)

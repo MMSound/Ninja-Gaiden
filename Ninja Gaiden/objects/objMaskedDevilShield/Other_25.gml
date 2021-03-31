@@ -3,6 +3,10 @@ if (radius < 32)
 {
 	radius++;
 }
+else if (radius > 32)
+{
+	radius--;
+}
 
 theta -= (moveSpeed * image_xscale);
 if (theta >= 360)

@@ -25,6 +25,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":24,"eventType":7,"collisionObjectId":null,"parent":{"name":"objMaskedDevil","path":"objects/objMaskedDevil/objMaskedDevil.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":25,"eventType":7,"collisionObjectId":null,"parent":{"name":"objMaskedDevil","path":"objects/objMaskedDevil/objMaskedDevil.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":20,"eventType":7,"collisionObjectId":null,"parent":{"name":"objMaskedDevil","path":"objects/objMaskedDevil/objMaskedDevil.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

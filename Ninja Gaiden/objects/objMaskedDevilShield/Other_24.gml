@@ -10,7 +10,7 @@ centerY = ystart;
 theta = thetaOffset;
 radius = 0;
 locus = objMaskedDevil;
-moveSpeed = 2;
+moveSpeed = 2.5;
 myCore = noone;
 
 //basically the point of this is to make all of the shields have the same theta since one could be spawned
