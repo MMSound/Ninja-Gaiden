@@ -30,11 +30,16 @@ switch (phase)
 			{
 				other.phase = 2;
 				other.phaseTimer = 0;
-				other.xspeed = 0.5;
 			}
+		}
+		if (phaseTimer % 60 == 0) //bullets
+		{
+			fire_aimed_bullet_spread();
 		}
 		break;
 	case 2: //move a bit
+		image_xscale = (x >= (global.viewX + (global.viewW / 2))) ? -1.00 : 1.00;
+		xspeed = (0.5 * image_xscale);
 		if (phaseTimer == 60)
 		{
 			phase = 3;
@@ -54,6 +59,10 @@ switch (phase)
 				other.phase = 0;
 				other.phaseTimer = 0;
 			}
+		}
+		if (phaseTimer % 60 == 0) //bullets
+		{
+			fire_aimed_bullet_spread();
 		}
 		break;
 }

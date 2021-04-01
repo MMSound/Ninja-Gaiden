@@ -25,7 +25,6 @@ switch (phase)
 	                var _dir = point_direction((x + 16), (y - 32), objPlayer.x, (objPlayer.y - 16));
 	                _bullet.xspeed = lengthdir_x(5, _dir);
 	                _bullet.yspeed = lengthdir_y(5, _dir);
-					_bullet.sprite_index = sprX;
 					_bullet.canBeHit = false;
 					_bullet.sprite_index = sprMalthLightningBallLarge;
 					_bullet.imgSpd = 1;
