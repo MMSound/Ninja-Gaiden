@@ -26,7 +26,7 @@ roomTo[5][4] = rmAct5Scene3;
 roomTo[6][1] = rmAct6Scene1;
 roomTo[6][2] = rmAct6Scene2;
 roomTo[6][3] = rmAct6Scene3;
-roomTo[6][4] = rmAct6Boss1;
+roomTo[6][4] = rmAct6Segue1;
 
 global.uiColorIndex = 9;
 wavePhase = 0;

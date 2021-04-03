@@ -4,5 +4,8 @@ lifeTime = 60;
 
 nextRoom = rmInit;
 bossName = "NO BOSS NAME";
-
-music_play(bgmBossIntro);
+	
+if (global.currentAct != 6)
+{
+	music_play(bgmBossIntro);
+}
