@@ -13,7 +13,7 @@ switch (phase)
 			bounceCount = 0;
 			xspeed = 0;
 			imgSpd = 0;
-			image_index = 0;
+			image_index = 1;
 		}
 		
 		with (objMaskedDevilShield) //fix shield stuff
@@ -25,6 +25,8 @@ switch (phase)
 		}
 		break;
 	case 1: //expand shield and fire projectiles
+		sprite_index = sprMaskedDevilSlash;
+		
 		with (objMaskedDevilShield)
 		{
 			if (radius < 112)
@@ -37,9 +39,10 @@ switch (phase)
 				other.phaseTimer = 0;
 			}
 		}
-		if (phaseTimer % 60 == 0) //bullets
+		if (phaseTimer % 50 == 0) //bullets
 		{
 			fire_aimed_bullet_spread();
+			animTimer = 10;
 		}
 		break;
 	case 2: //move a bit
@@ -47,16 +50,19 @@ switch (phase)
 		xspeed = (0.5 * image_xscale);
 		sprite_index = sprMaskedDevilWalk;
 		imgSpd = (1 / 8);
+		
 		if (phaseTimer == 60)
 		{
 			phase = 3;
 			phaseTimer = 0;
 			xspeed = 0;
 			imgSpd = 0;
-			image_index = 0;
+			image_index = 1;
 		}
 		break;
 	case 3: //retract shield and fire projectiles
+		sprite_index = sprMaskedDevilSlash;
+		
 		with (objMaskedDevilShield)
 		{
 			if (radius > 32)
@@ -69,11 +75,33 @@ switch (phase)
 				other.phaseTimer = 0;
 			}
 		}
-		if (phaseTimer % 60 == 0) //bullets
+		if (phaseTimer % 50 == 0) //bullets
 		{
 			fire_aimed_bullet_spread();
+			imgSpd = (1 / 3);
+			animTimer = 10;
 		}
 		break;
 }
 
 phaseTimer++;
+
+if (animTimer > 0) //slash animation
+{
+	animTimer--;
+	if (animTimer > 5)
+	{
+		image_index = 2;
+	}
+	else
+	{
+		image_index = 3;
+	}
+}
+else
+{
+	if (phase == 1 || phase == 3)
+	{
+		image_index = 1;
+	}
+}

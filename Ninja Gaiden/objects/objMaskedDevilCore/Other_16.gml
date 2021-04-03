@@ -13,6 +13,7 @@ for (var i = 0; i < array_length(shieldID); i++)
 			fix_theta();
 		}
 		i = array_length(shieldID);
+		play_sfx(sfxFlameWeapon);
 	}
 }
 if (hitsLeft > 0)

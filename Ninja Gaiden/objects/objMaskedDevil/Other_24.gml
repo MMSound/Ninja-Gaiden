@@ -11,6 +11,8 @@ bounceCount = 0;
 
 imgSpd = 0;
 
+animTimer = 0;
+
 //we wanna fire an aimed bullet
 function fire_aimed_bullet(_yOffset)
 {
@@ -22,7 +24,9 @@ function fire_aimed_bullet(_yOffset)
 	    _bullet.xspeed = lengthdir_x(5, _dir);
 	    _bullet.yspeed = lengthdir_y(5, _dir);
 		_bullet.contactDamage = 2;
-		_bullet.sprite_index = sprX; //placeholder
+		_bullet.sprite_index = sprKelberossBullet;
+		_bullet.imgSpd = (1 / 2);
+		_bullet.image_xscale = image_xscale;
 	}	
 }
 
@@ -31,4 +35,5 @@ function fire_aimed_bullet_spread()
 {
 	fire_aimed_bullet(-48);
 	fire_aimed_bullet(48);
+	play_sfx(sfxBarbarianSlash);
 }
