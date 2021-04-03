@@ -15,6 +15,8 @@ locus = objMaskedDevil;
 moveSpeed = 2.5;
 myCore = noone;
 
+imgSpd = (1 / 2);
+
 //basically the point of this is to make all of the shields have the same theta since one could be spawned
 //at any given time
 function fix_theta()

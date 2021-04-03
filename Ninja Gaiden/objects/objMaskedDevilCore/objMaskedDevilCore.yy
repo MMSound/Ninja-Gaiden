@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprX",
-    "path": "sprites/sprX/sprX.yy",
+    "name": "sprMaskedDevilCore",
+    "path": "sprites/sprMaskedDevilCore/sprMaskedDevilCore.yy",
   },
   "solid": false,
   "visible": true,

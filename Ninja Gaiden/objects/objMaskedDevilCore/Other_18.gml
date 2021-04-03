@@ -1,4 +1,4 @@
-/// @description Draw hits left
+/// @description Drawing
+palette_shader_set(sprMaskedDevilCorePalette, floor(colorIndex), false);
 draw_self();
-
-draw_text(x, (y - 8), hitsLeft);
+palette_shader_reset();

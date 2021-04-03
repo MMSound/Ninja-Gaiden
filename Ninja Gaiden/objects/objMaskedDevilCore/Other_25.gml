@@ -4,6 +4,10 @@ if (myDevil == noone)
 	myDevil = instance_create_depth(224, 200, 5, objMaskedDevil);
 	myDevil.myCore = id;
 }
+if (!instance_exists(objMaskedDevilShell))
+{
+	instance_create_depth(x, y, (depth - 1), objMaskedDevilShell);
+}
 
 //make shield
 if (!initialShield)
@@ -26,11 +30,33 @@ if (!initialShield)
 
 canBeHitManual = (hitsLeft != 0);
 
-if (canBeHitManual)
+colorIndex += 0.25;
+if (colorIndex > 3)
 {
-	sprite_index = sprTopSolid;
+	colorIndex = 0;
+}
+
+//shell animation
+if (!canBeHitManual)
+{
+	if (shellFrame > 0)
+	{
+		shellFrame -= 0.25;
+	}
 }
 else
 {
-	sprite_index = sprX;
+	if (shellFrame < 2)
+	{
+		shellFrame += 0.25;
+	}	
+}
+
+//adjust the frame
+if (instance_exists(objMaskedDevilShell))
+{
+	with (objMaskedDevilShell)
+	{
+		image_index = floor(other.shellFrame);
+	}
 }

@@ -45,11 +45,15 @@ switch (phase)
 	case 2: //move a bit
 		image_xscale = (x >= (global.viewX + (global.viewW / 2))) ? -1.00 : 1.00;
 		xspeed = (0.5 * image_xscale);
+		sprite_index = sprMaskedDevilWalk;
+		imgSpd = (1 / 8);
 		if (phaseTimer == 60)
 		{
 			phase = 3;
 			phaseTimer = 0;
-			xspeed = 0;			
+			xspeed = 0;
+			imgSpd = 0;
+			image_index = 0;
 		}
 		break;
 	case 3: //retract shield and fire projectiles

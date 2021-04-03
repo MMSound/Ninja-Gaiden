@@ -17,7 +17,7 @@ function fire_aimed_bullet(_yOffset)
 	_yOffset = is_undefined(_yOffset) ? -16 : _yOffset;
 	if (instance_exists(objPlayer))
 	{
-		var _bullet = instance_create_depth((x + 16), (y - 32), depth, objGenericBullet);
+		var _bullet = instance_create_depth((x + (16 * image_xscale)), (y - 32), depth, objGenericBullet);
 	    var _dir = point_direction((x + 16), (y - 32), objPlayer.x, (objPlayer.y + _yOffset));
 	    _bullet.xspeed = lengthdir_x(5, _dir);
 	    _bullet.yspeed = lengthdir_y(5, _dir);
@@ -30,6 +30,5 @@ function fire_aimed_bullet(_yOffset)
 function fire_aimed_bullet_spread()
 {
 	fire_aimed_bullet(-48);
-	fire_aimed_bullet();
-	fire_aimed_bullet(32);
+	fire_aimed_bullet(48);
 }
