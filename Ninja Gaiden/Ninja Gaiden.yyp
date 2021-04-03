@@ -18,6 +18,7 @@
     {"id":{"name":"sprAct5WaterfallsTop","path":"sprites/sprAct5WaterfallsTop/sprAct5WaterfallsTop.yy",},"order":4,},
     {"id":{"name":"objMaskedDevil","path":"objects/objMaskedDevil/objMaskedDevil.yy",},"order":1,},
     {"id":{"name":"sprPlaceholderTileset","path":"sprites/sprPlaceholderTileset/sprPlaceholderTileset.yy",},"order":14,},
+    {"id":{"name":"sprFontJapanese","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"order":13,},
     {"id":{"name":"sprDeathFadePalette","path":"sprites/sprDeathFadePalette/sprDeathFadePalette.yy",},"order":4,},
     {"id":{"name":"sprAct2BossBackground","path":"sprites/sprAct2BossBackground/sprAct2BossBackground.yy",},"order":12,},
     {"id":{"name":"sprBiker","path":"sprites/sprBiker/sprBiker.yy",},"order":0,},
@@ -420,6 +421,7 @@
     {"id":{"name":"sprHammerManShoot","path":"sprites/sprHammerManShoot/sprHammerManShoot.yy",},"order":1,},
     {"id":{"name":"sprSnow","path":"sprites/sprSnow/sprSnow.yy",},"order":10,},
     {"id":{"name":"objBiker","path":"objects/objBiker/objBiker.yy",},"order":4,},
+    {"id":{"name":"sprMaskedDevilWalk","path":"sprites/sprMaskedDevilWalk/sprMaskedDevilWalk.yy",},"order":0,},
     {"id":{"name":"bgmAct2Scene2","path":"sounds/bgmAct2Scene2/bgmAct2Scene2.yy",},"order":2,},
     {"id":{"name":"sprKelberossCannon","path":"sprites/sprKelberossCannon/sprKelberossCannon.yy",},"order":0,},
     {"id":{"name":"bgmAct6Scene1","path":"sounds/bgmAct6Scene1/bgmAct6Scene1.yy",},"order":11,},
@@ -669,6 +671,7 @@
     {"folderPath":"folders/Boss/Sprites/Bloody Malth.yy","order":5,"resourceVersion":"1.0","name":"Bloody Malth","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Music/Stage Themes/PCE.yy","order":2,"resourceVersion":"1.0","name":"PCE","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Boss/Masked Devil.yy","order":7,"resourceVersion":"1.0","name":"Masked Devil","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Boss/Sprites/Masked Devil.yy","order":6,"resourceVersion":"1.0","name":"Masked Devil","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

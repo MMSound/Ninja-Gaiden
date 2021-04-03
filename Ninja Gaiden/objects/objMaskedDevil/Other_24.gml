@@ -9,6 +9,8 @@ phaseTimer = 0;
 
 bounceCount = 0;
 
+imgSpd = 0;
+
 //we wanna fire an aimed bullet
 function fire_aimed_bullet(_yOffset)
 {
@@ -20,6 +22,7 @@ function fire_aimed_bullet(_yOffset)
 	    _bullet.xspeed = lengthdir_x(5, _dir);
 	    _bullet.yspeed = lengthdir_y(5, _dir);
 		_bullet.contactDamage = 2;
+		_bullet.sprite_index = sprX; //placeholder
 	}	
 }
 

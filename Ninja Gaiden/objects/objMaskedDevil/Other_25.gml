@@ -3,12 +3,17 @@ switch (phase)
 {
 	case 0: //move back and forth
 		xspeed = (global.bossPhase == 2) ? 0 : (moveSpeed * image_xscale);
+		sprite_index = sprMaskedDevilWalk;
+		imgSpd = (1 / 5);
+		
 		if (bounceCount == 3)
 		{
 			phase = 1;
 			phaseTimer = 0;
 			bounceCount = 0;
 			xspeed = 0;
+			imgSpd = 0;
+			image_index = 0;
 		}
 		
 		with (objMaskedDevilShield) //fix shield stuff

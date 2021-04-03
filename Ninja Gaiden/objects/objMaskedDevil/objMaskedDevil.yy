@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprBomberheadMask",
-    "path": "sprites/sprBomberheadMask/sprBomberheadMask.yy",
+    "name": "sprMaskedDevilWalk",
+    "path": "sprites/sprMaskedDevilWalk/sprMaskedDevilWalk.yy",
   },
   "solid": false,
   "visible": true,
