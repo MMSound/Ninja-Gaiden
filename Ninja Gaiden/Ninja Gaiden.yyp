@@ -98,6 +98,7 @@
     {"id":{"name":"sprKnifeManWalk","path":"sprites/sprKnifeManWalk/sprKnifeManWalk.yy",},"order":0,},
     {"id":{"name":"sprAct5CloudsFront","path":"sprites/sprAct5CloudsFront/sprAct5CloudsFront.yy",},"order":1,},
     {"id":{"name":"rmAct5Segue","path":"rooms/rmAct5Segue/rmAct5Segue.yy",},"order":3,},
+    {"id":{"name":"sfxKelberossRoar","path":"sounds/sfxKelberossRoar/sfxKelberossRoar.yy",},"order":26,},
     {"id":{"name":"objAct4Scene3Torch","path":"objects/objAct4Scene3Torch/objAct4Scene3Torch.yy",},"order":9,},
     {"id":{"name":"tstPlaceholderTileset","path":"tilesets/tstPlaceholderTileset/tstPlaceholderTileset.yy",},"order":2,},
     {"id":{"name":"sprBat","path":"sprites/sprBat/sprBat.yy",},"order":6,},

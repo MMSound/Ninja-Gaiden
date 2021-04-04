@@ -13,6 +13,7 @@ if (iFrameTimer == 0)
 	
 	if (phase == 0)
 	{
+		play_sfx(sfxKelberossRoar, false, 20);
 		with (objKelbeross)
 		{
 			phase = 1;

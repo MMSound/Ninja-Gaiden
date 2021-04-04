@@ -1,5 +1,5 @@
 /// @description Timing
-if (++lifeTimer == 5)
+if (++lifeTimer == 2)
 {
 	instance_destroy(id);
 }
