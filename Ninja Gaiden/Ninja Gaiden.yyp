@@ -486,6 +486,7 @@
     {"id":{"name":"sprBlackNinjaBoundary","path":"sprites/sprBlackNinjaBoundary/sprBlackNinjaBoundary.yy",},"order":8,},
     {"id":{"name":"sprAct4Scene2Tiles","path":"sprites/sprAct4Scene2Tiles/sprAct4Scene2Tiles.yy",},"order":0,},
     {"id":{"name":"sprAct5Scene3Tiles","path":"sprites/sprAct5Scene3Tiles/sprAct5Scene3Tiles.yy",},"order":4,},
+    {"id":{"name":"bgmAct5Scene1PCE","path":"sounds/bgmAct5Scene1PCE/bgmAct5Scene1PCE.yy",},"order":8,},
     {"id":{"name":"prtOptionsMenu","path":"objects/prtOptionsMenu/prtOptionsMenu.yy",},"order":0,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":3,},
     {"id":{"name":"sprAct32Mountains3","path":"sprites/sprAct32Mountains3/sprAct32Mountains3.yy",},"order":5,},
