@@ -139,6 +139,7 @@
     {"id":{"name":"fnsMovement","path":"scripts/fnsMovement/fnsMovement.yy",},"order":2,},
     {"id":{"name":"sprAct4Tower","path":"sprites/sprAct4Tower/sprAct4Tower.yy",},"order":3,},
     {"id":{"name":"sprAct1Fence","path":"sprites/sprAct1Fence/sprAct1Fence.yy",},"order":1,},
+    {"id":{"name":"objPixelation","path":"objects/objPixelation/objPixelation.yy",},"order":13,},
     {"id":{"name":"sprAct2Sky","path":"sprites/sprAct2Sky/sprAct2Sky.yy",},"order":9,},
     {"id":{"name":"sprBlackNinjaJumpFall","path":"sprites/sprBlackNinjaJumpFall/sprBlackNinjaJumpFall.yy",},"order":1,},
     {"id":{"name":"objBanshee","path":"objects/objBanshee/objBanshee.yy",},"order":10,},
