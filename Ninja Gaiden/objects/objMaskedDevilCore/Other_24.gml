@@ -1,7 +1,7 @@
 /// @description Custom variables
 event_inherited();
 
-nextRoom = rmAct6Boss2;
+nextRoom = rmAct6Segue2;
 
 contactDamage = 0;
 canHit = false;
