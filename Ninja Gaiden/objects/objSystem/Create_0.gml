@@ -173,6 +173,7 @@ global.subtitle[sfxBomberheadSickleBounce] = "[Sickle Bounce]";
 global.subtitle[sfxMalthSummon] = "[Lightning Strike]";
 global.subtitle[sfxMalthZapSmall] = "[Small Zap]";
 global.subtitle[sfxMalthZapLarge] = "[Large Zap]";
+global.subtitle[sfxKelberossRoar] = "[Roar]";
 
 //miscellaneous bullshit
 global.pceParallax = false;

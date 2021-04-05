@@ -1,5 +1,5 @@
 {
-  "compression": 1,
+  "compression": 0,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bgmMaskedDevilFight.ogg",
-  "duration": 26.1643429,
+  "soundFile": "sfxJaquioWarp.wav",
+  "duration": 0.705,
   "parent": {
-    "name": "NES",
-    "path": "folders/Music/Boss Themes/NES.yy",
+    "name": "SFX",
+    "path": "folders/SFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bgmMaskedDevilFight",
+  "name": "sfxJaquioWarp",
   "tags": [],
   "resourceType": "GMSound",
 }

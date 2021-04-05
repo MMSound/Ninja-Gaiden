@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bgmMaskedDevilFight.ogg",
-  "duration": 26.1643429,
+  "soundFile": "bgmJaquioBattle.ogg",
+  "duration": 64.27799,
   "parent": {
     "name": "NES",
     "path": "folders/Music/Boss Themes/NES.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bgmMaskedDevilFight",
+  "name": "bgmJaquioBattle",
   "tags": [],
   "resourceType": "GMSound",
 }
