@@ -18,3 +18,8 @@ if (instance_exists(objPlayer))
 		}		
 	}
 }
+
+if (!inside_view(64))
+{
+	instance_destroy(id);
+}
