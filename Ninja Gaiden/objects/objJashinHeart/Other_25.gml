@@ -6,6 +6,7 @@ switch (phase)
 		break;
 	case 1: //closed
 		canBeHitManual = true;
+		canHit = true;
 		if (phaseTimer % 5 == 0)
 		{
 			if (bodyFrame < 2)

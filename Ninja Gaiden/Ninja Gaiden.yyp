@@ -381,6 +381,7 @@
     {"id":{"name":"sprAct1BossBackground","path":"sprites/sprAct1BossBackground/sprAct1BossBackground.yy",},"order":6,},
     {"id":{"name":"sprRyuAirSlash","path":"sprites/sprRyuAirSlash/sprRyuAirSlash.yy",},"order":10,},
     {"id":{"name":"bgmAct6Scene3","path":"sounds/bgmAct6Scene3/bgmAct6Scene3.yy",},"order":13,},
+    {"id":{"name":"sfxJashinHeadWarp","path":"sounds/sfxJashinHeadWarp/sfxJashinHeadWarp.yy",},"order":28,},
     {"id":{"name":"sprAct1Sidewalk","path":"sprites/sprAct1Sidewalk/sprAct1Sidewalk.yy",},"order":3,},
     {"id":{"name":"rmAct6Scene1","path":"rooms/rmAct6Scene1/rmAct6Scene1.yy",},"order":0,},
     {"id":{"name":"rmAct6Segue1","path":"rooms/rmAct6Segue1/rmAct6Segue1.yy",},"order":3,},
