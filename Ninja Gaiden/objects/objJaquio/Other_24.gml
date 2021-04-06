@@ -25,6 +25,8 @@ wavePhase = 0;
 
 depth = 5;
 
+nextRoom = rmAct6Boss3;
+
 //fire fireballs
 function fire_eight_way_spread(_x, _y, _speed)
 {
