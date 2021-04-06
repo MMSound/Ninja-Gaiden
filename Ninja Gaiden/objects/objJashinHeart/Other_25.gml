@@ -30,7 +30,7 @@ switch (phase)
 			}
 		}
 		
-		if (phaseTimer >= 110)
+		if (phaseTimer >= 140)
 		{
 			phase = 1;
 			phaseTimer = 0;
