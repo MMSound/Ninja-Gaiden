@@ -4,6 +4,6 @@ if (instance_exists(myParent))
 	if (isLocked) //probably change these coords later
 	{
 		x = myParent.x;
-		y = (myParent.y - 32);
+		y = (myParent.y - (32 * (myParent.object_index != objJashinHead)));
 	}
 }

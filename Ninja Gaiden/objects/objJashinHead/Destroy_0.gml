@@ -27,4 +27,17 @@ if (instance_exists(objGenericBullet))
 {
 	instance_destroy(objGenericBullet);
 }
+if (instance_exists(objJashinTail))
+{
+	with (objJashinTail)
+	{
+		phase = 2;
+		phaseTimer = 0;
+		imgSpd = (1 / 3);
+	}
+}
+if (instance_exists(objJashinWaveBG))
+{
+	instance_destroy(objJashinWaveBG);
+}
 global.levelTime = 137;

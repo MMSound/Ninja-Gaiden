@@ -12,6 +12,8 @@ phaseTime = 100;
 iFrameTime = 30;
 iFrameTimer = 0;
 
+animTimer = 0;
+
 mySickle = noone;
 jumpTimer = 0;
 setGround = true;
@@ -45,6 +47,14 @@ function init_new_phase(_x, _y, _playerX, _playerY, _xScale, _playerXScale)
 		yspeed = 0;
 		global.levelTime = choose(5, 7, 666, 13, 27, 19, 103, 58, 43, 147);
 		play_sfx(sfxJashinHeadWarp);
+		if (instance_exists(objJashinWaveBG))
+		{
+			with (objJashinWaveBG)
+			{
+				waveLength = irandom_range(2, 64);
+				amplitude = irandom_range(16, 64);
+			}
+		}
 	}
 }
 

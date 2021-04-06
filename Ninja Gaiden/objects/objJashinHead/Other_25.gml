@@ -9,7 +9,20 @@ switch (phase)
 		canBeHit = (iFrameTimer == 0);
 		visible = (iFrameTimer % 2 == 0);
 		
-		if (healthPoints <= 8)
+		if (phaseTimer % 60 == 0 && instance_exists(objPlayer)) //projectiles
+		{
+			var _shrimp = instance_create_depth((x - 20), (y + 26), (depth - 1), objGenericBullet);
+				_shrimp.doesGravity = true;
+				_shrimp.xspeed = -clamp(((_shrimp.x - objPlayer.x) / 32), 1, 128);
+				_shrimp.yspeed = -4;
+				_shrimp.contactDamage = 2;
+				_shrimp.sprite_index = sprJashinShrimp;
+				_shrimp.imgSpd = 1;
+			animTimer = 5;
+			play_sfx(sfxJashinShrimp);
+		}
+		
+		if (healthPoints <= 3)
 		{
 			phase = 1;
 			phaseTimer = 0;
@@ -25,9 +38,29 @@ switch (phase)
 					canHit = false;
 				}
 			}
+			if (instance_exists(objJashinTail))
+			{
+				with (objJashinTail)
+				{
+					phase = 1;
+					phaseTimer = 0;
+				}
+			}
+			if (instance_exists(objGenericBullet))
+			{
+				instance_destroy(objGenericBullet);
+			}
 			music_stop();
 			imgSpd = (1 / 4);
 			amplitude = 1;
+			if (!instance_exists(objJashinWaveBG))
+			{
+				var _layerID = layer_get_id("Wave");
+				if (layer_exists(_layerID))
+				{
+					instance_create_layer(global.viewX, global.viewY, _layerID, objJashinWaveBG);
+				}
+			}
 		}
 		break;
 	case 1: //barbarian
@@ -41,13 +74,15 @@ switch (phase)
 		{
 			phase++;
 			phaseTimer = 0;
-			init_new_phase(64, 176, 336, 192, -1.00, -1.00);
+			init_new_phase(64, 176, 336, 192, 1.00, -1.00);
 			hasGravity = true;
 			hasCollision = true;
 		}
 		break;
 	case 2: //bomberhead
 		visible = (phaseTimer % 2 == 0);
+		
+		image_xscale = -1.00;
 		
 		if (mySickle == noone)
 		{
@@ -285,7 +320,7 @@ switch (phase)
 				ampDir = 1;
 			}
 		}
-		else if (amplitude >= 64) //warping out
+		else if (amplitude >= phaseTime) //warping out
 		{
 			if (ampDir == 1)
 			{
@@ -296,7 +331,22 @@ switch (phase)
 }
 phaseTimer++;
 
+//animation
 if (phaseTimer % 2 == 0)
 {
 	phaseMod = !phaseMod;
+}
+if (animTimer > 0)
+{
+	animTimer--;
+}
+image_index = (animTimer > 0);
+
+if (image_xscale == 1.00)
+{
+	sprite_index = sprJashinHead;
+}
+else
+{
+	sprite_index = sprJashinHeadReverse;
 }

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b64ea094-a273-46b1-b0db-3cf69b222a30","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Act 6-2",
     "path": "folders/Tiles & Backgrounds/Sprites/Act 6-2.yy",

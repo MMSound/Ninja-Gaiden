@@ -57,6 +57,7 @@ function initialize_music()
 	global.musicID[bgmMalthFight] = [bgmMalthFight, 27.345, 00.664];
 	global.musicID[bgmMaskedDevilFight] = [bgmMaskedDevilFight, 26.159, 14.959];
 	global.musicID[bgmJaquioBattle] = [bgmJaquioBattle, 64.273, 18.665];
+	global.musicID[bgmJashinFight] = [bgmJashinFight, 26.070, 03.066];
 	global.musicID[bgmDeath] = [bgmDeath, 03.052, -1];
 	global.musicID[bgmOptionsMenu] = [bgmOptionsMenu, 34.136, 0];
 	global.musicID[bgmBossIntro] = [bgmBossIntro, 0.502, -1];
