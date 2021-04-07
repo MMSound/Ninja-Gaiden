@@ -10,6 +10,10 @@ switch (currentOption)
 		{
 			global.musicVolume = 1.0;
 		}
+		if (global.musicPlaying)
+		{
+			audio_sound_gain(global.musicSound, ((global.musicVolume * 0.75) * global.musicFadeVolume), 0);
+		}
 		break;
 	case 1: //sound effect volume
 		if (global.sfxVolume > 0)

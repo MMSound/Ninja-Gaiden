@@ -28,7 +28,7 @@ function switch_sides()
 	{
 		instance_create_depth(0, 0, 0, objPixelation);
 	}
-	if (instance_exists(objPlayer))
+	/*if (instance_exists(objPlayer))
 	{
 		with (objPlayer)
 		{
@@ -36,7 +36,7 @@ function switch_sides()
 			x = ((global.viewX + (global.viewW / 2)) - _xOffset);
 			image_xscale *= -1;
 		}
-	}
+	}*/
 	play_sfx(sfxJashinHeadWarp);
 	
 	//adjust the solid
@@ -52,6 +52,12 @@ function switch_sides()
 			mySolid.x = (global.viewX + (global.viewW - 272));
 			mySolid.image_xscale = -5.00;
 		}
+	}
+	
+	//music
+	if (global.musicPlaying)
+	{
+		audio_sound_set_track_position(global.musicSound, (random_range(00.000, (global.musicLength - 05.000))));
 	}
 }
 
@@ -77,5 +83,5 @@ function shrimp()
 			_shrimp.imgSpd = 1;
 		animTimer = 5;
 		play_sfx(sfxJashinShrimp);
-	}	
+	}
 }
