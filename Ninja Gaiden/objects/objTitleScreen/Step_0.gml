@@ -100,6 +100,12 @@ switch (drawPhase)
 				}
 			}
 		}
+		
+		if (keyboard_check_pressed(vk_space))
+		{
+			save_load_game(1);
+			room_transition(global.levelArray[global.currentAct][global.currentScene]);
+		}
 
 		if (blinkTimer % 20 == 0)
 		{

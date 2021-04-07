@@ -55,6 +55,33 @@ global.ninpo = 0;
 global.currentAct = 1;
 global.currentScene = 1;
 
+global.levelArray[1][1] = rmAct1Scene1;
+global.levelArray[1][2] = rmAct1Scene1;
+
+global.levelArray[2][1] = rmAct2Scene1;
+global.levelArray[2][2] = rmAct2Scene2;
+global.levelArray[2][3] = rmAct2Scene2;
+
+global.levelArray[3][1] = rmAct3Scene1;
+global.levelArray[3][2] = rmAct3Scene2;
+global.levelArray[3][3] = rmAct3Scene2;
+
+global.levelArray[4][1] = rmAct4Scene1;
+global.levelArray[4][2] = rmAct4Scene2;
+global.levelArray[4][3] = rmAct4Scene3;
+global.levelArray[4][4] = rmAct4Scene3;
+
+global.levelArray[5][1] = rmAct5Scene1;
+global.levelArray[5][2] = rmAct5Scene2;
+global.levelArray[5][3] = rmAct5Scene3;
+global.levelArray[5][4] = rmAct5Scene3;
+
+global.levelArray[6][1] = rmAct6Scene1;
+global.levelArray[6][2] = rmAct6Scene2;
+global.levelArray[6][3] = rmAct6Scene3;
+global.levelArray[6][4] = rmAct6Segue1;
+global.levelArray[6][5] = rmAct6Segue1;
+
 global.livesOption = false;
 
 global.bossHealth = 16;

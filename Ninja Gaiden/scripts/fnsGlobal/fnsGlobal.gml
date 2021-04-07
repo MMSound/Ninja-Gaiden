@@ -89,6 +89,8 @@ function set_act(_act, _scene)
 	global.currentScene = _scene;
 	
 	global.displayUI = true;
+	
+	save_load_game(0);
 }
 
 /// @description transition to a room

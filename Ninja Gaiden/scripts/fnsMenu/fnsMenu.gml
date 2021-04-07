@@ -79,6 +79,39 @@ function save_load_options(_mode, _fileToUse)
 	}
 }
 
+/// @description saves/loads the game (0 to save, 1 to load)
+function save_load_game(_mode, _fileToUse)
+{
+	if (is_undefined(_fileToUse))
+	{
+		_fileToUse = "game.ngsav";
+	}
+	
+	switch (_mode)
+	{
+		case 0: //save
+			var _file = file_text_open_write(_fileToUse);
+			file_text_write_real(_file, global.currentAct);
+			file_text_write_real(_file, global.currentScene);
+			file_text_write_real(_file, global.gameScore);
+			file_text_write_real(_file, global.currentWeapon);
+			file_text_write_real(_file, global.ninpo);
+			file_text_write_real(_file, global.currentLives);
+			file_text_close(_file);
+			break;
+		case 1: //load
+			var _file = file_text_open_read(_fileToUse);
+			global.currentAct = file_text_read_real(_file);
+			global.currentScene = file_text_read_real(_file);
+			global.gameScore = file_text_read_real(_file);
+			global.currentWeapon = file_text_read_real(_file);
+			global.ninpo = file_text_read_real(_file);
+			global.currentLives = file_text_read_real(_file);
+			file_text_close(_file);
+			break;
+	}
+}
+
 /// @description checks if the key being pressed is illegal
 function check_illegal_key(_key)
 {

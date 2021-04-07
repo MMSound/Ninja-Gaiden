@@ -19,7 +19,7 @@ switch (drawPhase)
 		{
 			draw_text(156, 128, "PRESS START");
 		}
-		draw_text(8, 144, "CTRL-SELECT FOR LEVEL SELECT, SELECT FOR OPTIONS");
+		draw_text(8, 144, "CTRL-SELECT FOR LEVEL SELECT, SELECT FOR OPTIONS\nSPACE TO CONTINUE");
 		if (isLevelSelect)
 		{
 			draw_text(32, 160, string("LEVEL: " + string(selectedLevel) + " [LEFT AND RIGHT TO CHANGE]"));

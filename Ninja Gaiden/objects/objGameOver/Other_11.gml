@@ -2,7 +2,7 @@
 switch (currentOption)
 {
 	case 0:
-		room_transition(roomTo[global.currentAct][global.currentScene]);
+		room_transition(global.levelArray[global.currentAct][global.currentScene]);
 		break;
 	case 1:
 		room_transition(rmTitleScreen);
