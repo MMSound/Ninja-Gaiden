@@ -9,7 +9,7 @@ switch (phase)
 		canBeHit = (iFrameTimer == 0);
 		visible = (iFrameTimer % 2 == 0);
 		
-		if (phaseTimer % 60 == 0 && instance_exists(objPlayer)) //projectiles
+		if (phaseTimer % 60 == 0 && phaseTimer > 0 && instance_exists(objPlayer)) //projectiles
 		{
 			var _shrimp = instance_create_depth((x - 20), (y + 26), (depth - 1), objGenericBullet);
 				_shrimp.doesGravity = true;

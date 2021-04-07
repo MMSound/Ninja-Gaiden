@@ -45,7 +45,7 @@ function init_new_phase(_x, _y, _playerX, _playerY, _xScale, _playerXScale)
 		}
 		xspeed = 0;
 		yspeed = 0;
-		global.levelTime = choose(5, 7, 666, 13, 27, 19, 103, 58, 43, 147);
+		global.levelTime = choose(5, 7, 666, 13, 27, 19, 103, 58, 43, 147, 83, 69, 193, 167);
 		play_sfx(sfxJashinHeadWarp);
 		if (instance_exists(objJashinWaveBG))
 		{
