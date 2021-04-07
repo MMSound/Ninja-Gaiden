@@ -18,7 +18,4 @@ switch (currentOption)
 	case 4:
 		draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), optionsOnOff[global.livesOption], global.uiColorIndex, sprFontPalette, global.gameFont);
 		break;
-	case 5:
-		draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), optionsOnOff[global.isShader], global.uiColorIndex, sprFontPalette, global.gameFont);
-		break;
 }

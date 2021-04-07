@@ -67,5 +67,6 @@ if ((room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS) && !instance
 		draw_text(_drawX, (global.viewY + 96), string("SCENE " + string(global.currentScene)));
 		draw_set_halign(fa_left);
 	}
+	
 	palette_shader_reset();
 }
