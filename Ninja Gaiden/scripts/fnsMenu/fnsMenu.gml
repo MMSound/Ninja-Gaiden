@@ -40,6 +40,7 @@ function save_load_options(_mode, _fileToUse)
 			file_text_write_real(_file, global.gpPause);
 			file_text_write_real(_file, global.gpSelect);
 			file_text_write_real(_file, global.livesOption);
+			file_text_write_real(_file, global.isShader);
 			file_text_close(_file);
 			break;
 		case 1: //load
@@ -72,6 +73,7 @@ function save_load_options(_mode, _fileToUse)
 			global.gpPause = file_text_read_real(_file);
 			global.gpSelect = file_text_read_real(_file);
 			global.livesOption = file_text_read_real(_file);
+			global.isShader = file_text_read_real(_file);
 			file_text_close(_file);
 			break;
 	}

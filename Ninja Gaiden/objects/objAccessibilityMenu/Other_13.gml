@@ -35,4 +35,8 @@ switch (currentOption)
 		global.livesOption = !global.livesOption;
 		play_sfx(sfxShuriken);
 		break;
+	case 5:
+		global.isShader = !global.isShader;
+		play_sfx(sfxShuriken);
+		break;
 }

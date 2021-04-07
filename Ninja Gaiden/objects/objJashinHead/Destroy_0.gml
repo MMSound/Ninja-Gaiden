@@ -5,10 +5,13 @@ if (instance_exists(objJashinHeart))
 	{
 		phase = 1;
 		visible = true;
-		var _solid = instance_create_depth((global.viewX + 272), (global.viewY + 168), 100, objUnclimbableWall);
-			_solid.image_xscale = 5.00;
-			_solid.image_yscale = 2.00;
-			_solid.visible = false;
+		if (mySolid == noone)
+		{
+			mySolid = instance_create_depth((global.viewX + 272), (global.viewY + 168), 100, objUnclimbableWall);
+			mySolid.image_xscale = 5.00;
+			mySolid.image_yscale = 2.00;
+			mySolid.visible = false;
+		}
 	}
 }
 if (!instance_exists(objPixelation))

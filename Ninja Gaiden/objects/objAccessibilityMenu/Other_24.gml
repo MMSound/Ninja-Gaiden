@@ -4,7 +4,8 @@ optionsText[1] = "SOUND EFFECT SUBTITLES";
 optionsText[2] = "UP-FIRE FOR WEAPON";
 optionsText[3] = "CUTSCENE LANGUAGE";
 optionsText[4] = "LIVES";
-optionsText[5] = "BACK";
+optionsText[5] = "SHADERS";
+optionsText[6] = "BACK";
 
 optionsOnOff[0] = "OFF";
 optionsOnOff[1] = "ON";

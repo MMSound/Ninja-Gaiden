@@ -16,18 +16,21 @@ animTimer = 0;
 //we wanna fire an aimed bullet
 function fire_aimed_bullet(_yOffset)
 {
-	_yOffset = is_undefined(_yOffset) ? -16 : _yOffset;
-	if (instance_exists(objPlayer))
+	if (!global.bossPhase == 2)
 	{
-		var _bullet = instance_create_depth((x + (16 * image_xscale)), (y - 32), depth, objGenericBullet);
-	    var _dir = point_direction((x + 16), (y - 32), objPlayer.x, (objPlayer.y + _yOffset));
-	    _bullet.xspeed = lengthdir_x(5, _dir);
-	    _bullet.yspeed = lengthdir_y(5, _dir);
-		_bullet.contactDamage = 2;
-		_bullet.sprite_index = sprKelberossBullet;
-		_bullet.imgSpd = (1 / 2);
-		_bullet.image_xscale = image_xscale;
-	}	
+		_yOffset = is_undefined(_yOffset) ? -16 : _yOffset;
+		if (instance_exists(objPlayer))
+		{
+			var _bullet = instance_create_depth((x + (16 * image_xscale)), (y - 32), depth, objGenericBullet);
+		    var _dir = point_direction((x + 16), (y - 32), objPlayer.x, (objPlayer.y + _yOffset));
+		    _bullet.xspeed = lengthdir_x(5, _dir);
+		    _bullet.yspeed = lengthdir_y(5, _dir);
+			_bullet.contactDamage = 2;
+			_bullet.sprite_index = sprKelberossBullet;
+			_bullet.imgSpd = (1 / 2);
+			_bullet.image_xscale = image_xscale;
+		}
+	}
 }
 
 //we wanna fire an aimed bullet spread

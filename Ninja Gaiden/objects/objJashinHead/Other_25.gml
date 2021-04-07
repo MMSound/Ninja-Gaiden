@@ -61,6 +61,10 @@ switch (phase)
 					instance_create_layer(global.viewX, global.viewY, _layerID, objJashinWaveBG);
 				}
 			}
+			if (instance_exists(inst_5B935980)) //stupid fucker
+			{
+				instance_destroy(inst_5B935980);
+			}
 		}
 		break;
 	case 1: //barbarian
