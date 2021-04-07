@@ -98,6 +98,8 @@ function save_load_game(_mode, _fileToUse)
 			file_text_write_real(_file, global.ninpo);
 			file_text_write_real(_file, global.currentLives);
 			file_text_close(_file);
+			var _status = instance_create_depth(0, 0, -1000, objGamepadStatusBar);
+				_status.sprite_index = sprSaveStatusBar;
 			break;
 		case 1: //load
 			var _file = file_text_open_read(_fileToUse);

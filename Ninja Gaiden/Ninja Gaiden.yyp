@@ -126,6 +126,7 @@
     {"id":{"name":"sprAct5SkullWallBG","path":"sprites/sprAct5SkullWallBG/sprAct5SkullWallBG.yy",},"order":3,},
     {"id":{"name":"sprMaceManThrow","path":"sprites/sprMaceManThrow/sprMaceManThrow.yy",},"order":1,},
     {"id":{"name":"sprAct5SpeedLines2","path":"sprites/sprAct5SpeedLines2/sprAct5SpeedLines2.yy",},"order":2,},
+    {"id":{"name":"sprSaveStatusBar","path":"sprites/sprSaveStatusBar/sprSaveStatusBar.yy",},"order":9,},
     {"id":{"name":"sprMaskedDevilSlash","path":"sprites/sprMaskedDevilSlash/sprMaskedDevilSlash.yy",},"order":1,},
     {"id":{"name":"sprRyuClimbWeapon","path":"sprites/sprRyuClimbWeapon/sprRyuClimbWeapon.yy",},"order":23,},
     {"id":{"name":"tstAct5Scene2","path":"tilesets/tstAct5Scene2/tstAct5Scene2.yy",},"order":12,},
