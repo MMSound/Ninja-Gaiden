@@ -55,7 +55,7 @@ global.ninpo = 0;
 global.currentAct = 1;
 global.currentScene = 1;
 
-global.livesOption = true;
+global.livesOption = false;
 
 global.bossHealth = 16;
 global.bossPhase = 0;
