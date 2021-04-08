@@ -90,7 +90,10 @@ function set_act(_act, _scene)
 	
 	global.displayUI = true;
 	
-	save_load_game(0);
+	if (global.currentScene < 4 && !(global.currentAct == 1 && global.currentScene == 2) && !(global.currentAct == 2 && global.currentScene == 3) && !(global.currentAct == 3 && global.currentScene == 3))
+	{
+		save_load_game(0);
+	}
 }
 
 /// @description transition to a room
