@@ -1,2 +1,9 @@
 set_act(4, 4);
-music_play(bgmBossFight);
+if (!global.soundtrackOption)
+{
+	music_play(bgmBossFight);
+}
+else
+{
+	music_play(bgmBossFightPCE);
+}

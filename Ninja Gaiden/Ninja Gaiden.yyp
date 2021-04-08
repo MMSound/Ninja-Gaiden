@@ -154,6 +154,7 @@
     {"id":{"name":"sprJashinHeadReverse","path":"sprites/sprJashinHeadReverse/sprJashinHeadReverse.yy",},"order":3,},
     {"id":{"name":"sprBansheeKnife","path":"sprites/sprBansheeKnife/sprBansheeKnife.yy",},"order":2,},
     {"id":{"name":"sprAct3FrontTrees","path":"sprites/sprAct3FrontTrees/sprAct3FrontTrees.yy",},"order":3,},
+    {"id":{"name":"bgmBossFightPCE","path":"sounds/bgmBossFightPCE/bgmBossFightPCE.yy",},"order":0,},
     {"id":{"name":"prtEnemy","path":"objects/prtEnemy/prtEnemy.yy",},"order":1,},
     {"id":{"name":"rmAct1Scene1","path":"rooms/rmAct1Scene1/rmAct1Scene1.yy",},"order":0,},
     {"id":{"name":"bgmMaskedDevilFight","path":"sounds/bgmMaskedDevilFight/bgmMaskedDevilFight.yy",},"order":2,},
@@ -721,6 +722,7 @@
     {"folderPath":"folders/Boss/Sprites/The Jaquio.yy","order":6,"resourceVersion":"1.0","name":"The Jaquio","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Boss/Jashin.yy","order":9,"resourceVersion":"1.0","name":"Jashin","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Boss/Sprites/Jashin.yy","order":7,"resourceVersion":"1.0","name":"Jashin","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Music/Boss Themes/PCE.yy","order":2,"resourceVersion":"1.0","name":"PCE","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
