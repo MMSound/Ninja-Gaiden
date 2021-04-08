@@ -156,7 +156,7 @@ global.weaponLimit[WEAPON_FLAMES] = 1;
 init_palette_shader(shdColorSwap);
 global.screenColorIndex = 0;
 global.uiColorIndex = 4;
-global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-[]ßȘȚÀĂÁÂÃÄÉÊĒËÈÍÎĪÏÌÓÔÕÖÒÚÛŪÜÙÑçÇțàăáâãäéêēëèíîīïìóôõöòúûūüùñБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРpСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯяІіЛлMmJjЏџЋћЂђЉљЊњČčŠšŽž", false, 0);
+global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-[]ßȘȚÀĂÁÂÃÄÉÊĒËÈÍÎĪÏÌÓÔÕÖÒÚÛŪÜÙÑçÇțàăáâãäéêēëèíîīïìóôõöòúûūüùñБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРpСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯяІіЛлMmJjЏџЋћЂђЉљЊњČčŠšŽž¿¡", false, 0);
 global.gameFontLarge = font_add_sprite_ext(sprFontLarge, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", false, 0);
 global.gameFontJapanese = font_add_sprite_ext(sprFontJapanese, "あいうえおかきくけこさしすせそたちつてとなにぬねのはむふへほまみむめもやゆよらりるれろわをんっやゆょアイウエニカキ千{ロサシス合リタ支百テ世別夜気目ノハヒフ子明マミムメ七ヤ『』ラリル人チワあンッャュョAB。ー…!?「」父アィエオ邪神像帰決闘何者光影時龍剣女家正体行手伝心配今死霊日鬼王大待古学忍名力雄月年国呪者一地代", false, 0);
 global.screenRes = 3;

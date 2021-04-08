@@ -1,13 +1,14 @@
 INFO: Max 25 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
 INFO: Max 4 lines per screen
+INFO: Use { instead of "
 
-"Who are they...
+{Who are they...
  They seem to be
- following me..."
+ following me...{
 
-"Who's there?
+{Who's there?
  
-"Just a girl.
- Get out of here!"
+{Just a girl.
+ Get out of here!{
 
-"I will, but first..."
+{I will, but first...{
