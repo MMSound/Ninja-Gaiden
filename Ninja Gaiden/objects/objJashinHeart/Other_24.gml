@@ -59,6 +59,9 @@ function switch_sides()
 	{
 		audio_sound_set_track_position(global.musicSound, (random_range(00.000, (global.musicLength - 05.000))));
 	}
+	
+	//timer
+	global.levelTime += irandom_range(-2, 7);
 }
 
 //shrimp
