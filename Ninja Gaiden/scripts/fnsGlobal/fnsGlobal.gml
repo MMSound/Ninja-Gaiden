@@ -85,15 +85,22 @@ function set_act(_act, _scene)
 		global.lifeLanternAppear = true;
 	}
 	
+	//saving
+	var _canSave = false;
+	if (_scene < 4 && !(_act == 1 && _scene == 2) && !(_act == 2 && _scene == 3) && !(_act == 3 && _scene == 3) && !(_act == global.currentAct && _scene == global.currentScene))
+	{
+		_canSave = true;
+	}
+	
 	global.currentAct = _act;
 	global.currentScene = _scene;
 	
-	global.displayUI = true;
-	
-	if (global.currentScene < 4 && !(global.currentAct == 1 && global.currentScene == 2) && !(global.currentAct == 2 && global.currentScene == 3) && !(global.currentAct == 3 && global.currentScene == 3))
+	if (_canSave)
 	{
 		save_load_game(0);
 	}
+	
+	global.displayUI = true;
 }
 
 /// @description transition to a room
