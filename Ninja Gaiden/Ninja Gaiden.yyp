@@ -435,6 +435,7 @@
     {"id":{"name":"sprPickaxeManThrow","path":"sprites/sprPickaxeManThrow/sprPickaxeManThrow.yy",},"order":0,},
     {"id":{"name":"sprAct4Scene1Sky","path":"sprites/sprAct4Scene1Sky/sprAct4Scene1Sky.yy",},"order":1,},
     {"id":{"name":"objGamepadSetup","path":"objects/objGamepadSetup/objGamepadSetup.yy",},"order":2,},
+    {"id":{"name":"sprBossExplosion","path":"sprites/sprBossExplosion/sprBossExplosion.yy",},"order":10,},
     {"id":{"name":"sfxJump","path":"sounds/sfxJump/sfxJump.yy",},"order":0,},
     {"id":{"name":"rmAct6Boss3","path":"rooms/rmAct6Boss3/rmAct6Boss3.yy",},"order":8,},
     {"id":{"name":"sprBomberhead","path":"sprites/sprBomberhead/sprBomberhead.yy",},"order":0,},
