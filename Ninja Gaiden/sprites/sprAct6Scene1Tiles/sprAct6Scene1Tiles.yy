@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 159,
   "bbox_top": 0,
-  "bbox_bottom": 111,
+  "bbox_bottom": 175,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 160,
-  "height": 112,
+  "height": 176,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3cb2efbf-46b2-4380-9189-f3338546616c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Act 6-1",
     "path": "folders/Tiles & Backgrounds/Sprites/Act 6-1.yy",

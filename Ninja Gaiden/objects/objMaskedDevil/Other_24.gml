@@ -16,7 +16,7 @@ animTimer = 0;
 //we wanna fire an aimed bullet
 function fire_aimed_bullet(_yOffset)
 {
-	if (!global.bossPhase == 2)
+	if (global.bossPhase != 2)
 	{
 		_yOffset = is_undefined(_yOffset) ? -16 : _yOffset;
 		if (instance_exists(objPlayer))

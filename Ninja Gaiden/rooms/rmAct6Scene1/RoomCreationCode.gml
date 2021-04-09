@@ -9,5 +9,8 @@ else
 }
 with (objLantern)
 {
-	itemDrop = SMALL_NINPO;
+	if (y < 240)
+	{
+		itemDrop = SMALL_NINPO;
+	}
 }

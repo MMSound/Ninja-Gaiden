@@ -30,10 +30,13 @@ if (!initialShield)
 
 canBeHitManual = (hitsLeft != 0);
 
-colorIndex += 0.25;
-if (colorIndex > 3)
+if (global.bossPhase != 2)
 {
-	colorIndex = 0;
+	colorIndex += 0.25;
+	if (colorIndex > 3)
+	{
+		colorIndex = 0;
+	}
 }
 
 //shell animation

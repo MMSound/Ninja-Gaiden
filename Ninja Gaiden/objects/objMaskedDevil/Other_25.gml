@@ -42,7 +42,7 @@ switch (phase)
 		if (phaseTimer % 50 == 0) //bullets
 		{
 			fire_aimed_bullet_spread();
-			animTimer = 10;
+			animTimer = 8;
 		}
 		break;
 	case 2: //move a bit
@@ -79,7 +79,7 @@ switch (phase)
 		{
 			fire_aimed_bullet_spread();
 			imgSpd = (1 / 3);
-			animTimer = 10;
+			animTimer = 8;
 		}
 		break;
 }
@@ -104,4 +104,9 @@ else
 	{
 		image_index = 1;
 	}
+}
+
+if (global.bossPhase == 2)
+{
+	imgSpd = 0;
 }
