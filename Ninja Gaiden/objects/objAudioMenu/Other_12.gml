@@ -26,8 +26,11 @@ switch (currentOption)
 		}
 		break;
 	case 2: //soundtrack
-		global.soundtrackOption = !global.soundtrackOption;
-		music_change_soundtrack();
+		if (global.beatenGame)
+		{
+			global.soundtrackOption = !global.soundtrackOption;
+			music_change_soundtrack();
+		}
 		break;
 }
 play_sfx(sfxShuriken);

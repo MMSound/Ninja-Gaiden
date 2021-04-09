@@ -54,6 +54,7 @@ global.currentLives = 2;
 global.ninpo = 0;
 global.currentAct = 1;
 global.currentScene = 1;
+global.beatenGame = false;
 
 global.levelArray[1][1] = rmAct1Scene1;
 global.levelArray[1][2] = rmAct1Scene1;

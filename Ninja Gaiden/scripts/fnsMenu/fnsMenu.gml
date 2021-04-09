@@ -97,6 +97,7 @@ function save_load_game(_mode, _fileToUse)
 			file_text_write_real(_file, global.currentWeapon);
 			file_text_write_real(_file, global.ninpo);
 			file_text_write_real(_file, global.currentLives);
+			file_text_write_real(_file, global.beatenGame);
 			file_text_close(_file);
 			var _status = instance_create_depth(0, 0, -1000, objGamepadStatusBar);
 				_status.sprite_index = sprSaveStatusBar;
@@ -109,6 +110,7 @@ function save_load_game(_mode, _fileToUse)
 			global.currentWeapon = file_text_read_real(_file);
 			global.ninpo = file_text_read_real(_file);
 			global.currentLives = file_text_read_real(_file);
+			global.beatenGame = file_text_read_real(_file);
 			file_text_close(_file);
 			break;
 	}
