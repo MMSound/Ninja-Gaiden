@@ -1,5 +1,5 @@
 /// @description Option name array
-optionsText[0] = "BACKGROUND BRIGHTNESS";
+optionsText[0] = global.isShader ? "BACKGROUND BRIGHTNESS" : "---";
 optionsText[1] = "SOUND EFFECT SUBTITLES";
 optionsText[2] = "UP-FIRE FOR WEAPON";
 optionsText[3] = "CUTSCENE LANGUAGE";

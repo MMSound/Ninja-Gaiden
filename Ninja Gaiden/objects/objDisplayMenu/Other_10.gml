@@ -1,10 +1,14 @@
 /// @description Custom drawing
-if (currentOption == 0)
+var _drawY = (global.viewY + 120);
+var _text = "";
+switch (currentOption)
 {
-	draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), global.screenRes, global.uiColorIndex, sprFontPalette, global.gameFont);
+	case 0: //resolution
+		_text = global.screenRes;
+		break;
+	case 1: //shader
+		_text = global.isShader ? "ON" : "OFF";
+		break;
 }
-else if (currentOption == 1)
-{
-	var _text = global.isShader ? "ON" : "OFF";
-	draw_text_shaded((global.viewX + (global.viewW / 2)), (global.viewY + 80), _text, global.uiColorIndex, sprFontPalette, global.gameFont);
-}
+var _drawX = ((global.viewX + (global.viewW / 2)) - ((string_length(_text) * 8) / 2));
+draw_text_shaded(_drawX, _drawY, _text, global.uiColorIndex, sprFontPalette, global.gameFont);

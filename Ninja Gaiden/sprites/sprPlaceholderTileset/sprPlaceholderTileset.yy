@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3bb3693e-7e55-4cf4-8658-81c852122e2a","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Tiles & Backgrounds/Sprites.yy",
