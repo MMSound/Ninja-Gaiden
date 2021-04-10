@@ -53,6 +53,11 @@ if (global.checkpointX != 0)
 		objPlayer.x = global.checkpointX;
 		objPlayer.y = global.checkpointY;
 	}
+	else
+	{
+		global.checkpointX = 0;
+		global.checkpointY = 0;
+	}
 	
 	//special conditions (by that i mean dumb hacky shit)
 	if (room == rmAct3Scene2)

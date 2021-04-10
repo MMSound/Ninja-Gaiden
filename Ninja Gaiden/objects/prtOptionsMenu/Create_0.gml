@@ -7,6 +7,7 @@ parentMenu = noone;
 event_user(14);
 
 timer = 0;
+isConfirm = false;
 
 //useful for submenus
 function return_to_menu()

@@ -4,4 +4,4 @@ optionsText[1] = "GAMEPAD SETUP";
 optionsText[2] = "AUDIO";
 optionsText[3] = "DISPLAY";
 optionsText[4] = "ACCESSIBILITY";
-optionsText[5] = "SAVE AND EXIT";
+optionsText[5] = "BACK";
