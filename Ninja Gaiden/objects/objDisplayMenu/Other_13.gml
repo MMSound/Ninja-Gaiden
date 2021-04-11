@@ -7,7 +7,16 @@ if (currentOption == 0)
 	}
 	else
 	{
-		global.screenRes = 1;
+		if (global.screenRes == 6)
+		{
+			global.screenRes = 1;
+			window_set_fullscreen(false);
+		}
+		else
+		{
+			global.screenRes = 6;
+			window_set_fullscreen(true);
+		}
 	}
 	play_sfx(sfxShuriken);
 	window_set_size((global.viewW * global.screenRes), (global.viewH * global.screenRes));

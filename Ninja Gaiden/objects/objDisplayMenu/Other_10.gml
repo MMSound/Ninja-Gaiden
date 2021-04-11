@@ -4,7 +4,7 @@ var _text = "";
 switch (currentOption)
 {
 	case 0: //resolution
-		_text = global.screenRes;
+		_text = (global.screenRes == 6) ? "FULL" : (string(global.screenRes) + "x");
 		break;
 	case 1: //shader
 		_text = global.isShader ? "ON" : "OFF";

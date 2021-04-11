@@ -217,7 +217,14 @@ else
 	save_load_options(0);
 }
 
-window_set_size((global.viewW * global.screenRes), (global.viewH * global.screenRes));
+if (global.screenRes != 6)
+{
+	window_set_size((global.viewW * global.screenRes), (global.viewH * global.screenRes));
+}
+else
+{
+	window_set_fullscreen(true);
+}
 
 if (room == rmInit)
 {
