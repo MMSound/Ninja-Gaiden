@@ -13,7 +13,7 @@ switch (currentOption)
 		_text = global.upFireEnabled ? "ON" : "OFF";
 		break;
 	case 3: //language
-		var _langName = ["ENGLISH", "JAPANESE", "ESPAÑOL", "ITALIANO", "ROMÂNĂ", "РУСКИЙ", "СРПСКИ"];	
+		var _langName = ["ENGLISH", "JAPANESE", "ESPAÑOL", "ITALIANO", "ROMÂNĂ", "РУСКИЙ", "УКРAÏНСЬКИЙ"];	
 		_text = _langName[global.cutsceneLanguage];
 		draw_sprite_wave(sprFlags, global.cutsceneLanguage, (global.viewX + ((global.viewW / 2) - 9)), (_drawY + 16), 0, 12, 1, wavePhase);
 		break;

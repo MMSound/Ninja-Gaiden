@@ -1,6 +1,8 @@
-INFO: Max 25 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
 INFO: Max 4 lines per screen
 INFO: Use { instead of "
+
+ENGLISH
 
 {Who are they...
  They seem to be
@@ -12,3 +14,80 @@ INFO: Use { instead of "
  Get out of here!{
 
 {I will, but first...{
+
+SpANISH
+
+{¿Quiénes son...?
+ parece que me 
+ estan siguiendo...{
+
+{¿Quién esta ahí?
+ 
+{Es solo una chica.
+ ¡Sal de aqui!{
+
+{Lo hare, pero primero...{
+
+UKRAINIAN
+
+{Хто вони?
+ Здaється, вони
+ мене пеpеслідують...{
+
+{Хто тут?
+ 
+{Пpосто дівчинкa.
+ Вийди звідсив!{
+
+{Я вийду, тільки пеpедтим...{
+
+RUSSIAN
+
+{Кто они...
+ Кaжеться что они
+ меня пpеследуют...{
+
+{Кто тут?
+ 
+{Пpосто девочкa.
+ Убиpaйся отсюдa! {
+
+{Я уйду, Но снaчaло...{
+
+ITALIAN
+
+{E loro chi sono...?
+ Sembra che mi
+ stiano seguendo...{
+
+{Chi è la?
+ 
+{Solo una ragazza.
+ Togliti di mezzo!{
+
+{Lo farò, ma prima...{
+
+JAPANESE
+
+「やつらはいったいB何者なんた…
+おれをねらっているのはたしからしいか…」
+
+「たれた?」
+
+「女か。もう心記ない。さあ行け。」
+
+「ええ、てもそのまえに…」
+「なに!」
+
+JAPANESE DIACRITICS
+「やつらはいったいB何者なん{…
+おれをねらっているのはたしからしい{…」
+
+「{れ{?」
+
+「女か。もう心記ない。さあ行け。」
+
+「ええ、{もそのまえに…」
+「なに!」
+
+

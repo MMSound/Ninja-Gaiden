@@ -10,5 +10,5 @@ function scr_menu_text()
 	dialogue[0][ITA] = "Italian Text";
 	dialogue[0][ROM] = "Romanian Text";
 	dialogue[0][RUS] = "Russian Text";
-	dialogue[0][SRB] = "Serbian Text";
+	dialogue[0][UKR] = "Ukrainian Text";
 }
