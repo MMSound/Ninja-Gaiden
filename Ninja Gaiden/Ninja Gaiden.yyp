@@ -481,6 +481,7 @@
     {"id":{"name":"fnsCutscenes","path":"scripts/fnsCutscenes/fnsCutscenes.yy",},"order":10,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"sprWeaponIcons","path":"sprites/sprWeaponIcons/sprWeaponIcons.yy",},"order":5,},
+    {"id":{"name":"sfxJashinRoar","path":"sounds/sfxJashinRoar/sfxJashinRoar.yy",},"order":30,},
     {"id":{"name":"sprAct6Scene1Tiles","path":"sprites/sprAct6Scene1Tiles/sprAct6Scene1Tiles.yy",},"order":0,},
     {"id":{"name":"sfxWindmillShuriken","path":"sounds/sfxWindmillShuriken/sfxWindmillShuriken.yy",},"order":9,},
     {"id":{"name":"objKeyboardSetup","path":"objects/objKeyboardSetup/objKeyboardSetup.yy",},"order":1,},

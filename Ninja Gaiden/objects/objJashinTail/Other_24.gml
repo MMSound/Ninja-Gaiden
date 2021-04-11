@@ -5,7 +5,7 @@ healthPoints = 16;
 contactDamage = 4;
 
 imgSpd = 0;
-image_index = 5;
+image_index = 4;
 
 phase = 0;
 phaseTimer = 0;
