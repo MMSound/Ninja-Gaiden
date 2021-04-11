@@ -18,7 +18,7 @@ switch (phase)
 				_shrimp.contactDamage = 2;
 				_shrimp.sprite_index = sprJashinShrimp;
 				_shrimp.imgSpd = 1;
-			animTimer = 5;
+			animTimer = 9;
 			play_sfx(sfxJashinShrimp);
 		}
 		
@@ -344,7 +344,7 @@ if (animTimer > 0)
 {
 	animTimer--;
 }
-image_index = (animTimer > 0);
+image_index = audio_is_playing(sfxJashinRoar) ? 1 : (animTimer > 0);
 
 if (image_xscale == 1.00)
 {
