@@ -63,6 +63,7 @@ CUTSCENE TRANSLATION
 CSketch
 Noivs
 Larnny
+Doom Man
 
 CREATIVE CONSULTANT
 MiniMacro Sound
