@@ -1,0 +1,42 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+ENGLISH
+
+Ryu:
+{Ow... Where...
+ Where am I?{
+
+Irene:
+{I see the anesthetic is
+ wearing off.{
+
+Ryu:
+{Who are you?!{
+
+Irene:
+{Shhh. Don't make so
+ much noise...
+ I've got a favor to ask
+ of you.{
+
+Irene:
+{Here. Take this and 
+ escape.{
+Ryu: {What is this...
+ this statue?{
+
+Irene:
+{There's no time to
+ explain. Hurry.{
+
+Ryu:
+{Hey, wait. Who are you?
+
+{Didn't you try to kill 
+ me?{
+
+Irene:
+{Someone's coming.
+ Be careful.{

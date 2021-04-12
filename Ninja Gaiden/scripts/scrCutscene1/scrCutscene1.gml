@@ -31,6 +31,12 @@ function script_cutscene_1()
 	myText[3][ITA] = "{Lo farò, ma prima...{";
 	myText[4][ITA] = "{Ma cosa...?{";
 	
+	myText[0][ROM] = "Cine sunt ei...\nSe pare că\nmă urmăresc...";
+	myText[1][ROM] = "Cine este acolo?";
+	myText[2][ROM] = "Doar o fată.\nPleacă de aici!";
+	myText[3][ROM] = "O să plec, dar înainte de toate...";
+	myText[4][ROM] = "Ce naiba...?";
+	
 	myText[0][JPN] = "「やつらはいったい、何者なんた…\n おれをねらっているのはたしからしいか…」";
 	myText[1][JPN] = "「たれた?」";
 	myText[2][JPN] = "「女か。もう心記ない。さあ行け。」";
