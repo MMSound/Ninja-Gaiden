@@ -1,7 +1,7 @@
 /// @description Draw game UI
 if (!global.isShader)
 {
-	if (game_paused())
+	if (game_paused() && !instance_exists(prtOptionsMenu))
 	{
 		draw_set_alpha(0.5);
 		draw_set_color(c_black);

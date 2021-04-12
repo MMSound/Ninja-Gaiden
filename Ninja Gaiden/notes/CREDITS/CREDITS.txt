@@ -13,10 +13,10 @@ Keiji Yamagishi
 Ryuichi Nitta
 Ichiro Nakagawa
 
-ORIGINAL MUSIC COMPOSITION - PCE
+ORIGINAL MUSIC COMPOSITION - PC ENGINE
 Makiko Tanifuji
 
-ORIGINAL MUSIC COMPOSITION - SMS
+ORIGINAL MUSIC COMPOSITION - MASTER SYSTEM
 Takashi Horiguchi
 
 SOUND DESIGN
@@ -61,7 +61,8 @@ Shinryu
 
 CUTSCENE TRANSLATION
 CSketch
-(whoever does translation here)
+Noivs
+Larnny
 
 CREATIVE CONSULTANT
 MiniMacro Sound
