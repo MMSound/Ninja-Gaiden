@@ -76,6 +76,7 @@
     {"id":{"name":"objKnifeMan","path":"objects/objKnifeMan/objKnifeMan.yy",},"order":3,},
     {"id":{"name":"sprAct6Clouds2","path":"sprites/sprAct6Clouds2/sprAct6Clouds2.yy",},"order":3,},
     {"id":{"name":"sprAct4Bushes","path":"sprites/sprAct4Bushes/sprAct4Bushes.yy",},"order":4,},
+    {"id":{"name":"sprCutscene2BG","path":"sprites/sprCutscene2BG/sprCutscene2BG.yy",},"order":12,},
     {"id":{"name":"objBasaquer","path":"objects/objBasaquer/objBasaquer.yy",},"order":0,},
     {"id":{"name":"sprAct6Columns2","path":"sprites/sprAct6Columns2/sprAct6Columns2.yy",},"order":3,},
     {"id":{"name":"sprKelberossCannonBullet","path":"sprites/sprKelberossCannonBullet/sprKelberossCannonBullet.yy",},"order":1,},
