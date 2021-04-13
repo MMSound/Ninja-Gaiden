@@ -23,7 +23,7 @@ switch (phase)
 				if (drawAlpha < 1.0)
 				{
 					drawAlpha += 0.1;
-					music_set_fade(global.musicFadeVolume - 0.9);
+					music_set_fade(global.musicFadeVolume - 0.1);
 				}
 				else
 				{
