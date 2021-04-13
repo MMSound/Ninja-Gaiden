@@ -78,6 +78,7 @@ function initialize_music()
 	global.musicID[bgmAct6Scene1PCE] = [bgmAct6Scene1PCE, 34.136, 17.069];
 	global.musicID[bgmAct6Scene2PCE] = [bgmAct6Scene2PCE, 88.008, 19.203];
 	global.musicID[bgmBossFightPCE] = [bgmBossFightPCE, 15.651, 02.852];
+	global.musicID[bgmCutscene1PCE] = [bgmCutscene1PCE, 22.001, -1];
 }
 
 /// @description shoutouts to bucket

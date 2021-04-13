@@ -28,6 +28,7 @@
     {"id":{"name":"sprAct5BossBackground","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},"order":5,},
     {"id":{"name":"bgmAct5Scene2","path":"sounds/bgmAct5Scene2/bgmAct5Scene2.yy",},"order":9,},
     {"id":{"name":"objJashinHeart","path":"objects/objJashinHeart/objJashinHeart.yy",},"order":0,},
+    {"id":{"name":"bgmCutscene1PCE","path":"sounds/bgmCutscene1PCE/bgmCutscene1PCE.yy",},"order":0,},
     {"id":{"name":"sprWaterSplashGenerator","path":"sprites/sprWaterSplashGenerator/sprWaterSplashGenerator.yy",},"order":4,},
     {"id":{"name":"bgmAct6Scene2PCE","path":"sounds/bgmAct6Scene2PCE/bgmAct6Scene2PCE.yy",},"order":11,},
     {"id":{"name":"objWallClimbWallLeft","path":"objects/objWallClimbWallLeft/objWallClimbWallLeft.yy",},"order":10,},
@@ -776,6 +777,7 @@
     {"folderPath":"folders/Music/Cutscene Themes/NES.yy","order":0,"resourceVersion":"1.0","name":"NES","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Cutscenes/Scripts.yy","order":5,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Cutscenes/Sequences/Cutscene 2.yy","order":2,"resourceVersion":"1.0","name":"Cutscene 2","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Music/Cutscene Themes/PCE.yy","order":1,"resourceVersion":"1.0","name":"PCE","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
