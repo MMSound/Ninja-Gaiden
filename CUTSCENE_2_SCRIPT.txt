@@ -4,39 +4,60 @@ INFO: Use { instead of "
 
 ENGLISH
 
-Ryu:
-{Ow... Where...
- Where am I?{
+{Ow... Where...\n Where am I?{
 
-Irene:
-{I see the anesthetic is
- wearing off.{
+{I see the anesthetic is\n wearing off.{
 
-Ryu:
 {Who are you?!{
 
-Irene:
-{Shhh. Don't make so
- much noise...
- I've got a favor to ask
- of you.{
+{Shhh. Don't make so\n much noise...\n I've got a favor to ask\n of you.{
 
-Irene:
-{Here. Take this and 
- escape.{
-Ryu: {What is this...
- this statue?{
+{Here. Take this and \n escape.{\n{What is this...\n this statue?{
 
-Irene:
-{There's no time to
- explain. Hurry.{
+{There's no time to\n explain. Hurry.{
 
-Ryu:
 {Hey, wait. Who are you?
 
-{Didn't you try to kill 
- me?{
+{Didn't you try to kill \n me?{
 
-Irene:
-{Someone's coming.
- Be careful.{
+{Someone's coming.\n Be careful.{
+
+ITALIAN
+
+{Ough ... Dove...\n Dove mi trovo?{
+
+{Vedo che l'effetto dell'anestetico\n sta svanendo.{
+
+{E tu chi sei?!{
+
+{Shhh. Non fare\n troppo rumore...\n Ho un favore \n da chiederti.{
+
+{Prendi. Tieni questa e\n scappa.{\n{Cos'è questa...\n questa statua?{
+
+{Non c'è tempo per le\n spiegazioni. Sbrigati.{
+
+{Ehi, aspetta. E tu chi saresti?
+
+{Non avevi provato ad\n uccidermi?{
+
+{Arriva qualcuno.\n Fai attenzione.{
+
+ROMANIAN
+
+{Au... Unde... \nUnde sunt?{
+
+{Văd că efectul\n anestezicului se termină.{
+
+{Cine ești?{
+
+{Șșș. Nu face gălagie...\n Am o dorință să-ți cer.{
+
+{Aici. Ia asta și scapă.{\n Ce este asta...\n această statuie?{
+
+{Nu este timp de explicat.\n Grăbește-te.{
+
+{Hei, așteaptă. Cine ești?{
+
+{Nu încercai să\n mă omori?{
+
+{Vine cineva.\n Ai grijă.{
