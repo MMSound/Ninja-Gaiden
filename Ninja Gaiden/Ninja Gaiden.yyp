@@ -417,6 +417,7 @@
     {"id":{"name":"objMartialArtist","path":"objects/objMartialArtist/objMartialArtist.yy",},"order":30,},
     {"id":{"name":"rmAct6Segue2","path":"rooms/rmAct6Segue2/rmAct6Segue2.yy",},"order":5,},
     {"id":{"name":"sprKnifeManCrouchShoot","path":"sprites/sprKnifeManCrouchShoot/sprKnifeManCrouchShoot.yy",},"order":2,},
+    {"id":{"name":"bgmCutscene2PCE","path":"sounds/bgmCutscene2PCE/bgmCutscene2PCE.yy",},"order":1,},
     {"id":{"name":"sprAct3Scene1Tiles","path":"sprites/sprAct3Scene1Tiles/sprAct3Scene1Tiles.yy",},"order":8,},
     {"id":{"name":"rmAct4Scene3","path":"rooms/rmAct4Scene3/rmAct4Scene3.yy",},"order":2,},
     {"id":{"name":"sprAct1BossBackground","path":"sprites/sprAct1BossBackground/sprAct1BossBackground.yy",},"order":6,},

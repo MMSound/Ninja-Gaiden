@@ -63,7 +63,7 @@ function initialize_music()
 	global.musicID[bgmBossIntro] = [bgmBossIntro, 0.502, -1];
 	global.musicID[bgmCutscene1] = [bgmCutscene1, 25.416, -1];
 	global.musicID[bgmCutsceneJingle1] = [bgmCutsceneJingle1, 03.386, -1];
-	global.musicID[bgmCutscene2] = [bgmCutscene2, 25.603, 21.336];
+	global.musicID[bgmCutscene2] = [bgmCutscene2, 25.603, 21.338];
 	
 	global.musicID[bgmAct1Scene1PCE] = [bgmAct1Scene1PCE, 40.005, 02.668];
 	global.musicID[bgmAct2Scene1PCE] = [bgmAct2Scene1PCE, 34.670, 02.665];
@@ -79,6 +79,7 @@ function initialize_music()
 	global.musicID[bgmAct6Scene2PCE] = [bgmAct6Scene2PCE, 88.008, 19.203];
 	global.musicID[bgmBossFightPCE] = [bgmBossFightPCE, 15.651, 02.852];
 	global.musicID[bgmCutscene1PCE] = [bgmCutscene1PCE, 22.001, -1];
+	global.musicID[bgmCutscene2PCE] = [bgmCutscene2PCE, 33.605, 04.787];
 }
 
 /// @description shoutouts to bucket
