@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgmCutscene2.ogg",
-  "duration": 25.60806,
+  "duration": 25.6056576,
   "parent": {
     "name": "NES",
     "path": "folders/Music/Cutscene Themes/NES.yy",
