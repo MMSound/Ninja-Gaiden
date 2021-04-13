@@ -63,6 +63,7 @@ function initialize_music()
 	global.musicID[bgmBossIntro] = [bgmBossIntro, 0.502, -1];
 	global.musicID[bgmCutscene1] = [bgmCutscene1, 25.416, -1];
 	global.musicID[bgmCutsceneJingle1] = [bgmCutsceneJingle1, 03.386, -1];
+	global.musicID[bgmCutscene2] = [bgmCutscene2, 25.603, 21.336];
 	
 	global.musicID[bgmAct1Scene1PCE] = [bgmAct1Scene1PCE, 40.005, 02.668];
 	global.musicID[bgmAct2Scene1PCE] = [bgmAct2Scene1PCE, 34.670, 02.665];

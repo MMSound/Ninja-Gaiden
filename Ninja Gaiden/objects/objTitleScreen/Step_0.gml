@@ -105,7 +105,7 @@ switch (drawPhase)
 		{
 			if (keyboard_check(vk_control))
 			{
-				room_transition(rmCutscene1);
+				room_transition(rmCutscene2);
 			}
 			else
 			{
