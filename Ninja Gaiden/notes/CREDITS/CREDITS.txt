@@ -50,8 +50,10 @@ Pegg
 GAME DESIGN
 MiniMacro Sound
 
-BETA TESTING AND ASSISTANCE
+PRIMARY TESTING AND ASSISTANCE
 Big Fish
+
+BETA TESTING
 Prim
 Noivs
 ACESpark
@@ -70,6 +72,9 @@ MiniMacro Sound
 
 FINANCING
 MiniMacro Sound
+
+SPECIAL THANKS
+Ultra Healthy Video Game Nerd
 
 ORIGINAL NINJA GAIDEN STAFF
 
