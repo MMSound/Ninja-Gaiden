@@ -86,21 +86,41 @@ ROMANIAN
 
 JAPANESE
 
-「う…… ここは…とこた。 //dakuten here (check image)
+「う…… ここは…とこた。
+
 「ますいか きれたようね。」
 
 「おまえは!」
 
-「シッ 大きなこえをたさないて //dakuten here (check image)
-あなたにたのみかあるの。」
+「シッ 大きなこえをたさないて\nあなたにたのみかあるの。」
 
-「これをもってにけて。」 //dakuten here (check image)
-「句た、この像は…」
+「これをもってにけて。」\n「句た、この像は…」
 
 「せつめいしてるひまはないの。さあ、はやく。」
-「待ってくれ、きみ拘者た? //dakuten here (check image)
+「待ってくれ、きみ拘者た?
 
-「おれをころそうとしていたんしゃないのか?」 //dakuten here (check image)
+「おれをころそうとしていたんしゃないのか?」
 
-「たれかくるわ。気をつけて。」 //dakuten here (check image)
+「たれかくるわ。気をつけて。」
+
+JAPANESE DIACRITICS
+
+         { { 
+
+ 
+
+ 
+
+          {   {      
+
+        {
+
+ 
+
+           {
+
+              { 
+
+ {
+
 

@@ -1,5 +1,5 @@
 myTimeline = tmlCutscene2;
-//myScript = script_cutscene_1();
+myScript = script_cutscene_2();
 
 myBackgrounds[0] = "Background_0";
 myBackgrounds[1] = "Background_1";

@@ -39,3 +39,44 @@ function textbox_create(_text, _x, _y)
 	var _box = instance_create_depth((global.viewX + _x), (global.viewY + _y), (depth - 2), objTextbox);
 		_box.myText = _text;
 }
+
+/// @description kill textboxes
+function kill_textboxes()
+{
+	if (instance_exists(objTextbox))
+	{
+		with (objTextbox)
+		{
+			instance_destroy(id);
+		}
+	}
+}
+
+/// @description clear textboxes
+function clear_textboxes()
+{
+	if (instance_exists(objTextbox))
+	{
+		with (objTextbox)
+		{
+			isClear = true;
+		}
+	}
+}
+
+/// @description for the japanese diacritics
+function japanese_textbox(_line, _x, _y)
+{
+	if (is_undefined(_x))
+	{
+		_x = 96;
+	}
+	if (is_undefined(_y))
+	{
+		_y = 147;
+	}	
+	if (global.cutsceneLanguage == JPN)
+	{
+		textbox_create(myText[_line][420], _x, _y);
+	}
+}
