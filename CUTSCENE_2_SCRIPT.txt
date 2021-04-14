@@ -22,6 +22,28 @@ ENGLISH
 
 {Someone's coming.\n Be careful.{
 
+SPANISH
+
+{Ug... Donde...\n ¿Donde estoy?{
+
+{Por fin te despertaste.\n Esa anestesia\n funcionó bien.{
+
+{¡¿Quién eres?!{
+
+{Shhh. No hagas\n tanto ruido...\n Tengo un favor para ti{
+
+{Toma esto y escapa de aqui.{
+
+{¿Qué es esto...?\n ¿Una estatua?{
+
+{No esperes una\n explicación. Solo corre.{
+
+{¡Espera un momento!\n ¿Quién eres? 
+
+{¿No intentaste\n matarme?{
+
+{Alguien se acerca.\n Ten cuidado.{
+
 ITALIAN
 
 {Ough ... Dove...\n Dove mi trovo?{
@@ -61,3 +83,24 @@ ROMANIAN
 {Nu încercai să\n mă omori?{
 
 {Vine cineva.\n Ai grijă.{
+
+JAPANESE
+
+「う…… ここは…とこた。 //dakuten here (check image)
+「ますいか きれたようね。」
+
+「おまえは!」
+
+「シッ 大きなこえをたさないて //dakuten here (check image)
+あなたにたのみかあるの。」
+
+「これをもってにけて。」 //dakuten here (check image)
+「句た、この像は…」
+
+「せつめいしてるひまはないの。さあ、はやく。」
+「待ってくれ、きみ拘者た? //dakuten here (check image)
+
+「おれをころそうとしていたんしゃないのか?」 //dakuten here (check image)
+
+「たれかくるわ。気をつけて。」 //dakuten here (check image)
+

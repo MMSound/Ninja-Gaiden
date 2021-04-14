@@ -4,15 +4,16 @@ INFO: Use { instead of "
 
 ENGLISH
 
-{What is this bizarre
- statue anyway?
- And who was that woman?{
+{What is this bizarre\n statue anyway?\n And who was that woman?{
 
-As I grew more and more
-suspicious, I went off
-to look for that
+As I grew more and more\nsuspicious, I went off\nto look for that
 
-supposed acquaintance
-of my father's, Mr. 
-Smith.
+supposed acquaintance\nof my father's, Mr.\nSmith.
 
+SPANISH
+
+{¿Qué es esta\n estatua extraña?\n ¿Y quién fue esa mujer?{
+
+Mis sospechas seguían\ncreciendo, pero aun así\nfui a buscar a este
+
+supuesto amigo de mi\npadre, el Señor Smith.
