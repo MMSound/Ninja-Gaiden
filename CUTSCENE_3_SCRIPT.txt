@@ -17,3 +17,19 @@ SPANISH
 Mis sospechas seguían\ncreciendo, pero aun así\nfui a buscar a este
 
 supuesto amigo de mi\npadre, el Señor Smith.
+
+ITALIAN
+
+{Comunque cosa sarebbe\n questa strana statua?\n E chi era quella donna?{
+
+Mentre diventavo sempre piã\nsospettoso, iniziai a\ncercare quel
+
+presunto conoscente\ndi mio padre, il Dr.\nSmith.
+
+ROMANIAN
+
+{Ce este statuia\naceasta bizară oricum?\nȘi cine era femeia aceia?{
+
+Odată ce deveneam\ndin ce în ce mai bănuitor,\nam plecat după
+
+presupusa cunoștință\na tatălui meu,\nDoctorul Smith.
