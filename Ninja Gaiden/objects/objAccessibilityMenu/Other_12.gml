@@ -27,6 +27,10 @@ switch (currentOption)
 		if (global.cutsceneLanguage > 0)
 		{
 			global.cutsceneLanguage--;
+			if (global.cutsceneLanguage == RUS)
+			{
+				global.cutsceneLanguage--;
+			}
 		}
 		else
 		{
