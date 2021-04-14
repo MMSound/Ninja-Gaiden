@@ -1,0 +1,18 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+ENGLISH
+
+{What is this bizarre
+ statue anyway?
+ And who was that woman?{
+
+As I grew more and more
+suspicious, I went off
+to look for that
+
+supposed acquaintance
+of my father's, Mr. 
+Smith.
+
