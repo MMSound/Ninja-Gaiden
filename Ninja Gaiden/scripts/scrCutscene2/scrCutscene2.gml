@@ -1,4 +1,4 @@
-//this script contains cutscene 1's script
+//this script contains cutscene 2's script
 function script_cutscene_2()
 {
 	myText[0][ENG] = "{Ow... Where...\n Where am I?{";
