@@ -1,0 +1,50 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+ENGLISH
+
+{Who is it?{
+
+{You must be\n Walter Smith.\n The name's Ryu.\n Ryu Hayabusa.{
+
+{Who? That sword...\n Of course. You must be\n Ken Hayabusa's son.{
+
+{In his last letter,\n my father told me\n I should see you.{
+
+{Last letter? I see ...\n So it is already begun.{
+
+{...{
+
+{Ken and I were on an\n expedition to some old\n Amazon ruins.{
+
+{We found a strange \n statue and stone tablet.\n On the tablet, it said..{
+
+{Wait a minute. You mean\n to tell me that\n statue ...{
+
+{Yes, precisely.\n I thought it had been\n stolen.
+
+{That demon statue\n possesses nough evil\n power to destroy an\n entire nation.
+
+{The demon came to this\n earth and caused many\n deaths.
+
+{But then SHINOBI\n appeared to stop the\n demon.
+
+{SHINOBI borrowed the\n strength of the dragon
+
+{and countered each of\n the demon's spells and\n thus was able to\n overcome it.
+
+{Yet, though it was\n defeated, the demon was\n not dead.
+
+{So SHINOBI confined the\n evil power of the demon\n in two statues\n of "LIGHT" and "SHADOW".
+
+{...And the body of the\n demon was confined in a\n temple.
+
+{This one must be the\n "SHADOW" statue.\n Therefore....{
+
+{And now I've got it.\n Bye, friend!{
+
+{What the ... ?{
+
+{After him, Ryu!{
+

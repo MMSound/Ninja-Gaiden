@@ -33,3 +33,19 @@ ROMANIAN
 Odată ce deveneam\ndin ce în ce mai bănuitor,\nam plecat după
 
 presupusa cunoștință\na tatălui meu,\nDoctorul Smith.
+
+JAPANESE
+
+「いったい このきみょうな像はなんなのたろう…\n それに あの女の正体は…。」
+
+さまさまなきわくをしいたいたまま、おれは
+
+父のしりあいらしい、スミスさんのもとへしいそいた。
+
+JAPANESE DIACRITICS
+
+                   {
+
+  {  {    {
+
+                       {

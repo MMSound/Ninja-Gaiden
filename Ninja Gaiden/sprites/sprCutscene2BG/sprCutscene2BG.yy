@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Cutscenes/Sprites.yy",
+    "name": "Cutscene 2",
+    "path": "folders/Cutscenes/Sprites/Cutscene 2.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprCutscene2BG",

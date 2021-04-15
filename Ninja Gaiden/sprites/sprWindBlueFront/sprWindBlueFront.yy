@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Cutscenes/Sprites.yy",
+    "name": "Cutscene 3",
+    "path": "folders/Cutscenes/Sprites/Cutscene 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprWindBlueFront",

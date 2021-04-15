@@ -1,2 +1,5 @@
 /// @description Clear text
-clear_textboxes();
+if (global.cutsceneLanguage != JPN)
+{
+	clear_textboxes();
+}

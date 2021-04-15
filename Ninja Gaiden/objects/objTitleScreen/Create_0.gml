@@ -3,6 +3,7 @@ blinkTimer = 0;
 drawText = true;
 
 currentDemoLevel = rmAct6Scene1;
+currentCutscene = rmCutscene4;
 
 playedSFX = false;
 
@@ -37,5 +38,10 @@ levelSelect[18] = rmAct5Segue;
 levelSelect[19] = rmAct6Segue1;
 levelSelect[20] = rmAct6Segue2;
 levelSelect[21] = rmAct6Segue3;
+
+cutsceneSelect[0] = rmCutscene1;
+cutsceneSelect[1] = rmCutscene2;
+cutsceneSelect[2] = rmCutscene3;
+cutsceneSelect[3] = rmCutscene4;
 
 global.uiColorIndex = 4;

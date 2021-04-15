@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Cutscenes/Sprites.yy",
+    "name": "Cutscene 1",
+    "path": "folders/Cutscenes/Sprites/Cutscene 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprRyuPortraitLookLeft",

@@ -105,7 +105,17 @@ switch (drawPhase)
 		{
 			if (keyboard_check(vk_control))
 			{
-				room_transition(rmCutscene3);
+				if (!isLevelSelect)
+				{
+					room_transition(currentCutscene);
+				}
+				else
+				{
+					if (selectedLevel < array_length(cutsceneSelect))
+					{
+						room_transition(cutsceneSelect[selectedLevel]);
+					}
+				}
 			}
 			else
 			{
