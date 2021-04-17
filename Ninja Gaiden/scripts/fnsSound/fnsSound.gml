@@ -1,7 +1,7 @@
 //this script contains functions to play sounds
 
 /// @description play sfx accounting for gain
-function play_sfx(_sound, _loop, _channel)
+function play_sfx(_sound, _loop, _channel, _volume)
 {
 	if (is_undefined(_loop))
 	{
@@ -11,15 +11,19 @@ function play_sfx(_sound, _loop, _channel)
 	{
 		_channel = 10;
 	}
+	if (is_undefined(_volume))
+	{
+		_volume = global.sfxVolume;
+	}
 	
 	//i had this little bit of optimization come to me in a dream
-	if (global.sfxVolume == 0)
+	if (_volume == 0)
 	{
 		exit;
 	}
 	
 	var _sfx = audio_play_sound(_sound, _channel, _loop);
-	audio_sound_gain(_sfx, global.sfxVolume, 0);
+	audio_sound_gain(_sfx, _volume, 0);
 	
 	//thanks cresh
 	if (global.sfxSubtitles)
@@ -64,7 +68,10 @@ function initialize_music()
 	global.musicID[bgmCutscene1] = [bgmCutscene1, 25.416, -1];
 	global.musicID[bgmCutscene2] = [bgmCutscene2, 25.601, 21.338];
 	global.musicID[bgmCutscene3] = [bgmCutscene3, 08.001, 02.667];
+	global.musicID[bgmCutscene4] = [bgmCutscene4, 56.238, 26.369];
 	global.musicID[bgmCutsceneJingle1] = [bgmCutsceneJingle1, 03.386, -1];
+	global.musicID[bgmCutsceneJingle2] = [bgmCutsceneJingle2, 01.533, -1];
+	global.musicID[bgmCutsceneJingle3] = [bgmCutsceneJingle3, 02.372, -1];
 	
 	global.musicID[bgmAct1Scene1PCE] = [bgmAct1Scene1PCE, 40.005, 02.668];
 	global.musicID[bgmAct2Scene1PCE] = [bgmAct2Scene1PCE, 34.670, 02.665];
