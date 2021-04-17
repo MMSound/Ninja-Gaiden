@@ -30,6 +30,7 @@
     {"id":{"name":"sprAct5BossBackground","path":"sprites/sprAct5BossBackground/sprAct5BossBackground.yy",},"order":5,},
     {"id":{"name":"scrCutscene2","path":"scripts/scrCutscene2/scrCutscene2.yy",},"order":1,},
     {"id":{"name":"bgmAct5Scene2","path":"sounds/bgmAct5Scene2/bgmAct5Scene2.yy",},"order":9,},
+    {"id":{"name":"scrCutscene4","path":"scripts/scrCutscene4/scrCutscene4.yy",},"order":3,},
     {"id":{"name":"objJashinHeart","path":"objects/objJashinHeart/objJashinHeart.yy",},"order":0,},
     {"id":{"name":"bgmCutscene1PCE","path":"sounds/bgmCutscene1PCE/bgmCutscene1PCE.yy",},"order":0,},
     {"id":{"name":"sprWaterSplashGenerator","path":"sprites/sprWaterSplashGenerator/sprWaterSplashGenerator.yy",},"order":4,},

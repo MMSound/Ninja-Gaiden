@@ -1,4 +1,5 @@
 myTimeline = tmlCutscene4;
+myScript = script_cutscene_4();
 
 myBackgrounds[0] = "Background_0"; //black
 myBackgrounds[1] = "Background_1"; //blue

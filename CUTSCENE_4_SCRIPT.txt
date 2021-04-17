@@ -22,29 +22,204 @@ ENGLISH
 
 {Wait a minute. You mean\n to tell me that\n statue ...{
 
-{Yes, precisely.\n I thought it had been\n stolen.
+{Yes, precisely.\n I thought it had been\n stolen. //statue scene here
 
-{That demon statue\n possesses nough evil\n power to destroy an\n entire nation.
+{That demon statue\n possesses enough evil\n power to destroy an\n entire nation.
 
 {The demon came to this\n earth and caused many\n deaths.
 
 {But then SHINOBI\n appeared to stop the\n demon.
 
-{SHINOBI borrowed the\n strength of the dragon
+{SHINOBI borrowed the\n strength of the dragon //sword scene here
 
 {and countered each of\n the demon's spells and\n thus was able to\n overcome it.
 
-{Yet, though it was\n defeated, the demon was\n not dead.
+{Yet, though it was\n defeated, the demon was\n not dead. //walter talking
 
 {So SHINOBI confined the\n evil power of the demon\n in two statues\n of "LIGHT" and "SHADOW".
 
-{...And the body of the\n demon was confined in a\n temple.
+{...And the body of the\n demon was confined in a\n temple. //both statues
 
 {This one must be the\n "SHADOW" statue.\n Therefore....{
 
-{And now I've got it.\n Bye, friend!{
+{And now I've got it.\n Bye, friend!{ //green ninja
 
 {What the ... ?{
 
 {After him, Ryu!{
 
+ROMANIAN
+
+{Cine este?{
+
+{Tu trebuie să\n fi Walter Smith.\n Numele este Ryu.\n Ryu Hayabusa.{
+
+{Cine? Sabia aceea...\n Bine înțeles. Tu ești\n fiul lui Ken Hayabusa.{
+
+{În ultima lui scrisoare,\n tatăl meu mi-a spus\n să te întâlnesc.{
+
+{Ultima scrisoare? Înțeleg...\n Deci a și început.{
+
+{...{
+
+{Ken și eu am fost\n în expediție spre niște\n vechi ruine din Amazon.{
+
+{Am găsit o statuie ciudată\n și o tabletă de piatră.\n Pe tabletă, scria...{
+
+{Așteaptă. Vrei să\n îmi spui ca acea\n statuie...{
+
+{Da, exact.\n Am crezut că a fost\n furată.
+
+{Acea statuie demon\n a venit pe pământ și\n a cauzat multe decese.
+
+{Dar după aceea,\n SHINOBI a apărut să\n oprească demonul.
+
+{SHINOBI a folosit\n puterea dragonului
+
+{și a rezistat vrăjilor\n demonului și astfel\n a fost capabil\n să îl învingă.
+
+{Însă, deși era\n învins, demonul nu\n a fost mort.
+
+{Așa că SHINOBI a\n păstrat puterea demonului\n în două statui\n a {LUMINII{ și a {UMBREI{.
+
+{...Și corpul demonului a fost\n păstrat într-un templu.
+
+{Acesta ar trebui să\n fie statuia {UMBREI{.\n Ceea ce înseamnă...{
+
+{Și acum am luat-o.\n Pa, partenere!{
+
+{Ce naiba...?{
+
+{După el, Ryu!{
+
+ITALIAN
+
+{Chi va la?{
+
+{Tu devi essere\n Walter Smith.\n Il mio nome è Ryu.n\ Ryu Hayabusa.{
+
+{E chi saresti? Quella spada...n\ Ma certo. Devi essere il\n figlio di Ken Hayabusa.{
+
+{Nella sua ultima lettera,\n mio padre mi\n chiese di incontrarla.{
+
+{Ultima lettera? Capisco ...\n Quindi è già iniziata.{
+
+{...{
+
+{Ken e io stavamo svolgendo una\n spedizione presso alcune\n rovine amazzoniche.{
+
+{Trovammo una strana\n statua e una lapide.\n Sulla lapide c'era scritto..{
+
+{Aspetta un momento. Mi\n sta dicendo che quella\n statua ...{
+
+{Sì, esattamente.\n Pensavo fosse stata\n rubata.
+
+{Quella statua demoniaca\n possiede abbastanza\n potere oscuro da distruggere\n un'intera nazione.
+
+{Il demone arrivò su\n questa terra e causò\n molte morti.
+
+{Ma poi lo SHINOBI\n arrivò per fermare il\n demone.
+
+{Lo SHINOBI stava usando la\n forza del drago
+
+{e respinse ogni singolo\n incantesivo del demone,\n e fu quindi in grado\n di sconfiggerlo.
+
+{Eppure, nonostante sia\n stato sconfitto, il\n demone non era morto.
+
+{Quindi lo SHINOBI rinchiuse\n il malvagio potere del\n demone in due statue\n di {LUCE{ e {OMBRA{.
+
+{...E il corpo del demone\n fu bandito in un\n tempio.
+
+{Questa deve essere\n la statua d'{OMBRA{.\n Di conseguenza....{
+
+{E ora ce l'ho io.\n Addio, amico!{
+
+{Ma cosa ... ?{
+
+{Inseguilo, Ryu!{
+
+JAPANESE
+
+「たれた!」
+
+「ウォルター。スミスさんてすね。わたしはリュウ、\n リュウ。ハヤフサてす。」
+
+「ん? その剣は… そうか、おまえかあの\n ショウ.ハャフサのせかれか。」
+
+「父のゆいこんて、あなたに あいにきました。」
+
+「ゆいこん? そうか… とうとうやっらの手か…。」
+
+「…」
+
+「…わしとショウは なんへいアマンてみっかった\n いせきのちょうさを行なっていた。
+
+「そのいせきてきみょうな像と、それにまつれるてきこと\n をかいたせきはんをみつけたのた。
+
+「それには…」
+
+「待ってくたさい。もしやその像というのは…」
+
+「おお、まさしく。うはわれたものとおもったか…。 //statue scene here
+
+「この邪神像には-日てー大国をほろほすほとの\n おそるへき邪神の決力か針しられておる。」
+
+「邪神は地にいててその決力て死をもたらした。\n しかし、その邪神をうっへく「シノヒ」かあらわれた。
+
+「シノヒは神の力をかりて邪神の呪力を\n ことことくうちゃふり、邪神をたおしたのた。 //sword scene here
+
+「しかし、たおしたとはいえ邪神は死ぬことはない。\n そこてかれらは邪神を針しることにした。 //walter talking
+
+「きょう大な力を針しるため、その呪力を光と影の像に\n わけ、そのからたは神てんに針したという…。 //both statues
+
+「この像はその光と影のうちの、影の邪神像と\n いうらしい。そして… 」
+
+「邪神像はいたたいた。さらは!」 //green ninja
+
+「しまった!」
+
+「おうんた、リュウ!」
+
+JAPANESE DIACRITICS
+
+ { {
+
+            {           \n       { {
+
+                 {  \n {     {   {
+
+     { {
+
+   {                 {
+
+
+
+     {      {   { {
+
+
+       {               { { \n       {       {
+
+
+
+     {
+
+          {          { //statue
+
+          {      {  { \n    {      { {
+
+       {     {        \n            {    { {
+
+   {              \n   {     {          { //sword
+
+                        \n   {        { //walter
+
+         {               \n        {  {   { //statues
+
+
+
+
+       {     { //green ninja
+
+
+
+    {
