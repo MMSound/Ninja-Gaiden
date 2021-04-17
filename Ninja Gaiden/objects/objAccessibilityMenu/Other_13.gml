@@ -24,13 +24,9 @@ switch (currentOption)
 		play_sfx(sfxShuriken);
 		break;
 	case 3:	
-		if (global.cutsceneLanguage < 6)
+		if (global.cutsceneLanguage < 4)
 		{
 			global.cutsceneLanguage++;
-			if (global.cutsceneLanguage == RUS)
-			{
-				global.cutsceneLanguage++;
-			}
 		}
 		else
 		{
