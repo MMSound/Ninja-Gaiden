@@ -11,6 +11,16 @@ function script_cutscene_2()
 	myText[7][ENG] = "{Didn't you try to kill \n me?{";
 	myText[8][ENG] = "{Someone's coming.\n Be careful.{";
 	
+	myText[0][JPN] = "「う…… ここは…とこた…」";
+	myText[1][JPN] = "「ますいか きれたようね。」";
+	myText[2][JPN] = "「おまえは!」";
+	myText[3][JPN] = "「シッ 大きなこえをたさないて\n あなたにたのみかあるの。」";
+	myText[4][JPN] = "「これをもってにけて。」\n「句た、この像は…」";
+	myText[5][JPN] = "「せつめいしてるひまはないの。さあ、はやく。」";
+	myText[6][JPN] = "「待ってくれ、きみ拘者た?」";
+	myText[7][JPN] = "「おれをころそうとしていたんしゃないのか?」";
+	myText[8][JPN] = "「たれかくるわ。気をつけて。」";
+	
 	myText[0][ESP] = "{Ug... Donde...\n ¿Donde estoy?{";
 	myText[1][ESP] = "{Por fin te despertaste.\n Esa anestesia\n funcionó bien.{";
 	myText[2][ESP] = "{¡¿Quién eres?!{";
@@ -40,16 +50,6 @@ function script_cutscene_2()
 	myText[6][ROM] = "{Hei, așteaptă. Cine ești?{";
 	myText[7][ROM] = "{Nu încercai să\n mă omori?{";
 	myText[8][ROM] = "{Vine cineva.\n Ai grijă.{";
-	
-	myText[0][JPN] = "「う…… ここは…とこた…」";
-	myText[1][JPN] = "「ますいか きれたようね。」";
-	myText[2][JPN] = "「おまえは!」";
-	myText[3][JPN] = "「シッ 大きなこえをたさないて\n あなたにたのみかあるの。」";
-	myText[4][JPN] = "「これをもってにけて。」\n「句た、この像は…」";
-	myText[5][JPN] = "「せつめいしてるひまはないの。さあ、はやく。」";
-	myText[6][JPN] = "「待ってくれ、きみ拘者た?」";
-	myText[7][JPN] = "「おれをころそうとしていたんしゃないのか?」";
-	myText[8][JPN] = "「たれかくるわ。気をつけて。」";
 	
 	myText[0][420] = "         { {";
 	myText[1][420] = "";

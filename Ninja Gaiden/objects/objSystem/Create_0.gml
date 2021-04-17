@@ -228,7 +228,7 @@ else
 
 if (room == rmInit)
 {
-	if (global.isShader)
+	if (shader_is_compiled(shdColorSwap))
 	{
 		room_goto_next();
 	}
