@@ -7,5 +7,5 @@ if (!global.soundtrackOption)
 }
 else
 {
-	music_play(bgmCutscene4); //temp
+	music_play(bgmCutscene4PCE);
 }

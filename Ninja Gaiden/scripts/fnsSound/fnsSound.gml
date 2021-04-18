@@ -87,9 +87,11 @@ function initialize_music()
 	global.musicID[bgmAct6Scene1PCE] = [bgmAct6Scene1PCE, 34.136, 17.069];
 	global.musicID[bgmAct6Scene2PCE] = [bgmAct6Scene2PCE, 88.008, 19.203];
 	global.musicID[bgmBossFightPCE] = [bgmBossFightPCE, 15.651, 02.852];
+	global.musicID[bgmMalthFightPCE] = [bgmMalthFightPCE, 41.337, 02.659];
 	global.musicID[bgmCutscene1PCE] = [bgmCutscene1PCE, 22.001, -1];
 	global.musicID[bgmCutscene2PCE] = [bgmCutscene2PCE, 33.605, 04.787];
 	global.musicID[bgmCutscene3PCE] = [bgmCutscene3PCE, 10.668, 00.000];
+	global.musicID[bgmCutscene4PCE] = [bgmCutscene4PCE, 20.802, 00.000];
 }
 
 /// @description shoutouts to bucket
@@ -262,6 +264,13 @@ function music_get_alt(_song)
 			break;
 		case bgmBossFightPCE:
 			return bgmBossFight;
+			break;
+			
+		case bgmMalthFight:
+			return bgmMalthFightPCE;
+			break;
+		case bgmMalthFightPCE:
+			return bgmMalthFight;
 			break;
 
 		default:
