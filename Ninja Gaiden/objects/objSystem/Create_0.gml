@@ -203,6 +203,8 @@ global.subtitle[sfxMalthZapSmall] = "[Small Zap]";
 global.subtitle[sfxMalthZapLarge] = "[Large Zap]";
 global.subtitle[sfxKelberossRoar] = "[Roar]";
 global.subtitle[sfxJashinShrimp] = "[Fireball]";
+global.subtitle[sfxIreneGun] = "[Gunshot]";
+global.subtitle[sfxNinjaRun] = "[Running]";
 
 //miscellaneous bullshit
 global.pceParallax = false;
