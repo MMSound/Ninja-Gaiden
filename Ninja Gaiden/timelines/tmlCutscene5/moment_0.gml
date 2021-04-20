@@ -1,6 +1,6 @@
 /// @description Init
 backgrounds_set_visible(true, 3, 4, 5);
-backgrounds_set_visible(false, 0, 1, 2, 6, 7, 8);
+backgrounds_set_visible(false, 0, 1, 2, 6, 7, 8, 9);
 if (!global.soundtrackOption)
 {
 	music_play(bgmCutscene3);
