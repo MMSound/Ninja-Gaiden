@@ -41,9 +41,11 @@ JAPANESE
 「光の?」
 
 「わしとショウは…像を一体すっ…もっていたのた…
+
  もし…とちらかかたおれても…像か一つにならぬよう…
 
 「邪神は七百年のねむりから… めさぬようとしている…
+
  何としても… とめねはならん…
 
 「とりかえすのた
@@ -82,4 +84,81 @@ JAPANESE DIACRITICS
 
 
 
-next one here
+ITALIAN
+
+Subito dopo aver recuperato\nla statua demoniaca, sentii\nuno strano presentimento\ne tornai subito indietro.
+
+{Dr. Smith!!{
+
+{Ryu... la statua demoniaca\n di {LUCE{ ...\n è stata rubata...{
+
+{La statua di {LUCE{?{
+
+{Sì, tuo padre e io\n ... abbiamo tenuto una\n delle statue a testa...\n per precauzione.
+
+{Così da fare in modo the le\n due statue non si riunissero.
+
+{Il demone è stato addormentato\n per 700 anni ... e ora\n sta per svegliarsi
+
+{...qualsiasi cosa facciamo...\n dobbiamo fermarlo.
+
+{Vai a riprenderla...\n non c'è altra scelta...\n devi diventare\n il Drago Ninja...{
+
+{Dr. Smith! Dr. Smith!{
+
+{...{
+
+{Vieni con noi.{
+
+ROMANIAN
+
+După ce am luat\nstatuia demon, am\nsimțit o premoniție ciudată\nși m-am grăbit înapoi.
+
+{Doctore Smith!{
+
+{Ryu... statuia demon\n a {LUMINII{...\n a fost luată...{
+
+{Statuia {LUMINII{?{
+
+{Da, tatăl tău și eu...\n am păstrat fiecare câte\n o statuie... în orice caz.
+
+{Încât cele două\n statui să nu devină una.
+
+{Demonul a dormit\n timp de 700 de ani... și\n acum începe să se\n trezească.
+
+{...orice se întâmplă...\n trebuie să îl oprim.
+
+{Trebuie să o iei\n înapoi...nu este de ales...\n trebuie să devii\n Dragonul Ninja...{
+
+{Doctore Smith!\n Doctore Smith!{
+
+{...{
+
+{Vino cu noi.{
+
+SPANISH
+
+Después que recupere\nla estatua demoniaca, sentí\nuna premonición extraña\ny regresé rápidamente.
+
+{Dr. Smith!!{
+
+{Ryu... la estatua\n de {LUZ{ ha sido ...\n robada...{
+
+{La estatua de {LUZ{?{
+
+{Sí. Tu padre y yo...\n decidimos quedarnos con\n una estatua... cada uno\n ... por si acaso.
+
+{Así nos aseguraríamos que\n las dos estatuas no se unieran.
+
+{El demonio ha dormido por\n 700 años ... y ahora esta\n a punto de despertarse...
+
+{...Tenemos que detenerlo...\n ...Sin importar el costo.
+
+{Tienes que conseguirlo...\n Ya no hay otra opción...\n Tendrás que convertirte\n en... el Ninja Dragón...{
+
+{Dr. Smith! Dr. Smith!{
+
+{...{
+
+{Ven con nosotros.{
+
