@@ -1,4 +1,5 @@
 myTimeline = tmlCutscene5;
+myScript = script_cutscene_5();
 
 myBackgrounds[0] = "Background_0"; //ryu far portrait
 myBackgrounds[1] = "Background_1"; //ryu looking back

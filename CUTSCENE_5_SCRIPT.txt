@@ -4,42 +4,82 @@ INFO: Use { instead of "
 
 ENGLISH
 
-After getting back the
-demon statue, I felt
-a strange premonition
-and hurried back.
+After getting back the\ndemon statue, I felt\na strange premonition\nand hurried back.
 
-"Dr. Smith!!"
+{Dr. Smith!!{
 
-"Ryu... the "LIGHT"
- demon statue ...
- was taken..."
+{Ryu... the {LIGHT{\n demon statue ...\n was taken...{
 
-"The "LIGHT" statue?"
+{The {LIGHT{ statue?{
 
-"Yes, your father and I
- ... we each kept one of
- the statues... just in
- case.
+{Yes, your father and I\n ... we each kept one of\n the statues... just in\n case.
 
-"So that the two statues
- would never become one.
+{So that the two statues\n would never become one.
 
-"The demon's been asleep
- for 700 years ... and now
- it's starting to wake up
+{The demon's been asleep\n for 700 years ... and now\n it's starting to wake up
 
-"...whatever we do...
- we've got to stop it.
+{...whatever we do...\n we've got to stop it.
 
-"Got to get it back...
- there's no choice...
- you've got to become
- the Ninja Dragon..."
+{Got to get it back...\n there's no choice...\n you've got to become\n the Ninja Dragon...{
 
-"Dr. Smith! Dr. Smith!"
+{Dr. Smith! Dr. Smith!{
 
-"..."
+{...{
 
-"Come with us."
+{Come with us.{
 
+JAPANESE
+
+邪神像をとりかえしたおれは、みょうな
+むなさわきをおほえ、いそいてひきかえした。
+
+「スミスさん!」
+
+「リュウ
+ 光の研神像か… うはわれた…
+
+「光の?」
+
+「わしとショウは…像を一体すっ…もっていたのた…
+ もし…とちらかかたおれても…像か一つにならぬよう…
+
+「邪神は七百年のねむりから… めさぬようとしている…
+ 何としても… とめねはならん…
+
+「とりかえすのた
+ いい伝えの… の忍者となっ…て……」
+
+「スミスさん、スミスさーん!」
+
+「…」
+
+「われわれといっしょに きてもらおうか…。」
+
+JAPANESE DIACRITICS
+
+                  
+    {  {     {
+
+
+
+    
+      {   {
+
+
+
+    {        {        { 
+    {   {       {
+
+                {         
+           {
+
+       {
+
+
+
+
+
+
+
+
+next one here
