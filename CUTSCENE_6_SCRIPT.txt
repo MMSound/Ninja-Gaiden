@@ -1,0 +1,111 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+{Welcome, Ryu Hayabusa.
+ Sorry if I startled
+ you.{
+
+{We are from the CIA
+ Special Auxiliary unit.
+ My name's Foster.{
+
+{...{
+
+{Getting right to the
+ point...{
+
+{Wait. I want to knw
+ why you killed Smith?{
+
+{We didn't kill him.
+ But we'll fill you in
+ on what we do know.{
+
+{In the upper reaches of
+ the Amazon, some
+ ancient ruins were
+ discovered.
+
+{It seems the temple was
+ built more than 2000
+ years ago.
+
+{The discoverer was Dr.
+ Smith, who studied the
+ ruins for some time.
+
+{But one day, he
+ suddenly sealed off the
+ ruins.
+
+{And ever since then
+ no one has gone close.
+
+{Later, however, a man
+ moved in and took over
+ the ruins. His name is
+ Guardia de Mieux.
+
+{He calls himself
+ the Jaquio.
+
+{According to our
+ records, it seems that
+
+{the temple is not where
+ gods are worshipped but
+ was built to imprison
+ the body of the demon.
+
+{Therefore, evil spirits
+ are supposed to be held
+ in the statue you have.
+
+{Dr. Smith probably
+ already knew that.
+
+{He was probably killed
+ by someone working for
+ the Jaquio.
+
+{...{
+
+{When a black moon
+ shines, Light and Dark
+ break apart, the King
+ of Darkness howls.{
+
+{These were the last
+ words written on the
+ stone tablet.
+
+{If someone brings the
+ demon back to life, he
+ will gain incredible
+ power...
+
+{Enough to control the
+ entire world.{
+
+{So you know about that?{
+
+{The woman who shot you
+ in the bar was one of
+ our agents.{
+
+{They are after you.
+
+{Use this and go to
+ their headquarters.
+ Get the demon statue
+ back from them.
+
+{Of course, you will be
+ paid for the work.{
+
+{And if I say no?{
+
+{You know the answer to
+ that.{
+

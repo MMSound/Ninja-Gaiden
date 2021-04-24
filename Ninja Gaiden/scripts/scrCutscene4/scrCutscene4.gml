@@ -49,13 +49,13 @@ function script_cutscene_4()
 	
 	myText[0][ESP] = "{¿Quién es?{";
 	myText[1][ESP] = "{Tú debes ser\n Walter Smith.\n Mi nombre es Ryu.\n Ryu Hayabusa.{";
-	myText[2][ESP] = "{Quién? Esa espada...\n Por supuesto. Debes ser\n el hijo de Ken Hayabusa.{";
+	myText[2][ESP] = "{¿Quién? Esa espada...\n Por supuesto. Debes ser\n el hijo de Ken Hayabusa.{";
 	myText[3][ESP] = "{En su última carta,\n mi padre me dijo que\n te buscara.{";
 	myText[4][ESP] = "{Última carta? Ya veo ...\n Parece que ya\n ha comenzado.{";
 	myText[5][ESP] = "{...{";
-	myText[6][ESP] = "{Ken y yo estuvimos\n en una expedición\n unas ruinas en\n las Amazonas.{";
+	myText[6][ESP] = "{Ken y yo estuvimos\n en una expedición\n unas ruinas en\n el Amazonas.{";
 	myText[7][ESP] = "{Encontramos una estatua\n extraña y una tableta de\n piedra, la cual decía...{";
-	myText[8][ESP] = "{Un momento. Me estas\n diciendo que esa\n estatua es ...{";
+	myText[8][ESP] = "{Un minuto. Me estás\n diciendo que esa\n estatua ...{";
 	myText[9][ESP] = "{Si, precisamente.\n Yo pensé que había\n sido robado.";
 	myText[10][ESP] = "{Esa estatua demoniaca\n tiene suficiente poder\n maligno para destruir\n una nación entera.";
 	myText[11][ESP] = "{El demonio vino a este\n mundo hace mucho tiempo\n y causó muchas muertes.";
