@@ -32,5 +32,6 @@
 #macro ESP 2
 #macro ITA 3
 #macro ROM 4
-#macro RUS 5
-#macro UKR 6
+#macro FRE 5
+#macro RUS 6
+#macro UKR 7

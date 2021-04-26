@@ -47,19 +47,19 @@ function script_cutscene_4()
 	myText[20][JPN] = "「しまった!」";
 	myText[21][JPN] = "「おうんた、リュウ!」";
 	
-	myText[0][ESP] = "{¿Quién es?{";
+	myText[0][ESP] = "{¿Quién eres?{";
 	myText[1][ESP] = "{Tú debes ser\n Walter Smith.\n Mi nombre es Ryu.\n Ryu Hayabusa.{";
-	myText[2][ESP] = "{¿Quién? Esa espada...\n Por supuesto. Debes ser\n el hijo de Ken Hayabusa.{";
+	myText[2][ESP] = "{¿Quién? Espera... Esa espada...\n ¡Por supuesto! Eres\n el hijo de Ken Hayabusa.{";
 	myText[3][ESP] = "{En su última carta,\n mi padre me dijo que\n te buscara.{";
 	myText[4][ESP] = "{Última carta? Ya veo ...\n Parece que ya\n ha comenzado.{";
 	myText[5][ESP] = "{...{";
 	myText[6][ESP] = "{Ken y yo estuvimos\n en una expedición\n unas ruinas en\n el Amazonas.{";
 	myText[7][ESP] = "{Encontramos una estatua\n extraña y una tableta de\n piedra, la cual decía...{";
 	myText[8][ESP] = "{Un minuto. Me estás\n diciendo que esa\n estatua ...{";
-	myText[9][ESP] = "{Si, precisamente.\n Yo pensé que había\n sido robado.";
+	myText[9][ESP] = "{Sí, precisamente.\n Pensé que había\n sido robada.";
 	myText[10][ESP] = "{Esa estatua demoniaca\n tiene suficiente poder\n maligno para destruir\n una nación entera.";
 	myText[11][ESP] = "{El demonio vino a este\n mundo hace mucho tiempo\n y causó muchas muertes.";
-	myText[12][ESP] = "{Pero fue entonces que\n SHINOBI apareció\n para detener el demonio.";
+	myText[12][ESP] = "{Pero fue entonces que\n los SHINOBI aparecieron\n para detener al demonio.";
 	myText[13][ESP] = "{SHINOBI utilizó la\n fuerza del dragón";
 	myText[14][ESP] = "{y venció cada uno de\n los hechizos del demonio,\n y así logro vencerlo.";
 	myText[15][ESP] = "{Pero, aunque fue\n derrotado, el demonio\n seguía vivo.";
@@ -115,6 +115,29 @@ function script_cutscene_4()
 	myText[19][ROM] = "{Și acum am luat-o.\n Pa, partenere!{";
 	myText[20][ROM] = "{Ce naiba...?{";
 	myText[21][ROM] = "{După el, Ryu!{";
+	
+	myText[0][FRE] = "{Qui est là?{";
+	myText[1][FRE] = "{Vous devez être\n Walter Smith.\n Je suis Ryu.\n Ryu Hayabusa.{";
+	myText[2][FRE] = "{Qui? Cette épée...\n Bien sûr. Vous devez être\n le fils de Ken Hayabusa.{";
+	myText[3][FRE] = "{Dans sa dernière lettre,\n mon père m'a dit que je\n devrais venir vous voir.";
+	myText[4][FRE] = "{Dernière lettre?\n Je vois... Donc tout cela\n a déjà commencé.{";
+	myText[5][FRE] = "{...{";
+	myText[6][FRE] = "{Ken et moi partions\n en expédition pour\n d'anciennes ruines\n Amazoniennes.{";
+	myText[7][FRE] = "{Nous y trouvions une\n étrange statue et une\n tablette de pierre. Sur\n celle-ci, il y avait..{";
+	myText[8][FRE] = "{Attendez une minute.\n Vous voulez dire que\n cette statue ...{";
+	myText[9][FRE] = "{Oui, précisément.\n Je pensais qu'elle avait\n été volée.{";
+	myText[10][FRE] = "{Cette statue démoniaque\n possède assez de pouvoir\n maléfique pour détruire\n une nation entière.";
+	myText[11][FRE] = "{Le démon vint sur\n cette terre et causa\n de nombreux morts.";
+	myText[12][FRE] = "{Mais c'est alors que\n SHINOBI apparut pour\n arrêter le démon.";
+	myText[13][FRE] = "{SHINOBI emprunta la\n force du dragon";
+	myText[14][FRE] = "{et contra chacun des sorts\n du démon et en vint ainsi\n à bout.";
+	myText[15][FRE] = "{Cependant, bel et bien\n battu, le démon n'était\n pas mort.";
+	myText[16][FRE] = "{C'est ainsi que SHINOBI\n scella le pouvoir\n maléfique du démon dans\n deux statues...";
+	myText[17][FRE] = "{de {LUMIÈRE{ et {OMBRE{.\n ...Et le corps du démon\n fut enfermé dans un temple.";
+	myText[18][FRE] = "{Celle-ci doit être\n la statue de l'{OMBRE{.\n Et donc....{";
+	myText[19][FRE] = "{Et maintenant elle est\n à moi.\n À plus, mon pote!{";
+	myText[20][FRE] = "{Qu'est ce que ... ?{";
+	myText[21][FRE] = "{Après lui, Ryu!{";
 	
 	myText[0][420] = " { {";
 	myText[1][420] = "           {           \n       { {";

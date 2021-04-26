@@ -30,7 +30,7 @@ switch (currentOption)
 		}
 		else
 		{
-			global.cutsceneLanguage = 4;
+			global.cutsceneLanguage = 5;
 		}
 		play_sfx(sfxShuriken);		
 		break;

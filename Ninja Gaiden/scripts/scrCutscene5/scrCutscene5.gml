@@ -66,6 +66,19 @@ function script_cutscene_5()
 	myText[10][ROM] = "{...{";
 	myText[11][ROM] = "{Vino cu noi.{";
 	
+	myText[0][FRE] = "Après avoir récupéré la\nstatue démoniaque, j'ai eu\nun étrange pressentiment\net suis rapidement revenu.";
+	myText[1][FRE] = "{Dr. Smith!!{";
+	myText[2][FRE] = "{Ryu... la statue de\n {LUMIÈRE{ ...\n a été volée...{";
+	myText[3][FRE] = "{La statue de {LUMIÈRE{?{";
+	myText[4][FRE] = "{Oui, ton père et moi\n ...avions gardé une\n statue chacun... au\n cas où.";
+	myText[5][FRE] = "{Pour que les deux statues\n ne fusionnent jamais.";
+	myText[6][FRE] = "{Cela fait 700 ans que le\n démon sommeille ...\n et maintenant il commence\n à se réveiller";
+	myText[7][FRE] = "{...peu importe ce qu'on\n fait...\n nous devons l'arrêter.";
+	myText[8][FRE] = "{Nous devons la récupérer.\n ...il n'y a pas le choix..\n tu dois devenir\n le Ninja Dragon...{";
+	myText[9][FRE] = "{Dr. Smith! Dr. Smith!{";
+	myText[10][FRE] = "{...{";
+	myText[11][FRE] = "{Veuillez nous suivre.{";
+	
 	myText[0][420] = "                  \n    {  {     {";
 	myText[1][420] = "";
 	myText[2][420] = "    \n     {   {";

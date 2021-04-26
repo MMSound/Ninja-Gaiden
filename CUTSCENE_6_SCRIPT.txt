@@ -2,110 +2,131 @@ INFO: Max 26 characters per line (try to keep it to this if you can, I can have 
 INFO: Max 4 lines per screen
 INFO: Use { instead of "
 
-{Welcome, Ryu Hayabusa.
- Sorry if I startled
- you.{
+{Welcome, Ryu Hayabusa.\n Sorry if I startled\n you.{
 
-{We are from the CIA
- Special Auxiliary unit.
- My name's Foster.{
+{We are from the CIA\n Special Auxiliary unit.\n My name's Foster.{
 
 {...{
 
-{Getting right to the
- point...{
+{Getting right to the\n point...{
 
-{Wait. I want to knw
- why you killed Smith?{
+{Wait. I want to know\n why you killed Smith?{
 
-{We didn't kill him.
- But we'll fill you in
- on what we do know.{
+{We didn't kill him.\n But we'll fill you in\n on what we do know.{
 
-{In the upper reaches of
- the Amazon, some
- ancient ruins were
- discovered.
+{In the upper reaches of\n the Amazon, some\n ancient ruins were\n discovered.
 
-{It seems the temple was
- built more than 2000
- years ago.
+{It seems the temple was\n built more than 2000\n years ago.
 
-{The discoverer was Dr.
- Smith, who studied the
- ruins for some time.
+{The discoverer was Dr.\n Smith, who studied the\n ruins for some time.
 
-{But one day, he
- suddenly sealed off the
- ruins.
+{But one day, he\n suddenly sealed off the\n ruins.
 
-{And ever since then
- no one has gone close.
+{And ever since then\n no one has gone close.
 
-{Later, however, a man
- moved in and took over
- the ruins. His name is
- Guardia de Mieux.
+{Later, however, a man\n moved in and took over\n the ruins. His name is\n Guardia de Mieux.
 
-{He calls himself
- the Jaquio.
+{He calls himself\n the Jaquio.
 
-{According to our
- records, it seems that
+{According to our\n records, it seems that
 
-{the temple is not where
- gods are worshipped but
- was built to imprison
- the body of the demon.
+{the temple is not where\n gods are worshipped but\n was built to imprison\n the body of the demon.
 
-{Therefore, evil spirits
- are supposed to be held
- in the statue you have.
+{Therefore, evil spirits\n are supposed to be held\n in the statue you have.
 
-{Dr. Smith probably
- already knew that.
+{Dr. Smith probably\n already knew that.
 
-{He was probably killed
- by someone working for
- the Jaquio.
+{He was probably killed\n by someone working for\n the Jaquio.
 
 {...{
 
-{When a black moon
- shines, Light and Dark
- break apart, the King
- of Darkness howls.{
+{When a black moon\n shines, Light and Dark\n break apart, the King\n of Darkness howls.{
 
-{These were the last
- words written on the
- stone tablet.
+{These were the last\n words written on the\n stone tablet.
 
-{If someone brings the
- demon back to life, he
- will gain incredible
- power...
+{If someone brings the\n demon back to life, he\n will gain incrediblen power...
 
-{Enough to control the
- entire world.{
+{Enough to control the\n entire world.{
 
 {So you know about that?{
 
-{The woman who shot you
- in the bar was one of
- our agents.{
+{The woman who shot you\n in the bar was one of\n our agents.{
 
 {They are after you.
 
-{Use this and go to
- their headquarters.
- Get the demon statue
- back from them.
+{Use this and go to\n their headquarters.\n Get the demon statue\n back from them.
 
-{Of course, you will be
- paid for the work.{
+{Of course, you will be\n paid for the work.{
 
 {And if I say no?{
 
-{You know the answer to
- that.{
+{You know the answer to\n that.{
+
+JAPANESE
+
+「ようこそ、リュウ. ハヤフサ。
+ おとろかせて わるかった。
+
+「われわれはCIAのとくへっきかんの者た。
+ わたしの名はフォスター。」
+
+「…」
+
+「さっそくたか…。
+
+「待て。一つきかせてもらおう。
+ なせスミスさんをころした?」
+
+「かれをころしたのはわれわれてはない。
+そのことについてもはなそう。まあ ききたまえ。
+
+「アマソンのおく地て古代のいせきかみつかった。
+ ニ千年もまえにたてられた神てんらしい。
+
+「はっけん者のスミスはかせは、しはらくいせきを
+ ちょうさしていたか、
+
+「きゅうに いせきをへいさするといいたしてね。
+ それいらい、たれもいせきにはちかつかなかった。
+
+「ところか、これをあるおとこかせんきょしたのた。
+ かれの名は カルディア。ダ.ミュー。
+
+「みすから 邪鬼王 と 名のっている。
+ われわれのちょうさによると、
+
+「あの神てん神をまつるものてはなく、古代にそんさい
+ した邪神をしんするためのものらしい。
+
+「そして、そのましいんをとくためのカキか、キミの
+ もっている邪神像てあることをつきとめた。
+
+「スミスはかせはそのことをしっていたのたろう。
+ しかし、そのために、かれは平鬼王の手の者に
+
+「ころされた。」
+
+「…」
+
+「くろい月かかかやく時、光と割はくすれ、やみの王か
+ よみかえる神さんにのこされたさいこのことはた。
+
+「邪神をよみかえらせれは、おそるへき力を手にそきる。
+この世を支龍することもね。」
+
+「よく、しらへたな。」
+
+「さかはてキミをうった女は //this one has the special circle dakuten make sure to add it to the font
+ われわれかおくりこんたスハイたよ。
+
+「やつらはキミをねらっている。これをりようして
+ やつらのほんきょにのりこみ、邪神像をうはってくれ。
+
+「もちろん、タタとはいわん。
+ それなりのほうしゅうをやくそくしよう。」
+
+「いやた、といったら?」
+
+「キミは それほとおろかてはないハスた。
+ ちかうかね?」
 

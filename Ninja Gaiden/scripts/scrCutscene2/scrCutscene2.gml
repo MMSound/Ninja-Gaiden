@@ -45,11 +45,21 @@ function script_cutscene_2()
 	myText[1][ROM] = "{Văd că efectul\n anestezicului\n se termină.{";
 	myText[2][ROM] = "{Cine ești?{";
 	myText[3][ROM] = "{ȘȘȘ. Nu face gălagie...\n Am o dorință să-ți cer.{";
-	myText[4][ROM] = "{Aici. Ia asta și scapă.{\n Ce este asta...\n această statuie?{";
+	myText[4][ROM] = "{Aici. Ia asta și scapă.{\n{Ce este asta...\n această statuie?{";
 	myText[5][ROM] = "{Nu este timp de explicat.\n Grăbește-te.{";
 	myText[6][ROM] = "{Hei, așteaptă. Cine ești?{";
 	myText[7][ROM] = "{Nu încercai să\n mă omori?{";
 	myText[8][ROM] = "{Vine cineva.\n Ai grijă.{";
+	
+	myText[0][FRE] = "{Aïe... Où...\n Où suis-je?{";
+	myText[1][FRE] = "{Je vois que l'effet de\n l'anesthésiant s'estompe...{";
+	myText[2][FRE] = "{Qui es-tu?!{";
+	myText[3][FRE] = "{Chut... Ne fais pas\n autant de bruit...\n J'ai un service à\n vous demander.{";
+	myText[4][FRE] = "{Tenez. Prenez-la et\n échappez-vous.{\n{Qu'est-ce que c'est\n que cette... statue?{";
+	myText[5][FRE] = "{Le temps presse.\n Dépêchez-vous.{";
+	myText[6][FRE] = "{Eh, attendez.\n Qui êtes-vous?{";
+	myText[7][FRE] = "{Est-ce que vous ne\n venez pas d'essayer\n de me tuer?{";
+	myText[8][FRE] = "{Quelqu'un arrive.\n Restez sur vos gardes.{";
 	
 	myText[0][420] = "         { {";
 	myText[1][420] = "";

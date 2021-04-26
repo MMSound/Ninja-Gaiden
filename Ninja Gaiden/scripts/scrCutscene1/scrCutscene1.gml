@@ -31,6 +31,12 @@ function script_cutscene_1()
 	myText[3][ROM] = "{O să plec, dar înainte\n de toate...{";
 	myText[4][ROM] = "{Ce naiba...?{";
 	
+	myText[0][FRE] = "{Qui sont-ils...\n On dirait qu'ils\n me suivent...{";
+	myText[1][FRE] = "{Qui est là?{";
+	myText[2][FRE] = "{Juste une femme.\n Sors d'ici!{";
+	myText[3][FRE] = "{J'en ai l'intention,\n mais d'abord...{";
+	myText[4][FRE] = "{Qu'est ce que...?{";
+	
 	//we'll be using this for diacritics
 	myText[0][420] = "XXXXXXXXXXXXX{X\nXXXXXXXXXXXXXXXXXX{XX";
 	myText[1][420] = "X{X{XX";

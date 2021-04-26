@@ -21,6 +21,10 @@ function script_cutscene_3()
 	myText[1][ROM] = "Odată ce deveneam\ndin ce în ce mai bănuitor,\nam plecat după";
 	myText[2][ROM] = "presupusa cunoștință\na tatălui meu,\nDoctorul Smith.";
 	
+	myText[0][FRE] = "{Qu'est ce que cette statue\n bizarre d'ailleurs?\n Et qui était cette femme?{";
+	myText[1][FRE] = "Alors que je devenais de\nplus en plus méfiant, je\npartais à la recherche";
+	myText[2][FRE] = "de cette supposée connais-\n-sance de mon père,\nDr. Smith.";
+	
 	myText[0][420] = "                   {";
 	myText[1][420] = "  {  {    {";
 	myText[2][420] = "                       {";
