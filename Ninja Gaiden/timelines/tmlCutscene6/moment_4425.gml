@@ -1,2 +1,2 @@
 /// @description Start text
-textbox_create(myText[3]);
+textbox_create(myText[11]);

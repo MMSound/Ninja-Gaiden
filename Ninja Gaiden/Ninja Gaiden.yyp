@@ -464,6 +464,7 @@
     {"id":{"name":"sprWindBlueFront","path":"sprites/sprWindBlueFront/sprWindBlueFront.yy",},"order":1,},
     {"id":{"name":"sprRyuAirSlash","path":"sprites/sprRyuAirSlash/sprRyuAirSlash.yy",},"order":10,},
     {"id":{"name":"bgmAct6Scene3","path":"sounds/bgmAct6Scene3/bgmAct6Scene3.yy",},"order":13,},
+    {"id":{"name":"scrCutscene6","path":"scripts/scrCutscene6/scrCutscene6.yy",},"order":5,},
     {"id":{"name":"sfxJashinHeadWarp","path":"sounds/sfxJashinHeadWarp/sfxJashinHeadWarp.yy",},"order":28,},
     {"id":{"name":"sprAct1Sidewalk","path":"sprites/sprAct1Sidewalk/sprAct1Sidewalk.yy",},"order":3,},
     {"id":{"name":"seqIreneRyuParley","path":"sequences/seqIreneRyuParley/seqIreneRyuParley.yy",},"order":4,},

@@ -80,3 +80,17 @@ function japanese_textbox(_line, _x, _y)
 		textbox_create(myText[_line][420], _x, _y);
 	}
 }
+
+//why can you not use arguments when calling functions from sequences? hell if i know! that's what this stupid bullshit is for
+
+/// @description play the landing sfx
+function play_land_sfx()
+{
+	play_sfx(sfxLand, false);
+}
+
+/// @description play the jump sfx
+function play_jump_sfx()
+{
+	play_sfx(sfxJump, false);
+}
