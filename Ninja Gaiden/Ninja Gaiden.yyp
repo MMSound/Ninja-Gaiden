@@ -456,6 +456,7 @@
     {"id":{"name":"bgmCutscene2PCE","path":"sounds/bgmCutscene2PCE/bgmCutscene2PCE.yy",},"order":1,},
     {"id":{"name":"sprAct3Scene1Tiles","path":"sprites/sprAct3Scene1Tiles/sprAct3Scene1Tiles.yy",},"order":8,},
     {"id":{"name":"rmAct4Scene3","path":"rooms/rmAct4Scene3/rmAct4Scene3.yy",},"order":2,},
+    {"id":{"name":"seqFosterPresentation","path":"sequences/seqFosterPresentation/seqFosterPresentation.yy",},"order":5,},
     {"id":{"name":"bgmCutsceneJingle2","path":"sounds/bgmCutsceneJingle2/bgmCutsceneJingle2.yy",},"order":6,},
     {"id":{"name":"sprAct1BossBackground","path":"sprites/sprAct1BossBackground/sprAct1BossBackground.yy",},"order":6,},
     {"id":{"name":"sprWindBlueFront","path":"sprites/sprWindBlueFront/sprWindBlueFront.yy",},"order":1,},
