@@ -1,0 +1,1 @@
+room_transition(rmAct4Scene1);
