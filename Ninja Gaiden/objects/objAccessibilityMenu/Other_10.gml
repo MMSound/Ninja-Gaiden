@@ -4,7 +4,7 @@ var _text = "";
 switch (currentOption)
 {
 	case 0: //background brightness
-		_text = global.isShader ? (6 - global.backgroundBrightness) : "SHADERS MUST BE ENABLED";
+		_text = global.isShader ? ((global.backgroundBrightness == 0) ? "FULL" : (6 - global.backgroundBrightness)) : "SHADERS MUST BE ENABLED";
 		break;
 	case 1: //sfx subtitles
 		_text = global.sfxSubtitles ? "ON" : "OFF";

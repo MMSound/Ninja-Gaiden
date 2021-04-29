@@ -350,6 +350,7 @@
     {"id":{"name":"sprRyuStandSlash","path":"sprites/sprRyuStandSlash/sprRyuStandSlash.yy",},"order":3,},
     {"id":{"name":"objSlopeWall","path":"objects/objSlopeWall/objSlopeWall.yy",},"order":7,},
     {"id":{"name":"bgmOptionsMenu","path":"sounds/bgmOptionsMenu/bgmOptionsMenu.yy",},"order":4,},
+    {"id":{"name":"sprBGBrightness","path":"sprites/sprBGBrightness/sprBGBrightness.yy",},"order":17,},
     {"id":{"name":"sprAct6Sky","path":"sprites/sprAct6Sky/sprAct6Sky.yy",},"order":1,},
     {"id":{"name":"rmCutscene3","path":"rooms/rmCutscene3/rmCutscene3.yy",},"order":13,},
     {"id":{"name":"rmAct3Boss","path":"rooms/rmAct3Boss/rmAct3Boss.yy",},"order":3,},
