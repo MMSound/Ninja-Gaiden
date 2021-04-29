@@ -1,2 +1,2 @@
 /// @description Start text
-textbox_create(myText[19]);
+textbox_create(myText[19][global.cutsceneLanguage]);
