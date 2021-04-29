@@ -175,6 +175,7 @@ ROMANIAN
 {Se pare că templul\n a fost construit acum\n mai mult de 2000 de ani."
 {Descoperitorul a fost\n Doctorul Smith, cel ce\n a studiat ruinele\n de ceva timp."
 {Dar o zi, el a închis\n ruinele din senin."
+{Și încă de atunci\n nimeni nu s-a apropiat."
 {Mai târziu, însă,\n o persoană s-a mutat\n în ruine. Numele lui\n este Guardia de Mieux."
 {El își zice Jaquio."
 {Bazat pe înregistrările\n noaste, se pare că"
@@ -191,8 +192,9 @@ ROMANIAN
 {Femeia care te-a împușcat\n în acel bar a fost unul\n din agenții noștri.{"
 {Ei sunt după tine."
 {Folosește asta și\n du-te la sediul lor."
-
-(need the rest)
+{Bine înțeles, o să fi\n plătit pentru munca ta.{"
+{Și dacă zic nu?{"
+{Știi răspunsul la asta.{"
 
 ITALIAN
 
