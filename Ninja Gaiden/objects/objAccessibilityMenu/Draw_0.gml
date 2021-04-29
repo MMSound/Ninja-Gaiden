@@ -12,7 +12,7 @@ if (room == rmOptionsMenu)
 				var _frame = objOptionsRyu.image_index;
 				
 				palette_shader_set(sprScreenPalette, global.backgroundBrightness, false);
-				draw_sprite(sprBGBrightness, 0, _drawX, _drawY);
+				draw_sprite_wave(sprBGBrightness, 0, _drawX, _drawY, 1, 16, 1, wavePhase);
 				palette_shader_reset();
 				draw_sprite(sprRyuRun, _frame, _drawX, _drawY);
 			}
