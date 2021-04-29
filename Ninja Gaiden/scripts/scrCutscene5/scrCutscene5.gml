@@ -24,7 +24,7 @@ function script_cutscene_5()
 	myText[7][JPN] = "「何としても… とめねはならん…";
 	myText[8][JPN] = "「とりかえすのた\n いい伝えの… の忍者となっ…て……」";
 	myText[9][JPN] = "「スミスさん、スミスさーん!」";
-	myText[10][JPN] = "「…」";
+	myText[10][JPN] = "「… 」";
 	myText[11][JPN] = "「われわれといっしょに きてもらおうか…。」";
 	
 	myText[0][ESP] = "Después que recupere\nla estatua demoniaca, sentí\nuna premonición extraña\ny regresé rápidamente.";
