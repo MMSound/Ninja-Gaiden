@@ -14,7 +14,7 @@ INFO: Use { instead of "
 
 {We didn't kill him.\n But we'll fill you in\n on what we do know.{
 
-{In the upper reaches of\n the Amazon, some\n ancient ruins were\n discovered.
+{In the upper reaches of\n the Amazon, some\n ancient ruins were\n discovered. //brazil map
 
 {It seems the temple was\n built more than 2000\n years ago.
 
@@ -24,7 +24,7 @@ INFO: Use { instead of "
 
 {And ever since then\n no one has gone close.
 
-{Later, however, a man\n moved in and took over\n the ruins. His name is\n Guardia de Mieux.
+{Later, however, a man\n moved in and took over\n the ruins. His name is\n Guardia de Mieux. //jaquio
 
 {He calls himself\n the Jaquio.
 
@@ -32,7 +32,7 @@ INFO: Use { instead of "
 
 {the temple is not where\n gods are worshipped but\n was built to imprison\n the body of the demon.
 
-{Therefore, evil spirits\n are supposed to be held\n in the statue you have.
+{Therefore, evil spirits\n are supposed to be held\n in the statue you have. //statue
 
 {Dr. Smith probably\n already knew that.
 
@@ -48,87 +48,52 @@ INFO: Use { instead of "
 
 {Enough to control the\n entire world.{
 
-{So you know about that?{
+{So you know about that?{ //ryu
 
 {The woman who shot you\n in the bar was one of\n our agents.{
 
-{They are after you.
+{They are after you. //foster
 
 {Use this and go to\n their headquarters.\n Get the demon statue\n back from them.
 
 {Of course, you will be\n paid for the work.{
 
-{And if I say no?{
+{And if I say no?{ //ryu
 
-{You know the answer to\n that.{
+{You know the answer to\n that.{ //foster
 
 JAPANESE
 
-「ようこそ、リュウ. ハヤフサ。
- おとろかせて わるかった。
-
-「われわれはCIAのとくへっきかんの者た。
- わたしの名はフォスター。」
-
-「…」
-
-「さっそくたか…。
-
-「待て。一つきかせてもらおう。
- なせスミスさんをころした?」
-
-「かれをころしたのはわれわれてはない。
-そのことについてもはなそう。まあ ききたまえ。
-
-「アマソンのおく地て古代のいせきかみつかった。
- ニ千年もまえにたてられた神てんらしい。
-
-「はっけん者のスミスはかせは、しはらくいせきを
- ちょうさしていたか、
-
-「きゅうに いせきをへいさするといいたしてね。
- それいらい、たれもいせきにはちかつかなかった。
-
-「ところか、これをあるおとこかせんきょしたのた。
- かれの名は カルディア。ダ.ミュー。
-
-「みすから 邪鬼王 と 名のっている。
- われわれのちょうさによると、
-
-「あの神てん神をまつるものてはなく、古代にそんさい
- した邪神をしんするためのものらしい。
-
-「そして、そのましいんをとくためのカキか、キミの
- もっている邪神像てあることをつきとめた。
-
-「スミスはかせはそのことをしっていたのたろう。
- しかし、そのために、かれは平鬼王の手の者に
-
-「ころされた。」
-
-「…」
-
-「くろい月かかかやく時、光と割はくすれ、やみの王か
- よみかえる神さんにのこされたさいこのことはた。
-
-「邪神をよみかえらせれは、おそるへき力を手にそきる。
-この世を支龍することもね。」
-
-「よく、しらへたな。」
-
-「さかはてキミをうった女は //this one has the special circle dakuten make sure to add it to the font
- われわれかおくりこんたスハイたよ。
-
-「やつらはキミをねらっている。これをりようして
- やつらのほんきょにのりこみ、邪神像をうはってくれ。
-
-「もちろん、タタとはいわん。
- それなりのほうしゅうをやくそくしよう。」
-
-「いやた、といったら?」
-
-「キミは それほとおろかてはないハスた。
- ちかうかね?」
+「ようこそ、リュウ. ハヤフサ。\n おとろかせて わるかった。"
+「われわれはCIAのとくへっきかんの者た。\n わたしの名はフォスター。」"
+「…」"
+「さっそくたか…。"
+「待て。一つきかせてもらおう。\n なせスミスさんをころした?」"
+「かれをころしたのはわれわれてはない。\n そのことについてもはなそう。まあ ききたまえ。"
+「アマソンのおく地て古代のいせきかみつかった。 " //brazil map
+ ニ千年もまえにたてられた神てんらしい。"
+「はっけん者のスミスはかせは、しはらくいせきを\n ちょうさしていたか、"
+「きゅうに いせきをへいさするといいたしてね。"
+ それいらい、たれもいせきにはちかつかなかった。"
+「ところか、これをあるおとこかせんきょしたのた。\n かれの名は カルティア.タ.ミュー。" //jaquio
+「みすから 邪鬼王 と 名のっている。\n われわれのちょうさによると、"
+「あの神てん神をまつるものてはなく、古代にそんさい"
+ した邪神をしんするためのものらしい。"
+「そして、そのましいんをとくためのカキか、キミの\n もっている邪神像てあることをつきとめた。" //statue
+「スミスはかせはそのことをしっていたのたろう。\n しかし、そのために、かれは平鬼王の手の者に"
+「ころされた。」"
+「…」"
+「くろい月かかかやく時、光と割はくすれ、やみの王か"
+ よみかえる神さんにのこされたさいこのことはた。"
+「邪神をよみかえらせれは、おそるへき力を手にそきる。"
+ この世を支龍することもね。」"
+「よく、しらへたな。」" //ryu
+「さかはてキミをうった女は\n われわれかおくりこんたスハイたよ。" //this one has the special circle dakuten make sure to add it to the font
+「やつらはキミをねらっている。これをりようして" //foster
+ やつらのほんきょにのりこみ、邪神像をうはってくれ。"
+「もちろん、タタとはいわん。\n それなりのほうしゅうをやくそくしよう。」"
+「いやた、といったら?」" //ryu
+「キミは それほとおろかてはないハスた。\n ちかうかね?」" //foster
 
 SPANISH
 
