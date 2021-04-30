@@ -94,3 +94,9 @@ function play_jump_sfx()
 {
 	play_sfx(sfxJump, false);
 }
+
+/// @description play the parachute sfx
+function play_parachute_sfx()
+{
+	play_sfx(sfxParachuteOpen, false);
+}

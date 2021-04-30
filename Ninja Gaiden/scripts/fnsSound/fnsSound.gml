@@ -96,6 +96,8 @@ function initialize_music()
 	global.musicID[bgmCutscene4PCE] = [bgmCutscene4PCE, 20.802, 00.000];
 	global.musicID[bgmCutscene5PCE] = [bgmCutscene5PCE, 57.858, -1];
 	global.musicID[bgmCutscene6PCE] = [bgmCutscene6PCE, 38.389, 00.000];
+	
+	global.musicID[sfxHelicopter] = [sfxHelicopter, 04.000, 00.000];
 }
 
 /// @description shoutouts to bucket
