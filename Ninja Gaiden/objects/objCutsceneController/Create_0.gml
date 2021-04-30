@@ -19,3 +19,16 @@ function backgrounds_set_visible(_visible)
 		}
 	}
 }
+
+//syntax for this is go xspeed, background, xspeed, background, etc.
+function backgrounds_set_xspeed()
+{
+	for (var i = 1; i < argument_count; i += 2)
+	{
+		var _layerID = layer_get_id(myBackgrounds[argument[i]]);
+		if (layer_exists(_layerID))
+		{
+			layer_hspeed(_layerID, argument[i - 1]);
+		}
+	}
+}
