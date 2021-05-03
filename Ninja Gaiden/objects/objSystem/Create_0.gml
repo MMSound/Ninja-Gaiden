@@ -207,6 +207,7 @@ global.subtitle[sfxIreneGun] = "[Gunshot]";
 global.subtitle[sfxNinjaRun] = "[Running]";
 global.subtitle[sfxParachuteOpen] = "[Parachute Open]";
 global.subtitle[sfxHelicopter] = "[Helicopter]";
+global.subtitle[sfxFloorOpen] = "[Floor Hole]";
 
 //miscellaneous bullshit
 global.pceParallax = false;
