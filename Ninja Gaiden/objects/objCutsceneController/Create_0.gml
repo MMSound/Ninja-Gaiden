@@ -8,6 +8,21 @@ myScript = noone;
 myBackgrounds = [];
 
 //these functions are for managing backgrounds
+
+//this one will add the amount of backgrounds you specify automatically (requires their names to be formatted in the Background_(number) format)
+function backgrounds_add(_num)
+{
+	for (var i = 0; i < _num; i++)
+	{
+		var _layerName = string("Background_" + string(i));
+		if (layer_exists(layer_get_id(_layerName)))
+		{
+			myBackgrounds[i] = _layerName;
+		}
+	}
+}
+
+//this one will set the specified layers to the specified visibility
 function backgrounds_set_visible(_visible)
 {
 	for (var i = 1; i < argument_count; i++)

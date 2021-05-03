@@ -1,0 +1,20 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+{You have come a long\n way to bring me the\n demon statue.\n Now give it to me.{"
+{No!{"
+{Do you know what you're\n saying?{"
+{What?!{"
+{Ryu!{"
+{You... you coward.{"
+{No, don't give it to\n him.{"
+{Now put the demon\n statue on the floor,\n and back up.{"
+{Nice work. I guess\n this is goodbye.{"
+{Have a nice day.{"
+{Ah... {"
+{Take the girl away.\n She is going to be a\n sacrifice.{"
+{Ha, ha, ha...\n it's mine."
+{Tonight is the night\n of rebirth which comes\n only once every 700\n years."
+{This world will\n soon be mine.\n Ha, ha, ha..."
+{Ha, ha, ha, ha, ha....{"

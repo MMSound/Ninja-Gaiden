@@ -1,2 +1,2 @@
 /// @description Create the fadeout
-room_transition(rmAct4Scene2, 8);
+room_transition(rmCutscene9, 8);
