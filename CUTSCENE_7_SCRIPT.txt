@@ -2,6 +2,8 @@ INFO: Max 26 characters per line (try to keep it to this if you can, I can have 
 INFO: Max 4 lines per screen
 INFO: Use { instead of "
 
+ENGLISH
+
 {You have come a long\n way to bring me the\n demon statue.\n Now give it to me.{"
 {No!{"
 {Do you know what you're\n saying?{"
@@ -18,3 +20,117 @@ INFO: Use { instead of "
 {Tonight is the night\n of rebirth which comes\n only once every 700\n years."
 {This world will\n soon be mine.\n Ha, ha, ha..."
 {Ha, ha, ha, ha, ha....{"
+
+JAPANESE
+
+「邪神像をととけにこんなとおいところまてようこそ。\n さあ、わたしてもらおうか。」"
+「ことわる!」"
+「そんなことをいっていいのかね?」"
+「なに!?」"
+「リュウ!」"
+「くっ ひきょうな…」"
+「わたしてはため!」"
+「さあ、邪神像をゆかにおいてさかれ。"
+「よーし、こくろう。\n それては キミともお別れた。"
+「こきけんよう。」"
+「ああ…」"
+「その女をいけにえにする。つれていけ!"
+「フフフ… ついに手にいれたそ。"
+ 今夜は七百年にいちとの ふっかつの夜。"
+「その時こそ、この世はわたしのものた。\n ハッハッハッハ!"
+「ハーッハッハッハッハ!」"
+
+JAPANESE DIACRITICS
+
+      {            {"
+
+
+
+
+
+      {"
+               {"
+     {    \n   {"
+ { {"
+
+
+              {"
+          {"
+                 {"
+
+
+SPANISH
+
+{Has venido desde muy\n lejos para ofrecerme\n esa estatua demoniaca.\n Permíteme aceptarla.{";
+{¡En tus sueños!{";
+{¿Acaso sabes lo\n qué estas diciendo?{";
+{¡¿Qué?!{";
+{¡Ryu!{";
+{Eres... un cobarde.{";
+{No lo hagas, no le\n des la estatua.{";
+{Coloca la estatua\n en el piso, y\n aléjate.{";
+{Muchas gracias. Ya\n no eres necesitado.{";
+{Ten un buen día.{";
+{Ah... {";
+{Llévate a la chica.\n Ella será un buen\n sacrificio.{";
+{Ja, ja, ja...\n Por fin, es mía.{";
+{Esta noche es la\n noche de resurrección\n que solo ocurre cada\n 700 años.";
+{Pronto, este mundo será\n mío.\n Ja, ja, ja...";
+{Ja, Ja, Ja, Ja, Ja....{";
+
+ITALIAN
+
+{Hai fatto molta\n strada per portarmi\n la statua demoniaca.\n Ora dammela.{";
+{No!{";
+{Hai idea di quello\n che stai dicendo?{";
+{Cosa?!{";
+{Ryu!{";
+{Tu... codardo.{";
+{No, non\n dargliela.{";
+{Ora metti la statua\n per terra e,\n fai un passo indietro.{";
+{Ottimo lavoro. Suppongo\n che questo sia un addio.{";
+{Passa una buona giornata.{";
+{Ah... {";
+{Portate via la ragazza.\n La useremo come\n sacrificio.{";
+{Ha, ha, ha...\n è mia.";
+{Stanotte è la notte della\n resurrezione che avviene\n una volta ogni 700\n anni.";
+{Questo mondo sarà\n presto mio.\n Ha, ha, ha...";
+{Ha, ha, ha, ha, ha....{";
+
+ROMANIAN
+
+{Ai trecut un drum lung\n pentru a-mi aduce\n statuia demon.\n Acum dă-mi-o.{";
+{Nu!";
+{Tu știi ce vorbești?{";
+{Ce?!{";
+{Ryu!{";
+{Tu... ce fricos.{";
+{Nu, nu i-l da.{";
+{Acum, pune statuia\n demon pe pământ,\n și îndepărtează-te.{";
+{Să aveți o zi bună.{";
+{Ah...{";
+{Ia femeia de aici.\n O să devină sacrificiu.{";
+{Ha, ha, ha...\n este al meu.";
+{Diseară este noaptea\n renașterii ce vine numai\n o dată la fiecare 700\n de ani.
+{Lumea asta va fi\n curând a mea.\n Ha, ha, ha...
+{Ha, ha, ha, ha, ha....{";
+
+FRENCH
+
+{Tu as fait un si long\n chemin pour m'apporter\n la statue démoniaque.\n Maintenant donne-la moi.{";
+{Non!{";
+{Sais-tu au moins\n ce dont tu parles?{";
+{Quoi?!{";
+{Ryu!{";
+{Espèce de... lâche.{";
+{Non, ne lui donne\n pas.{";
+{Maintenant pose la\n statue au sol, et\n recule.{";
+{Beau travail. Je suppose\n que c'est ici que nos\n chemins se séparent.{";
+{Passe une bonne journée.{";
+{Ah...{";
+{Emmenez la fille.\n Elle servira de\n sacrifice.{";
+{Ha, ha, ha...\n elle est à moi.{";
+{Cette nuit est la nuit\n de la renaissance qui\n a lieu une fois tous\n les 700 ans.{";
+{Ce monde sera bientôt\n mien. Ha, ha, ha...";
+{Ha, ha, ha, ha, ha....{";
+

@@ -6,6 +6,7 @@
     {"id":{"name":"fnsGlobal","path":"scripts/fnsGlobal/fnsGlobal.yy",},"order":1,},
     {"id":{"name":"seqWalterTalk2","path":"sequences/seqWalterTalk2/seqWalterTalk2.yy",},"order":3,},
     {"id":{"name":"sprIreneWithGuy","path":"sprites/sprIreneWithGuy/sprIreneWithGuy.yy",},"order":5,},
+    {"id":{"name":"scrCutscene9","path":"scripts/scrCutscene9/scrCutscene9.yy",},"order":6,},
     {"id":{"name":"objTiger","path":"objects/objTiger/objTiger.yy",},"order":19,},
     {"id":{"name":"objTileLayerParallax","path":"objects/objTileLayerParallax/objTileLayerParallax.yy",},"order":18,},
     {"id":{"name":"objSnow","path":"objects/objSnow/objSnow.yy",},"order":4,},
