@@ -1,2 +1,2 @@
 nextRoom = rmAct5Boss;
-bossName = "BLOODY MALTH";
+bossName = (global.cutsceneLanguage == ESP) ? "MALUS SANGRIENTO" : "BLOODY MALTH";

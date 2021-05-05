@@ -13,7 +13,11 @@ function script_cutscene_10()
 	myText[3][JPN] = "「キサマ!父さんをしっているのか?」";
 	myText[4][JPN] = "「こい! リュウ.ハヤフサ!」";
 	
-	//spanish
+	myText[0][ESP] = "{Yo soy Malus Sangriento.\n Yo jamás te dejare pasar.{";
+	myText[1][ESP] = "{¡Entonces tendré que\n derrotarte!{";
+	myText[2][ESP] = "{Eres igual de idiota que\n tú padre. Pero ya puedo\n ver que él fue un mejor\n espadachín.{";
+	myText[3][ESP] = "{¿Conoces a mi padre?{";
+	myText[4][ESP] = "{¡Cállate y pelea, joven \n Hayabusa!{";
 	
 	myText[0][ITA] = "{Io sono Malth.\n Non riuscirai mai a\n superarmi.{";
 	myText[1][ITA] = "{Allora dovrò\n sconfiggerti!{";
