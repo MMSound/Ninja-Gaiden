@@ -1,2 +1,9 @@
 set_act(6, 4);
-music_play(bgmMaskedDevilFight);
+if (!global.soundtrackOption)
+{
+	music_play(bgmMaskedDevilFight);
+}
+else
+{
+	music_play(bgmMaskedDevilFightPCE);
+}

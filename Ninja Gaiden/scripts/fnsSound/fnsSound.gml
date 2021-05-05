@@ -93,6 +93,7 @@ function initialize_music()
 	global.musicID[bgmAct6Scene2PCE] = [bgmAct6Scene2PCE, 88.008, 19.203];
 	global.musicID[bgmBossFightPCE] = [bgmBossFightPCE, 15.651, 02.852];
 	global.musicID[bgmMalthFightPCE] = [bgmMalthFightPCE, 41.337, 02.659];
+	global.musicID[bgmMaskedDevilFightPCE] = [bgmMaskedDevilFightPCE, 35.203, 00.000];
 	global.musicID[bgmCutscene1PCE] = [bgmCutscene1PCE, 22.001, -1];
 	global.musicID[bgmCutscene2PCE] = [bgmCutscene2PCE, 33.605, 04.787];
 	global.musicID[bgmCutscene3PCE] = [bgmCutscene3PCE, 10.668, 00.000];
@@ -283,6 +284,13 @@ function music_get_alt(_song)
 			break;
 		case bgmMalthFightPCE:
 			return bgmMalthFight;
+			break;
+			
+		case bgmMaskedDevilFight:
+			return bgmMaskedDevilFightPCE;
+			break;
+		case bgmMaskedDevilFightPCE:
+			return bgmMaskedDevilFight;
 			break;
 
 		default:

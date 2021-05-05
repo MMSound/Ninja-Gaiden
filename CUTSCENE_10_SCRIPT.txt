@@ -4,17 +4,40 @@ INFO: Use { instead of "
 
 ENGLISH
 
-{I am Malth.
- You will never get past
- me.{
+{I am Malth.\n You will never get past\n me.{";
+{Then I must defeat you!{";
+{You are as bold as your\n father. But he is a\n much better swordsman.{";
+{You know my father?{";
+{Come and fight, young\n Hayabusa!{";
 
-{Then I must defeat you!{
+JAPANESE
 
-{You are as bold as your
- father. But he is a
- much better swordsman.{
+「このさきは このマルスか行かせん!」";
+「ならは、キサマをたおす!」";
+「フッ 気のつよいところか\n おまえのおやしにそっくりたな。\n「もっとも、剣の うては\n おまえのおやしのほうかうえたったかな。」";
+「キサマ!父さんをしっているのか?」";
+「こい! リュウハヤフサ!」";
 
-{You know my father?{
+JAPANESE DIACRITICS
 
-{Come and fight, young
- Hayabusa!{
+            {";
+   {";
+            {\n       {     {  \n          { \n       {   {  {  {";
+";
+";
+
+ROMANIAN
+
+{Eu sunt Malth.\n Nu vei trece\n niciodată de mine.{";
+{Atunci trebuie să\n te înving!{";
+{Ești la fel de\n îndrăzneț ca tatăl tău.\n Dar el este un\n spadasin mai bun.{";
+{Tu îmi cunoști tatăl?{";
+{Vino și luptă, tinere\n Hayabusa!{";
+
+ITALIAN
+
+{Io sono Malth.\n Non riuscirai mai a\n superarmi.{";
+{Allora dovrò\n sconfiggerti!{";
+{Sei audace come tuo\n padre. Ma lui è\n uno spadaccino migliore.{";
+{Conosci mio padre?{";
+{Vieni a combattere,\n giovane Hayabusa!{";
