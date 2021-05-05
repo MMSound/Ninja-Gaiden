@@ -1,0 +1,20 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+ENGLISH
+
+{I am Malth.
+ You will never get past
+ me.{
+
+{Then I must defeat you!{
+
+{You are as bold as your
+ father. But he is a
+ much better swordsman.{
+
+{You know my father?{
+
+{Come and fight, young
+ Hayabusa!{
