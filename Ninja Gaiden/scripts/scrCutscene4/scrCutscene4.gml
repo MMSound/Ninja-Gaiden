@@ -8,7 +8,7 @@ function script_cutscene_4()
 	myText[4][ENG] = "{Last letter? I see ...\n So it is already begun.{";
 	myText[5][ENG] = "{...{";
 	myText[6][ENG] = "{Ken and I were on an\n expedition to some old\n Amazon ruins.{";
-	myText[7][ENG] = "{We found a strange \n statue and stone tablet.\n On the tablet, it said..{";
+	myText[7][ENG] = "{We found two strange \n statues and a stone tablet.\n On the tablet, it said..{";
 	myText[8][ENG] = "{Wait a minute. You mean\n to tell me that\n statue ...{";
 	myText[9][ENG] = "{Yes, precisely.\n I thought it had been\n stolen."; //statue
 	myText[10][ENG] = "{That demon statue\n possesses enough evil\n power to destroy an\n entire nation.";
@@ -49,12 +49,12 @@ function script_cutscene_4()
 	
 	myText[0][ESP] = "{¿Quién eres?{";
 	myText[1][ESP] = "{Tú debes ser\n Walter Smith.\n Mi nombre es Ryu.\n Ryu Hayabusa.{";
-	myText[2][ESP] = "{¿Quién? Espera... Esa espada...\n ¡Por supuesto! Eres\n el hijo de Ken Hayabusa.{";
+	myText[2][ESP] = "{¿Quién? Espera...\n Esa espada...\n ¡Por supuesto! Eres\n el hijo de Ken Hayabusa.{";
 	myText[3][ESP] = "{En su última carta,\n mi padre me dijo que\n te buscara.{";
 	myText[4][ESP] = "{Última carta? Ya veo ...\n Parece que ya\n ha comenzado.{";
 	myText[5][ESP] = "{...{";
 	myText[6][ESP] = "{Ken y yo estuvimos\n en una expedición\n unas ruinas en\n el Amazonas.{";
-	myText[7][ESP] = "{Encontramos una estatua\n extraña y una tableta de\n piedra, la cual decía...{";
+	myText[7][ESP] = "{Allí encontramos un par\n de extrañas estatuas y una\n tablilla con un grabado.\n Éste decía...{";
 	myText[8][ESP] = "{Un minuto. Me estás\n diciendo que esa\n estatua ...{";
 	myText[9][ESP] = "{Sí, precisamente.\n Pensé que había\n sido robada.";
 	myText[10][ESP] = "{Esa estatua demoniaca\n tiene suficiente poder\n maligno para destruir\n una nación entera.";

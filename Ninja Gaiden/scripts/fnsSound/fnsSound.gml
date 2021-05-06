@@ -74,6 +74,7 @@ function initialize_music()
 	global.musicID[bgmCutscene8] = [bgmCutscene8, 19.608, -1];
 	global.musicID[bgmCutscene9] = [bgmCutscene9, 46.896, -1];
 	global.musicID[bgmCutscene9Part2] = [bgmCutscene9Part2, 22.803, 00.000];
+	global.musicID[bgmCutscene10] = [bgmCutscene10, 33.695, -1];
 	global.musicID[bgmCutsceneJingle1] = [bgmCutsceneJingle1, 03.386, -1];
 	global.musicID[bgmCutsceneJingle2] = [bgmCutsceneJingle2, 01.533, -1];
 	global.musicID[bgmCutsceneJingle3] = [bgmCutsceneJingle3, 02.372, -1];
@@ -103,6 +104,7 @@ function initialize_music()
 	global.musicID[bgmCutscene8PCE] = [bgmCutscene8PCE, 18.404, -1];
 	global.musicID[bgmCutscene9PCE] = [bgmCutscene9PCE, 44.236, -1];
 	global.musicID[bgmCutscene9Part2PCE] = [bgmCutscene9Part2PCE, 32.003, 15.998];
+	global.musicID[bgmCutscene10PCE] = [bgmCutscene10PCE, 12.801, 04.262];
 	
 	global.musicID[sfxHelicopter] = [sfxHelicopter, 04.000, 00.000];
 }
