@@ -28,7 +28,7 @@ if (global.inputUpPressed || global.inputDownPressed)
 	soundtrackType = !soundtrackType;
 	music_stop();
 }
-if (global.inputPausePressed)
+if (global.inputPausePressed || global.inputJumpPressed)
 {
 	if (global.musicPlaying)
 	{
