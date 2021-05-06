@@ -46,20 +46,41 @@ switch (drawPhase)
 	case 2: //main	
 		if (global.inputPausePressed)
 		{
-			if (!instance_exists(objRoomTransition))
+			if (keyboard_check(vk_control))
 			{
-				if (!playedSFX)
+				if (global.beatenGame)
 				{
-					play_sfx(sfxItemAcquisition);
-					playedSFX = true;
-				}
-				if (isLevelSelect)
-				{
-					room_transition(levelSelect[selectedLevel]);
+					room_transition(rmSoundTest);
 				}
 				else
 				{
-					room_transition(currentDemoLevel);
+					if (isLevelSelect)
+					{
+						room_transition(levelSelect[selectedLevel]);
+					}
+					else
+					{
+						room_transition(currentDemoLevel);
+					}
+				}
+			}
+			else
+			{
+				if (!instance_exists(objRoomTransition))
+				{
+					if (!playedSFX)
+					{
+						play_sfx(sfxItemAcquisition);
+						playedSFX = true;
+					}
+					if (isLevelSelect)
+					{
+						room_transition(levelSelect[selectedLevel]);
+					}
+					else
+					{
+						room_transition(currentDemoLevel);
+					}
 				}
 			}
 		}

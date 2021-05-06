@@ -1,2 +1,9 @@
 set_act(6, 5);
-music_play(bgmJashinFight);
+if (!global.soundtrackOption)
+{
+	music_play(bgmJashinFight);
+}
+else
+{
+	music_play(bgmJashinFightPCE);
+}

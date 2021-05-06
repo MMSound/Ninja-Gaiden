@@ -95,6 +95,7 @@ function initialize_music()
 	global.musicID[bgmBossFightPCE] = [bgmBossFightPCE, 15.651, 02.852];
 	global.musicID[bgmMalthFightPCE] = [bgmMalthFightPCE, 41.337, 02.659];
 	global.musicID[bgmMaskedDevilFightPCE] = [bgmMaskedDevilFightPCE, 35.203, 00.000];
+	global.musicID[bgmJashinFightPCE] = [bgmJashinFightPCE, 27.871, 11.654];
 	global.musicID[bgmCutscene1PCE] = [bgmCutscene1PCE, 22.001, -1];
 	global.musicID[bgmCutscene2PCE] = [bgmCutscene2PCE, 33.605, 04.787];
 	global.musicID[bgmCutscene3PCE] = [bgmCutscene3PCE, 10.668, 00.000];
@@ -294,9 +295,128 @@ function music_get_alt(_song)
 		case bgmMaskedDevilFightPCE:
 			return bgmMaskedDevilFight;
 			break;
+			
+		case bgmJashinFight:
+			return bgmJashinFightPCE;
+			break;
+		case bgmJashinFightPCE:
+			return bgmJashinFight;
+			break;
+			
+		case bgmCutscene1:
+			return bgmCutscene1PCE;
+			break;
+		case bgmCutscene1PCE:
+			return bgmCutscene1;
+			break;
+			
+		case bgmCutscene2:
+			return bgmCutscene2PCE;
+			break;
+		case bgmCutscene2PCE:
+			return bgmCutscene2;
+			break;
+			
+		case bgmCutscene3:
+			return bgmCutscene3PCE;
+			break;
+		case bgmCutscene3PCE:
+			return bgmCutscene3;
+			break;
+			
+		case bgmCutscene4:
+			return bgmCutscene4PCE;
+			break;
+		case bgmCutscene4PCE:
+			return bgmCutscene4;
+			break;
+			
+		case bgmCutscene5:
+			return bgmCutscene5PCE;
+			break;
+		case bgmCutscene5PCE:
+			return bgmCutscene5;
+			break;
+			
+		case bgmCutscene6:
+			return bgmCutscene6PCE;
+			break;
+		case bgmCutscene6PCE:
+			return bgmCutscene6;
+			break;
+			
+		case bgmCutscene8:
+			return bgmCutscene8PCE;
+			break;
+		case bgmCutscene8PCE:
+			return bgmCutscene8;
+			break;
+			
+		case bgmCutscene9:
+			return bgmCutscene9PCE;
+			break;
+		case bgmCutscene9PCE:
+			return bgmCutscene9;
+			break;
+			
+		case bgmCutscene9Part2:
+			return bgmCutscene9Part2PCE;
+			break;
+		case bgmCutscene9Part2PCE:
+			return bgmCutscene9Part2;
+			break;
+			
+		case bgmCutscene10:
+			return bgmCutscene10PCE;
+			break;
+		case bgmCutscene10PCE:
+			return bgmCutscene10;
+			break;
 
 		default:
 			return false;
 			break;
 	}
+}
+
+function soundtest_initialize()
+{
+	var i = 0;
+	soundTest[i++] = [bgmAct1Scene1, "Pushing Onward"];
+	soundTest[i++] = [bgmBossFight, "Battlefield I"];
+	soundTest[i++] = [bgmCutscene1, "Veil of Uncertainty"];
+	soundTest[i++] = [bgmCutscene2, "Apprehensive Moments"];
+	soundTest[i++] = [bgmAct2Scene1, "Evading the Enemy"];
+	soundTest[i++] = [bgmAct2Scene2, "Rugged Terrain"];
+	soundTest[i++] = [bgmCutscene3, "Swift Ninja I"];
+	soundTest[i++] = [bgmCutscene4, "Seeking Truth"];
+	soundTest[i++] = [bgmAct3Scene1, "Swift Ninja II"];
+	soundTest[i++] = [bgmAct3Scene2, "Nowhere to Run"];
+	soundTest[i++] = [bgmCutscene5, "Death of Walter"];
+	soundTest[i++] = [bgmCutscene6, "Information and Coercion"];
+	soundTest[i++] = [bgmAct4Scene1, "Pursuing the Nightmare"];
+	soundTest[i++] = [bgmCutscene8, "Jaquio Fortress"];
+	soundTest[i++] = [bgmAct4Scene2, "Unbreakable Determination"];
+	soundTest[i++] = [bgmAct4Scene3, "The Demon's Incantation"];
+	soundTest[i++] = [bgmCutscene9, "Spawn of Evil"];
+	soundTest[i++] = [bgmCutscene9Part2, "Evil Plans"];
+	soundTest[i++] = [bgmAct5Scene1, "Depth of Wickedness"];
+	soundTest[i++] = [bgmAct5Scene2, "The Cliff of Destiny"];
+	soundTest[i++] = [bgmAct5Scene3, "Reminiscence"];
+	soundTest[i++] = [bgmCutscene10, "Bloody Malth"];
+	soundTest[i++] = [bgmMalthFight, "The Crimson Terror"];
+	soundTest[i++] = [bgmAct6Scene1, "The Point of No Return"];
+	soundTest[i++] = [bgmAct6Scene2, "In the Halls of Death"];
+	soundTest[i++] = [bgmAct6Scene3, "The Dragon Ninja"];
+	soundTest[i++] = [bgmMaskedDevilFight, "Devilish Influence"];
+	soundTest[i++] = [bgmJaquioBattle, "The Menace Part I"];
+	soundTest[i++] = [bgmJashinFight, "The Menace Part II"];
+	soundTest[i++] = [bgmBossIntro, "Twist of Fate"];
+	soundTest[i++] = [bgmOptionsMenu, "Options Menu"];
+	soundTest[i++] = [bgmCutsceneJingle1, "Surprised!"];
+	soundTest[i++] = [bgmCutsceneJingle2, "Thief!"];
+	soundTest[i++] = [bgmCutsceneJingle3, "After Him!"];
+	soundTest[i] = [bgmDeath, "All Gone"];
+	
+	//soundTest[i++] = []; //insert cutscenes later
 }
