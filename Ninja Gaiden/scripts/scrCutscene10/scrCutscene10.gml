@@ -31,7 +31,11 @@ function script_cutscene_10()
 	myText[3][ROM] = "{Tu îmi cunoști tatăl?{";
 	myText[4][ROM] = "{Vino și luptă, tinere\n Hayabusa!{";
 	
-	//french
+	myText[0][FRE] = "{Mon nom est Malth.\n Tu ne me passeras jamais\n sur le corps.{";
+	myText[1][FRE] = "{Donc je vais te battre!{";
+	myText[2][FRE] = "{Tu es aussi fougueux\n que ton père. Il est\n cependant bien meilleur\n escrimeur.{";
+	myText[3][FRE] = "{Tu connais mon père?{";
+	myText[4][FRE] = "{Viens m'affronter,\n jeune Hayabusa!{";
 	
 	myText[0][420] = "            {";
 	myText[1][420] = "   {";
