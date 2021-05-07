@@ -1,0 +1,23 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+ENGLISH
+
+"You killed my father."
+
+"Killed? It is true
+ that we fought.
+ But your father is
+ alive."
+
+"Liar!"
+
+"No, it is not a lie.
+ If you go on,
+ you will see."
+
+"But it will be the last
+ thing you see."
+
+"..."

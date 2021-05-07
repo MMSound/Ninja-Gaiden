@@ -35,21 +35,21 @@ function script_cutscene_9()
 	myText[14][JPN] = "「その時こそ、この世はわたしのものた。\n ハッハッハッハ!";
 	myText[15][JPN] = "「ハーッハッハッハッハ!」";
 	
-	myText[0][ESP] = "{Has venido desde muy\n lejos para ofrecerme\n esa estatua demoniaca.\n Permíteme aceptarla.{";
+	myText[0][ESP] = "{Veo que traes la\n estatua contigo.\n Entrégamela.{";
 	myText[1][ESP] = "{¡En tus sueños!{";
-	myText[2][ESP] = "{¿Acaso sabes lo\n qué estas diciendo?{";
-	myText[3][ESP] = "{¡¿Qué?!{";
+	myText[2][ESP] = "{No tienes ni idea de\n lo que estás diciendo.{";
+	myText[3][ESP] = "{¿Qué...?{";
 	myText[4][ESP] = "{¡Ryu!{";
-	myText[5][ESP] = "{Eres... un cobarde.{";
-	myText[6][ESP] = "{No lo hagas, no le\n des la estatua.{";
-	myText[7][ESP] = "{Coloca la estatua\n en el piso, y\n aléjate.{";
-	myText[8][ESP] = "{Muchas gracias. Ya\n no eres necesitado.{";
-	myText[9][ESP] = "{Ten un buen día.{";
+	myText[5][ESP] = "{Tú... eres un cobarde.{";
+	myText[6][ESP] = "{¡No...! No le des la\n estatua...{";
+	myText[7][ESP] = "{Ahora, deja la estatua\n en el suelo y aléjate.{";
+	myText[8][ESP] = "{Buen trabajo.\n Pero ya no te necesito.{";
+	myText[9][ESP] = "{Hasta nunca.{";
 	myText[10][ESP] = "{Ah... {";
-	myText[11][ESP] = "{Llévate a la chica.\n Ella será un buen\n sacrificio.{";
-	myText[12][ESP] = "{Ja, ja, ja...\n Por fin, es mía.{";
-	myText[13][ESP] = "{Esta noche es la\n noche de resurrección\n que solo ocurre cada\n 700 años.";
-	myText[14][ESP] = "{Pronto, este mundo será\n mío.\n Ja, ja, ja...";
+	myText[11][ESP] = "{Llévate a la chica.\n Hará un buen\n sacrificio.{";
+	myText[12][ESP] = "{Ja, ja, ja...\n Por fin, te tengo en\n mis manos...{";
+	myText[13][ESP] = "{Ya han pasado 700 años\n desde la última\n resurrección...";
+	myText[14][ESP] = "{Muy pronto, este mundo\n también será mío.\n Ja, ja, ja...";
 	myText[15][ESP] = "{Ja, Ja, Ja, Ja, Ja....{";
 	
 	myText[0][ITA] = "{Hai fatto molta\n strada per portarmi\n la statua demoniaca.\n Ora dammela.{";
