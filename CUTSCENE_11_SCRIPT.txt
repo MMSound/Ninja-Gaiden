@@ -4,20 +4,45 @@ INFO: Use { instead of "
 
 ENGLISH
 
-"You killed my father."
+{You killed my father.{";
+{Killed? It is true\n that we fought.\n But your father is\n alive.{";
+{Liar!{";
+{No, it is not a lie.\n If you go on,\n you will see.{";
+{But it will be the last\n thing you see.{";
+{...{";
 
-"Killed? It is true
- that we fought.
- But your father is
- alive."
+FRENCH
 
-"Liar!"
+{Tu as tué mon père.{";
+{Tué? Il est vrai que\n nous avons combattu.\n Mais ton père est toujours\n parmi les vivants.{";
+{Menteur!{";
+{Non, cela ne saurait\n être un mensonge. Tu le\n verras par toi-même si tu\n continues sur ta voie.{";
+{Mais cela sera la dernière\n que tu verras de tes\n yeux.{";
+{...{";
 
-"No, it is not a lie.
- If you go on,
- you will see."
+SPANISH
 
-"But it will be the last
- thing you see."
+{Mataste a mi padre.{";
+{¿Matarlo? Es cierto que\n tuvimos un duelo, pero\n eso no quiere decir que\n esté muerto.{";
+{¡Mientes!{";
+{No miento.\n El camino que sigues,\n joven Hayabusa, te\n llevará hacia él...{";
+{...pero puede que ya\n no sea la persona\n que solías conocer...{";
+{...{";
 
-"..."
+ITALIAN
+
+{Hai ucciso mio padre.{";
+{Ucciso? è vero,\n abbiamo combattuto.\n Ma tuo padre è\n ancora vivo.{";
+{Bugiardo!{
+{No, non sto mentendo.\n Se vai avanti,\n lo capirai.{";
+{Ma sarà l'ultima cosa\n che vedrai.{";
+{...{";
+
+ROMANIAN
+
+{Mi-ai ucis tatăl.{";
+{Ucis? Este adevărat că\n ne-am luptat.\n Dar tatăl tău este\n în viață.{";
+{Mincinosule!{";
+{Nu, aceasta nu\n e minciună.\n Dacă tu continui,\n o să vezi.{";
+{Dar o să fie\n ultimul lucru\n pe care îl vei vedea.{";
+{...{";

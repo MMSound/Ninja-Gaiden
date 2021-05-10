@@ -75,6 +75,7 @@ function initialize_music()
 	global.musicID[bgmCutscene9] = [bgmCutscene9, 46.896, -1];
 	global.musicID[bgmCutscene9Part2] = [bgmCutscene9Part2, 22.803, 00.000];
 	global.musicID[bgmCutscene10] = [bgmCutscene10, 33.695, -1];
+	global.musicID[bgmCutscene11] = [bgmCutscene11, 27.203, -1];
 	global.musicID[bgmCutsceneJingle1] = [bgmCutsceneJingle1, 03.386, -1];
 	global.musicID[bgmCutsceneJingle2] = [bgmCutsceneJingle2, 01.533, -1];
 	global.musicID[bgmCutsceneJingle3] = [bgmCutsceneJingle3, 02.372, -1];
@@ -106,6 +107,7 @@ function initialize_music()
 	global.musicID[bgmCutscene9PCE] = [bgmCutscene9PCE, 44.236, -1];
 	global.musicID[bgmCutscene9Part2PCE] = [bgmCutscene9Part2PCE, 32.003, 15.998];
 	global.musicID[bgmCutscene10PCE] = [bgmCutscene10PCE, 12.801, 04.262];
+	global.musicID[bgmCutscene11PCE] = [bgmCutscene11PCE, 27.185, -1];
 	
 	global.musicID[sfxHelicopter] = [sfxHelicopter, 04.000, 00.000];
 }
@@ -372,6 +374,13 @@ function music_get_alt(_song)
 		case bgmCutscene10PCE:
 			return bgmCutscene10;
 			break;
+			
+		case bgmCutscene11:
+			return bgmCutscene11PCE;
+			break;
+		case bgmCutscene11PCE:
+			return bgmCutscene11;
+			break;
 
 		default:
 			return false;
@@ -405,6 +414,7 @@ function soundtest_initialize()
 	soundTest[i++] = [bgmAct5Scene3, "Reminiscence"];
 	soundTest[i++] = [bgmCutscene10, "Bloody Malth"];
 	soundTest[i++] = [bgmMalthFight, "The Crimson Terror"];
+	soundTest[i++] = [bgmCutscene11, "Aftermath"];
 	soundTest[i++] = [bgmAct6Scene1, "The Point of No Return"];
 	soundTest[i++] = [bgmAct6Scene2, "In the Halls of Death"];
 	soundTest[i++] = [bgmAct6Scene3, "The Dragon Ninja"];

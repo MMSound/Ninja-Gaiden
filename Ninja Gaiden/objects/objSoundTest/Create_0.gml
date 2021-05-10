@@ -10,6 +10,7 @@ currentSong = 0;
 global.uiColorIndex = 8;
 
 progressBarX = (global.viewX + 160);
+playButtonFrame = 0;
 
 function draw_progress_bar(_x, _y, _length)
 {

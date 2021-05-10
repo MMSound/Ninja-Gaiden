@@ -53,7 +53,22 @@ if (global.inputPausePressed || global.inputJumpPressed)
 		}
 	}
 }
-if (global.inputAttackPressed)
+if (global.inputAttackPressed) //exiting
 {
 	room_transition(rmTitleScreen);
+}
+
+if (global.musicPlaying) //play button animation
+{
+	if (playButtonFrame < 2)
+	{
+		playButtonFrame++;
+	}
+}
+else
+{
+	if (playButtonFrame > 0)
+	{
+		playButtonFrame--;
+	}
 }
