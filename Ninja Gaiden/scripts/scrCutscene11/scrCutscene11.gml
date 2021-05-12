@@ -8,7 +8,12 @@ function script_cutscene_11()
 	myText[4][ENG] = "{But it will be the last\n thing you see.{";
 	myText[5][ENG] = "{...{";
 	
-	//japanese
+	myText[0][JPN] = "「父さんをころしたのはキサマたな?」";
+	myText[1][JPN] = "「ころす…? フッ 決闘をしたのはたしかた…\n たか、おまえのおやしは… また生きている… 」";
+	myText[2][JPN] = "「なに! キサマ、今さらそんなテタラメを!」";
+	myText[3][JPN] = "「テタラメてはない… ここからさきにすすむならは…";
+	myText[4][JPN] = " おまえはこの世の… 地こくをしることになる…";
+	myText[5][JPN] = "「… 」";
 	
 	myText[0][ESP] = "{Mataste a mi padre.{";
 	myText[1][ESP] = "{¿Matarlo? Es cierto que\n tuvimos un duelo, pero\n eso no quiere decir que\n esté muerto.{";
@@ -38,5 +43,10 @@ function script_cutscene_11()
 	myText[4][FRE] = "{Mais cela sera la dernière\n que tu verras de tes\n yeux.{";
 	myText[5][FRE] = "{...{";
 	
-	//diacritics
+	myText[0][420] = "              {";
+	myText[1][420] = "                    { \n {{       {    {";
+	myText[2][420] = "               {";
+	myText[3][420] = " {   {                 {";
+	myText[4][420] = "            {";
+	myText[5][420] = "";
 }
