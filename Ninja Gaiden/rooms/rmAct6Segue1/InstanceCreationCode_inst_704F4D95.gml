@@ -1,2 +1,2 @@
 nextRoom = rmAct6Boss1;
-bossName = "MASKED DEVIL";
+bossName = (global.cutsceneLanguage == ESP) ? "DIABLO ENMASCARDO" : "MASKED DEVIL";

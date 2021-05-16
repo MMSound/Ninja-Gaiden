@@ -22,13 +22,13 @@ function script_cutscene_2()
 	myText[8][JPN] = "「たれかくるわ。気をつけて。」";
 	
 	myText[0][ESP] = "{Ug... Donde...\n ¿Donde estoy?{";
-	myText[1][ESP] = "{Por fin te despertaste.\n Esa anestesia\n funcionó bien.{";
+	myText[1][ESP] = "{Veo que estás despierto.\n La anestesia pierde efecto.{";
 	myText[2][ESP] = "{¡¿Quién eres?!{";
-	myText[3][ESP] = "{Shhh. No hagas\n tanto ruido...\n Tengo un favor para ti.{";
-	myText[4][ESP] = "{Toma esto y escapa \nde aqui.{\n{¿Qué es esto...?\n ¿Una estatua?{";
-	myText[5][ESP] = "{No esperes una\n explicación. Solo corre.{";
-	myText[6][ESP] = "{¡Espera un momento!\n ¿Quién eres? ";
-	myText[7][ESP] = "{¿No intentaste\n matarme?{";
+	myText[3][ESP] = "{Shhh... No estamos\n solos aquí...\n Tengo un favor que pedirte.{";
+	myText[4][ESP] = "{Toma, coge esto y huye de aquí.{\n{¿Qué es esto...?\n ¿Una estatua?{";
+	myText[5][ESP] = "{No hay tiempo para\n explicaciones. Date prisa.{";
+	myText[6][ESP] = "{¡Espera!\n ¿Quién eres?";
+	myText[7][ESP] = "{¿Por qué me ayudas?\n ¿No intentabas matarme?{";
 	myText[8][ESP] = "{Alguien se acerca.\n Ten cuidado.{";
 	
 	myText[0][ITA] = "{Ough ... Dove...\n Dove mi trovo?{";

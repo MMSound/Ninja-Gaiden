@@ -1,0 +1,20 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+{Ryu, you deserve praise\n for making it this far..{
+{Where are you?\n Show yourself!{
+{...but even you cannot\n defeat the Masked\n Devil.
+{No one can beat me.{
+{Not even... your father?{
+{What?!{
+{Your father was not\n killed. He has been\n turned into the Masked\n Devil.{
+{No!{
+{It will be\n entertaining to watch\n father and son fight to\n the death.{
+{Wake up, Father!{
+{It's no use. He only\n thinks of killing you.{
+{So this is my destiny.\n Malth was telling the\n truth.\n What shall I do?
+{I've got to think\n clearly.
+{Father's eyes... they\n show he is controlled\n like a puppet.\n If I break the control...
+{But what is\n controlling him?
+ That's it!

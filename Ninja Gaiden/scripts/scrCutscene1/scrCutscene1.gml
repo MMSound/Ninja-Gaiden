@@ -13,7 +13,7 @@ function script_cutscene_1()
 	myText[3][JPN] = "「ええ、てもそのまえに…」";
 	myText[4][JPN] = "「なに!」";
 
-	myText[0][ESP] = "{¿Quiénes son...?\n Parece que me \n estan siguiendo...{";
+	myText[0][ESP] = "{¿Quiénes son...?\n Parece como \n si me estuviesen siguiendo...{";
 	myText[1][ESP] = "{¿Quién esta ahí?{";
 	myText[2][ESP] = "{Es solo una chica.\n ¡Sal de aqui!{";
 	myText[3][ESP] = "{Lo hare, pero primero...{";
