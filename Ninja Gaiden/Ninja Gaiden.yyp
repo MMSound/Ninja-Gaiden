@@ -691,6 +691,7 @@
     {"id":{"name":"sprTimeFreezeClock","path":"sprites/sprTimeFreezeClock/sprTimeFreezeClock.yy",},"order":2,},
     {"id":{"name":"bgmAct6Scene1PCE","path":"sounds/bgmAct6Scene1PCE/bgmAct6Scene1PCE.yy",},"order":11,},
     {"id":{"name":"sprLanternAct42","path":"sprites/sprLanternAct42/sprLanternAct42.yy",},"order":7,},
+    {"id":{"name":"sprAct6BossBackground","path":"sprites/sprAct6BossBackground/sprAct6BossBackground.yy",},"order":8,},
     {"id":{"name":"sprSlope","path":"sprites/sprSlope/sprSlope.yy",},"order":2,},
     {"id":{"name":"objBasaquerFlameProjectile","path":"objects/objBasaquerFlameProjectile/objBasaquerFlameProjectile.yy",},"order":1,},
     {"id":{"name":"objWallClimbWallRight","path":"objects/objWallClimbWallRight/objWallClimbWallRight.yy",},"order":11,},

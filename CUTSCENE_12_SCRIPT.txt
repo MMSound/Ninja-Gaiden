@@ -18,3 +18,22 @@ INFO: Use { instead of "
 {Father's eyes... they\n show he is controlled\n like a puppet.\n If I break the control...
 {But what is\n controlling him?
  That's it!
+
+SPANISH
+
+{Ryu, debo felicitarte por\n haber llegado tan lejos...{
+{¡¿Dónde te escondes?!\n ¡Muéstrate!{
+{...pero no podrás derrotar\n al Diablo Enmascarado.{
+{No importa a quién tenga\n en frente, acabaré con él.{
+{¿Incluso... si se tratase\n de tu padre?{
+{¡¿Qué?!{
+{Tu padre no fue\n asesinado. Se ha\n vuelto el Diablo\n Enmascarado.{
+{No... no puede ser...{
+{Será entretenido ver una\n lucha a muerte entre un\n padre y su propio hijo.
+{¡Papá, despierta!{
+{Es inútil. Tan solo piensa\n en acabar contigo.{
+{Así que era ésto a lo que\n Malus se refería... ¡Argh!\n ¿Qué se supone que haga?{
+{Debo pensar con claridad.{
+{Papá... Es como si\n estuvieses hipnotizado.\n Si tan solo pudiera romper\n el control....{
+{Pero... ¿Qué le está\n controlando...?
+ ¡Debe ser eso!{

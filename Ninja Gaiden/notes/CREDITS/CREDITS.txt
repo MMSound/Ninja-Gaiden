@@ -62,9 +62,9 @@ TwistC
 Shinryu
 
 CUTSCENE TRANSLATION
-CSketch
 Noivs
 Doom Man
+CSketch
 HeelNavi
 
 CREATIVE CONSULTANT

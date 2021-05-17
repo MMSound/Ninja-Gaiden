@@ -35,7 +35,7 @@ function backgrounds_set_visible(_visible)
 	}
 }
 
-//syntax for this is go xspeed, background, xspeed, background, etc.
+//syntax for this is xspeed, background, xspeed, background, etc.
 function backgrounds_set_xspeed()
 {
 	for (var i = 1; i < argument_count; i += 2)
