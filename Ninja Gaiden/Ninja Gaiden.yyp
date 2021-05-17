@@ -41,6 +41,7 @@
     {"id":{"name":"bgmAct6Scene2PCE","path":"sounds/bgmAct6Scene2PCE/bgmAct6Scene2PCE.yy",},"order":12,},
     {"id":{"name":"seqWalterMoveRight","path":"sequences/seqWalterMoveRight/seqWalterMoveRight.yy",},"order":2,},
     {"id":{"name":"objWallClimbWallLeft","path":"objects/objWallClimbWallLeft/objWallClimbWallLeft.yy",},"order":10,},
+    {"id":{"name":"scrCutscene12","path":"scripts/scrCutscene12/scrCutscene12.yy",},"order":9,},
     {"id":{"name":"sprAct2Rocks","path":"sprites/sprAct2Rocks/sprAct2Rocks.yy",},"order":1,},
     {"id":{"name":"sprIrenePensive","path":"sprites/sprIrenePensive/sprIrenePensive.yy",},"order":6,},
     {"id":{"name":"sprBomberheadChain","path":"sprites/sprBomberheadChain/sprBomberheadChain.yy",},"order":1,},
