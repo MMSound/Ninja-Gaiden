@@ -20,7 +20,7 @@ if (place_meeting_player(x, y))
 		case 1:
 			if (instance_exists(objPlayer))
 			{
-				objPlayer.healthPoints += 6;
+				objPlayer.healthPoints += (ggcode_get_active("APEIKGTA") ? 16 : 6);
 			}
 			break;
 		case 2:

@@ -154,3 +154,32 @@ function check_illegal_key(_key)
 	}
 	return _illegal;
 }
+
+/// @description check if a game genie code is active
+function ggcode_get_active(_code)
+{
+	var _val = false;
+	for (var i = 0; i < array_length(global.gameGenieCode); i++)
+	{
+		if (global.gameGenieCode[i] == _code)
+		{
+			_val = true;
+		}
+	}
+	return _val;
+}
+
+/// @description load the game genie file
+function game_genie_load()
+{
+	if (file_exists("game_genie"))
+	{
+		var _file = file_text_open_read("game_genie");
+		var _string = file_text_read_string(_file);
+		for (var i = 0; i < array_length(global.gameGenieCode); i++)
+		{
+			global.gameGenieCode[i] = string_copy(_string, ((i * 9) + (i > 0)), 8); //this GENIUS bit of code here basically copies each code into the game genie slot at positions 0, 10, and 19
+		}																			//if we were to not have the "+ (i > 0)" check it would check for positions 0, 9, and 18, and that is a character
+		file_text_close(_file);														//behind where we actually want to copy the string
+	}
+}

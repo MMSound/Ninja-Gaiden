@@ -245,3 +245,39 @@ if (room == rmInit)
 depth = -1000;
 
 setController = false;
+
+//game genie stuff
+global.gameGenieCode[0] = "00000000";
+global.gameGenieCode[1] = "00000000";
+global.gameGenieCode[2] = "00000000";
+
+game_genie_load();
+
+if (ggcode_get_active("SZETPGVG"))
+{
+	global.livesOption = false;
+}
+if (ggcode_get_active("AAUVLIZE"))
+{
+	global.currentLives = 9;
+}
+if (ggcode_get_active("IAUVLIZA"))
+{
+	global.currentLives = 6;
+}
+if (ggcode_get_active("AAUVLIZA"))
+{
+	global.currentLives = 1;
+}
+if (ggcode_get_active("AEXVVYIA"))
+{
+	global.weaponNinpo[WEAPON_WINDMILL_SHURIKEN] = 0;
+}
+if (ggcode_get_active("AAETUYIA"))
+{
+	global.weaponNinpo[WEAPON_FLAME_WHEEL] = 0;
+}
+if (ggcode_get_active("AAVTNYLA"))
+{
+	global.weaponNinpo[WEAPON_SHURIKEN] = 0;
+}
