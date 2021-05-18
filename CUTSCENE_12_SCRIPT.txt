@@ -78,51 +78,19 @@ ROMANIAN
 
 FRENCH
 
-{Ryu, tu mérites des 
- applaudissements pour
- être parvenu aussi loin..{
-{Où es-tu? Montre-toi!{
-
-{...mais même pas toi
- ne peut vaincre le 
- Diable Masqué.{
-
-{Personne ne peut me battre.{
-
-{Pas même... ton père?{
-
-{Quoi?!{
-
-{Ton père n'a pas été
- tué. Il a été changé
- en Diable Masqué.{
-
-{Non!{
-
-{Il sera amusant de voir
- père et fils se battre
- jusqu'à la mort.{
-
-{Reprends tes esprits, 
- Père!{
-
-{Inutile. Il ne pense
- qu'à te tuer.{
-
-{C'est donc bien mon
- destin. Malth disait 
- vrai. Que dois-je 
- faire?
-
-{Je dois réfléchir
- clairement. Les yeux
- de Père...
-
-{Ils montrent qu'il est
- contrôlé comme une
- marionnette. Si je casse
- le contrôle...
-
-{Mais qu'est ce qui
- le contrôle? 
- C'est ça!
+{Ryu, tu mérites des\n applaudissements pour\n être parvenu aussi loin..{";
+{Où es-tu? Montre-toi!{";
+{...mais même pas toi\n ne peut vaincre le\n Diable Masqué.{";
+{Personne ne peut me battre.{";
+{Pas même... ton père?{";
+{Quoi?!{";
+{Ton père n'a pas été\n tué. Il a été changé\n en Diable Masqué.{";
+{Non!{";
+{Il sera amusant de voir\n père et fils se battre\n jusqu'à la mort.{";
+{Reprends tes esprits,\n Père!{";
+{Inutile. Il ne pense\n qu'à te tuer.{";
+{C'est donc bien mon\n destin. Malth disait\n vrai. Que dois-je\n faire?";
+{Je dois réfléchir\n clairement. Les yeux\n de Père...";
+{Ils montrent qu'il est\n contrôlé comme une\n marionnette. Si je casse\n le contrôle...";
+{Mais qu'est ce qui\n le contrôle?";
+ C'est ça!";
