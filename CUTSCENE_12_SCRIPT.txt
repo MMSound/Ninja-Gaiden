@@ -37,3 +37,92 @@ SPANISH
 {Papá... Es como si\n estuvieses hipnotizado.\n Si tan solo pudiera romper\n el control....{
 {Pero... ¿Qué le está\n controlando...?
  ¡Debe ser eso!{
+
+ITALIAN
+
+{Ryu, meriti dei complimenti\n per essere giunto fin qui..{";
+{Dove sei?\n Mostrati!{";
+{...ma nemmeno tu puoi\n sconfiggere il Diavolo\n Mascherato.";
+{Nessuno può battermi.{";
+{Nemmeno... tuo padre?{";
+{Cosa?!{";
+{Tuo padre non è stato\n ucciso. è stato\n trasformato nel Diavolo\n Mascherato.{";
+{No!{";
+{Sarà divertente\n vedere padre e\n figlio lottare fino\n alla morte.{";
+{Svegliati, padre!{";
+{è inutile. Lui pensa\n solo ad ucciderti.{";
+{Quindi è questo il mio destino.\n Malth stava dicendo la\n verità.\n Cosa devo fare?";
+{Devo pensare\n lucidamente.";
+{I suoi occhi...\n mostrano che è controllato\n come un pupazzo.\n Se rompessi il controllo...";
+{Ma che cosa lo\n sta controllando?";
+ Trovato!";
+
+ROMANIAN
+
+{Ryu, meriți laudă\n pentru că ai ajuns așa\n departe...{";
+{Unde ești?\n Arată-te!{";
+{...dar nici măcar tu\n ai putea învinge\n Diavolul Mascat.{";
+{Nimeni nu mă poate\n învinge.{";
+{Nici măcar... tatăl tău?{";
+{Poftim?!{";
+{Tatăl tău nu a fost\n ucis. El a fost\n transformat în\n Diavolul Mascat.{";
+{Nu!{";
+{O să fie distractiv\n văzând tată și fiu\n luptând până la\n moarte.{";
+{Trezește-te, Tată!{";
+{Nu are rost. Se gândește\n numai la a te ucide.{";
+{Deci acesta este destinul\n meu. Malth îmi spunea\n adevărul.\n Ce trebuie să fac?";
+{Trebuie să gândesc\n clar.";
+{Ochii tatălui... arată\n că este controlat ca o\n păpușă.\n Dacă distrug controlul...";
+{Dar ce\n îl controlează?";
+ Asta e!";
+
+FRENCH
+
+{Ryu, tu mérites des 
+ applaudissements pour
+ être parvenu aussi loin..{
+{Où es-tu? Montre-toi!{
+
+{...mais même pas toi
+ ne peut vaincre le 
+ Diable Masqué.{
+
+{Personne ne peut me battre.{
+
+{Pas même... ton père?{
+
+{Quoi?!{
+
+{Ton père n'a pas été
+ tué. Il a été changé
+ en Diable Masqué.{
+
+{Non!{
+
+{Il sera amusant de voir
+ père et fils se battre
+ jusqu'à la mort.{
+
+{Reprends tes esprits, 
+ Père!{
+
+{Inutile. Il ne pense
+ qu'à te tuer.{
+
+{C'est donc bien mon
+ destin. Malth disait 
+ vrai. Que dois-je 
+ faire?
+
+{Je dois réfléchir
+ clairement. Les yeux
+ de Père...
+
+{Ils montrent qu'il est
+ contrôlé comme une
+ marionnette. Si je casse
+ le contrôle...
+
+{Mais qu'est ce qui
+ le contrôle? 
+ C'est ça!

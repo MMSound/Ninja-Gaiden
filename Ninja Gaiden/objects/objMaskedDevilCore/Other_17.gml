@@ -12,4 +12,5 @@ if (instance_exists(objMaskedDevilShell))
 if (instance_exists(myDevil))
 {
 	myDevil.imgSpd = 0;
+	myDevil.phase = 0;
 }
