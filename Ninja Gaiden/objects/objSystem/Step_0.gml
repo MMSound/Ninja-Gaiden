@@ -150,7 +150,7 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 	}
 }
 
-if (keyboard_check_pressed(vk_f8)) //game reset
+if (keyboard_check_pressed(vk_f2)) //game reset
 {
 	game_restart();
 }

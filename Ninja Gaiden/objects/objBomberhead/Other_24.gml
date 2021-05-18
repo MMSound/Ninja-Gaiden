@@ -2,7 +2,7 @@
 event_inherited();
 
 contactDamage = 3;
-nextRoom = rmAct3Scene1;
+nextRoom = rmCutscene3;
 
 phase = 0;
 phaseTimer = 0;

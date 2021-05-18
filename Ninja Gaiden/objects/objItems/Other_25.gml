@@ -58,6 +58,7 @@ if (place_meeting_player(x, y))
 			break;
 	}
 	play_sfx(sfxItemAcquisition);
+	particle_create(x, (y - 8), sprItemFlash, 1, false, (depth - 5));
 	instance_destroy(id);
 }
 

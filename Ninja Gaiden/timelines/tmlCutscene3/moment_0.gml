@@ -8,3 +8,5 @@ else
 {
 	music_play(bgmCutscene3PCE);
 }
+
+nextRoom = rmAct3Scene1;

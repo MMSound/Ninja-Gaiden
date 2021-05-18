@@ -4,6 +4,7 @@ drawBlackBars = true;
 depth = -10;
 myTimeline = noone;
 myScript = noone;
+nextRoom = rmAct1Scene1;
 
 myBackgrounds = [];
 

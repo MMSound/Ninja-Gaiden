@@ -11,3 +11,5 @@ else
 {
 	music_play(bgmCutscene9PCE);
 }
+
+nextRoom = rmAct5Scene1;

@@ -8,3 +8,5 @@ if (global.sfxSubtitles)
 	var _subtitle = instance_create_depth(0, 0, -1000, objSubtitle);
 		_subtitle.myText = global.subtitle[sfxHelicopter];
 }
+
+nextRoom = rmAct4Scene1;

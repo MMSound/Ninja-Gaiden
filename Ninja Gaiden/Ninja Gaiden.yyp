@@ -268,6 +268,7 @@
     {"id":{"name":"sprBasaquerFlameWave","path":"sprites/sprBasaquerFlameWave/sprBasaquerFlameWave.yy",},"order":2,},
     {"id":{"name":"prtBoss","path":"objects/prtBoss/prtBoss.yy",},"order":3,},
     {"id":{"name":"sprAct2Sand2","path":"sprites/sprAct2Sand2/sprAct2Sand2.yy",},"order":3,},
+    {"id":{"name":"sprItemFlash","path":"sprites/sprItemFlash/sprItemFlash.yy",},"order":11,},
     {"id":{"name":"bgmCutscene9PCE","path":"sounds/bgmCutscene9PCE/bgmCutscene9PCE.yy",},"order":7,},
     {"id":{"name":"sprRyuHangWeapon","path":"sprites/sprRyuHangWeapon/sprRyuHangWeapon.yy",},"order":19,},
     {"id":{"name":"sfxParachuteOpen","path":"sounds/sfxParachuteOpen/sfxParachuteOpen.yy",},"order":33,},

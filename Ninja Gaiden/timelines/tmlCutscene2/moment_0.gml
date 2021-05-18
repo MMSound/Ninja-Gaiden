@@ -11,3 +11,5 @@ backgrounds_set_visible(true, 0, 5);
 backgrounds_set_visible(false, 1, 2, 3, 4);
 textbox_create(myText[0][global.cutsceneLanguage]);
 japanese_textbox(0);
+
+nextRoom = rmAct2Scene1;

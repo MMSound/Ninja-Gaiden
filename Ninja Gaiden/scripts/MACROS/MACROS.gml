@@ -25,6 +25,7 @@
 #macro ROOM_LEVEL 0
 #macro ROOM_MENU 1
 #macro ROOM_BOSS 2
+#macro ROOM_CUTSCENE 3
 
 //languages
 #macro ENG 0

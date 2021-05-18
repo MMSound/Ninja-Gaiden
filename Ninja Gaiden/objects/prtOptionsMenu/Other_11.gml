@@ -33,6 +33,7 @@ switch (currentOption)
 		}
 		else
 		{
+			global.screenColorIndex = (global.paused * 2);
 			instance_destroy(id);
 		}
 		save_load_options(0);

@@ -143,6 +143,10 @@ function room_get_type()
 	{
 		return ROOM_LEVEL;
 	}
+	else if (instance_exists(objCutsceneController))
+	{
+		return ROOM_CUTSCENE;
+	}
 	else
 	{
 		return ROOM_MENU;

@@ -7,3 +7,5 @@ else
 {
 	music_play(bgmCutscene6PCE);
 }
+
+nextRoom = rmAct4Scene1;

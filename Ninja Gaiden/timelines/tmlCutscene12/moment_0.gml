@@ -12,6 +12,8 @@ else
 	music_play(bgmCutscene9Part2PCE);
 }
 
+nextRoom = rmAct6Segue1;
+
 /*
 0 = ryu look back
 1 = ryu angry

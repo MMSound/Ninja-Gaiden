@@ -11,7 +11,7 @@ attackCount = 0;
 
 myLightning = noone;
 
-nextRoom = rmAct6Scene1;
+nextRoom = rmCutscene11;
 
 animTimer = 0;
 goToNextFrame = false;

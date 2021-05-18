@@ -1,7 +1,7 @@
 /// @description Custom variables
 event_inherited();
 
-nextRoom = rmAct5Scene1;
+nextRoom = rmCutscene9;
 
 iFrameTime = 0;
 

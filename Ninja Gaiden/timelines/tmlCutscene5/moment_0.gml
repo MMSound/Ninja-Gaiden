@@ -11,6 +11,8 @@ else
 }
 currentSequence = sequence_create_layer(global.viewX, global.viewY, seqRyuRunLeft);
 
+nextRoom = rmAct4Scene1;
+
 /*
 myBackgrounds[0] = "Background_0"; //ryu far portrait
 myBackgrounds[1] = "Background_1"; //ryu looking back
