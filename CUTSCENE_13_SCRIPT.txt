@@ -1,0 +1,30 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+{Father!{
+
+{... Where am I...?
+ Ryu... Are you Ryu?{
+
+{Yes, Father.{
+
+{Argh! He's awake.{
+
+{The Jaquio!{
+
+{You both will die!{
+
+{Watch out!{
+
+{Ugh...!!!!{
+
+{Father...{
+
+{Ryu... you've got to
+ ...get them for me.{
+
+{Father!{
+
+{Your day has come,
+ Jaquio!{
