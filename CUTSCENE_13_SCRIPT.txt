@@ -2,29 +2,75 @@ INFO: Max 26 characters per line (try to keep it to this if you can, I can have 
 INFO: Max 4 lines per screen
 INFO: Use { instead of "
 
-{Father!{
+{Father!{";
+{... Where am I...?\n Ryu... Are you Ryu?{";
+{Yes, Father.{";
+{Argh! He's awake.{";
+{The Jaquio!{";
+{You both will die!{";
+{Watch out!{";
+{Ugh...!!!!{";
+{Father...{";
+{Ryu... you've got to\n ...get them for me.{";
+{Father!{";
+{Your day has come,\n Jaquio!{";
 
-{... Where am I...?
- Ryu... Are you Ryu?{
+SPANISH
 
-{Yes, Father.{
+{¡Padre!{";
+{¿Dónde estoy...?\n Ryu... ¿Ryu, eres tú?{";
+{Soy yo, Padre.{";
+{¡Argh! ¡Se ha despertado!{";
+{¡No...! ¡Es el Jaquio!{";
+{¡Los enviaré al otro\n mundo!{";
+{¡Cuidado!{";
+{¡¡¡¡Ugh...!!!!{";
+{Padre...{";
+{Ryu... tienes que...\n ...detenerlo por mí.{";
+{¡Padre...!{";
+{¡¡Acabaré contigo, Jaquio!!{";
 
-{Argh! He's awake.{
+ROMANIAN
 
-{The Jaquio!{
+{Tată!{";
+{... Unde sunt...?\n Ryu... Ryu, tu ești?{";
+{Da, Tată.{";
+{Ah! S-a trezit.{";
+{Jaquio!{";
+{Veți muri amândoi!{";
+{Atenție!{";
+{Uh...!!!!{";
+{Tată...{";
+{Ryu... trebuie să\n ...le iei pentru mine.{";
+{Tată!{";
+{Ți s-a scurs timpul,\n Jaquio!{";
 
-{You both will die!{
+FRENCH
 
-{Watch out!{
+{Père!{";
+{... Où suis-je..?\n Ryu... Es-tu Ryu?{";
+{Oui, Père.{";
+{Ah! Il est revenu à\n ses esprits.{";
+{Le Jaquio!{";
+{C'est ici que vous\n trépasserez tous deux!{";
+{Attention!{";
+{Ahh...!!!!{";
+{Père...{";
+{Ryu... tu dois...\n finir tout ça pour\n moi.{";
+{Père!{";
+{Ton heure a sonné,\n Jaquio!{";
 
-{Ugh...!!!!{
+ITALIAN
 
-{Father...{
-
-{Ryu... you've got to
- ...get them for me.{
-
-{Father!{
-
-{Your day has come,
- Jaquio!{
+{Padre!{";
+{... Dove mi trovo...?\n Ryu... Sei tu, Ryu?{";
+{Sì, padre.{";
+{Argh! Si è svegliato.{";
+{Il Jaquio!{";
+{Morirete entrambi!{";
+{Attenzione!{";
+{Ugh...!!!!{";
+{Padre...{";
+{Ryu... ti chiedo di...\n ... batterli per me.{";
+{Padre!{";
+{È giunta la tua ora,\n Jaquio!{";

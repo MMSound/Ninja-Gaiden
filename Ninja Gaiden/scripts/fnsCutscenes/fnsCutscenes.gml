@@ -38,6 +38,7 @@ function textbox_create(_text, _x, _y)
 	}
 	var _box = instance_create_depth((global.viewX + _x), (global.viewY + _y), (depth - 2), objTextbox);
 		_box.myText = _text;
+	return _box;
 }
 
 /// @description kill textboxes
@@ -99,4 +100,10 @@ function play_jump_sfx()
 function play_parachute_sfx()
 {
 	play_sfx(sfxParachuteOpen, false);
+}
+
+/// @description play the explosion sfx
+function play_explosion_sfx()
+{
+	play_sfx(sfxMinorExplosion, false);
 }

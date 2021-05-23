@@ -484,6 +484,7 @@
     {"id":{"name":"sprRyuCrouchIdle","path":"sprites/sprRyuCrouchIdle/sprRyuCrouchIdle.yy",},"order":14,},
     {"id":{"name":"rmAct2Boss","path":"rooms/rmAct2Boss/rmAct2Boss.yy",},"order":3,},
     {"id":{"name":"sprMinecartBack","path":"sprites/sprMinecartBack/sprMinecartBack.yy",},"order":2,},
+    {"id":{"name":"scrCutscene13","path":"scripts/scrCutscene13/scrCutscene13.yy",},"order":10,},
     {"id":{"name":"sprRyuJumpFall","path":"sprites/sprRyuJumpFall/sprRyuJumpFall.yy",},"order":8,},
     {"id":{"name":"sprRyuCrouchLongSlash","path":"sprites/sprRyuCrouchLongSlash/sprRyuCrouchLongSlash.yy",},"order":17,},
     {"id":{"name":"sprBarbarianSlash","path":"sprites/sprBarbarianSlash/sprBarbarianSlash.yy",},"order":1,},
