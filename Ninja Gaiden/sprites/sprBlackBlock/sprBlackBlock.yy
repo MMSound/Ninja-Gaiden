@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Cutscene 2",
-    "path": "folders/Cutscenes/Sprites/Cutscene 2.yy",
+    "name": "Sprites",
+    "path": "folders/Cutscenes/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprBlackBlock",

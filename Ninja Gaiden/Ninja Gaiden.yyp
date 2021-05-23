@@ -510,7 +510,7 @@
     {"id":{"name":"objMinecartSide","path":"objects/objMinecartSide/objMinecartSide.yy",},"order":7,},
     {"id":{"name":"sfxHelicopter","path":"sounds/sfxHelicopter/sfxHelicopter.yy",},"order":34,},
     {"id":{"name":"sprALPHA","path":"sprites/sprALPHA/sprALPHA.yy",},"order":18,},
-    {"id":{"name":"sprBlackBlock","path":"sprites/sprBlackBlock/sprBlackBlock.yy",},"order":4,},
+    {"id":{"name":"sprBlackBlock","path":"sprites/sprBlackBlock/sprBlackBlock.yy",},"order":14,},
     {"id":{"name":"sprAct52Sky","path":"sprites/sprAct52Sky/sprAct52Sky.yy",},"order":0,},
     {"id":{"name":"objBarbarian","path":"objects/objBarbarian/objBarbarian.yy",},"order":0,},
     {"id":{"name":"objButtonPillars","path":"objects/objButtonPillars/objButtonPillars.yy",},"order":8,},
