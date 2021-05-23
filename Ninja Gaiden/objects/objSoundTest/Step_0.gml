@@ -9,6 +9,10 @@ if (global.inputLeftPressed)
 	{
 		currentSong = (array_length(soundTest) - 1);
 	}
+	if (!music_get_alt(soundTest[currentSong][0])) //reset the soundtrack mode if there is no alt song
+	{
+		soundtrackType = 0;
+	}
 	music_stop();
 }
 if (global.inputRightPressed)
@@ -21,12 +25,19 @@ if (global.inputRightPressed)
 	{
 		currentSong = 0;
 	}
+	if (!music_get_alt(soundTest[currentSong][0])) //reset the soundtrack mode if there is no alt song
+	{
+		soundtrackType = 0;
+	}
 	music_stop();
 }
 if (global.inputUpPressed || global.inputDownPressed)
 {
-	soundtrackType = !soundtrackType;
-	music_stop();
+	if (global.beatenGame && music_get_alt(soundTest[currentSong][0]))
+	{
+		soundtrackType = !soundtrackType;
+		music_stop();
+	}
 }
 if (global.inputPausePressed || global.inputJumpPressed)
 {
