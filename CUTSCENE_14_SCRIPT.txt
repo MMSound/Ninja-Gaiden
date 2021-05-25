@@ -1,0 +1,29 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+{Ryu!{
+
+{Thank God you're safe!{
+
+{Let's go, father.
+ Let's get out of this
+ temple.{
+
+{Ryu, wait. Before we
+ do, the demon statues...
+ we've got to throw them
+ from the temple
+
+{while we've still got
+ time. Before the black
+ moon shines.{
+
+{Ryu, what's that?{
+
+{Is it a lunar eclipse?!
+ That's it!
+ That's the black moon!
+
+{Oh, no!
+ The demon statue!{
