@@ -313,6 +313,7 @@
     {"id":{"name":"objSword","path":"objects/objSword/objSword.yy",},"order":1,},
     {"id":{"name":"sprKelbeross","path":"sprites/sprKelbeross/sprKelbeross.yy",},"order":0,},
     {"id":{"name":"sfxFallingPillar","path":"sounds/sfxFallingPillar/sfxFallingPillar.yy",},"order":14,},
+    {"id":{"name":"seqIreneMoveFromRight2","path":"sequences/seqIreneMoveFromRight2/seqIreneMoveFromRight2.yy",},"order":4,},
     {"id":{"name":"sprAct5Window","path":"sprites/sprAct5Window/sprAct5Window.yy",},"order":3,},
     {"id":{"name":"sprBoxerPunch","path":"sprites/sprBoxerPunch/sprBoxerPunch.yy",},"order":1,},
     {"id":{"name":"sprFallingPillar","path":"sprites/sprFallingPillar/sprFallingPillar.yy",},"order":0,},
