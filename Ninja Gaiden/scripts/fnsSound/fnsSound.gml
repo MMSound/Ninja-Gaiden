@@ -79,6 +79,7 @@ function initialize_music()
 	global.musicID[bgmCutsceneJingle1] = [bgmCutsceneJingle1, 03.386, -1];
 	global.musicID[bgmCutsceneJingle2] = [bgmCutsceneJingle2, 01.533, -1];
 	global.musicID[bgmCutsceneJingle3] = [bgmCutsceneJingle3, 02.372, -1];
+	global.musicID[bgmCutsceneJingle4] = [bgmCutsceneJingle4, 11.452, -1];
 	
 	global.musicID[bgmAct1Scene1PCE] = [bgmAct1Scene1PCE, 40.005, 02.668];
 	global.musicID[bgmAct2Scene1PCE] = [bgmAct2Scene1PCE, 34.670, 02.665];
@@ -426,6 +427,7 @@ function soundtest_initialize()
 	soundTest[i++] = [bgmCutsceneJingle1, "Surprised!"];
 	soundTest[i++] = [bgmCutsceneJingle2, "Thief!"];
 	soundTest[i++] = [bgmCutsceneJingle3, "After Him!"];
+	soundTest[i++] = [bgmCutsceneJingle4, "A Reprieve (At Last...?)"];
 	soundTest[i] = [bgmDeath, "All Gone"];
 	
 	//soundTest[i++] = []; //insert cutscenes later

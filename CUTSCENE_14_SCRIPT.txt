@@ -3,19 +3,59 @@ INFO: Max 4 lines per screen
 INFO: Use { instead of "
 
 {Ryu!{
-
 {Thank God you're safe!{
-
 {Let's go, father.\n Let's get out of this\n temple.{
-
 {Ryu, wait. Before we\n do, the demon statues...\n we've got to throw them\n from the temple
-
 {while we've still got\n time. Before the black\n moon shines.{
-
 {Ryu, what's that?{
-
 {Is it a lunar eclipse?!\n That's it!\n That's the black moon!
-
 {Oh, no!\n The demon statue!{
+THE DARK MOON SHINES
 
-THE DARK MOON SHINES (put this at the end of the cutscene)
+SPANISH
+
+{¡Ryu!{";
+{¡Gracias al cielo\n estas vivo!{";
+{Vámonos, padre.\n Salgamos de este\n templo.{";
+{Espera, Ryu. Antes de\n irnos, no te olvides...\n tenemos que tirar\n las estatuas del templo";
+{mientras aún tenemos\n tiempo. Antes que la\n luna negra brille.{";
+{¿Ryu, qué es eso?{";
+{¿¡Eso no es un\n eclipse lunar?!\n ¡Espera, esa es!\n ¡Esa es la luna negra!{";
+{¡No puede ser!\n ¡La estatua demoniaca!{";
+LA LUNA NEGRA BRILLA";
+
+ITALIAN
+
+{Ryu!{";
+{Grazie a Dio sei salvo!{";
+{Andiamo, padre.\n Usciamo da questo\n tempio.{";
+{Ryu, aspetta. Prima di\n andarcene, le statue...\n dobbiamo portarle via\n dal tempio";
+{mentre abbiamo ancora\n tempo. Prima che la\n luna nera splenda.{";
+{Ryu, cos'è quella?{";
+{Un'eclissi lunare?!\n Ma certo!\n Quella è la luna nera!{";
+{Oh, no!\n La statua demoniaca!{";
+LA LUNA NERA SPLENDE";
+
+ROMANIAN
+
+{Ryu!
+{Ce bine că ești în\n viață!{";
+{Hai să plecăm, tată.\n Să ieșim din acest\n templu.{";
+{Ryu, așteaptă. Înainte de\n asta, statuile demon...\n trebuie să le aruncăm\n din templu";
+{cât mai avem\n timp. Înainte ca luna\n neagră să lucească.{";
+{Ryu, ce este aia?{";
+{Este eclipsa de lună?!\n Asta e!\n Este luna neagră!{";
+{O, nu!\n Statuia demon!{";
+LUNA NEAGRĂ LUCEȘTE";
+
+FRENCH
+
+{Ryu!{";
+{Dieu merci, tu vas\n bien!{";
+{Allons nous-en, père.\n Partons de ce\n maudit temple.{";
+{Ryu, attends. Avant que\n nous partions, les statues\n démoniaques... nous devons\n les éloigner du temple";
+{tant que nous en\n avons encore la chance.\n Avant que la lune noire\n ne brille.{";
+{Ryu, qu'est ce qui\n se passe?{";
+{Une éclipse de lune?!\n Mais bien sûr!\n C'est la lune noire!{";
+{Oh non! La\n statue démoniaque!{";
+LA LUNE NOIRE SCINTILLE";
