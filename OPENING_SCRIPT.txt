@@ -1,0 +1,12 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+{With whom did father\n have a duel and lose..?\n For what reason did he\n fight and die?{";
+Even I don't know for\nsure.";
+The day after he\ndisappeared, I found\na letter in his room\naddressed to me.";
+It said,\n{Ryu, I am on my way to\n a life or death duel.";
+{If my destiny is to\n not return, you must\n take the Dragon sword\n of the Hayabusa clan";
+{and go to America to\n see the archaeologist\n Walter Smith.";
+{Ryu, be always brave.{";
+{I will get my revenge!{";

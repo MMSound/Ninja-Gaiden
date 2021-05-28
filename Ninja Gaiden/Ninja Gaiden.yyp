@@ -181,6 +181,7 @@
     {"id":{"name":"sprAct2Sand4","path":"sprites/sprAct2Sand4/sprAct2Sand4.yy",},"order":5,},
     {"id":{"name":"sprIreneSidePortrait","path":"sprites/sprIreneSidePortrait/sprIreneSidePortrait.yy",},"order":0,},
     {"id":{"name":"sprSoundTestButton","path":"sprites/sprSoundTestButton/sprSoundTestButton.yy",},"order":19,},
+    {"id":{"name":"bgmMiniMacroSoundLogo","path":"sounds/bgmMiniMacroSoundLogo/bgmMiniMacroSoundLogo.yy",},"order":6,},
     {"id":{"name":"sprAct4Clouds2","path":"sprites/sprAct4Clouds2/sprAct4Clouds2.yy",},"order":7,},
     {"id":{"name":"sprX","path":"sprites/sprX/sprX.yy",},"order":9,},
     {"id":{"name":"bgmAct4Scene3","path":"sounds/bgmAct4Scene3/bgmAct4Scene3.yy",},"order":7,},
