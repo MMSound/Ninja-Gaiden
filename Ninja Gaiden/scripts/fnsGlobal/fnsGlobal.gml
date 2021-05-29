@@ -104,11 +104,15 @@ function set_act(_act, _scene)
 }
 
 /// @description transition to a room
-function room_transition(_room, _time)
+function room_transition(_room, _time, _doSpeedIn)
 {
 	if (is_undefined(_time))
 	{
 		_time = 2;
+	}
+	if (is_undefined(_doSpeedIn))
+	{
+		_doSpeedIn = false;
 	}
 	if (!instance_exists(objRoomTransition))
 	{
@@ -118,6 +122,7 @@ function room_transition(_room, _time)
 			_trans.roomTo = _room;
 		}
 		_trans.fadeTimer = _time;
+		_trans.manualSpeedIn = _doSpeedIn;
 	}
 	else
 	{

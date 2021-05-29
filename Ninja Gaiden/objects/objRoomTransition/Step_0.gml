@@ -70,7 +70,8 @@ switch (phase)
 		timer = 0;
 		break;
 	case 2:
-		if (timer % 2 == 0)
+		var _realTimer = manualSpeedIn ? _timer : 2;
+		if (timer % _realTimer == 0)
 		{
 			if (global.isShader)
 			{
