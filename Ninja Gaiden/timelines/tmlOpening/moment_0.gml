@@ -1,5 +1,5 @@
 /// @description Init
-backgrounds_set_visible(false, 0, 1, 2, 3, 10);
+backgrounds_set_visible(false, 0, 1, 2, 3, 10, 14, 15);
 backgrounds_set_xspeed(0.25, 6, 0.5, 7, 0.75, 8, 1, 9);
 drawBlackBars = false;
 nextRoom = rmTitleScreen;
@@ -16,4 +16,6 @@ nextRoom = rmTitleScreen;
 11 = moon
 12 = purple
 13 = black
+14 = wind lines back
+15 = wind lines front
 */

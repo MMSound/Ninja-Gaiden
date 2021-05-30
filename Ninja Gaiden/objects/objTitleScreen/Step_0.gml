@@ -149,6 +149,10 @@ switch (drawPhase)
 		{
 			drawText = !drawText;
 		}
+		if (blinkTimer >= 1500)
+		{
+			room_transition(rmOpening);
+		}
 		break;
 }
 
