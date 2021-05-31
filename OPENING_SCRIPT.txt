@@ -10,3 +10,47 @@ It said,\n{Ryu, I am on my way to\n a life or death duel.";
 {and go to America to\n see the archaeologist\n Walter Smith.";
 {Ryu, be always brave.{";
 {I will get my revenge!{";
+
+SPANISH
+
+{¿Quién retó a mi padre\n a un duelo, y cómo\n le ganó..? ¿Por qué razón\n mi padre aceptó? ¿Por qué\n razón luchó y murió?{";
+Incluso yo no lo sé\ncon certeza.";
+El día después de\nque desapareció, encontré\nuna carta en su cuarto\ndirigida a mí.";
+La carta decía,\n{Ryu, estoy en camino a\n a un duelo hasta la muerte.";
+{Si mi destino es no\n volver, tú debes\n tomar la espada Dragón\n del clan Hayabusa.";
+{y viajar a América para\n hablar con el arqueólogo\n Walter Smith.";
+{Se siempre valiente, Ryu.{";
+{¡Yo te vengaré!{";
+
+ITALIAN
+
+{Con chi ha combattuto\n mio padre..?\n Per quale ragione ha\n dovuto morire?{";
+Neppure io lo sapevo\nper certo.";
+Il giorno dopo la sua\nscomparsa, trovai una\nlettera nella sua stanza\nindirizzata a me.";
+Diceva,\n{Ryu, mi sto preparando\n per un duello tra la\n vita e la morte.";
+{Se non dovessi fare\n ritorno, devi prendere\n la spada del Drago\n del clan Hayabusa";
+{e andare in America per\n incontrare l'archeologo\n Walter Smith.";
+{Ryu, sii coraggioso.{";
+{Avrã la mia vendetta!{";
+
+ROMANIAN
+
+{Cu cine a avut tata\n duel și l-a pierdut...?\n Din ce motiv a luptat\n și a murit?{";
+Nici eu nu știu sigur.";
+O zi după ce a\ndispărut, am găsit\nun mesaj în camera sa\npentru mine.";
+Scria,\n{Ryu, sunt pe drum spre\n un duel pe viață și\n pe moarte.";
+{Dacă destinul meu este\n să nu mă întorc, trebuie\n să iei sabia Dragon a\n clanului Hayabusa";
+{și să pleci să-l\n întâlnești pe arheologul\n Walter Smith.";
+{Ryu, fii întotdeauna\n curajos.{";
+{O să-mi iau răzbunarea!{";
+
+FRENCH
+
+{Contre qui Père a-t-\n -il perdu un duel..?\n Pour quelle raison\n s'est-il battu à mort?{";
+Même moi je n'en suis\npas certain.";
+Le jour après sa\ndisparition, j'ai trouvé\nune lettre dans sa chambre\nqui m'était destinée.";
+J'y lisais,\n{Ryu, je suis en route\n pour un duel à mort.";
+{Si ma destinée est de ne\n pas en revenir, tu dois\n prendre l'épée Dragon du\n clan Hayabusa";
+{et aller en Amérique\n voir l'archéologue\n Walter Smith.";
+{Ryu, sois brave à\n jamais.{";
+{J'aurai ma vengeance!{";

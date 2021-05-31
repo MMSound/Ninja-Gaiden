@@ -1,8 +1,17 @@
 /// @description Init
-backgrounds_set_visible(false, 0, 1, 2, 3, 10, 14, 15);
+backgrounds_set_visible(false, 0, 1, 2, 3, 10, 14, 15, 16);
 backgrounds_set_xspeed(0.25, 6, 0.5, 7, 0.75, 8, 1, 9);
 drawBlackBars = false;
 nextRoom = rmTitleScreen;
+
+if (!global.soundtrackOption)
+{
+	music_play(bgmOpeningPart1);
+}
+else
+{
+	music_play(bgmOpeningPart1PCE);
+}
 
 /*
 0 = ryu angry
@@ -18,4 +27,5 @@ nextRoom = rmTitleScreen;
 13 = black
 14 = wind lines back
 15 = wind lines front
+16 = sword
 */

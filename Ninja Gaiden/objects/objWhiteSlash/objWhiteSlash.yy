@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cutscenes",
-    "path": "folders/Cutscenes.yy",
+    "name": "Effects",
+    "path": "folders/Effects.yy",
   },
   "resourceVersion": "1.0",
   "name": "objWhiteSlash",

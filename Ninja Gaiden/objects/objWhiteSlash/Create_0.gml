@@ -1,5 +1,5 @@
 /// @description Variables
-fadeTime = 5;
+fadeTime = 2;
 fadeTimer = 0;
 global.screenPalette = sprDeathFadePalette;
 drawWhite = false;

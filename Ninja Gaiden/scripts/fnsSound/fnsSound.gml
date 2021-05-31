@@ -67,6 +67,8 @@ function initialize_music()
 	global.musicID[bgmDeath] = [bgmDeath, 03.052, -1];
 	global.musicID[bgmOptionsMenu] = [bgmOptionsMenu, 34.136, 0];
 	global.musicID[bgmBossIntro] = [bgmBossIntro, 0.502, -1];
+	global.musicID[bgmOpeningPart1] = [bgmOpeningPart1, 19.701, -1];
+	global.musicID[bgmOpeningPart2] = [bgmOpeningPart2, 46.389, -1];
 	global.musicID[bgmCutscene1] = [bgmCutscene1, 25.416, -1];
 	global.musicID[bgmCutscene2] = [bgmCutscene2, 25.601, 21.338];
 	global.musicID[bgmCutscene3] = [bgmCutscene3, 08.001, 02.667];
@@ -100,6 +102,7 @@ function initialize_music()
 	global.musicID[bgmMalthFightPCE] = [bgmMalthFightPCE, 41.337, 02.659];
 	global.musicID[bgmMaskedDevilFightPCE] = [bgmMaskedDevilFightPCE, 35.203, 00.000];
 	global.musicID[bgmJashinFightPCE] = [bgmJashinFightPCE, 27.871, 11.654];
+	global.musicID[bgmOpeningPart1PCE] = [bgmOpeningPart1PCE, 19.812, -1];
 	global.musicID[bgmCutscene1PCE] = [bgmCutscene1PCE, 22.001, -1];
 	global.musicID[bgmCutscene2PCE] = [bgmCutscene2PCE, 33.605, 04.787];
 	global.musicID[bgmCutscene3PCE] = [bgmCutscene3PCE, 10.668, 00.000];
@@ -384,6 +387,15 @@ function music_get_alt(_song)
 		case bgmCutscene11PCE:
 			return bgmCutscene11;
 			break;
+			
+		case bgmOpeningPart1:
+			return bgmOpeningPart1PCE;
+			break;
+		case bgmOpeningPart1PCE:
+			return bgmOpeningPart1;
+			break;
+		
+		//opening part 2
 
 		default:
 			return false;
@@ -394,6 +406,8 @@ function music_get_alt(_song)
 function soundtest_initialize()
 {
 	var i = 0;
+	soundTest[i] = [bgmOpeningPart1, "The Duel"];
+	soundTest[i++] = [bgmOpeningPart2, "Vow of Revenge"];
 	soundTest[i++] = [bgmAct1Scene1, "Pushing Onward"];
 	soundTest[i++] = [bgmBossFight, "Battlefield I"];
 	soundTest[i++] = [bgmCutscene1, "Veil of Uncertainty"];

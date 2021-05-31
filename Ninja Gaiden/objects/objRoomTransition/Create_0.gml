@@ -13,3 +13,9 @@ if (global.currentLives == 0 && global.deathRespawn)
 }
 
 drawAlpha = 0.0;
+
+//sfx exceptions
+if (audio_is_playing(sfxNinjaRun))
+{
+	audio_stop_sound(sfxNinjaRun);
+}
