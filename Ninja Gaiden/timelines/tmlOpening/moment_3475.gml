@@ -1,2 +1,5 @@
 /// @description Start text
-textbox_create(myText[5][global.cutsceneLanguage]);
+if (global.cutsceneLanguage != JPN)
+{
+	textbox_create(myText[5][global.cutsceneLanguage]);
+}

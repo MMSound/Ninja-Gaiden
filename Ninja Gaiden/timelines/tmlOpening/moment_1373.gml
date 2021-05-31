@@ -4,4 +4,7 @@ backgrounds_set_visible(true, 2, 3);
 backgrounds_set_xspeed(0, 2, 0, 3);
 drawBlackBars = true;
 
-music_play(bgmOpeningPart2);
+if (!global.soundtrackOption)
+{
+	music_play(bgmOpeningPart2);
+}

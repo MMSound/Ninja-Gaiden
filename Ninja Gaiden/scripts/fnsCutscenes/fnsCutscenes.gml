@@ -76,10 +76,6 @@ function japanese_textbox(_line, _x, _y)
 	{
 		_y = 147;
 	}	
-	if (is_undefined(_speed))
-	{
-		_speed = 3;
-	}
 	if (global.cutsceneLanguage == JPN)
 	{
 		textbox_create(myText[_line][420], _x, _y);

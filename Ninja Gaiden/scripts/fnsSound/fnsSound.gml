@@ -103,6 +103,7 @@ function initialize_music()
 	global.musicID[bgmMaskedDevilFightPCE] = [bgmMaskedDevilFightPCE, 35.203, 00.000];
 	global.musicID[bgmJashinFightPCE] = [bgmJashinFightPCE, 27.871, 11.654];
 	global.musicID[bgmOpeningPart1PCE] = [bgmOpeningPart1PCE, 19.812, -1];
+	global.musicID[bgmOpeningPart2PCE] = [bgmOpeningPart2PCE, 43.526, -1];
 	global.musicID[bgmCutscene1PCE] = [bgmCutscene1PCE, 22.001, -1];
 	global.musicID[bgmCutscene2PCE] = [bgmCutscene2PCE, 33.605, 04.787];
 	global.musicID[bgmCutscene3PCE] = [bgmCutscene3PCE, 10.668, 00.000];
@@ -395,7 +396,12 @@ function music_get_alt(_song)
 			return bgmOpeningPart1;
 			break;
 		
-		//opening part 2
+		case bgmOpeningPart2:
+			return bgmOpeningPart2PCE;
+			break;
+		case bgmOpeningPart2PCE:
+			return bgmOpeningPart2;
+			break;
 
 		default:
 			return false;
@@ -406,7 +412,7 @@ function music_get_alt(_song)
 function soundtest_initialize()
 {
 	var i = 0;
-	soundTest[i] = [bgmOpeningPart1, "The Duel"];
+	soundTest[i++] = [bgmOpeningPart1, "The Duel"];
 	soundTest[i++] = [bgmOpeningPart2, "Vow of Revenge"];
 	soundTest[i++] = [bgmAct1Scene1, "Pushing Onward"];
 	soundTest[i++] = [bgmBossFight, "Battlefield I"];

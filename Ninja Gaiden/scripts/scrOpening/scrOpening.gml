@@ -10,7 +10,14 @@ function script_opening()
 	myText[6][ENG] = "{Ryu, be always brave.{";
 	myText[7][ENG] = "{I will get my revenge!{";
 	
-	//japanese
+	myText[0][JPN] = "父さんは 何者かと決闘し、やふれたという…\n何のために闘い、そして死んたのか、";
+	myText[1][JPN] = "おれには わからなかった…。";
+	myText[2][JPN] = "父さんか死んた霊日、おれは父さんのへやて\nおれへの てかみをみつけた。";
+	myText[3][JPN] = "「リュウ、父さんはこれから決闘に行く。\n もし父さんか帰らぬ時は、";
+	myText[4][JPN] = "「わか ハヤフサ家に伝わる龍の剣をもち、アメリカの\n 考古学者、ウォルター.スミスをたすねるかいい。";
+	myText[5][JPN] = "";
+	myText[6][JPN] = "「つよく生きるのた、リュウ。」";
+	myText[7][JPN] = "「かたきは かならす うってみせる!」";
 	
 	myText[0][ESP] = "{¿Quién retó a mi padre\n a un duelo, y cómo\n le ganó..? ¿Por qué razón\n mi padre aceptó? ¿Por qué\n razón luchó y murió?{";
 	myText[1][ESP] = "Incluso yo no lo sé\ncon certeza.";
@@ -47,4 +54,13 @@ function script_opening()
 	myText[5][FRE] = "{et aller en Amérique\n voir l'archéologue\n Walter Smith.";
 	myText[6][FRE] = "{Ryu, sois brave à\n jamais.{";
 	myText[7][FRE] = "{J'aurai ma vengeance!{";
+	
+	myText[0][420] = "              {      \n             {";
+	myText[1][420] = "";
+	myText[2][420] = "   {  {            {\n      {";
+	myText[3][420] = "                   \n      {";
+	myText[4][420] = "  {   {                  \n                 {  {";
+	myText[5][420] = "";
+	myText[6][420] = "       {";
+	myText[7][420] = "         {";
 }
