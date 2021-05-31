@@ -48,8 +48,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Testing & Internal",
+    "path": "folders/Rooms/Testing & Internal.yy",
   },
   "resourceVersion": "1.0",
   "name": "rmCutsceneTemplate",

@@ -235,7 +235,9 @@ function distance_above_solid(_distance)
 {
 	for (var i = _distance; i > 0; i--)
 	{
-		if (collision_line(x, y, x, (y + i), prtSolidCollision, false, true) || collision_line(x, y, x, (y + i), objTopSolid, false, true))
+		var _solid = collision_line(x, y, x, (y + i), prtSolidCollision, false, true);
+		var _topSolid = collision_line(x, y, x, (y + i), objTopSolid, false, true);
+		if (_solid || (_topSolid && !place_meeting(x, y, _topSolid)))
 		{
 			return true;
 			i = 0;

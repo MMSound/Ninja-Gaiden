@@ -123,7 +123,7 @@ function script_cutscene_6()
 	myText[26][ITA] = "{Usi questa e vada\n al loro quartier generale.\n Si riprenda la\n statua demoniaca.";
 	myText[27][ITA] = "{Ovviamente, sarà\n pagato per il lavoro.{";
 	myText[28][ITA] = "{E se mi rifiutassi?{";
-	myText[29][ITA] = "{Consoce già la\n risposta.{";
+	myText[29][ITA] = "{Conosce già la\n risposta.{";
 	
 	myText[0][ROM] = "{Bine ați venit,\n Ryu Hayabusa.\n Scuze dacă te-am\n speriat.{";
 	myText[1][ROM] = "{Suntem de la CIA\n unitatea Specială\n Auxiliară. Numele\n meu este Foster.{";
