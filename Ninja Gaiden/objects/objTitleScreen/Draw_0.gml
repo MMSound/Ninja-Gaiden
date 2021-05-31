@@ -15,7 +15,6 @@ switch (drawPhase)
 		draw_text(144, 208, "1989-2021");
 		//draw_text(120, 224, "2021 MINIMACRO SOUND");
 		draw_sprite(sprAsInterpretedByMiniMacroSound, 0, 200, 104);
-		draw_text(0, 232, "DEMO ACT 6 BOSS");
 		if (drawText)
 		{
 			draw_text(156, 128, "PRESS START");

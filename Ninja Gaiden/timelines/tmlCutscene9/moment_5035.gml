@@ -1,2 +1,2 @@
 /// @description Create the fadeout
-room_transition(nextRoom, 13);
+room_transition(rmActCardV, 13);

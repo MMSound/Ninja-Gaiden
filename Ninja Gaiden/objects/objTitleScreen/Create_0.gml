@@ -2,7 +2,7 @@
 blinkTimer = 0;
 drawText = true;
 
-currentDemoLevel = rmAct6Scene1;
+currentDemoLevel = rmActCardI; //make sure to make this go to the act card when we finish the title screen
 currentCutscene = rmCutscene14;
 
 playedSFX = false;
@@ -16,7 +16,7 @@ logoColorIndex = 6;
 isLevelSelect = false;
 selectedLevel = 0;
 
-levelSelect[0] = rmAct1Scene1;
+levelSelect[0] = rmActCardI;
 levelSelect[1] = rmAct2Scene1;
 levelSelect[2] = rmAct2Scene2;
 levelSelect[3] = rmAct3Scene1;

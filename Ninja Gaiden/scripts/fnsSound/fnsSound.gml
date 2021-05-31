@@ -44,6 +44,7 @@ function initialize_music()
 	
 	//music table
 	global.musicID[bgmMiniMacroSoundLogo] = [bgmMiniMacroSoundLogo, 03.104, -1];
+	global.musicID[bgmActCard] = [bgmActCard, 02.619, -1];
 	
 	global.musicID[bgmAct1Scene1] = [bgmAct1Scene1, 76.809, 44.803];
 	global.musicID[bgmAct2Scene1] = [bgmAct2Scene1, 43.205, 04.787];
@@ -444,6 +445,7 @@ function soundtest_initialize()
 	soundTest[i++] = [bgmMaskedDevilFight, "Devilish Influence"];
 	soundTest[i++] = [bgmJaquioBattle, "The Menace Part I"];
 	soundTest[i++] = [bgmJashinFight, "The Menace Part II"];
+	soundTest[i++] = [bgmActCard, "Eyecatch"];
 	soundTest[i++] = [bgmBossIntro, "Twist of Fate"];
 	soundTest[i++] = [bgmOptionsMenu, "Options Menu"];
 	soundTest[i++] = [bgmCutsceneJingle1, "Surprised!"];
