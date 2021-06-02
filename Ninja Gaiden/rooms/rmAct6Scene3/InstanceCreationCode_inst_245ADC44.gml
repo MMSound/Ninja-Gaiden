@@ -1,1 +1,1 @@
-nextRoom = rmAct6Segue1;
+nextRoom = rmCutscene12;
