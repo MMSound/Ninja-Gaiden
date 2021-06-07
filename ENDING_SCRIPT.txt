@@ -1,0 +1,31 @@
+INFO: Max 26 characters per line (try to keep it to this if you can, I can have more if absolutely necessary though)
+INFO: Max 4 lines per screen
+INFO: Use { instead of "
+
+ADD EXTRA LINES IF YOU NEED TO
+
+{Wake up, father.\n Wake up.{";
+{Ryu... I don't have\n much longer... This\n temple is about to\n break apart.";
+{Take the girl and\n escape.{";
+{What are you saying,\n father?!\n I can't just leave you!{";
+{Ryu, you are a man now.\n My destiny is tied to\n the statues.";
+{Ryu, be always brave.{";
+{Father! Father!{";
+{Father!!{";
+{Ryu...{";
+{This is Sea Swallow.{";
+{This is Foster.\n We detected the\n explosion from the\n satellite.";
+{Job well done. You are\n to kill Ryu Hayabusa.{";
+{What? Kill Ryu?!{";
+{That's right.\n Then take the\n demon statues.{";
+{So this was your plan\n all along...\n I'll get you yet,\n Foster!{";
+{Ryu, you...{";
+{I get two kinds of\n payment.\n The first I have\n already received.";
+{The second... is you,\n Foster!{";
+{Ryu, wait...{";
+{Ryu, what is the\n payment you have\n already received?{";
+{She's right in front\n of me.{";
+{I don't even know your\n name.{";
+{Irene. Irene Lew.{";
+{Well, Irene.\n The sun is rising.\n Everything is bright\n now.";
+{The darkness is\n finally over.{";
