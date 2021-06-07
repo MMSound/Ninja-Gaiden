@@ -3,7 +3,7 @@ blinkTimer = 0;
 drawText = true;
 
 currentDemoLevel = rmActCardI; //make sure to make this go to the act card when we finish the title screen
-currentCutscene = rmCutscene14;
+currentCutscene = rmEnding;
 
 playedSFX = false;
 
@@ -53,5 +53,6 @@ cutsceneSelect[10] = rmCutscene11;
 cutsceneSelect[11] = rmCutscene12;
 cutsceneSelect[12] = rmCutscene13;
 cutsceneSelect[13] = rmCutscene14;
+cutsceneSelect[14] = rmEnding;
 
 global.uiColorIndex = 4;

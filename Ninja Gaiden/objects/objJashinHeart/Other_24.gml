@@ -19,6 +19,8 @@ bodyFrame = 2;
 switchSidesCounter = 0;
 mySolid = noone;
 
+nextRoom = rmEnding;
+
 play_sfx(sfxJashinRoar, false, 24);
 
 //switch sides
