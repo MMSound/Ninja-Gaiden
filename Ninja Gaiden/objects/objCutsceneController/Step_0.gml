@@ -1,7 +1,10 @@
 /// @description Skipping
 if (global.inputPausePressed || global.inputJumpPressed)
 {
-	room_transition(nextRoom);
+	if (nextRoom != -1)
+	{
+		room_transition(nextRoom);
+	}
 }
 
 //setting the section

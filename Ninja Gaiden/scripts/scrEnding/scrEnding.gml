@@ -1,7 +1,9 @@
 //this script contains the ending's script
 //put that here
 
-//extra functions (for later reference)
+//extra functions
+
+/// @description small explosions
 function small_explosions()
 {
 	var _gen = instance_create_depth((global.viewX + 234), (global.viewY + 68), depth, objExplosionGenerator);
@@ -10,6 +12,7 @@ function small_explosions()
 		_gen.explosionNumber = 6;	
 }
 
+/// @description large explosions
 function large_explosions()
 {
 	var _gen = instance_create_depth((global.viewX + 234), (global.viewY + 68), depth, objExplosionGenerator);
@@ -20,6 +23,7 @@ function large_explosions()
 		_gen.explosionInterval = 5;	
 }
 
+/// @description kill explosions
 function kill_explosions()
 {
 	if (instance_exists(objExplosionGenerator))

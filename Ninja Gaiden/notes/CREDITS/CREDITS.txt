@@ -1,6 +1,6 @@
 CREDITS LIST for later reference:
 
-NINJA GAIDEN PLUS STAFF
+STAFF
 
 DIRECTOR
 MiniMacro Sound
@@ -8,16 +8,12 @@ MiniMacro Sound
 MUSIC ARRANGEMENT AND COMPOSITION
 MiniMacro Sound
 
-ORIGINAL MUSIC COMPOSITION - NES
-Keiji Yamagishi
-Ryuichi Nitta
-Ichiro Nakagawa
-
-ORIGINAL MUSIC COMPOSITION - PC ENGINE
-Makiko Tanifuji
-
-ORIGINAL MUSIC COMPOSITION - MASTER SYSTEM
-Takashi Horiguchi
+ORIGINAL MUSIC COMPOSITION
+Keiji Yamagishi - NES
+Ryuichi Nitta - NES
+Ichiro Nakagawa - NES
+Makiko Tanifuji - PC ENGINE
+Takashi Horiguchi - MASTER SYSTEM
 
 SOUND DESIGN
 MiniMacro Sound

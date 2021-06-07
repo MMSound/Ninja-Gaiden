@@ -48,3 +48,16 @@ function backgrounds_set_xspeed()
 		}
 	}
 }
+
+//syntax for this is depth, background, depth, background, etc.
+function backgrounds_set_depth()
+{
+	for (var i = 1; i < argument_count; i += 2)
+	{
+		var _layerID = layer_get_id(myBackgrounds[argument[i]]);
+		if (layer_exists(_layerID))
+		{
+			layer_depth(_layerID, argument[i - 1]);
+		}
+	}
+}

@@ -1,0 +1,45 @@
+this is a list of the sequences used for the staff roll - each individual credit segment should take 6.25 seconds
+
+- ryu reading letter, comes in from right
+
+director
+
+- irene close up, comes in from left
+
+music arrangement and composition
+sound design
+
+- sword, comes in from bottom
+
+original music composition
+
+- walter, comes in from right
+
+programming
+programming assistance
+
+- jaquio, comes in from top
+
+pixel art - custom and edited
+art assistance (first 3)
+art assistance (last 2)
+
+- ryu kneeling with statue, comes in from left
+
+game design
+primary testing and assistance
+
+- ryu angry, comes in from right
+
+beta testing (first 3)
+beta testing (last 3)
+
+- malth, comes in from bottom
+
+cutscene translation
+
+- irene and ryu, comes in from right
+
+creative consulting
+financing
+special thanks
