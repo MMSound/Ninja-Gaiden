@@ -1,4 +1,4 @@
-this is a list of the sequences used for the staff roll - each individual credit segment should take 6.25 seconds
+this is a list of the sequences used for the staff roll - each individual credit segment should take 6.3 seconds (378 frames)
 
 - ryu reading letter, comes in from right
 
@@ -7,11 +7,10 @@ director
 - irene close up, comes in from left
 
 music arrangement and composition
-sound design
 
 - sword, comes in from bottom
 
-original music composition
+sound design
 
 - walter, comes in from right
 

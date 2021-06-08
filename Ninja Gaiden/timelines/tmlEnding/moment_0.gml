@@ -3,6 +3,15 @@ backgrounds_set_visible(false, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 backgrounds_set_visible(true, 0, 16);
 nextRoom = -1;
 
+if (!global.soundtrackOption)
+{
+	music_play(bgmEndingPart1);
+}
+else
+{
+	music_play(bgmEndingPart1PCE);
+}
+
 /*
 0 = ryu hold ken
 1 = ryu surprised

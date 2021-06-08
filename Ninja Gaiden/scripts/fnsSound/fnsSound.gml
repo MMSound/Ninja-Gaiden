@@ -81,6 +81,9 @@ function initialize_music()
 	global.musicID[bgmCutscene9Part2] = [bgmCutscene9Part2, 22.803, 00.000];
 	global.musicID[bgmCutscene10] = [bgmCutscene10, 33.695, -1];
 	global.musicID[bgmCutscene11] = [bgmCutscene11, 27.203, -1];
+	global.musicID[bgmEndingPart1] = [bgmEndingPart1, 43.251, -1];
+	global.musicID[bgmEndingPart2] = [bgmEndingPart2, 36.405, 02.796];
+	global.musicID[bgmEndingPart3] = [bgmEndingPart3, 53.343, -1];
 	global.musicID[bgmCutsceneJingle1] = [bgmCutsceneJingle1, 03.386, -1];
 	global.musicID[bgmCutsceneJingle2] = [bgmCutsceneJingle2, 01.533, -1];
 	global.musicID[bgmCutsceneJingle3] = [bgmCutsceneJingle3, 02.372, -1];
@@ -116,6 +119,8 @@ function initialize_music()
 	global.musicID[bgmCutscene9Part2PCE] = [bgmCutscene9Part2PCE, 32.003, 15.998];
 	global.musicID[bgmCutscene10PCE] = [bgmCutscene10PCE, 12.801, 04.262];
 	global.musicID[bgmCutscene11PCE] = [bgmCutscene11PCE, 27.185, -1];
+	global.musicID[bgmEndingPart1PCE] = [bgmEndingPart1PCE, 44.314, -1];
+	global.musicID[bgmEndingPart2PCE] = [bgmEndingPart2PCE, 76.806, 28.804];
 	
 	global.musicID[sfxHelicopter] = [sfxHelicopter, 04.000, 00.000];
 }
@@ -403,6 +408,20 @@ function music_get_alt(_song)
 		case bgmOpeningPart2PCE:
 			return bgmOpeningPart2;
 			break;
+			
+		case bgmEndingPart1:
+			return bgmEndingPart1PCE;
+			break;
+		case bgmEndingPart1PCE:
+			return bgmEndingPart1;
+			break;
+			
+		case bgmEndingPart2:
+			return bgmEndingPart2PCE;
+			break;
+		case bgmEndingPart2PCE:
+			return bgmEndingPart2;
+			break;
 
 		default:
 			return false;
@@ -445,6 +464,9 @@ function soundtest_initialize()
 	soundTest[i++] = [bgmMaskedDevilFight, "Devilish Influence"];
 	soundTest[i++] = [bgmJaquioBattle, "The Menace Part I"];
 	soundTest[i++] = [bgmJashinFight, "The Menace Part II"];
+	soundTest[i++] = [bgmEndingPart1, "A Hero's End"];
+	soundTest[i++] = [bgmEndingPart2, "It's Over"];
+	soundTest[i++] = [bgmEndingPart3, "For Your Love"];
 	soundTest[i++] = [bgmActCard, "Eyecatch"];
 	soundTest[i++] = [bgmBossIntro, "Twist of Fate"];
 	soundTest[i++] = [bgmOptionsMenu, "Options Menu"];
