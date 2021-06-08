@@ -690,6 +690,7 @@
     {"id":{"name":"objMaskedDevilShell","path":"objects/objMaskedDevilShell/objMaskedDevilShell.yy",},"order":3,},
     {"id":{"name":"sprIreneHandLarge","path":"sprites/sprIreneHandLarge/sprIreneHandLarge.yy",},"order":27,},
     {"id":{"name":"sprBomberheadSickle","path":"sprites/sprBomberheadSickle/sprBomberheadSickle.yy",},"order":2,},
+    {"id":{"name":"sfxCommDevice","path":"sounds/sfxCommDevice/sfxCommDevice.yy",},"order":39,},
     {"id":{"name":"sprSoundTestProgressBarMiddle","path":"sprites/sprSoundTestProgressBarMiddle/sprSoundTestProgressBarMiddle.yy",},"order":21,},
     {"id":{"name":"sprAct1Buildings","path":"sprites/sprAct1Buildings/sprAct1Buildings.yy",},"order":4,},
     {"id":{"name":"sprFlameWheel","path":"sprites/sprFlameWheel/sprFlameWheel.yy",},"order":3,},

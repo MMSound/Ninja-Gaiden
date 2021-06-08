@@ -4,28 +4,140 @@ INFO: Use { instead of "
 
 ADD EXTRA LINES IF YOU NEED TO
 
-{Wake up, father.\n Wake up.{";
-{Ryu... I don't have\n much longer... This\n temple is about to\n break apart.";
-{Take the girl and\n escape.{";
-{What are you saying,\n father?!\n I can't just leave you!{";
-{Ryu, you are a man now.\n My destiny is tied to\n the statues.";
-{Ryu, be always brave.{";
-{Father! Father!{";
-{Father!!{";
+{Wake up, father.\n Wake up.{{;
+{Ryu... I don't have\n much longer... This\n temple is about to\n break apart.{;
+{Take the girl and\n escape.{{;
+{What are you saying,\n father?!\n I can't just leave you!{{;
+{Ryu, you are a man now.\n My destiny is tied to\n the statues.{;
+{Ryu, be always brave.{{;
+{Father! Father!{{;
+{Father!!{{;
+{Ryu...{{;
+{This is Sea Swallow.{{;
+{This is Foster.\n We detected the\n explosion from the\n satellite.{;
+{Job well done. You are\n to kill Ryu Hayabusa.{{;
+{What? Kill Ryu?!{{;
+{That's right.\n Then take the\n demon statues.{{;
+{So this was your plan\n all along...\n I'll get you yet,\n Foster!{{;
+{Ryu, you...{{;
+{I get two kinds of\n payment.\n The first I have\n already received.{;
+{The second... is you,\n Foster!{{;
+{Ryu, wait...{{;
+{Ryu, what is the\n payment you have\n already received?{{;
+{She's right in front\n of me.{{;
+{I don't even know your\n name.{{;
+{Irene. Irene Lew.{{;
+{Well, Irene.\n The sun is rising.\n Everything is bright\n now.{;
+{The darkness is\n finally over.{{;
+
+SPANISH
+
+{Despierta, padre.\n Despierta.{{;
+{Ryu... No me queda\n mucho tiempo... Este\n templo esta a punto\n de colapsar.{;
+{Toma a la chica y\n escapa.{{;
+{¡¿Qué estas diciendo,\n padre?!\n ¡Me rehúso a dejarte!{{;
+{Tú ya eres un hombre, Ryu.\n Mi destino esta atado a\n las estatuas.{;
+{Se siempre valiente, Ryu.{{;
+{¡Padre! ¡Padre!{{;
+{¡¡Padre!!{{;
+{Ryu...{{;
+{Dragón Azul aquí.{{;
+{Soy Foster.\n Detectamos la explosión\n desde el satélite.{;
+{Bien hecho. Tu\n siguiente misión es\n asesinar a\n Ryu Hayabusa.{{;
+{¿Qué? ¿¡Asesinar a Ryu?!{{;
+{Correcto.\n Luego, toma las\n estatuas demoniacas.{{;
+{Así que este fue tu\n plan todo este tiempo...\n ¡Pagaras por\n esto, Foster!{{;
+{Ryu...{{;
+{Y el primer pago\n ya lo he recibido.{;
+{El segundo pago...\n ¡Es tu vida, Foster!{{;
+{Ryu, espera...{{;
+{Ryu, ¿a qué te\n refieres con\n {primer pago{?{{;
+{El primer pago... esta\n en frente de mí.{{;
+{Yo ni conozco tú nombre.{{;
+{Irene. Irene Lew.{{;
+{Bien, Irene.\n Ya es un nuevo día.\n Un día brillante y\n lleno de esperanza.{;
+{La oscuridad\n finalmente se\n ha acabado.{{;
+
+ITALIAN
+
+{Svegliati, padre.\n Padre.{";
+{Ryu... Non ho molto\n tempo... Il tempio\n sta per\n collassare.";
+{Prendi la ragazza\n e fuggi.{";
+{Cosa stai dicendo,\n padre?!\n Non posso lasciarti!{";
+{Ryu, sei un uomo adesso.\n Il mio destino è legato\n alle statue.";
+{Ryu, sii coraggioso.{";
+{Padre! Padre!{";
+{Padre!!{";
 {Ryu...{";
-{This is Sea Swallow.{";
-{This is Foster.\n We detected the\n explosion from the\n satellite.";
-{Job well done. You are\n to kill Ryu Hayabusa.{";
-{What? Kill Ryu?!{";
-{That's right.\n Then take the\n demon statues.{";
-{So this was your plan\n all along...\n I'll get you yet,\n Foster!{";
-{Ryu, you...{";
-{I get two kinds of\n payment.\n The first I have\n already received.";
-{The second... is you,\n Foster!{";
-{Ryu, wait...{";
-{Ryu, what is the\n payment you have\n already received?{";
-{She's right in front\n of me.{";
-{I don't even know your\n name.{";
+{Questa è Rondine\n Marina.{";
+{Qui è Foster.\n Abbiamo percepito\n l'esplosione dal\n satellite.";
+{Ottimo lavoro. Uccidi\n pure Ryu Hayabusa.{";
+{Cosa? Uccidere Ryu?!{";
+{Esatto.\n Poi recupera le\n due statue.{";
+{Quindi era questo il\n vostro piano...\n Ti prenderò,\n Foster!{";
+{Ryu, tu...{";
+{Avrò due tipi di\n pagamento.\n Il primo lo ho appena\n ricevuto.";
+{Il secondo... sei tu,\n Foster!{";
+{Ryu, aspetta...{";
+{Ryu, quale sarebbe\n il pagamento che hai\n appena ricevuto?{";
+{È proprio di fronte a\n me.{";
+{Non conosco nemmeno il\n tuo nome.{";
 {Irene. Irene Lew.{";
-{Well, Irene.\n The sun is rising.\n Everything is bright\n now.";
-{The darkness is\n finally over.{";
+{Beh, Irene.\n Il sole sorge.\n Tutto è così chiaro\n adesso.";
+{L'oscurità è finalmente\n finita.{";
+
+ROMANIAN
+
+{Trezește-te, tată.\n Trezește-te.";
+{Ryu... Nu mai\n am mult... Templul\n o să se dărâme.";
+{Ia fata și\n scapă.";
+{Ce vrei să spui\n tată?!\n Nu pot să te părăsesc!{";
+{Ryu, ești un bărbat\n acum. Destinul meu este\n legat de statui.{";
+{Ryu, fii întotdeauna\n curajos.{";
+{Tată! Tată!{";
+{Tată!{";
+{Ryu...{";
+{Aici e Rândunica de Mare.{";
+{Aici e Foster. Am detectat\n explozia din satellite.";
+{Treabă bine făcută. Poți\n să-l ucizi pe\n Ryu Hayabusa.{";
+{Poftim? Să-l ucid pe Ryu?!{";
+{Corect. După care\n iei statuile\n demon.{";
+{Deci asta ți-a fost\n planul tot acest timp...\n Te voi prinde,\n Foster!{";
+{Ryu, tu...{";
+{Primesc două tipuri\n de plăți.\n Primul l-am și\n primit.";
+{Al doilea... ești tu,\n Foster!{";
+{Ryu, așteaptă...{";
+{Ryu, ce este plata\n pe care ai\n primit-o?{";
+{Este chiar in\n fața mea.{";
+{Nici nu-ți știu\n numele.{";
+{Irene. Irene Lew.{";
+{Atunci, Irene.\n Soarele răsește.\n Totul este luminos.";
+{Întunericul s-a\n oprit în sfârșit.{";
+
+FRENCH
+
+{Réveille-toi, père.\n Réveille-toi.{";
+{Ryu... Je n'en ai plus\n pour longtemps... Le\n temple est sur le point\n de s'effondrer.";
+{Prends la fille avec\n toi et échappez-vous.{";
+{Qu'est ce que tu dis,\n père?!\n Je ne peux pas juste\n t'abandonner ici!{";
+{Ryu, tu es un homme\n maintenant. Mon destin\n est fatalement lié aux\n statues.";
+{Ryu, sois brave à\n jamais.{";
+{Père! Père!{";
+{Papa!!{";
+{Ryu...{";
+{Ici Goélette.{";
+{Ici Foster. Nous\n avons détecté\n l'explosion depuis\n le satellite.";
+{Mission accomplie. Vous\n devez maintenant\n éliminer\n Ryu Hayabusa.{";
+{Quoi? Tuer Ryu?!{";
+{C'est exact.\n Et récupérer les\n statues démoniaques.{";
+{C'était donc ton plan\n depuis le début...\n Je t'aurai, Foster!{";
+{Ryu, tu...{";
+{J'ai droit à deux\n salaires. J'ai déjà\n reçu le premier.{";
+{Le deuxième...c'est\n toi, Foster!{";
+{Ryu, attends...{";
+{Ryu, qu'est ce que\n le salaire que tu\n as déjà reçu ?{";
+{Elle est droit devant\n moi.{";
+{Je ne connais même pas\n ton nom.{";
+{Irene. Irene Lew.{";
+{Bien, Irene. Le soleil\n se lève. Tout s'éclair-\n -cit à nouveau.{";
+{La pénombre\n a enfin disparu.{";

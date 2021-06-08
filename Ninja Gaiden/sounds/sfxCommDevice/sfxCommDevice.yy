@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfxStatuesCombine.wav",
-  "duration": 38.572052,
+  "soundFile": "sfxCommDevice.wav",
+  "duration": 1.118469,
   "parent": {
     "name": "SFX",
     "path": "folders/SFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sfxStatuesCombine",
+  "name": "sfxCommDevice",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -513,6 +513,12 @@
     {"compositeImage":{"FrameId":{"name":"1e6435af-965d-40d7-9f87-b8d39914445d","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"1e6435af-965d-40d7-9f87-b8d39914445d","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"LayerId":{"name":"fdc517cd-5536-4271-988e-2e32c4e8e821","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sprFontJapanese","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","name":"1e6435af-965d-40d7-9f87-b8d39914445d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6b731d93-63f7-4280-890c-8d361fc0c8df","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6b731d93-63f7-4280-890c-8d361fc0c8df","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"LayerId":{"name":"fdc517cd-5536-4271-988e-2e32c4e8e821","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprFontJapanese","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","name":"6b731d93-63f7-4280-890c-8d361fc0c8df","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"316507db-1aaf-4eb6-8f72-a59aa97cfe22","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"316507db-1aaf-4eb6-8f72-a59aa97cfe22","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"LayerId":{"name":"fdc517cd-5536-4271-988e-2e32c4e8e821","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprFontJapanese","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","name":"316507db-1aaf-4eb6-8f72-a59aa97cfe22","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprFontJapanese","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},
@@ -522,7 +528,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 163.0,
+    "length": 165.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -690,6 +696,8 @@
             {"id":"0518dcd3-e139-44fd-94a2-f22e6e8dc4ae","Key":160.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"811be3b4-bedb-4ece-a751-82817c8b73d6","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b28cf732-7f1a-402d-b644-f29a1620f02a","Key":161.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f0c38f95-d498-48f1-891b-d0aaebb1e858","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"876a3019-fda6-4e78-ba02-26801e889dca","Key":162.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e6435af-965d-40d7-9f87-b8d39914445d","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"26ec1f53-54fb-45cb-b0b4-b2511d31efe9","Key":163.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b731d93-63f7-4280-890c-8d361fc0c8df","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2fa7e46e-60bc-4687-90f0-4ddba3024844","Key":164.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"316507db-1aaf-4eb6-8f72-a59aa97cfe22","path":"sprites/sprFontJapanese/sprFontJapanese.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
