@@ -88,7 +88,7 @@ function script_ending()
 	myText[6][ITA] = "{Padre! Padre!{";
 	myText[7][ITA] = "{Padre!!{";
 	myText[8][ITA] = "{Ryu...{";
-	myText[9][ITA] = "{Questa è Rondine\n Marina.{";
+	myText[9][ITA] = "{Qui è Rondine\n Marina.{";
 	myText[10][ITA] = "{Qui è Foster.\n Abbiamo percepito\n l'esplosione dal\n satellite.";
 	myText[11][ITA] = "{Ottimo lavoro. Uccidi\n pure Ryu Hayabusa.{";
 	myText[12][ITA] = "{Cosa? Uccidere Ryu?!{";

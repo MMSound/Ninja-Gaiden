@@ -8,13 +8,6 @@ MiniMacro Sound
 MUSIC ARRANGEMENT AND COMPOSITION
 MiniMacro Sound
 
-ORIGINAL MUSIC COMPOSITION
-Keiji Yamagishi - NES
-Ryuichi Nitta - NES
-Ichiro Nakagawa - NES
-Makiko Tanifuji - PC ENGINE
-Takashi Horiguchi - MASTER SYSTEM
-
 SOUND DESIGN
 MiniMacro Sound
 
@@ -27,13 +20,7 @@ Patwick
 Bucket
 GMLscripts.com
 
-BACKGROUND ART
-MiniMacro Sound
-
-CHARACTER ART - CUSTOM AND EDITED
-MiniMacro Sound
-
-CUTSCENE ART - CUSTOM AND EDITED
+PIXEL ART - CUSTOM AND EDITED
 MiniMacro Sound
 
 ART ASSISTANCE
@@ -74,47 +61,54 @@ Ultra Healthy Video Game Nerd
 MisterMike
 RRThiel
 
-ORIGINAL NINJA GAIDEN STAFF
-
-STORY
-Hideo Yoshizawa
-
-SCREENPLAY
-Hideo Yoshizawa
-Faw
-
-IMAGE ILLUSTRATION
-Masato Kato
-
-ARTWORK
-Masato Kato
-Harumi Okada
-Uma
-M. Akama
-Tagou
-K. Niwakamaru
-
-PROGRAMMING
-Madoka Southernami
-Masita
-
-ASSISTANCE
-H. Sato
-
-ENGLISH TRANSLATION
-Kevin
-Daniel Kahl
-
-SOUND DESIGN
-Keiji Yamagishi
-Ryuichi Nitta
-Ichiro Nakagawa
-
-DIRECTOR
-Hideo Yoshizawa
-
-"NINJA GAIDEN" COPYRIGHT MCMLXXXIX-MMXXI TECMO
-INTERPRETED BY MINIMACRO SOUND MMXXI
+"ORIGINAL NINJA GAIDEN STAFF";
+"";
+"ORIGINAL MUSIC COMPOSITION";
+"Keiji Yamagishi - NES";
+"Ryuichi Nitta - NES";
+"Ichiro Nakagawa - NES";
+"Makiko Tanifuji - PC ENGINE";
+"Takashi Horiguchi - MASTER SYSTEM";
+"";
+"STORY";
+"Hideo Yoshizawa";
+"";
+"SCREENPLAY";
+"Hideo Yoshizawa";
+"Faw";
+"";
+"IMAGE ILLUSTRATION";
+"Masato Kato";
+"";
+"ARTWORK";
+"Masato Kato";
+"Harumi Okada";
+"Uma";
+"M. Akama";
+"Tagou";
+"K. Niwakamaru";
+"";
+"PROGRAMMING";
+"Madoka Southernami";
+"Masita";
+"";
+"ASSISTANCE";
+"H. Sato";
+"";
+"ENGLISH TRANSLATION";
+"Kevin";
+"Daniel Kahl";
+"";
+"SOUND DESIGN";
+"Keiji Yamagishi";
+"Ryuichi Nitta";
+"Ichiro Nakagawa";
+"";
+"DIRECTOR";
+"Hideo Yoshizawa";
+"";
+""NINJA GAIDEN" COPYRIGHT MCMLXXXIX-MMXXI TECMO";
+"INTERPRETED BY MINIMACRO SOUND MMXXI";
 
 (on its own screen)
 THE END

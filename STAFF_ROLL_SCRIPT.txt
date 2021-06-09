@@ -1,4 +1,4 @@
-this is a list of the sequences used for the staff roll - each individual credit segment should take 6.3 seconds (378 frames)
+this is a list of the sequences used for the staff roll - each individual credit segment should take 6.3 seconds (375 frames)
 
 - ryu reading letter, comes in from right
 
@@ -19,7 +19,7 @@ programming assistance
 
 - jaquio, comes in from top
 
-pixel art - custom and edited
+graphics - custom and edited
 art assistance (first 3)
 art assistance (last 2)
 

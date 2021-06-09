@@ -3,7 +3,7 @@ blinkTimer = 0;
 drawText = true;
 
 currentDemoLevel = rmActCardI; //make sure to make this go to the act card when we finish the title screen
-currentCutscene = rmEnding;
+currentCutscene = rmStaffRoll;
 
 playedSFX = false;
 

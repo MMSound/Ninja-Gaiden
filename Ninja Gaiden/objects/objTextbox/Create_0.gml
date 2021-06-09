@@ -7,7 +7,7 @@ str = "";
 isClear = false;
 clearBoxX = 0;
 
-if (room == rmOpening) //i should have built this functionality into the textbox create script but oh well
+if (room == rmOpening || room == rmStaffRoll) //i should have built this functionality into the textbox create script but oh well
 {
 	textSpeed = 1;
 }
