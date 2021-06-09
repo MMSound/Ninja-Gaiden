@@ -9,7 +9,7 @@ function script_cutscene_14()
 	myText[5][ENG] = "{Ryu, what's that?{";
 	myText[6][ENG] = "{Is it a lunar eclipse?!\n That's it!\n That's the black moon!";
 	myText[7][ENG] = "{Oh, no!\n The demon statue!{";
-	myText[8][ENG] = "THE DARK MOON SHINES";
+	myText[8][ENG] = "THE BLACK MOON SHINES";
 	
 	myText[0][JPN] = "「リュウ!」";
 	myText[1][JPN] = "「ふしか! よかった。";
