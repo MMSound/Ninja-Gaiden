@@ -99,7 +99,7 @@ function script_cutscene_6()
 	myText[2][ITA] = "{...{";
 	myText[3][ITA] = "{Arriviamo al\n punto...{";
 	myText[4][ITA] = "{Aspetta. Voglio sapere\n perchè avete ucciso Smith.{";
-	myText[5][ITA] = "{Non lo abbiamo ucciso.\n Ma ti aggiorneremo su\n quello che sappiamo.{";
+	myText[5][ITA] = "{Non lo abbiamo ucciso.\n Ma la aggiorneremo su\n quello che sappiamo.{";
 	myText[6][ITA] = "{Nel corso superiore\n dell'Amazzonia, furono\n scoperte alcune antiche\n rovine.";
 	myText[7][ITA] = "{Sembra che il tempio fu\n costruito più di 2000\n anni fa.";
 	myText[8][ITA] = "{Lo scopritore fu il Dr.\n Smith, che studiò le\n rovine per qualche tempo.";
@@ -113,7 +113,7 @@ function script_cutscene_6()
 	myText[16][ITA] = "{Il Dr. Smith forse\n lo sapeva già.";
 	myText[17][ITA] = "{è stato forse ucciso\n da un sicario del\n Jaquio.";
 	myText[18][ITA] = "{...{";
-	myText[19][ITA] = "{Quando una luna nera\n splende, Luce e Ombra\n si separano, il Re\n Oscuro ulula.{";
+	myText[19][ITA] = "{Quando la luna nera\n splende, Luce e Ombra\n si separano, il Re\n Oscuro ulula.{";
 	myText[20][ITA] = "{Queste furono le\n ultime parole scritte\n sulla lapide.";
 	myText[21][ITA] = "{Se qualcuno riporta\n in vita il demone,\n avrà un potere\n incredibile...";
 	myText[22][ITA] = "{Abbastanza da controllare\n il mondo intero.{";

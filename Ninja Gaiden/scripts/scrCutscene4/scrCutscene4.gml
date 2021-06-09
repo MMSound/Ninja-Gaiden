@@ -81,13 +81,13 @@ function script_cutscene_4()
 	myText[8][ITA] = "{Aspetta un momento. Mi\n sta dicendo che quella\n statua ...{";
 	myText[9][ITA] = "{Sì, esattamente.\n Pensavo fosse stata\n rubata.";
 	myText[10][ITA] = "{Quella statua demoniaca\n possiede abbastanza\n potere oscuro da distruggere\n un'intera nazione.";
-	myText[11][ITA] = "{Il demone arrivò su\n questa terra e causò\n molte morti.";
-	myText[12][ITA] = "{Ma poi lo SHINOBI\n arrivò per fermare il\n demone.";
-	myText[13][ITA] = "{Lo SHINOBI stava usando la\n forza del drago";
+	myText[11][ITA] = "{Il demone giunse su\n questa terra e causò\n molte morti.";
+	myText[12][ITA] = "{Ma poi lo SHINOBI\n arrivò per\n fermarlo.";
+	myText[13][ITA] = "{Lo SHINOBI, usando la\n forza del drago,";
 	myText[14][ITA] = "{e respinse ogni singolo\n incantesimo del demone,\n e fu quindi in grado\n di sconfiggerlo.";
 	myText[15][ITA] = "{Eppure, nonostante sia\n stato sconfitto, il\n demone non era morto.";
 	myText[16][ITA] = "{Quindi lo SHINOBI rinchiuse\n il malvagio potere del\n demone in due statue\n di {LUCE{ e {OMBRA{.";
-	myText[17][ITA] = "{...E il corpo del demone\n fu bandito in un\n tempio.";
+	myText[17][ITA] = "{...E il suo corpo\n fu bandito in un\n tempio.";
 	myText[18][ITA] = "{Questa deve essere\n la statua d'{OMBRA{.\n Di conseguenza....{";
 	myText[19][ITA] = "{E ora ce l'ho io.\n Addio, amico!{";
 	myText[20][ITA] = "{Ma cosa ... ?{";

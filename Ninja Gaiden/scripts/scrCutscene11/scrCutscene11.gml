@@ -23,7 +23,7 @@ function script_cutscene_11()
 	myText[5][ESP] = "{...{";
 	
 	myText[0][ITA] = "{Hai ucciso mio padre.{";
-	myText[1][ITA] = "{Ucciso? è vero,\n abbiamo combattuto.\n Ma tuo padre è\n ancora vivo.{";
+	myText[1][ITA] = "{Ucciso? È vero,\n abbiamo combattuto.\n Ma tuo padre è\n ancora vivo.{";
 	myText[2][ITA] = "{Bugiardo!{";
 	myText[3][ITA] = "{No, non sto mentendo.\n Se vai avanti,\n lo capirai.{";
 	myText[4][ITA] = "{Ma sarà l'ultima cosa\n che vedrai.{";

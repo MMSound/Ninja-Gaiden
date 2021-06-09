@@ -59,7 +59,7 @@ function script_cutscene_9()
 	myText[4][ITA] = "{Ryu!{";
 	myText[5][ITA] = "{Tu... codardo.{";
 	myText[6][ITA] = "{No, non\n dargliela.{";
-	myText[7][ITA] = "{Ora metti la statua\n per terra e,\n fai un passo indietro.{";
+	myText[7][ITA] = "{Ora metti la statua\n per terra e fai\n un passo indietro.{";
 	myText[8][ITA] = "{Ottimo lavoro. Suppongo\n che questo sia un addio.{";
 	myText[9][ITA] = "{Passa una buona giornata.{";
 	myText[10][ITA] = "{Ah... {";

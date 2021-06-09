@@ -97,10 +97,6 @@ switch (drawPhase)
 								save_load_game(1);
 								room_transition(global.levelArray[global.currentAct][global.currentScene]);
 							}
-							else
-							{
-								play_sfx(sfxBossHit);
-							}
 							break;
 						case 2: //options
 							room_transition(rmOptionsMenu);

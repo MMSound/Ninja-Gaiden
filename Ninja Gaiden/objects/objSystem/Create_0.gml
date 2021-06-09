@@ -160,7 +160,7 @@ global.uiColorIndex = 4;
 global.gameFont = font_add_sprite_ext(sprFont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,!?{'/-[]ßȘȚÀĂÁÂÃÄÉÊĒËÈÍÎĪÏÌÓÔÕÖÒÚÛŪÜÙÑçÇțàăáâãäéêēëèíîīïìóôõöòúûūüùñБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРpСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯяІіЛлМмJjЏџЋћЂђЉљЊњČčŠšŽž¿¡%ЄєРрАа^*<>ș()", false, 0);
 global.gameFontLarge = font_add_sprite_ext(sprFontLarge, "ABCDEFGHIJKLMNOPQRSTUVWXYZÉ", false, 0);
 global.gameFontJapanese = font_add_sprite_ext(sprFontJapanese, "あいうえおかきくけこさしすせそたちつてとなにぬねのはむふへほまみむめもやゆよらりるれろわをんっやゅょアイウエニカキ千{ロサシス合ンタ支百テ世別夜気目ノハヒフ子明マミムメ七ヤ『』ラリル人チワぁソッャュョ}、。ー…!?「」父ァィエオ邪神像帰決闘何者光影時龍剣伝女家正体行手心配今死霊日鬼王大待古学忍名力針月年国呪考一地代X.CIAKひ", false, 0);
-global.screenRes = 3;
+global.screenRes = 4;
 global.screenPalette = sprScreenPalette;
 global.backgroundBrightness = 0;
 surface_resize(application_surface, global.viewW, global.viewH);

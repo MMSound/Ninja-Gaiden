@@ -62,11 +62,11 @@ function script_cutscene_12()
 	myText[7][ITA] = "{No!{";
 	myText[8][ITA] = "{Sarà divertente\n vedere padre e\n figlio lottare fino\n alla morte.{";
 	myText[9][ITA] = "{Svegliati, padre!{";
-	myText[10][ITA] = "{è inutile. Lui pensa\n solo ad ucciderti.{";
+	myText[10][ITA] = "{È inutile. Lui pensa\n solo ad ucciderti.{";
 	myText[11][ITA] = "{Quindi è questo il mio destino.\n Malth stava dicendo la\n verità.\n Cosa devo fare?";
 	myText[12][ITA] = "{Devo pensare\n lucidamente.";
-	myText[13][ITA] = "{I suoi occhi...\n mostrano che è controllato\n come un pupazzo.\n Se rompessi il controllo...";
-	myText[14][ITA] = "{Ma che cosa lo\n sta controllando?";
+	myText[13][ITA] = "{I suoi occhi...\n mostrano che è controllato\n come un burattino.\n Se rompessi il controllo...";
+	myText[14][ITA] = "{Ma che cosa lo\n starà controllando?";
 	myText[15][ITA] = " Trovato!";
 	
 	myText[0][ROM] = "{Ryu, meriți laudă\n pentru că ai ajuns așa\n departe...{";
