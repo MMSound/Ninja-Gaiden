@@ -1,4 +1,6 @@
 /// @description Init
+global.viewX = 0;
+global.viewY = 0;
 backgrounds_set_visible(false, 0, 1, 2, 3, 4);
 backgrounds_set_visible(true, 5);
 currentSequence = sequence_create_layer(global.viewX, global.viewY, seqRyuTurnedBackSlide);
