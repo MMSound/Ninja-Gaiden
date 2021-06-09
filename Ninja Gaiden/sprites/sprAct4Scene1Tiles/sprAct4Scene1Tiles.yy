@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"34c98a81-e783-4beb-b66b-a7658af3d8f2","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Act 4-1",
     "path": "folders/Tiles & Backgrounds/Sprites/Act 4-1.yy",
