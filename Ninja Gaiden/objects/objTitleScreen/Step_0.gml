@@ -92,7 +92,7 @@ switch (drawPhase)
 							blinkTimer = 0;
 							break;
 						case 1: //continue
-							if (optionsText == "CONTINUE")
+							if (file_exists("game.ngsav"))
 							{
 								save_load_game(1);
 								room_transition(global.levelArray[global.currentAct][global.currentScene]);
