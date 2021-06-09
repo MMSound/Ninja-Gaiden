@@ -44,110 +44,85 @@ switch (drawPhase)
 		}
 		break;
 	case 2: //main	
-		if (global.inputPausePressed)
+		switch (subPhase)
 		{
-			if (keyboard_check(vk_control))
-			{
-				if (global.beatenGame)
+			case 0: //press start
+				if (blinkTimer % 20 == 0)
 				{
-					room_transition(rmSoundTest);
+					drawText = !drawText;
 				}
-				else
+				if (global.inputPausePressed)
 				{
-					if (isLevelSelect)
+					subPhase = 1;
+					blinkTimer = 0;
+					drawText = true;
+				}
+				break;
+			case 1: //main menu
+				if (global.inputUpPressed) //pressing up
+				{
+					if (currentOption == 0)
 					{
-						room_transition(levelSelect[selectedLevel]);
+						currentOption = (array_length(optionsText) - 1);
 					}
 					else
 					{
-						room_transition(currentDemoLevel);
+						currentOption--;
 					}
+					play_sfx(sfxShuriken);
 				}
-			}
-			else
-			{
-				if (!instance_exists(objRoomTransition))
+				if (global.inputDownPressed) //pressing down
 				{
-					if (!playedSFX)
+					if (currentOption == (array_length(optionsText) - 1))
 					{
-						play_sfx(sfxItemAcquisition);
-						playedSFX = true;
-					}
-					if (isLevelSelect)
-					{
-						room_transition(levelSelect[selectedLevel]);
+						currentOption = 0;
 					}
 					else
 					{
-						room_transition(currentDemoLevel);
+						currentOption++;
 					}
+					play_sfx(sfxShuriken);
 				}
-			}
-		}
-
-		if (global.inputSelectPressed)
-		{
-			if (keyboard_check(vk_control))
-			{
-				isLevelSelect = true;
-			}
-			else
-			{
-				room_transition(rmOptionsMenu);
-			}
-		}
-		if (isLevelSelect)
-		{
-			if (global.inputLeftPressed)
-			{
-				if (selectedLevel > 0)
+				if (global.inputPausePressed) //pressing start
 				{
-					selectedLevel--;
-				}
-				else
-				{
-					selectedLevel = (array_length(levelSelect) - 1);
-				}
-			}
-			if (global.inputRightPressed)
-			{
-				if (selectedLevel < (array_length(levelSelect) - 1))
-				{
-					selectedLevel++;
-				}
-				else
-				{
-					selectedLevel = 0;
-				}
-			}
-		}
-		
-		if (keyboard_check_pressed(vk_space))
-		{
-			if (keyboard_check(vk_control))
-			{
-				if (!isLevelSelect)
-				{
-					room_transition(currentCutscene);
-				}
-				else
-				{
-					if (selectedLevel < array_length(cutsceneSelect))
+					switch (currentOption)
 					{
-						room_transition(cutsceneSelect[selectedLevel]);
+						case 0: //new game
+							subPhase = 2;
+							blinkTimer = 0;
+							break;
+						case 1: //continue
+							if (optionsText == "CONTINUE")
+							{
+								save_load_game(1);
+								room_transition(global.levelArray[global.currentAct][global.currentScene]);
+							}
+							else
+							{
+								play_sfx(sfxBossHit);
+							}
+							break;
+						case 2: //options
+							room_transition(rmOptionsMenu);
+							break;
+						case 3: //sound test
+							room_transition(rmSoundTest);
+							break;
 					}
 				}
-			}
-			else
-			{
-				save_load_game(1);
-				room_transition(global.levelArray[global.currentAct][global.currentScene]);				
-			}
-		}
-
-		if (blinkTimer % 20 == 0)
-		{
-			drawText = !drawText;
+				break;
+			case 2: //new game
+				if (global.inputPausePressed)
+				{
+					room_transition(rmActCardI);
+				}
+				else if (global.inputAttackPressed || global.inputSelectPressed || global.inputWeaponPressed || global.inputDownPressed || global.inputLeftPressed || global.inputRightPressed || global.inputUpPressed)
+				{
+					subPhase = 1;
+					blinkTimer = 0;
+					play_sfx(sfxBossHit);
+				}
+				break;
 		}
 		if (blinkTimer >= 1200)
 		{

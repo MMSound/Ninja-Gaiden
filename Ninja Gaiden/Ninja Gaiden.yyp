@@ -640,6 +640,7 @@
     {"id":{"name":"sprKnifeManCrouchShoot","path":"sprites/sprKnifeManCrouchShoot/sprKnifeManCrouchShoot.yy",},"order":2,},
     {"id":{"name":"bgmCutscene2PCE","path":"sounds/bgmCutscene2PCE/bgmCutscene2PCE.yy",},"order":3,},
     {"id":{"name":"sprCutscene7TreesBack","path":"sprites/sprCutscene7TreesBack/sprCutscene7TreesBack.yy",},"order":8,},
+    {"id":{"name":"sprRealLifeMan","path":"sprites/sprRealLifeMan/sprRealLifeMan.yy",},"order":30,},
     {"id":{"name":"sprAct3Scene1Tiles","path":"sprites/sprAct3Scene1Tiles/sprAct3Scene1Tiles.yy",},"order":8,},
     {"id":{"name":"rmAct4Scene3","path":"rooms/rmAct4Scene3/rmAct4Scene3.yy",},"order":2,},
     {"id":{"name":"seqFosterPresentation","path":"sequences/seqFosterPresentation/seqFosterPresentation.yy",},"order":5,},
