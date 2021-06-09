@@ -566,6 +566,10 @@ if (!isDead)
 			
 			//see if i can optimize things a bit
 			instance_activate_object(prtEnemy);
+			if (instance_exists(objGenericBullet))
+			{
+				instance_destroy(objGenericBullet);
+			}
 			with (prtEnemy)
 			{
 				if (!place_meeting(x, y, global.currentSection))
