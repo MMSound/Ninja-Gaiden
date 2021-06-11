@@ -13,4 +13,5 @@ if (instance_exists(myDevil))
 {
 	myDevil.imgSpd = 0;
 	myDevil.phase = 0;
+	myDevil.canHit = false;
 }

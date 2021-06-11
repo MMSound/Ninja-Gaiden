@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8ae99fdc-1225-46cb-a969-37f06ad591f0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Jack o' Killer",
     "path": "folders/Enemies/Sprites/Jack o' Killer.yy",

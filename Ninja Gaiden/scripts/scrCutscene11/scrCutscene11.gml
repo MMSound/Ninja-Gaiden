@@ -40,7 +40,7 @@ function script_cutscene_11()
 	myText[1][FRE] = "{Tué? Il est vrai que\n nous avons combattu.\n Mais ton père est toujours\n parmi les vivants.{";
 	myText[2][FRE] = "{Menteur!{";
 	myText[3][FRE] = "{Non, cela ne saurait\n être un mensonge. Tu le\n verras par toi-même si tu\n continues sur ta voie.{";
-	myText[4][FRE] = "{Mais cela sera la dernière\n que tu verras de tes\n yeux.{";
+	myText[4][FRE] = "{Mais cela sera la dernière\n chose que tu verras\n de tes yeux.{";
 	myText[5][FRE] = "{...{";
 	
 	myText[0][420] = "              {";

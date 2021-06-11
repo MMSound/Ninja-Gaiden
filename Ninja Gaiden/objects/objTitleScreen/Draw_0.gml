@@ -41,6 +41,12 @@ switch (drawPhase)
 				draw_text((global.viewX + 200), (global.viewY + 128), "This will overwrite\nany saved games.\nPress START to\ncontinue.");
 				draw_set_halign(fa_left);
 				break;
+			case 3: //level select
+				draw_set_halign(fa_middle);
+				draw_text((global.viewX + 200), (global.viewY + 128), "Level Select!!");
+				draw_text((global.viewX + 200), (global.viewY + 140), levelArray[currentLevel][1]);
+				draw_set_halign(fa_left);				
+				break;
 		}
 		palette_shader_reset();
 		break;

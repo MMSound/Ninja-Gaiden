@@ -7,3 +7,8 @@ if (!global.beatenGame)
 	save_load_game(0);
 	save_load_options(0);
 }
+
+if (instance_exists(objBouncyShrimp))
+{
+	instance_destroy(objBouncyShrimp);
+}

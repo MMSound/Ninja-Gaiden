@@ -3,7 +3,7 @@ function script_cutscene_3()
 {
 	myText[0][ENG] = "{What is this bizarre\n statue anyway?\n And who was that woman?{";
 	myText[1][ENG] = "As I grew more and more\nsuspicious, I went off\nto look for that";
-	myText[2][ENG] = "supposed acquaintance\nof my father's, Mr.\nSmith.";
+	myText[2][ENG] = "supposed acquaintance\nof my father's, Dr.\nSmith.";
 	
 	myText[0][JPN] = "「いったい このきみょうな像はなんなのたろう…\n それに あの女の正体は…。」";
 	myText[1][JPN] = "さまさまなきわくをしいたいたまま、おれは";

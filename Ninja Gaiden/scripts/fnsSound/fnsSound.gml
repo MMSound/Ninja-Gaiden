@@ -28,8 +28,11 @@ function play_sfx(_sound, _loop, _channel, _volume)
 	//thanks cresh
 	if (global.sfxSubtitles)
 	{
-		var _subtitle = instance_create_depth(0, 0, -1000, objSubtitle);
-			_subtitle.myText = global.subtitle[_sound];
+		if (_sound != bgmCutsceneJingle1) //the bug this is fixing was discovered at 10:49 pm, june 10, 2021, with the release date of the game being 8:00 am the following day
+		{
+			var _subtitle = instance_create_depth(0, 0, -1000, objSubtitle);
+				_subtitle.myText = global.subtitle[_sound];
+		}
 	}
 }
 

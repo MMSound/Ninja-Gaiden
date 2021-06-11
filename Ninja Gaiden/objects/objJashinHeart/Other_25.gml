@@ -41,6 +41,7 @@ switch (phase)
 		}
 		
 		shrimp();
+		bouncy_shrimp();
 		break;
 }
 phaseTimer++;

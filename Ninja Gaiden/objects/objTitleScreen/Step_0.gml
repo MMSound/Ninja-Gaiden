@@ -106,6 +106,14 @@ switch (drawPhase)
 							break;
 					}
 				}
+				if (global.inputSelectPressed) //level select
+				{
+					if (global.beatenGame)
+					{
+						subPhase = 3;
+						currentLevel = 0;
+					}
+				}
 				break;
 			case 2: //new game
 				if (global.inputPausePressed)
@@ -118,6 +126,40 @@ switch (drawPhase)
 					blinkTimer = 0;
 					play_sfx(sfxBossHit);
 				}
+				break;
+			case 3: //level select
+				if (global.inputPausePressed)
+				{
+					room_transition(levelArray[currentLevel][0]);
+				}
+				if (global.inputLeftPressed)
+				{
+					if (currentLevel == 0)
+					{
+						currentLevel = (array_length(levelArray) - 1);
+					}
+					else
+					{
+						currentLevel--;
+					}
+				}
+				if (global.inputRightPressed)
+				{
+					if (currentLevel == (array_length(levelArray) - 1))
+					{
+						currentLevel = 0;
+					}
+					else
+					{
+						currentLevel++;
+					}
+				}
+				else if (global.inputAttackPressed || global.inputSelectPressed || global.inputWeaponPressed)
+				{
+					subPhase = 1;
+					blinkTimer = 0;
+					play_sfx(sfxBossHit);
+				}				
 				break;
 		}
 		if (blinkTimer >= 1200)

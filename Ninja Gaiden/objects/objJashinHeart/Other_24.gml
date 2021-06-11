@@ -85,10 +85,22 @@ function shrimp()
 				_shrimp.xspeed = round(clamp(((objPlayer.x - _shrimp.x) / 32), -1, 128));
 			}
 			_shrimp.yspeed = -4;
-			_shrimp.contactDamage = 3;
+			_shrimp.contactDamage = 2;
 			_shrimp.sprite_index = sprJashinShrimp;
 			_shrimp.imgSpd = 1;
 		animTimer = 5;
+		play_sfx(sfxJashinShrimp);
+	}
+}
+
+//bouncy shrimp
+function bouncy_shrimp()
+{
+	var _shootTime = 120;
+	if (phaseTimer % _shootTime == 0 && instance_exists(objPlayer)) //projectiles
+	{
+		var _shrimp = instance_create_depth((x - (30 * image_xscale)), (y - 84), (depth - 1), objBouncyShrimp);
+			_shrimp.image_xscale = (sign(objPlayer.x - _shrimp.x) == 0) ? 1 : sign(objPlayer.x - _shrimp.x);
 		play_sfx(sfxJashinShrimp);
 	}
 }
