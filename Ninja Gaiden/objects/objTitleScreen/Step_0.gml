@@ -70,6 +70,7 @@ switch (drawPhase)
 						currentOption--;
 					}
 					play_sfx(sfxShuriken);
+					blinkTimer = 0;
 				}
 				if (global.inputDownPressed) //pressing down
 				{
@@ -82,6 +83,7 @@ switch (drawPhase)
 						currentOption++;
 					}
 					play_sfx(sfxShuriken);
+					blinkTimer = 0;
 				}
 				if (global.inputPausePressed) //pressing start
 				{
@@ -112,6 +114,7 @@ switch (drawPhase)
 					{
 						subPhase = 3;
 						currentLevel = 0;
+						blinkTimer = 0;
 					}
 				}
 				break;
@@ -142,6 +145,7 @@ switch (drawPhase)
 					{
 						currentLevel--;
 					}
+					blinkTimer = 0;
 				}
 				if (global.inputRightPressed)
 				{
@@ -153,6 +157,7 @@ switch (drawPhase)
 					{
 						currentLevel++;
 					}
+					blinkTimer = 0;
 				}
 				else if (global.inputAttackPressed || global.inputSelectPressed || global.inputWeaponPressed)
 				{
