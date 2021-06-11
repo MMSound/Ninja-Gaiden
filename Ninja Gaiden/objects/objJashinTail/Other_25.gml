@@ -37,6 +37,7 @@ switch (phase)
 		}
 		visible = (iFrameTimer % 2 == 0);
 		canHit = true;
+		sprite_index = (phase == 2) ? sprJashinTailHittable : sprJashinTail;
 		break;
 	case 1: //invisible
 		visible = false

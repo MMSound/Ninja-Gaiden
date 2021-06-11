@@ -351,6 +351,7 @@
     {"id":{"name":"bgmDeath","path":"sounds/bgmDeath/bgmDeath.yy",},"order":3,},
     {"id":{"name":"objSword","path":"objects/objSword/objSword.yy",},"order":1,},
     {"id":{"name":"sprKelbeross","path":"sprites/sprKelbeross/sprKelbeross.yy",},"order":0,},
+    {"id":{"name":"sprJashinTailHittable","path":"sprites/sprJashinTailHittable/sprJashinTailHittable.yy",},"order":7,},
     {"id":{"name":"sfxFallingPillar","path":"sounds/sfxFallingPillar/sfxFallingPillar.yy",},"order":14,},
     {"id":{"name":"seqSRRyuKneel","path":"sequences/seqSRRyuKneel/seqSRRyuKneel.yy",},"order":6,},
     {"id":{"name":"seqIreneMoveFromRight2","path":"sequences/seqIreneMoveFromRight2/seqIreneMoveFromRight2.yy",},"order":4,},
