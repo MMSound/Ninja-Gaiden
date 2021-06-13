@@ -134,6 +134,11 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 		}
 		
 		global.ninpo = clamp(global.ninpo, 0, 99);
+		
+		if (!global.livesOption) //so we don't game over
+		{
+			global.currentLives = 2;
+		}
 	}
 	else
 	{
