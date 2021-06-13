@@ -8,7 +8,7 @@ if (room_get_type() == ROOM_LEVEL || room_get_type() == ROOM_BOSS)
 		{
 			if (global.bossPhase != 2)
 			{
-				if (global.canControl && !instance_exists(prtOptionsMenu))
+				if (global.canControl && !instance_exists(prtOptionsMenu) && !instance_exists(objRoomTransition))
 				{
 					global.paused = !global.paused;
 					if (audio_is_playing(sfxPause))
